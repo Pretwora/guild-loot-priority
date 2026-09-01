@@ -365,3 +365,17 @@ players:
         role: dps
         main: true
 
+
+  # Саб на замене (в Discord с нами), парсов пока нет — заведён вручную, чтобы
+  # запись в raid-helper учитывалась. Отрейдит — подтянутся посещаемость/перформанс.
+  - id: sejuani
+    display: sejuani
+    rank: member
+    team: null
+    discord_id: "921543918993145917"
+    characters:
+      - name: sejuani   # Друид / Баланс, саб
+        class_id: 11
+        spec: 0
+        role: dps
+        main: true
