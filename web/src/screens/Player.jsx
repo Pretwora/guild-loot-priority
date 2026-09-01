@@ -17,6 +17,15 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
   const color = readableColor(p.class_color);
   const c = p.components;
 
+  // разбивка посещаемости: зачётные (знаменатель), посещённые, до вступления, вне счёта
+  const att = p.attendance;
+  const det = att.detail || [];
+  const excludedStates = ["before_join", "team_off", "excused"];
+  const beforeJoin = det.filter((d) => d.state === "before_join").length;
+  const excluded = det.filter((d) => excludedStates.includes(d.state)).length;
+  const attended = det.filter((d) => d.credit != null && d.credit > 0).length;
+  const eligible = det.length - excluded;
+
   return (
     <>
       <h2 className="screen" style={{ display: "flex", alignItems: "baseline", gap: 12 }}>
@@ -63,7 +72,7 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
           <h3>Компоненты</h3>
           <div className="body">
             <dl className="kv">
-              <dt>Посещаемость A_eff</dt><dd className="num">{pct(c.A_eff)} <span className="reason">(A={pct(p.attendance.A)}, сжатие conf={f2(p.attendance.conf)} к медиане {pct(p.attendance.A_median_guild)})</span></dd>
+              <dt>Посещаемость A_eff</dt><dd className="num">{pct(c.A_eff)} <span className="reason">(факт {pct(att.A)}; стаж {attended} рейд., доверие {f2(att.conf)} → сжатие к медиане {pct(att.A_median_guild)})</span></dd>
               <dt>Перформанс P</dt><dd className="num">{pct(c.P)} <span className="reason">{p.performance.neutral_fallback ? "мало данных → нейтрально" : `медиана перцентилей за ${p.performance.kills_counted} килов`}</span></dd>
               <dt>Лут L_norm</dt><dd className="num">{f2(c.L_norm)} <span className="reason">чем больше уже получил, тем ниже приоритет</span></dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
@@ -74,6 +83,11 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
         <div className="panel">
           <h3>Посещаемость по вечерам (окно)</h3>
           <div className="body">
+            <div className="reason" style={{ marginBottom: 8 }}>
+              Посещено <b style={{ color: "var(--ink)" }}>{attended} из {eligible}</b>
+              {beforeJoin > 0 ? ` · ${beforeJoin} до вступления` : ""}
+              {excluded - beforeJoin > 0 ? ` · ${excluded - beforeJoin} вне счёта` : ""}
+            </div>
             <table style={{ fontSize: 12 }}>
               <tbody>
                 {p.attendance.detail.slice().reverse().map((d, i) => (
