@@ -44,7 +44,8 @@ tests/                   тесты формул (unittest)
 ```
 
 Воркфлоу: `collect.yml` (сбор по расписанию), `build.yml` (пересчёт + сборка + деплой Pages),
-`loot-intake.yml` (разбор issue с лутом).
+`loot-issue.yml` (создать предзаполненный issue раздачи за вечер), `loot-intake.yml`
+(разбор issue при закрытии → loot_log.csv).
 
 ## Запуск локально
 

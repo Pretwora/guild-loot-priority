@@ -1,0 +1,53 @@
+# .github/workflows/loot-issue.yml
+#
+# Создаёт issue раздачи лута за рейд-вечер, ПРЕДЗАПОЛНЕННЫЙ авто-раздачей (лента действий).
+# Запуск вручную: Actions → loot-issue → Run workflow → указать дату вечера.
+# Рейд-лидер в issue правит тип/получателя где надо и закрывает — loot-intake.yml
+# разбирает и пишет loot_log.csv.
+
+name: loot-issue
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Дата рейд-вечера YYYY-MM-DD (пусто = последний вечер нужного размера)"
+        required: false
+        default: ""
+      sizes:
+        description: "Размеры рейда (через запятую)"
+        required: false
+        default: "25"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Сгенерировать тело issue
+        run: |
+          if [ -n "${{ inputs.date }}" ]; then
+            python3 tools/make_loot_issue.py --config config/config.json \
+              --date "${{ inputs.date }}" --sizes "${{ inputs.sizes }}" --out issue.json
+          else
+            python3 tools/make_loot_issue.py --config config/config.json \
+              --latest --sizes "${{ inputs.sizes }}" --out issue.json
+          fi
+
+      - name: Создать issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create loot --color BFA046 --description "Раздача лута" 2>/dev/null || true
+          TITLE=$(python3 -c "import json;print(json.load(open('issue.json'))['title'])")
+          python3 -c "import json;open('body.md','w').write(json.load(open('issue.json'))['body'])"
+          gh issue create --title "$TITLE" --body-file body.md --label loot

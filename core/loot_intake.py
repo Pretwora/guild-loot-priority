@@ -22,11 +22,12 @@ def generate_issue_body(date: str, size, drops: list, present: list) -> str:
     lines = []
     lines.append(f"## Раздача лута — {date} (состав {size})")
     lines.append("")
-    lines.append("Впиши **игрок** (id из ростера) и при необходимости поправь **тип** "
-                 "в каждой строке. Пусто в «игрок» → предмет останется незакрытым и "
-                 "подсветится на дашборде. Закрой issue — бот впишет в `loot_log.csv`.")
+    lines.append("**Получатель и тип уже проставлены автоматически** (по ленте действий). "
+                 "Пробегись глазами и **поправь тип** где надо, получателя — если распознан "
+                 "неверно. Пусто в «игрок» → предмет незакрыт (подсветится на дашборде). "
+                 "Закрой issue — бот впишет в `loot_log.csv`.")
     lines.append("")
-    lines.append("**Типы:** `bis` осн. спек · `offspec` запас · `free` никому не нужен · "
+    lines.append("**Типы:** `bis` осн. спек (мейнспек) · `offspec` запас · `free` никому не нужен · "
                  "`shard`/`de` в осколки · `trade` передан позже (дату в примечании).")
     lines.append("")
     lines.append("**Присутствовали:** " + ", ".join(f"`{p}`" for p in present))
@@ -34,9 +35,12 @@ def generate_issue_body(date: str, size, drops: list, present: list) -> str:
     lines.append(TABLE_HEADER)
     lines.append(TABLE_SEP)
     for d in drops:
-        lines.append(f"|  | bis | {d['item']} | {d['record_id']} | {d['entry']} |")
+        player = (d.get("player") or "").strip()
+        atype = (d.get("award_type") or "bis").strip()
+        mark = " ✳️" if d.get("auto") else ""  # ✳️ = проставлено авто, проверь
+        lines.append(f"| {player} | {atype} | {d['item']}{mark} | {d['record_id']} | {d['entry']} |")
     lines.append("")
-    lines.append("<!-- loot-intake: не меняй столбцы предмет/record_id/entry -->")
+    lines.append("<!-- loot-intake: не меняй столбцы предмет/record_id/entry. ✳️ = авто, проверь. -->")
     return "\n".join(lines) + "\n"
 
 
