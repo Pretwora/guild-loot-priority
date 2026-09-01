@@ -61,6 +61,14 @@ def _discord_map(roster):
     return m
 
 
+def _discord_char_map(cfg):
+    """data/manual/discord_ids.yml: userid → имя персонажа (для ников в raid-helper)."""
+    from core.common import load_yaml
+
+    data = load_yaml(os.path.join(cfg.paths["manual"], "discord_ids.yml")) or {}
+    return {str(k): v for k, v in data.items() if v}
+
+
 def compute(cfg, roster):
     """Возвращает (bonus_by_player, signed_latest_set, unmatched, events).
 
@@ -74,6 +82,7 @@ def compute(cfg, roster):
     b_tent = cfg.w("signup", "bonus_tentative")
     cap = cfg.w("signup", "cap")
     dmap = _discord_map(roster)
+    dchar = _discord_char_map(cfg)  # userid → имя персонажа (ники raid-helper)
 
     recent = events[-window:]
     counts = defaultdict(lambda: {"signed": 0, "tentative": 0, "absence": 0})
@@ -85,6 +94,10 @@ def compute(cfg, roster):
         did = str(su.get("userid") or "")
         if did in dmap:
             return dmap[did]
+        if did in dchar:  # userid → персонаж → игрок (ники raid-helper)
+            pid = roster.player_of(dchar[did])
+            if pid:
+                return pid
         for c in name_candidates(su.get("name", "")):
             pid = roster.player_of(c)
             if pid:
