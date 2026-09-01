@@ -149,16 +149,17 @@ def main():
         "--backfill",
         action="store_true",
         help=(
-            "разовый добор истории: пройти все страницы ленты (?page=N), а не только "
-            "текущую неделю. Плановый прогон это НЕ использует. Резюмируемо: докачка "
-            "деталей ограничена max_details_per_run, перезапускай до 'к докачке: 0'."
+            "разовый добор истории: пройти прошлые недели ленты (week_from/week_to), а не "
+            "только текущую. Лента режется по неделям — page историю не листает, недели "
+            "выбираются диапазоном дат. Плановый прогон это НЕ использует. Резюмируемо: "
+            "докачка деталей ограничена max_details_per_run, перезапускай до 'к докачке: 0'."
         ),
     )
     parser.add_argument(
-        "--max-pages",
+        "--weeks",
         type=int,
-        default=25,
-        help="предохранитель на бэкофилл: сколько страниц ленты максимум пройти",
+        default=12,
+        help="бэкофилл: сколько недель назад пройти (предохранитель)",
     )
     args = parser.parse_args()
 
@@ -194,26 +195,33 @@ def main():
     log(f"Снимок ленты: {index_path}")
 
     if args.backfill:
-        last_page = 1
-        meta = payload.get("meta") if isinstance(payload, dict) else None
-        if isinstance(meta, dict) and isinstance(meta.get("last_page"), int):
-            last_page = min(meta["last_page"], args.max_pages)
-        log(f"Бэкофилл: страниц к обходу ~{last_page}")
-        for page in range(2, last_page + 1):
-            extra = fetch_page(page)
+        # История листается неделями: &week_from=YYYY-MM-DD&week_to=YYYY-MM-DD.
+        # Стартуем от начала текущей недели и шагаем назад по 7 дней.
+        from datetime import date, timedelta
+
+        week = payload.get("week") if isinstance(payload, dict) else None
+        try:
+            cur_from = datetime.strptime(week["from"], "%Y-%m-%d").date()
+        except Exception:
+            cur_from = date.today()
+        log(f"Бэкофилл: до {args.weeks} недель назад от {cur_from}")
+        wt = cur_from
+        for i in range(args.weeks):
+            wf = wt - timedelta(days=7)
+            url = f"{base_url}&week_from={wf}&week_to={wt}"
+            extra = client.get_json(url)
             if extra is None:
-                log(f"  страница {page} недоступна — прерываем добор")
+                log(f"  неделя {wf}..{wt} недоступна — прерываем добор")
                 break
             page_records = find_records(extra)
             if not page_records:
-                log(f"  страница {page} пустая — конец истории")
+                log(f"  неделя {wf}..{wt} пустая — конец истории")
                 break
-            page_path = os.path.join(
-                data_dir, "index", realm, f"{stamp}-p{page:02d}.json"
-            )
-            write_json(page_path, extra)
+            week_path = os.path.join(data_dir, "index", realm, f"{stamp}-w{wf}.json")
+            write_json(week_path, extra)
             records.extend(page_records)
-            log(f"  страница {page}: +{len(page_records)} записей")
+            log(f"  неделя {wf}..{wt}: +{len(page_records)} записей")
+            wt = wf
 
     log(f"Всего записей к рассмотрению: {len(records)}")
     if not records:

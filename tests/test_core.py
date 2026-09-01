@@ -120,6 +120,30 @@ class TestPerformance(unittest.TestCase):
         self.assertTrue(0 < perf["p3"]["P"] < 1)
 
 
+class TestAttendance(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+        self.roster = Roster(char_to_player={"P": "p"},
+                             players={"p": {"characters": [{"name": "P"}]}})
+
+    def test_before_join_excluded(self):
+        d1 = dt.datetime(2026, 8, 4, 20, 0, 0)   # до вступления игрока
+        d2 = dt.datetime(2026, 8, 13, 20, 0, 0)
+        d3 = dt.datetime(2026, 8, 20, 20, 0, 0)
+        kills = [
+            kill(1, d1, [line("X", guid=9)], size=25),   # P нет (ещё не в гильдии)
+            kill(2, d2, [line("P", guid=1)], size=25),   # пришёл
+            kill(3, d3, [line("P", guid=1)], size=25),
+        ]
+        nights = build_nights(kills, self.cfg)
+        att = SC.attendance_scores(nights, self.roster, self.cfg,
+                                   dt.datetime(2026, 8, 21), first_seen={"p": d2})
+        states = {x["date"]: x["state"] for x in att["p"]["detail"]}
+        self.assertEqual(states["2026-08-04"], "before_join")  # не пропуск — его не было
+        self.assertEqual(states["2026-08-13"], "full")
+        self.assertEqual(att["p"]["A"], 1.0)  # пришёл на все рейды ПОСЛЕ вступления
+
+
 class TestCombatPerformance(unittest.TestCase):
     def setUp(self):
         self.cfg = Config()

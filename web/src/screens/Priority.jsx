@@ -28,7 +28,7 @@ export function PlayerName({ p }) {
 const COLS = [
   { key: "score", label: "Рейтинг", sortable: true, cls: "r" },
   { key: "delta", label: "Δ рейд", sortable: true, cls: "r" },
-  { key: "components.A_eff", label: "Посещаемость", sortable: true },
+  { key: "attendance.A", label: "Посещаемость", sortable: true },
   { key: "components.P", label: "Перформанс", sortable: true },
   { key: "components.L_norm", label: "Лут", sortable: true, cls: "r" },
 ];
@@ -71,7 +71,9 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                 <td><RankBadge rank={p.rank} /></td>
                 <td className="r num score">{f1(p.score)}</td>
                 <td className={"r num delta " + deltaClass(p.delta)}>{deltaText(p.delta)}</td>
-                <td><Meter value={p.components.A_eff} /></td>
+                <td title={`факт. посещаемость; в рейтинге A_eff ${pct(p.components.A_eff)} (сжатие малой выборки)`}>
+                  <Meter value={p.attendance.A} />
+                </td>
                 <td><Meter value={p.components.P} kind="perf" /></td>
                 <td className="r num" title="Нормированный полученный лут">{f2(p.components.L_norm)}</td>
               </tr>

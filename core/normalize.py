@@ -253,6 +253,34 @@ def load_roster(cfg: Config) -> Roster:
     return Roster(char_to_player=char_to_player, players=players)
 
 
+def first_seen_by_player(kills: list[Kill], roster: Roster) -> dict:
+    """{player_id: самый ранний killed_at, где встречен любой его персонаж}.
+
+    Прокси даты вступления в гильдию: рейды до этого — «не пока мы в гильдии»,
+    в знаменатель посещаемости не идут. roster joined (если задан) имеет приоритет.
+    """
+    import datetime as _dt
+
+    out: dict = {}
+    for k in sorted(kills, key=lambda x: x.killed_at or _dt.datetime.max):
+        if k.killed_at is None:
+            continue
+        for p in k.players:
+            pid = roster.player_of(p.name)
+            if pid and pid not in out:
+                out[pid] = k.killed_at
+    # приоритет — явный joined из ростера
+    for pid, pl in roster.players.items():
+        joined = pl.get("joined")
+        if joined:
+            try:
+                jd = _dt.datetime.strptime(str(joined), "%Y-%m-%d")
+                out[pid] = jd  # ростер авторитетнее прокси
+            except ValueError:
+                pass
+    return out
+
+
 def unknown_characters(kills: list[Kill], roster: Roster, cfg: Config) -> list[dict]:
     """Персонажи из логов, которых нет в ростере. Разделяем наших и пугов по гильдии."""
     our_guild = cfg.raw.get("guild_name_api", "")

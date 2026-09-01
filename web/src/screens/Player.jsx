@@ -7,6 +7,7 @@ const STATE_LABEL = {
   full: "был", partial: "частично", bench: "бенч", late: "опоздал",
   absent: "не пришёл", excused: "отпросился", "excused>2": "отпросился (3-й подряд)",
   team_off: "играла другая команда",
+  before_join: "до вступления",
 };
 
 export default function PlayerCard({ data, playerId, onOpenPlayer }) {

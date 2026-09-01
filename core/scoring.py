@@ -84,8 +84,10 @@ def _team_activity(window, roster, pres_by_night, cfg):
     return ran
 
 
-def attendance_scores(nights, roster, cfg, now):
+def attendance_scores(nights, roster, cfg, now, first_seen=None):
     manual = load_yaml(os.path.join(cfg.paths["manual"], "attendance.yml")) or {}
+    first_seen = first_seen or {}
+    exclude_before_join = cfg.raw.get("attendance", {}).get("exclude_before_join", False)
     window = select_window_nights(nights, cfg, now)
 
     lam = cfg.w("attendance", "decay_lambda")
@@ -114,6 +116,12 @@ def attendance_scores(nights, roster, cfg, now):
             presence = pres_by_night[date].get(pid, 0.0)
             w = decay_weight(lam, days_between(now, ni.started_at))
 
+            # рейды до вступления игрока (первое появление в логах / roster joined) —
+            # не пропуск, вне знаменателя («пока мы в гильдии»)
+            if exclude_before_join and pid in first_seen and ni.started_at < first_seen[pid]:
+                detail.append({"date": date, "state": "before_join", "credit": None, "weight": round(w, 3)})
+                continue
+
             if pid in excused:
                 excused_run += 1
                 if excused_run <= max_excused:
@@ -130,8 +138,9 @@ def attendance_scores(nights, roster, cfg, now):
                     credit, state = 1.0, "full"
                 elif presence > 0:
                     credit, state = presence, "partial"
-                elif player_team and not team_ran.get(date, {}).get(player_team, True):
-                    # вечер играла не его команда — вне знаменателя, не штраф
+                elif player_team and ni.size_bucket != 25 and not team_ran.get(date, {}).get(player_team, True):
+                    # 10-ка играла не его команда — вне знаменателя. На 25-ке составов нет:
+                    # РТ ждёт всех, отсутствие = пропуск (кроме до-вступления/отпросился).
                     detail.append({"date": date, "state": "team_off", "credit": None, "weight": round(w, 3)})
                     continue
                 else:

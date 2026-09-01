@@ -18,7 +18,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [tab, setTab] = useState("priority");
   const [player, setPlayer] = useState(null); // id для экрана «Игрок»
-  const [scope, setScope] = useState("all"); // ладдер: all | 10 | 25
+  const [scope, setScope] = useState("25"); // ладдер по умолчанию — РТ 25 (посещаемость всегда по 25)
   const [theme, setTheme] = useState(() => {
     try {
       return localStorage.getItem("loot-theme")

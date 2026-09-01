@@ -1,0 +1,728 @@
+{
+ "data": {
+  "achievements": [],
+  "attempts": 1,
+  "background": "/images/ejbackgrounds/trialofthecrusader.webp",
+  "boss_name": "Чемпионы фракций",
+  "difficulty": 3,
+  "duration": 364,
+  "fight_length": "06:04",
+  "guild": {
+   "id": 7868,
+   "level": 24,
+   "name": "NoName"
+  },
+  "killed_at": "2026-08-04 21:13:50",
+  "loots": [],
+  "map_name": "Испытание крестоносца",
+  "players": [
+   {
+    "category": 90011,
+    "class_id": 9,
+    "dps": 9194,
+    "gender": 1,
+    "guid": 4893,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 12,
+    "ilvl": 248,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1054,
+      "name": "Демонология|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Заденьгида",
+    "race_id": 5,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90013,
+    "class_id": 8,
+    "dps": 20885,
+    "gender": 1,
+    "guid": 47814,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 16,
+    "ilvl": 255,
+    "itemset": [
+     {
+      "count": 5,
+      "id": 1050,
+      "name": "Тайная магия|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Трусынаправо",
+    "race_id": 17,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 849,
+     "name": "Созвездие Вулкана"
+    }
+   },
+   {
+    "category": 90015,
+    "class_id": 5,
+    "dps": 87,
+    "gender": 0,
+    "guid": 125464,
+    "guild": {
+     "id": 1289,
+     "level": 25,
+     "name": "Seven Deadly Sins"
+    },
+    "hps": 1843,
+    "ilvl": 249,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1065,
+      "name": "Послушание|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Рерси",
+    "race_id": 6,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90006,
+    "class_id": 8,
+    "dps": 19410,
+    "gender": 1,
+    "guid": 154066,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 0,
+    "ilvl": 246,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1051,
+      "name": "Огонь|n|cffffd100Рейдовый комплект Тир 4|r"
+     },
+     {
+      "count": 1,
+      "id": 844,
+      "name": "Регалии Солнечного Скитальца|n|cffffd100Рейдовый комплект Тир 9|r"
+     }
+    ],
+    "level": 80,
+    "name": "Sayashiro",
+    "race_id": 27,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 853,
+     "name": "Созвездие Изобретателя"
+    }
+   },
+   {
+    "category": 90011,
+    "class_id": 11,
+    "dps": 0,
+    "gender": 1,
+    "guid": 184218,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 981,
+    "ilvl": 247,
+    "itemset": [
+     {
+      "count": 3,
+      "id": 1071,
+      "name": "Исцеление|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Garoshik",
+    "race_id": 10,
+    "role": 2,
+    "spec": 2,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90008,
+    "class_id": 6,
+    "dps": 2753,
+    "gender": 1,
+    "guid": 192321,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 132,
+    "ilvl": 246,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1072,
+      "name": "Кровь, Лед, Нечестивость|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Moornight",
+    "race_id": 16,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90008,
+    "class_id": 2,
+    "dps": 64,
+    "gender": 1,
+    "guid": 209846,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 1958,
+    "ilvl": 227,
+    "itemset": [
+     {
+      "count": 2,
+      "id": 822,
+      "name": "Регалии покровительства|n|cffffd100Рейдовый комплект Тир 8|r"
+     }
+    ],
+    "level": 80,
+    "name": "Iyos",
+    "race_id": 20,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 867,
+     "name": "Созвездие Лисы"
+    }
+   },
+   {
+    "category": 90015,
+    "class_id": 2,
+    "dps": 18858,
+    "gender": 1,
+    "guid": 285546,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 196,
+    "ilvl": 249,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1061,
+      "name": "Воздаяние|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Urshifu",
+    "race_id": 10,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 869,
+     "name": "Созвездие Дракона"
+    }
+   },
+   {
+    "category": 90011,
+    "class_id": 2,
+    "dps": 102,
+    "gender": 0,
+    "guid": 287095,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 3736,
+    "ilvl": 248,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1063,
+      "name": "Свет|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Пертдуччи",
+    "race_id": 10,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 855,
+     "name": "Созвездие Волка"
+    }
+   },
+   {
+    "category": 90012,
+    "class_id": 5,
+    "dps": 19418,
+    "gender": 1,
+    "guid": 300382,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 49,
+    "ilvl": 249,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1064,
+      "name": "Тьма|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Mortaniel",
+    "race_id": 17,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90007,
+    "class_id": 2,
+    "dps": 2755,
+    "gender": 0,
+    "guid": 415458,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 1183,
+    "ilvl": 237,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1062,
+      "name": "Защита|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Setder",
+    "race_id": 10,
+    "role": 1,
+    "spec": 1,
+    "zodiac": {
+     "id": 851,
+     "name": "Созвездие Кузнеца"
+    }
+   },
+   {
+    "category": 90015,
+    "class_id": 2,
+    "dps": 19115,
+    "gender": 0,
+    "guid": 961025,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 240,
+    "ilvl": 250,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1061,
+      "name": "Воздаяние|n|cffffd100Рейдовый комплект Тир 4|r"
+     },
+     {
+      "count": 1,
+      "id": 878,
+      "name": "Броня Лиадрин|n|cffffd100Рейдовый комплект Тир 9|r"
+     }
+    ],
+    "level": 80,
+    "name": "Palotence",
+    "race_id": 10,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 7,
+    "dps": 0,
+    "gender": 1,
+    "guid": 1030051,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 706,
+    "ilvl": 248,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1069,
+      "name": "Исцеление|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Lonelerey",
+    "race_id": 27,
+    "role": 2,
+    "spec": 2,
+    "zodiac": {
+     "id": 853,
+     "name": "Созвездие Изобретателя"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 6,
+    "dps": 15315,
+    "gender": 0,
+    "guid": 1031501,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 7,
+    "ilvl": 246,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1059,
+      "name": "Лед|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Whitenoiseqx",
+    "race_id": 25,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 869,
+     "name": "Созвездие Дракона"
+    }
+   },
+   {
+    "category": 90011,
+    "class_id": 7,
+    "dps": 16774,
+    "gender": 0,
+    "guid": 1046862,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 32,
+    "ilvl": 250,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1068,
+      "name": "Стихии|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Хасбуллаа",
+    "race_id": 6,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 857,
+     "name": "Созвездие Безликого"
+    }
+   },
+   {
+    "category": 90006,
+    "class_id": 5,
+    "dps": 60,
+    "gender": 0,
+    "guid": 1102730,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 98,
+    "ilvl": 245,
+    "itemset": [
+     {
+      "count": 2,
+      "id": 848,
+      "name": "Облачение Забры|n|cffffd100Рейдовый комплект Тир 9|r"
+     },
+     {
+      "count": 3,
+      "id": 1065,
+      "name": "Послушание|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Жестканехилю",
+    "race_id": 20,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 861,
+     "name": "Созвездие Торговца"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 7,
+    "dps": 16639,
+    "gender": 0,
+    "guid": 1232847,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 65,
+    "ilvl": 248,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1067,
+      "name": "Совершенствование|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Flareonis",
+    "race_id": 20,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 867,
+     "name": "Созвездие Лисы"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 11,
+    "dps": 22223,
+    "gender": 1,
+    "guid": 1277908,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 0,
+    "ilvl": 249,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1070,
+      "name": "Баланс|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Сычтаёж",
+    "race_id": 25,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 850,
+     "name": "Созвездие Льва"
+    }
+   },
+   {
+    "category": 90015,
+    "class_id": 3,
+    "dps": 17769,
+    "gender": 0,
+    "guid": 1368489,
+    "guild": {
+     "id": 119116,
+     "level": 25,
+     "name": "Аукцион Душ"
+    },
+    "hps": 0,
+    "ilvl": 255,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1045,
+      "name": "Стрельба|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Smixx",
+    "race_id": 9,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 865,
+     "name": "Созвездие Магистра"
+    }
+   },
+   {
+    "category": 90011,
+    "class_id": 6,
+    "dps": 21997,
+    "gender": 1,
+    "guid": 1374511,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 9,
+    "ilvl": 253,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1060,
+      "name": "Нечестивость|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Deefa",
+    "race_id": 23,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90006,
+    "class_id": 3,
+    "dps": 13488,
+    "gender": 1,
+    "guid": 1421908,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 0,
+    "ilvl": 246,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1046,
+      "name": "Выживание|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Dezunixc",
+    "race_id": 17,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 865,
+     "name": "Созвездие Магистра"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 4,
+    "dps": 18553,
+    "gender": 0,
+    "guid": 1423529,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 0,
+    "ilvl": 256,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1047,
+      "name": "Ликвидация|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Cnz",
+    "race_id": 23,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90004,
+    "class_id": 8,
+    "dps": 14688,
+    "gender": 0,
+    "guid": 1645760,
+    "guild": {
+     "id": 257773,
+     "level": 22,
+     "name": "Sons of the Frozenthron"
+    },
+    "hps": 0,
+    "ilvl": 237,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1050,
+      "name": "Тайная магия|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Miniwalle",
+    "race_id": 27,
+    "role": 3,
+    "spec": 0,
+    "zodiac": {
+     "id": 849,
+     "name": "Созвездие Вулкана"
+    }
+   }
+  ]
+ },
+ "encounter": 2,
+ "order": 19
+}

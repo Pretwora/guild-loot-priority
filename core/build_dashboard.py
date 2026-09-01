@@ -32,11 +32,19 @@ def _counted(kills, cfg):
     return [k for k in kills if k.size_bucket in sizes]
 
 
-def compute(cfg, kills, roster, item_db, cutoff, combat=None):
-    """Полный скоринг по килам с killed_at <= cutoff."""
-    ks = [k for k in kills if k.killed_at is not None and k.killed_at <= cutoff]
-    nights = N.build_nights(ks, cfg)
-    att = SC.attendance_scores(nights, roster, cfg, cutoff)
+def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen):
+    """Скоринг: посещаемость — только по РТ (attendance.raid_sizes) из ВСЕХ килов и общая
+    для всех скоупов; перформанс/лут/вечера-для-показа — по килам скоупа."""
+    ks = [k for k in scope_kills if k.killed_at is not None and k.killed_at <= cutoff]
+
+    att_sizes = set(cfg.raw.get("attendance", {}).get("raid_sizes")
+                    or cfg.raw["raid_night"]["count_raid_sizes"])
+    att_kills = [k for k in all_kills
+                 if k.killed_at is not None and k.killed_at <= cutoff and k.size_bucket in att_sizes]
+    att_nights = N.build_nights(att_kills, cfg)
+    att = SC.attendance_scores(att_nights, roster, cfg, cutoff, first_seen)
+
+    nights = N.build_nights(ks, cfg)  # вечера скоупа — для экрана «Рейды»
     perf = SC.performance_scores(ks, roster, cfg, combat)
 
     manual = [r for r in SC.load_loot_log(cfg) if _row_before(r, cutoff)]
@@ -45,7 +53,7 @@ def compute(cfg, kills, roster, item_db, cutoff, combat=None):
     loot_log = LA.merge_with_manual(manual, auto_rows)
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
     final = SC.final_scores(att, perf, loot, roster, cfg, cutoff)
-    return {"nights": nights, "att": att, "perf": perf, "loot": loot,
+    return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
             "final": final, "loot_log": loot_log, "kills": ks,
             "auto_count": len(auto_rows), "loot_ambiguous": ambiguous}
 
@@ -72,13 +80,13 @@ def _scope_defs(cfg):
     return defs
 
 
-def _scope(cfg, all_kills, roster, item_db, now, sizes, combat):
+def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen):
     counted = [k for k in all_kills if k.size_bucket in set(sizes)]
-    cur = compute(cfg, counted, roster, item_db, now, combat)
+    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen)
     prev_final = {}
     if len(cur["nights"]) >= 2:
         cutoff_prev = cur["nights"][-1].started_at - timedelta(seconds=1)
-        prev_final = compute(cfg, counted, roster, item_db, cutoff_prev, combat)["final"]
+        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen)["final"]
     return cur, prev_final, counted
 
 
@@ -89,11 +97,12 @@ def build(config_path="config/config.json"):
     item_db = ItemDB(cfg)
     combat = CombatDB(cfg)
     all_kills = N.load_kills(cfg)
+    first_seen = N.first_seen_by_player(all_kills, roster)
 
     scopes = []
     all_cur = all_counted = None
     for key, label, sizes in _scope_defs(cfg):
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat)
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
