@@ -60,6 +60,16 @@ def attribute(cfg, kills, roster, item_db):
     sizes = set(cfg.raw["raid_night"]["count_raid_sizes"])
     master = cfg.raw["loot"].get("master_looter")  # ГМ/мастер-лутер — транзит, не получатель
 
+    # мейн-спек игрока (из roster, иначе самый частый в логах) — эталон для «мейн vs офспек».
+    # Спек берём из мейна, а не из парса конкретного боя: игрок мог стоять в офф-роли.
+    from core.scoring import player_main_spec
+    _main_cache = {}
+
+    def main_spec(pid):
+        if pid not in _main_cache:
+            _main_cache[pid] = player_main_spec(roster, kills, pid)
+        return _main_cache[pid]
+
     # Присутствие считаем по РЕЙД-ВЕЧЕРУ, а не по конкретному килу: при мастер-луте ГМ
     # раздаёт трейдом любому в рейде (получатель мог быть не на этом боссе). Плюс это
     # отсекает шум чужих рейдов по тому же entry. record_id → имена рейда за вечер.
@@ -108,8 +118,8 @@ def attribute(cfg, kills, roster, item_db):
                 # получатель = с самым поздним временем получения (конец цепочки трейдов)
                 pid = max(receivers, key=lambda p: receivers[p][1])
                 nm = receivers[pid][0]
-                p = line_of.get(nm)
-                award = _infer_award(item_db, lo.entry, p.class_id, p.spec, lo.name) if p else "bis"
+                mc, msp = main_spec(pid)
+                award = _infer_award(item_db, lo.entry, mc, msp, lo.name)
                 auto_rows.append({
                     "date": k.killed_at.strftime("%Y-%m-%d"),
                     "record_id": k.record_id,
@@ -127,8 +137,13 @@ def attribute(cfg, kills, roster, item_db):
 
 
 def _infer_award(item_db, entry, class_id, spec, name):
-    """Получил — значит взял: основной спек → bis, запасной → offspec, иначе всё равно bis."""
-    _, label, _ = item_db.need_level(entry, class_id, spec, name)
+    """Мейн-спек vs офспек по статам предмета относительно МЕЙНА игрока:
+    подходит мейну → bis (штраф), подходит другому спеку класса → offspec (штраф=0).
+    Неоднозначное/оружие, что не развелось по статам → bis (консервативно: не обнуляем
+    реальные мейн-выдачи; спорное совет правит вручную в loot_log)."""
+    if class_id is None:
+        return "bis"
+    _, label, _ = item_db.need_level(entry, class_id, spec or 0, name)
     return {"main": "bis", "offspec": "offspec"}.get(label, "bis")
 
 
