@@ -48,18 +48,23 @@ def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_
     nights = N.build_nights(ks, cfg)  # вечера скоупа — для экрана «Рейды»
     perf = SC.performance_scores(ks, roster, cfg, combat)
 
+    # лут — только с рейдов loot.raid_sizes (РТ 25), из ВСЕХ килов и одинаково для всех
+    # ладдеров: десятки лутом рейтинг не режут (как и посещаемость). Не зависит от скоупа.
+    loot_sizes = set(cfg.raw.get("loot", {}).get("raid_sizes") or att_sizes)
+    loot_kills = [k for k in all_kills if k.killed_at is not None
+                  and k.killed_at <= cutoff and k.size_bucket in loot_sizes]
+
     manual = [r for r in SC.load_loot_log(cfg) if _row_before(r, cutoff)]
-    auto_rows, ambiguous = LA.attribute(cfg, ks, roster, item_db)
+    auto_rows, ambiguous = LA.attribute(cfg, loot_kills, roster, item_db)
     auto_rows = [r for r in auto_rows if _row_before(r, cutoff)]
     loot_log = LA.merge_with_manual(manual, auto_rows)
-    # лут строго по килам скоупа: 10-к лут не идёт в зачёт 25-ок (и наоборот)
-    scope_records = {k.record_id for k in ks}
+    loot_records = {k.record_id for k in loot_kills}
     loot_log = [r for r in loot_log
-                if str(r.get("record_id")).isdigit() and int(r["record_id"]) in scope_records]
+                if str(r.get("record_id")).isdigit() and int(r["record_id"]) in loot_records]
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
     final = SC.final_scores(att, perf, loot, roster, cfg, cutoff, signup_bonus)
     return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
-            "final": final, "loot_log": loot_log, "kills": ks,
+            "final": final, "loot_log": loot_log, "kills": ks, "loot_kills": loot_kills,
             "auto_count": len(auto_rows), "loot_ambiguous": ambiguous}
 
 
@@ -163,6 +168,7 @@ def _meta(cfg, all_kills, counted, nights, combat):
         "kills_counted": len(counted),
         "nights_count": len(nights),
         "count_raid_sizes": cfg.raw["raid_night"]["count_raid_sizes"],
+        "loot_raid_sizes": cfg.raw.get("loot", {}).get("raid_sizes", [25]),
         "window": {"weeks": cfg.w("attendance", "window_weeks"),
                    "nights": cfg.w("attendance", "window_nights")},
         "show_raw_dps": cfg.raw["display"]["show_raw_dps"],
@@ -302,7 +308,7 @@ def _unclosed(cfg, roster, cur, item_db, now):
             logged.add((rid, entry))
     min_q = cfg.raw["loot"]["min_quality"]
     out = []
-    for k in cur["kills"]:
+    for k in cur["loot_kills"]:  # незакрытые — только по 25-кам (лут-размеры), как и штраф
         for lo in k.loots:
             if lo.is_currency or lo.quality < min_q or lo.count != 1:
                 continue
@@ -350,7 +356,7 @@ def _unclosed_ids(cfg, cur):
     logged = {(str(r.get("record_id")), str(r.get("item_entry")))
               for r in cur["loot_log"] if (r.get("player") or "").strip()}
     ids = []
-    for k in cur["kills"]:
+    for k in cur["loot_kills"]:  # незакрытые — только по 25-кам (лут-размеры)
         for lo in k.loots:
             if lo.is_currency or lo.quality < cfg.raw["loot"]["min_quality"] or lo.count != 1:
                 continue

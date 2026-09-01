@@ -39,6 +39,7 @@ export default function HowItWorks({ data }) {
 
         <Panel title="L — полученный лут">
           <div className="formula-block">L = Σ(вес_предмета · множитель_типа · {w.loot.decay_lambda}^дней)<br/>L_norm = clip(L / {w.loot.norm_reference}, 0, {w.loot.norm_clip_max})</div>
+          <p className="reason"><b>Только по 25-кам</b> ({(data.meta.loot_raid_sizes || [25]).join(", ")}): лут с 10-к рейтинг не режет — как и посещаемость. Считается по гильдийным РТ, одинаково во всех вкладках.</p>
           <p className="reason">Нормируем на <b>фикс-шкалу</b> ({w.loot.norm_reference} ≈ один БиС-предмет), а не на медиану гильдии: иначе лёгкая броня резала бы рейтинг так же, как оружие. Максимум L_norm={w.loot.norm_clip_max} → примерно −{Math.round((1 - 1/(1 + w.score.loot_penalty_k*w.loot.norm_clip_max))*100)}% рейтинга.</p>
           <table style={{ fontSize: 12, marginTop: 6 }}>
             <thead><tr><th>тип выдачи</th><th className="r">множитель</th></tr></thead>
