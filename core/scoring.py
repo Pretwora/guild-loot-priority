@@ -351,9 +351,13 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
     awards = defaultdict(list)
     last_slot_date = defaultdict(dict)  # pid → {slot: date}
 
+    # человеческие синонимы разметки → канон (чтобы РЛ мог писать «main»/«off» руками)
+    aliases = {"main": "bis", "mainspec": "bis", "мейн": "bis",
+               "off": "offspec", "os": "offspec", "офф": "offspec", "офспек": "offspec"}
     for row in loot_log:
         pid = (row.get("player") or "").strip()
         atype = (row.get("award_type") or "").strip().lower()
+        atype = aliases.get(atype, atype)
         if not pid:
             continue  # шард/никому — учитывается только для «незакрытых», не в L
         mult = mults.get(atype)
