@@ -49,6 +49,7 @@ class ItemClass:
     ambiguous: bool          # не развёлся однозначно → нужна ручная разметка
     reason: str              # одной фразой, для дашборда
     stats: dict = field(default_factory=dict)  # stat_type → value
+    ilvl: int = 0            # item_level из карточки: порог «топ-шмота» для веса лута
 
 
 class ItemDB:
@@ -148,8 +149,9 @@ class ItemDB:
         )
 
         reason = _reason(slot, armor_type, primary, markers, base, self.cfg, is_gear)
+        ilvl = int((card or {}).get("item_level") or 0)
         return ItemClass(entry, name, slot, is_gear, armor_type, primary, markers,
-                         sorted(base), tier_token, ambiguous, reason, stats)
+                         sorted(base), tier_token, ambiguous, reason, stats, ilvl)
 
     # ── Fit: соответствие предмета конкретному спеку игрока (раздел 7.5, need) ──
     def need_level(self, entry: int, class_id: int, spec_idx: int, fallback_name="?"):

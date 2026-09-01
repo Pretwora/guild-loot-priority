@@ -317,15 +317,35 @@ def load_loot_log(cfg):
         return [row for row in csv.DictReader(f) if row.get("record_id")]
 
 
+def item_loot_weight(ic, cfg):
+    """Вес полученного предмета за штуку (правило совета, раздел 7.3):
+    тринкеты/оружие/токены = БиС (weight_bis), прочая броня = weight_armor (мало и одинаково),
+    рецепты/непонятное = weight_recipe. Оружие/тринкет ниже ilvl_bis — как броня (старьё)."""
+    w_bis = cfg.w("loot", "weight_bis")
+    w_armor = cfg.w("loot", "weight_armor")
+    w_recipe = cfg.w("loot", "weight_recipe")
+    ilvl_bis = cfg.w("loot", "ilvl_bis")
+    token_slots = set(cfg.w("loot", "token_slots"))
+    bis_slots = set(cfg.w("loot", "bis_slots"))
+    if ic is None:
+        return w_armor
+    if not ic.is_gear:
+        return w_recipe                       # валюта/рецепт/расходник
+    if ic.slot in token_slots or ic.tier_token:
+        return w_bis                          # печеньки/тир-токены — всегда БиС
+    if ic.slot in bis_slots:
+        return w_bis if ic.ilvl >= ilvl_bis else w_armor  # старое оружие/тринкет → как броня
+    return w_armor                            # вся прочая броня (и unknown-гир) — мало
+
+
 def loot_scores(loot_log, roster, item_db, cfg, now):
     from core.common import parse_server_time
     from datetime import datetime
 
     lam = cfg.w("loot", "decay_lambda")
     mults = cfg.w("loot", "award_type_mult")
-    slot_w = cfg.w("loot", "slot_weight")
     clip_max = cfg.w("loot", "norm_clip_max")
-    eps = cfg.w("loot", "norm_eps")
+    reference = cfg.w("loot", "norm_reference")
 
     raw = defaultdict(float)
     awards = defaultdict(list)
@@ -342,7 +362,7 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
         entry = int(row["item_entry"]) if str(row.get("item_entry", "")).isdigit() else None
         ic = item_db.classify(entry, row.get("item_name", "?")) if entry else None
         slot = ic.slot if ic else "unknown"
-        weight = slot_w.get(slot, slot_w["unknown"])
+        weight = item_loot_weight(ic, cfg)
         try:
             d = datetime.strptime(row["date"], "%Y-%m-%d")
         except Exception:
@@ -371,8 +391,9 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
         L = raw.get(pid, 0.0)
         out[pid] = {
             "L": round(L, 4),
-            "L_median_guild": round(med, 4),
-            "L_norm": round(clip(L / (med + eps), 0.0, clip_max), 4),
+            "L_median_guild": round(med, 4),  # справочно (в L_norm больше не участвует)
+            "L_reference": reference,
+            "L_norm": round(clip(L / reference, 0.0, clip_max), 4),
             "awards": awards.get(pid, []),
             "last_slot_date": {s: d.strftime("%Y-%m-%d") for s, d in last_slot_date.get(pid, {}).items()},
         }

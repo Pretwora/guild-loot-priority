@@ -38,7 +38,8 @@ export default function HowItWorks({ data }) {
         </Panel>
 
         <Panel title="L — полученный лут">
-          <div className="formula-block">L = Σ(вес_слота · множитель_типа · {w.loot.decay_lambda}^дней)<br/>L_norm = clip(L / (медиана+ε), 0, {w.loot.norm_clip_max})</div>
+          <div className="formula-block">L = Σ(вес_предмета · множитель_типа · {w.loot.decay_lambda}^дней)<br/>L_norm = clip(L / {w.loot.norm_reference}, 0, {w.loot.norm_clip_max})</div>
+          <p className="reason">Нормируем на <b>фикс-шкалу</b> ({w.loot.norm_reference} ≈ один БиС-предмет), а не на медиану гильдии: иначе лёгкая броня резала бы рейтинг так же, как оружие. Максимум L_norm={w.loot.norm_clip_max} → примерно −{Math.round((1 - 1/(1 + w.score.loot_penalty_k*w.loot.norm_clip_max))*100)}% рейтинга.</p>
           <table style={{ fontSize: 12, marginTop: 6 }}>
             <thead><tr><th>тип выдачи</th><th className="r">множитель</th></tr></thead>
             <tbody>
@@ -49,14 +50,15 @@ export default function HowItWorks({ data }) {
           </table>
         </Panel>
 
-        <Panel title="Вес предмета по слоту">
+        <Panel title="Вес предмета за штуку">
           <table style={{ fontSize: 12 }}>
             <tbody>
-              {Object.entries(w.loot.slot_weight).map(([k, v]) => (
-                <tr key={k}><td>{k}</td><td className="r num">{v}</td></tr>
-              ))}
+              <tr><td>тринкет, оружие, токен/печеньки <span className="reason">(ilvl {w.loot.ilvl_bis}+)</span></td><td className="r num">{w.loot.weight_bis}</td></tr>
+              <tr><td>прочая броня <span className="reason">(сровнено, одинаково)</span></td><td className="r num">{w.loot.weight_armor}</td></tr>
+              <tr><td>рецепты / расходники / непонятное</td><td className="r num">{w.loot.weight_recipe}</td></tr>
             </tbody>
           </table>
+          <p className="reason">Дорогие слоты (тринкеты, оружие, печеньки) режут рейтинг сильно = БиС. Вся остальная броня 258+ отнимает мало и одинаково, чтобы не штрафовать за расходную экипировку. Оружие/тринкет ниже ilvl {w.loot.ilvl_bis} считаются как броня (старьё).</p>
         </Panel>
 
         <Panel title="Fit — соответствие предмета (0..1)">
