@@ -46,6 +46,12 @@ jobs:
         continue-on-error: true
         run: python3 tools/collect_actions.py --config config/config.json
 
+      - name: Выжимки логов боя (эффективность)
+        # combatlog → полученный урон/смерти/перебивания/диспелы. Сырой лог 1МБ не храним,
+        # только компактную выжимку. best-effort — не валит сбор.
+        continue-on-error: true
+        run: python3 tools/collect_combatlog.py --config config/config.json
+
       - name: Коммит сырья
         run: |
           if [ -z "$(git status --porcelain data/raw data/items)" ]; then

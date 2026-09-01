@@ -165,52 +165,90 @@ def attendance_scores(nights, roster, cfg, now):
 # ─────────────────────────────────────────────────────────────────────────────
 
 
-def _metric_for(line):
-    if line.role == "tank":
-        return None  # танк — нейтрально, метрики нет
-    return line.dps if line.role == "dps" else line.hps
-
-
-def performance_scores(kills, roster, cfg):
+def performance_scores(kills, roster, cfg, combat=None):
+    """Перформанс 0..1: базовый перцентиль по роли (дпс/хил/танк) + модификаторы из лога
+    боя (утилити, смерти, расходники). Всё в пределах 0..1, под общим потолком 30%."""
     min_sample = cfg.w("performance", "min_sample")
     neutral = cfg.w("performance", "neutral")
     window_kills = cfg.w("performance", "window_kills")
+    util_weight = cfg.w("performance", "util_weight")
+    death_pen = cfg.w("performance", "death_penalty")
+    cons_pen = cfg.w("performance", "consumable_penalty")
+    tank_lower_better = cfg.w("performance", "tank_lower_is_better")
 
-    # 1) пулы сравнения: (class_id, spec, role, boss) → список метрик
+    def base_metric(p, k):
+        # танк — полученный урон/сек из лога боя; дпс — урон, хил — лечение
+        if p.role == "tank":
+            cm = combat.metrics(k.record_id, p.guid) if (combat and combat.has(k.record_id)) else None
+            return cm["taken_ps"] if cm else None
+        return p.dps if p.role == "dps" else p.hps
+
+    def pkey(p, k):
+        # дпс/хил — сравнение строго внутри спека на боссе (сырые dps между классами
+        # не сравниваем). Танки — по полученному урону, а он сравним между танк-спеками,
+        # поэтому пул шире: все танки на этом боссе (иначе одинокий танк спека — всегда neutral).
+        if p.role == "tank":
+            return ("__tank__", k.boss_key)
+        return (p.class_id, p.spec, p.role, k.boss_key)
+
+    # 1) пулы сравнения: базовый и утилити (role,boss)
     pools = defaultdict(list)
+    util_pools = defaultdict(list)
     for k in kills:
         for p in k.players:
-            m = _metric_for(p)
-            if m is None:
-                continue
-            pools[(p.class_id, p.spec, p.role, k.boss_key)].append(m)
+            m = base_metric(p, k)
+            if m is not None:
+                pools[pkey(p, k)].append(m)
+            if combat and combat.has(k.record_id):
+                cm = combat.metrics(k.record_id, p.guid)
+                if cm:
+                    util_pools[(p.role, k.boss_key)].append(cm["utility"])
 
-    def percentile(pool_key, value):
-        pool = pools[pool_key]
+    def percentile(pool, value, invert=False):
         n = len(pool)
         if n < min_sample:
             return neutral, n
         less = sum(1 for v in pool if v < value)
         equal = sum(1 for v in pool if v == value)
-        rank = less + (equal - 1) / 2.0  # средний ранг при ничьих
-        return clip(rank / (n - 1), 0.0, 1.0) if n > 1 else neutral, n
+        rank = less + (equal - 1) / 2.0
+        pv = clip(rank / (n - 1), 0.0, 1.0) if n > 1 else neutral
+        return (1.0 - pv if invert else pv), n
 
-    # 2) перцентиль на каждую строку игрока
-    per_player_points = defaultdict(list)  # pid → [(killed_at, p, meta)]
+    # 2) перцентиль + модификаторы на каждую строку
+    per_player_points = defaultdict(list)
     for k in kills:
         for p in k.players:
             pid = roster.player_of(p.name)
             if pid is None:
                 continue
-            if p.role == "tank":
-                per_player_points[pid].append((k.killed_at, neutral, {
-                    "boss": k.boss_name, "role": "tank", "p": neutral, "n": None, "metric": None}))
-                continue
-            m = _metric_for(p)
-            pk = (p.class_id, p.spec, p.role, k.boss_key)
-            pv, n = percentile(pk, m)
-            per_player_points[pid].append((k.killed_at, pv, {
-                "boss": k.boss_name, "role": p.role, "p": round(pv, 3), "n": n, "metric": m}))
+            cm = combat.metrics(k.record_id, p.guid) if (combat and combat.has(k.record_id)) else None
+            m = base_metric(p, k)
+            invert = (p.role == "tank" and tank_lower_better)
+            if m is None:
+                base, n = neutral, None
+            else:
+                base, n = percentile(pools[pkey(p, k)], m, invert)
+
+            util_bonus, deaths, cons_factor = 0.0, 0, 1.0
+            if cm:
+                upool = util_pools.get((p.role, k.boss_key), [])
+                umax = max(upool) if upool else 0
+                if umax > 0:
+                    util_bonus = util_weight * (cm["utility"] / umax)
+                deaths = cm["deaths"]
+                if combat.consumable_active and cm["has_consumable"] is False:
+                    cons_factor = 1.0 - cons_pen
+
+            p_line = clip(base * cons_factor + util_bonus - death_pen * deaths, 0.0, 1.0)
+            per_player_points[pid].append((k.killed_at, p_line, {
+                "boss": k.boss_name, "role": p.role, "p": round(p_line, 3), "n": n,
+                "base": round(base, 3), "metric": m if p.role != "tank" else None,
+                "taken_ps": round(cm["taken_ps"], 1) if cm else None,
+                "utility": cm["utility"] if cm else 0,
+                "deaths": deaths,
+                "util_bonus": round(util_bonus, 3),
+                "consumable": (cm["has_consumable"] if cm else None),
+            }))
 
     out = {}
     for pid in roster.players:
@@ -221,6 +259,7 @@ def performance_scores(kills, roster, cfg):
             "P": round(P, 4) if P is not None else neutral,
             "kills_counted": len(last),
             "neutral_fallback": P is None,
+            "combat_available": bool(combat),
             "recent": [m for _, _, m in last],
         }
         if P is None:

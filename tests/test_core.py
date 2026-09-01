@@ -20,9 +20,22 @@ def kill(rid, when, players, size=10, boss=(532, 1)):
     )
 
 
-def line(name, cls=3, spec=1, role="dps", dps=1000, hps=0):
-    return PlayerLine(name=name, guid=0, class_id=cls, spec=spec, role=role, dps=dps, hps=hps,
+def line(name, cls=3, spec=1, role="dps", dps=1000, hps=0, guid=0):
+    return PlayerLine(name=name, guid=guid, class_id=cls, spec=spec, role=role, dps=dps, hps=hps,
                       ilvl=250, guild_name="NoName", itemset=[])
+
+
+class StubCombat:
+    """Мини-combat для тестов: {record_id: {guid: metrics}}."""
+    def __init__(self, data, consumable_active=False):
+        self.data = data
+        self.consumable_active = consumable_active
+
+    def has(self, rid):
+        return rid in self.data
+
+    def metrics(self, rid, guid):
+        return self.data.get(rid, {}).get(guid)
 
 
 class TestCommon(unittest.TestCase):
@@ -105,6 +118,44 @@ class TestPerformance(unittest.TestCase):
         self.assertEqual(perf["p0"]["P"], 0.0)   # худший
         self.assertEqual(perf["p5"]["P"], 1.0)   # лучший
         self.assertTrue(0 < perf["p3"]["P"] < 1)
+
+
+class TestCombatPerformance(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+        self.roster = Roster(char_to_player={f"T{i}": f"t{i}" for i in range(6)},
+                             players={f"t{i}": {"characters": [{"name": f"T{i}"}]} for i in range(6)})
+
+    def _cm(self, taken_ps=0, deaths=0, utility=0, has_consumable=None):
+        return {"taken_ps": taken_ps, "deaths": deaths, "utility": utility,
+                "taken": 0, "done": 0, "healing": 0, "interrupts": 0, "dispels": utility,
+                "has_consumable": has_consumable}
+
+    def test_tank_lower_taken_ranks_higher(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        # 6 танков на одном боссе, разный полученный урон/сек
+        players = [line(f"T{i}", role="tank", guid=i) for i in range(6)]
+        combat = StubCombat({1: {i: self._cm(taken_ps=1000 * (i + 1)) for i in range(6)}})
+        perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, combat)
+        # меньше всех получил (T0) → выше; больше всех (T5) → ниже
+        self.assertGreater(perf["t0"]["P"], perf["t5"]["P"])
+        self.assertAlmostEqual(perf["t0"]["P"], 1.0, places=3)
+        self.assertAlmostEqual(perf["t5"]["P"], 0.0, places=3)
+
+    def test_death_penalty_lowers_p(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        players = [line(f"T{i}", dps=1000 * (i + 1), guid=i) for i in range(6)]
+        no_death = StubCombat({1: {i: self._cm() for i in range(6)}})
+        with_death = StubCombat({1: {i: self._cm(deaths=1) for i in range(6)}})
+        p0 = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, no_death)
+        p1 = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, with_death)
+        self.assertGreater(p0["t3"]["P"], p1["t3"]["P"])  # смерть роняет перформанс
+
+    def test_no_combat_tank_neutral(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        perf = SC.performance_scores([kill(1, base, [line("T0", role="tank", guid=0)])],
+                                     self.roster, self.cfg, combat=None)
+        self.assertEqual(perf["t0"]["P"], 0.5)  # без лога боя танк нейтрален
 
 
 class TestLootAndScore(unittest.TestCase):

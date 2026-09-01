@@ -1,6 +1,8 @@
 import { readableColor, pct, f1, f2, deltaClass, deltaText } from "../lib.js";
 import { RankBadge } from "./Priority.jsx";
 
+const ROLE_RU = { tank: "танк", heal: "хил", dps: "дпс" };
+
 const STATE_LABEL = {
   full: "был", partial: "частично", bench: "бенч", late: "опоздал",
   absent: "не пришёл", excused: "отпросился", "excused>2": "отпросился (3-й подряд)",
@@ -91,13 +93,27 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
           <div className="body">
             {p.performance.recent.length === 0 ? <div className="reason">Нет килов в зачёте.</div> : (
               <table style={{ fontSize: 12 }}>
+                <thead>
+                  <tr>
+                    <th>Босс</th><th>Роль</th><th className="r">База</th>
+                    <th className="r" title="Перебивания + диспелы">Утил</th>
+                    <th className="c" title="Смерти в бою">†</th><th className="r">Итог</th>
+                  </tr>
+                </thead>
                 <tbody>
                   {p.performance.recent.slice().reverse().map((m, i) => (
                     <tr key={i}>
                       <td>{m.boss}</td>
-                      <td className="reason">{m.role}{m.role === "tank" ? " (нейтрально)" : ""}</td>
-                      <td className="num r">{pct(m.p)}</td>
-                      <td className="num r" style={{ color: "var(--ink-faint)" }}>{m.n ? `n=${m.n}` : ""} {"metric" in m && m.metric != null ? `· ${m.metric}` : ""}</td>
+                      <td className="reason">
+                        {ROLE_RU[m.role] || m.role}
+                        {m.role === "tank" && m.taken_ps != null ? <span style={{ color: "var(--ink-faint)" }}> · {Math.round(m.taken_ps)}/с</span> : null}
+                      </td>
+                      <td className="num r">{m.base != null ? pct(m.base) : "—"}{m.n ? <span style={{ color: "var(--ink-faint)" }} title="размер пула"> n{m.n}</span> : null}</td>
+                      <td className="num r" title={`${m.utility || 0} перебиваний/диспелов`}>
+                        {m.util_bonus > 0 ? <span className="delta up">+{Math.round(m.util_bonus * 100)}</span> : (m.utility ? m.utility : "")}
+                      </td>
+                      <td className="c num">{m.deaths > 0 ? <span className="delta down">{m.deaths}</span> : ""}</td>
+                      <td className="num r" style={{ fontWeight: 600 }}>{pct(m.p)}</td>
                     </tr>
                   ))}
                 </tbody>

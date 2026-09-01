@@ -31,7 +31,14 @@ export default function HowItWorks({ data }) {
 
         <Panel title="P — перформанс (0..1)">
           <div className="formula-block">p = ранг / (n−1) внутри пары «спек + босс»<br/>P = медиана p за последние {w.performance.window_kills} килов</div>
-          <p className="reason">Сравнение всегда внутри своего спека на своём боссе — сырые dps между классами не сравниваются. При n&lt;{w.performance.min_sample} записях p={w.performance.neutral} (мало данных = нейтрально). Танки — всегда {w.performance.neutral}: API не отдаёт угрозу, а dps танка ничего не измеряет.</p>
+          <p className="reason">Дпс сравниваются по урону, хилы по лечению — всегда внутри своего спека на своём боссе (сырые dps между классами не сравниваются). При n&lt;{w.performance.min_sample} записях p={w.performance.neutral} (мало данных = нейтрально).</p>
+          <p className="reason"><b>Из детального лога боя:</b> танки — по полученному урону/сек (меньше = лучше митигация), сравнение среди всех танков на боссе. Модификаторы покилово, под общим потолком {Math.round(w.score.w_perf * 100)}%:</p>
+          <dl className="kv">
+            <dt>перебивания + диспелы</dt><dd className="num">до +{Math.round(w.performance.util_weight * 100)}% (перцентиль внутри роли)</dd>
+            <dt>смерть в бою</dt><dd className="num">−{Math.round(w.performance.death_penalty * 100)}% за каждую</dd>
+            <dt>нет расходника</dt><dd className="num">−{Math.round(w.performance.consumable_penalty * 100)}%{data.meta.combat?.consumable_tracking ? "" : " (выкл — каталог не задан)"}</dd>
+          </dl>
+          <p className="reason">Боевой лог есть у {data.meta.combat?.kills_with_log ?? 0} из {data.meta.combat?.kills_counted ?? 0} зачётных килов.</p>
         </Panel>
 
         <Panel title="L — полученный лут">

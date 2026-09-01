@@ -22,12 +22,14 @@
 collector/collect.py     качает килы и складывает сырьё как есть (только stdlib)
 tools/fetch_items.py     добирает карточки упавших предметов в кеш
 tools/collect_actions.py снимки ленты «Последние действия» (получатели лута)
+tools/collect_combatlog.py выжимки логов боя (эффективность: урон/смерти/утилити)
 tools/make_loot_issue.py, tools/apply_loot_issue.py   issue раздачи лута (остаток ручного ввода)
 tools/recon.py           разведка схемы API (этап 0)
 core/
   common.py              загрузчики конфигов, справочники, математика
   normalize.py           сырьё → килы → рейд-вечера → участие (падать может только он)
   items.py               каскад «кому нужен предмет» (раздел 8) по статам карточки
+  combat.py              метрики из лога боя: полученный урон, смерти, перебивания/диспелы
   scoring.py             формулы A / P / L / S / Fit / кандидаты (раздел 7)
   loot_attrib.py         автоатрибуция лута по ленте действий (obtaineditem × дроп кила)
   build_dashboard.py     сборка dashboard.json — единственного контракта с фронтом
@@ -53,6 +55,7 @@ pip install -r requirements.txt
 python3 collector/collect.py --config config/config.json
 python3 tools/fetch_items.py --config config/config.json      # карточки предметов
 python3 tools/collect_actions.py --config config/config.json  # получатели лута (автоатрибуция)
+python3 tools/collect_combatlog.py --config config/config.json # выжимки логов боя (эффективность)
 
 # пересчёт → data/dist/dashboard.json
 python3 -m core.build_dashboard --config config/config.json
@@ -85,7 +88,7 @@ npm run dev            # или npm run build
 | 0 — разведка API | ✅ схема подтверждена вживую, зафиксирована |
 | 1 — коллектор | ✅ работает, идемпотентен, +certifi/+backfill |
 | 2 — нормализация, посещаемость | ✅ + командо-зависимый знаменатель (два состава) |
-| 3 — перформанс | ✅ перцентили внутри спека, танки/малая выборка нейтральны |
+| 3 — перформанс | ✅ перцентили внутри спека; **из лога боя**: танки по полученному урону, утилити (перебивания/диспелы), смерти, расходники — под потолком 30% |
 | 4 — предметы, лут-борд, ввод | ✅ каскад, лут-борд, **автоатрибуция лута из API** (лента действий); ручной ввод — только остаток |
 | 5 — пояснения LLM | заглушка, вне объёма первой версии |
 

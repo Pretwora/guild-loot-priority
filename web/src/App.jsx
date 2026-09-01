@@ -110,9 +110,13 @@ function IssuesBar({ issues, meta }) {
   const unclosed = issues.unclosed_count || 0;
   const auto = issues.loot_auto_count || 0;
   const ambiguous = issues.loot_ambiguous?.length || 0;
+  const combat = meta.combat || {};
   return (
     <div className="issues">
       <span className="chip">килов зачтено: <b>{meta.kills_counted}</b> из {meta.kills_total}</span>
+      {combat.kills_with_log != null && (
+        <span className="chip">боевые логи: <b>{combat.kills_with_log}</b>/{combat.kills_counted}</span>
+      )}
       {auto > 0 && <span className="chip">лут распознан автоматически: <b>{auto}</b></span>}
       {unclosed > 0 && <span className="chip alert">незакрытых дропов: <b>{unclosed}</b></span>}
       {ambiguous > 0 && <span className="chip alert">спорная атрибуция: <b>{ambiguous}</b></span>}

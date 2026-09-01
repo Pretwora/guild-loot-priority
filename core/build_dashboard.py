@@ -16,6 +16,7 @@ from core.common import Config, server_now
 from core import normalize as N
 from core import scoring as SC
 from core import loot_attrib as LA
+from core.combat import CombatDB
 from core.items import ItemDB
 
 # Порядок слотов для лут-борда (раздел 9.1, экран 2)
@@ -31,12 +32,12 @@ def _counted(kills, cfg):
     return [k for k in kills if k.size_bucket in sizes]
 
 
-def compute(cfg, kills, roster, item_db, cutoff):
+def compute(cfg, kills, roster, item_db, cutoff, combat=None):
     """Полный скоринг по килам с killed_at <= cutoff."""
     ks = [k for k in kills if k.killed_at is not None and k.killed_at <= cutoff]
     nights = N.build_nights(ks, cfg)
     att = SC.attendance_scores(nights, roster, cfg, cutoff)
-    perf = SC.performance_scores(ks, roster, cfg)
+    perf = SC.performance_scores(ks, roster, cfg, combat)
 
     manual = [r for r in SC.load_loot_log(cfg) if _row_before(r, cutoff)]
     auto_rows, ambiguous = LA.attribute(cfg, ks, roster, item_db)
@@ -71,13 +72,13 @@ def _scope_defs(cfg):
     return defs
 
 
-def _scope(cfg, all_kills, roster, item_db, now, sizes):
+def _scope(cfg, all_kills, roster, item_db, now, sizes, combat):
     counted = [k for k in all_kills if k.size_bucket in set(sizes)]
-    cur = compute(cfg, counted, roster, item_db, now)
+    cur = compute(cfg, counted, roster, item_db, now, combat)
     prev_final = {}
     if len(cur["nights"]) >= 2:
         cutoff_prev = cur["nights"][-1].started_at - timedelta(seconds=1)
-        prev_final = compute(cfg, counted, roster, item_db, cutoff_prev)["final"]
+        prev_final = compute(cfg, counted, roster, item_db, cutoff_prev, combat)["final"]
     return cur, prev_final, counted
 
 
@@ -86,12 +87,13 @@ def build(config_path="config/config.json"):
     now = server_now(cfg.raw.get("server_utc_offset_hours", 0))
     roster = N.load_roster(cfg)
     item_db = ItemDB(cfg)
+    combat = CombatDB(cfg)
     all_kills = N.load_kills(cfg)
 
     scopes = []
     all_cur = all_counted = None
     for key, label, sizes in _scope_defs(cfg):
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes)
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
@@ -104,7 +106,7 @@ def build(config_path="config/config.json"):
     dash = {
         "schema_version": cfg.raw.get("schema_version", 1),
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S") + " (server local)",
-        "meta": _meta(cfg, all_kills, all_counted, all_cur["nights"]),
+        "meta": _meta(cfg, all_kills, all_counted, all_cur["nights"], combat),
         "scopes": scopes,
         # верхнеуровневые players/nights = совокупность (совместимость и дефолт)
         "players": scopes[0]["players"],
@@ -131,7 +133,8 @@ def _repo():
 # ── секции dashboard.json ──
 
 
-def _meta(cfg, all_kills, counted, nights):
+def _meta(cfg, all_kills, counted, nights, combat):
+    combat_kills = sum(1 for k in counted if combat.has(k.record_id))
     return {
         "realm": cfg.raw["realm"],
         "guild_id": cfg.raw["guild_id"],
@@ -144,6 +147,11 @@ def _meta(cfg, all_kills, counted, nights):
                    "nights": cfg.w("attendance", "window_nights")},
         "show_raw_dps": cfg.raw["display"]["show_raw_dps"],
         "tier_start": cfg.raw["tier"]["start"],
+        "combat": {
+            "kills_with_log": combat_kills,
+            "kills_counted": len(counted),
+            "consumable_tracking": combat.consumable_active,
+        },
     }
 
 
