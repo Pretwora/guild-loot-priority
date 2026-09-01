@@ -253,6 +253,41 @@ def load_roster(cfg: Config) -> Roster:
     return Roster(char_to_player=char_to_player, players=players)
 
 
+_TRANS = {"а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh",
+          "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+          "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "h", "ц": "c",
+          "ч": "ch", "ш": "sh", "щ": "sch", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu", "я": "ya"}
+
+
+def _slug(name: str) -> str:
+    s = "".join(_TRANS.get(ch.lower(), ch) for ch in name)
+    return "".join(c for c in s if c.isalnum()).lower() or "p"
+
+
+def augment_roster_with_parses(roster: Roster, kills: list[Kill], cfg: Config) -> list[str]:
+    """Добавляет авто-игроков за персонажей нашей гильдии, у кого есть парсы, но кого нет
+    в roster.yml. Ростер — источник ПРАВОК (твинки, ранги, team, discord_id), а базовый
+    состав = все, кто реально рейдил (сирус знает их по логам). Возвращает id добавленных.
+    """
+    our = cfg.raw.get("guild_name_api", "")
+    added = []
+    for k in sorted(kills, key=lambda x: x.killed_at or _dt.datetime.min):
+        for p in k.players:
+            if p.guild_name != our or p.name in roster.char_to_player:
+                continue
+            pid = _slug(p.name)
+            while pid in roster.players:
+                pid += "x"
+            roster.players[pid] = {
+                "id": pid, "display": p.name, "rank": "member", "auto": True,
+                "characters": [{"name": p.name, "class_id": p.class_id, "spec": p.spec,
+                                "role": p.role, "main": True}],
+            }
+            roster.char_to_player[p.name] = pid
+            added.append(pid)
+    return added
+
+
 def first_seen_by_player(kills: list[Kill], roster: Roster) -> dict:
     """{player_id: самый ранний killed_at, где встречен любой его персонаж}.
 

@@ -98,6 +98,7 @@ def build(config_path="config/config.json"):
     item_db = ItemDB(cfg)
     combat = CombatDB(cfg)
     all_kills = N.load_kills(cfg)
+    N.augment_roster_with_parses(roster, all_kills, cfg)  # авто-игроки за парсы (сирус знает всех рейдивших)
     first_seen = N.first_seen_by_player(all_kills, roster)
     signup_bonus, signed_latest, signup_unmatched, signup_events = SU.compute(cfg, roster)
 
