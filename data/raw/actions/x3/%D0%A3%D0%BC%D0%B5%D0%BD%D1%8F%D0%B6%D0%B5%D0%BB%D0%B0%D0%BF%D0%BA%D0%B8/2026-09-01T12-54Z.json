@@ -1,0 +1,151 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100480,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_15.png",
+    "name": "Кираса Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T14:04:27.000000Z",
+   "guid": 1261284,
+   "id": 225913131,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100484,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_14.png",
+    "name": "Мантия Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T14:04:23.000000Z",
+   "guid": 1261284,
+   "id": 225913119,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117527,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_15.png",
+    "name": "Рогатый шлем Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T14:04:17.000000Z",
+   "guid": 1261284,
+   "id": 225913095,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117526,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_25.png",
+    "name": "Рукавицы Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T14:04:14.000000Z",
+   "guid": 1261284,
+   "id": 225913075,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117366,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_15.png",
+    "name": "Одежды Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T13:49:16.000000Z",
+   "guid": 1261284,
+   "id": 225909970,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117367,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_14.png",
+    "name": "Оплечье Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T13:49:13.000000Z",
+   "guid": 1261284,
+   "id": 225909962,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117304,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_15.png",
+    "name": "Головной убор Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T13:49:09.000000Z",
+   "guid": 1261284,
+   "id": 225909951,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117300,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_25.png",
+    "name": "Захваты Малорна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T13:49:05.000000Z",
+   "guid": 1261284,
+   "id": 225909944,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9391732
+   },
+   "datetime": "2026-08-30T13:27:13.000000Z",
+   "guid": 1261284,
+   "id": 9391732,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9391720
+   },
+   "datetime": "2026-08-30T13:19:05.000000Z",
+   "guid": 1261284,
+   "id": 9391720,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 1261284,
+ "name": "Уменяжелапки",
+ "ts": "2026-09-01T12-54Z"
+}

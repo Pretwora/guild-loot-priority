@@ -1,0 +1,206 @@
+/* Дашборд приоритета лута. Плотный рабочий инструмент, тёмная тема — сознательный
+   выбор (см. docs/design.md). Классовый цвет — точечный акцент (имя + линейка слева),
+   не заливка, иначе 9 цветов на экране превращаются в кашу. */
+
+:root {
+  --bg: #16161a;
+  --bg-panel: #1e1e24;
+  --bg-row-alt: #1a1a1f;
+  --bg-row-hover: #26262e;
+  --line: #2c2c34;
+  --line-strong: #3a3a44;
+  --ink: #e6e6ea;
+  --ink-muted: #9a9aa4;
+  --ink-faint: #6a6a74;
+  --accent: #d4a24e; /* приглушённое золото — активная навигация, ключевые числа */
+  --accent-dim: #8a6d34;
+  --good: #6cc070;
+  --bad: #d76b6b;
+  --warn: #d9a34e;
+  --radius: 4px;
+  --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 13px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+.num { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ── Оболочка ── */
+.app { display: flex; flex-direction: column; min-height: 100%; }
+
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; align-items: baseline; gap: 18px; flex-wrap: wrap;
+  padding: 10px 16px;
+  background: #131317;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-weight: 600; letter-spacing: 0.2px; }
+.brand small { color: var(--ink-faint); font-weight: 400; margin-left: 8px; }
+
+nav.tabs { display: flex; gap: 2px; flex-wrap: wrap; }
+nav.tabs button {
+  appearance: none; background: transparent; border: 0;
+  color: var(--ink-muted); font: inherit; padding: 5px 11px; cursor: pointer;
+  border-radius: var(--radius); border: 1px solid transparent;
+}
+nav.tabs button:hover { color: var(--ink); background: var(--bg-row-alt); }
+nav.tabs button[aria-current="true"] {
+  color: var(--bg); background: var(--accent); font-weight: 600;
+}
+nav.tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.content { padding: 14px 16px 60px; max-width: 1400px; width: 100%; margin: 0 auto; }
+
+h2.screen { margin: 4px 0 2px; font-size: 16px; font-weight: 600; }
+p.sub { margin: 0 0 14px; color: var(--ink-muted); }
+
+/* ── Плашка проблем ── */
+.issues { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0 16px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 9px; border: 1px solid var(--line-strong); border-radius: 999px;
+  color: var(--ink-muted); background: var(--bg-panel);
+}
+.chip b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.chip.alert { border-color: var(--accent-dim); color: var(--accent); }
+
+/* ── Переключатель ладдеров (10 / 25 / все) ── */
+.scope-switch { display: inline-flex; gap: 0; margin: 0 0 14px; border: 1px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; }
+.scope-switch button {
+  appearance: none; background: var(--bg-panel); color: var(--ink-muted);
+  border: 0; border-right: 1px solid var(--line-strong); font: inherit; cursor: pointer;
+  padding: 5px 14px;
+}
+.scope-switch button:last-child { border-right: 0; }
+.scope-switch button:hover { color: var(--ink); background: var(--bg-row-hover); }
+.scope-switch button[aria-selected="true"] { background: var(--accent); color: var(--bg); font-weight: 600; }
+.scope-switch .num { opacity: 0.7; }
+
+/* ── Таблицы ── */
+/* overflow:auto делает контейнер скролл-контекстом: заголовок липнет к его верху
+   (top:0), а сам контейнер со своей высотой — так шапка закреплена при прокрутке
+   длинного списка и не накрывает первую строку. */
+.table-wrap { overflow: auto; max-height: calc(100vh - 168px); border: 1px solid var(--line); border-radius: var(--radius); }
+table { border-collapse: collapse; width: 100%; }
+thead th {
+  position: sticky; top: 0; z-index: 5;
+  background: #1b1b21; text-align: left; font-weight: 600; color: var(--ink-muted);
+  padding: 7px 10px; border-bottom: 1px solid var(--line-strong); white-space: nowrap;
+  user-select: none;
+}
+thead th.sortable { cursor: pointer; }
+thead th.sortable:hover { color: var(--ink); }
+thead th .caret { color: var(--accent); margin-left: 4px; }
+tbody td { padding: 5px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+tbody tr:hover { background: var(--bg-row-hover); }
+tbody tr.clickable { cursor: pointer; }
+td.r, th.r { text-align: right; }
+td.c, th.c { text-align: center; }
+
+.rank-idx { color: var(--ink-faint); width: 2em; text-align: right; }
+
+/* классовый цвет — имя + линейка слева строки */
+.pname { font-weight: 600; }
+.spec { color: var(--ink-faint); font-weight: 400; margin-left: 6px; font-size: 12px; }
+td.player { border-left: 3px solid var(--klass, transparent); }
+
+.badge {
+  font-size: 11px; padding: 1px 6px; border-radius: 3px; border: 1px solid var(--line-strong);
+  color: var(--ink-muted);
+}
+.badge.trial { color: var(--warn); border-color: var(--accent-dim); }
+.badge.officer { color: var(--accent); border-color: var(--accent-dim); }
+
+/* мини-метр 0..1 — нейтральный, не классовый (иначе каша) */
+.meter { display: inline-flex; align-items: center; gap: 7px; }
+.meter .track { width: 62px; height: 6px; background: #2a2a31; border-radius: 3px; overflow: hidden; }
+.meter .fill { height: 100%; background: linear-gradient(90deg, #5a6d8a, #8aa0c0); }
+.meter .fill.perf { background: linear-gradient(90deg, #6d8a5a, #9cb87e); }
+.meter .val { color: var(--ink-muted); min-width: 2.4em; }
+
+.score { font-weight: 700; font-size: 14px; }
+.delta.up { color: var(--good); }
+.delta.down { color: var(--bad); }
+.delta.flat { color: var(--ink-faint); }
+
+.frozen-mark { color: var(--accent); margin-left: 4px; }
+
+/* ── Лут-борд матрица ── */
+.matrix td.cell { text-align: center; padding: 3px 6px; }
+.matrix td.slotname { color: var(--ink-muted); position: sticky; left: 0; background: var(--bg); }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 2px; }
+.recv-recent { background: var(--good); }
+.recv-mid { background: var(--accent-dim); }
+.recv-old { background: #4a5a4a; }
+.recv-none { background: #33333b; }
+
+/* ── Панели (плоские, различаются содержимым, без одинаковых теней) ── */
+.grid2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-panel); }
+.panel > h3 { margin: 0; padding: 8px 12px; border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 600; }
+.panel > .body { padding: 10px 12px; }
+
+.night { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-panel); margin-bottom: 12px; }
+.night > header { display: flex; align-items: baseline; gap: 12px; padding: 9px 12px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.night .date { font-weight: 600; }
+.night .meta { color: var(--ink-muted); }
+.night .roster { padding: 10px 12px; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 4px 18px; }
+.roster .grp-label { color: var(--ink-faint); font-size: 12px; margin: 6px 0 2px; }
+.pill { color: var(--ink); }
+
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 3px 12px; }
+.kv dt { color: var(--ink-muted); }
+.kv dd { margin: 0; }
+
+.formula-block { font-family: var(--mono); background: #131317; border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; overflow-x: auto; color: var(--ink); }
+
+.reason { color: var(--ink-muted); font-size: 12px; white-space: normal; }
+
+.loading, .error { padding: 40px 16px; color: var(--ink-muted); }
+.error { color: var(--bad); }
+
+kbd { font-family: var(--mono); background: #26262e; border: 1px solid var(--line-strong); border-radius: 3px; padding: 0 4px; font-size: 11px; }
+
+/* фокус с клавиатуры виден везде */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  nav.tabs button, tbody tr { transition: background-color 90ms ease, color 90ms ease; }
+}
+
+/* светлая тема — бонус через prefers-color-scheme */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f4f2ee; --bg-panel: #ffffff; --bg-row-alt: #faf9f6; --bg-row-hover: #efece5;
+    --line: #e0ddd4; --line-strong: #cfcbbf; --ink: #23221e; --ink-muted: #6a675e;
+    --ink-faint: #9a968b; --accent: #9a6d1e; --accent-dim: #caa869;
+    color-scheme: light;
+  }
+  .topbar { background: #efece5; }
+  thead th { background: #efece5; }
+  .meter .track { background: #e0ddd4; }
+}
+
+@media (max-width: 640px) {
+  .content { padding: 10px 8px 60px; }
+  .table-wrap { max-height: none; }
+}

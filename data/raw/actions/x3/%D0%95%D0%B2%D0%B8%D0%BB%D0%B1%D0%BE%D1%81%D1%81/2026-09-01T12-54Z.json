@@ -1,0 +1,143 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104220,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_68.png",
+    "name": "Перстень владыки пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T21:45:26.000000Z",
+   "guid": 1132542,
+   "id": 226003776,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9400591
+   },
+   "datetime": "2026-08-30T21:44:51.000000Z",
+   "guid": 1132542,
+   "id": 9400591,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9400505
+   },
+   "datetime": "2026-08-30T21:08:57.000000Z",
+   "guid": 1132542,
+   "id": 9400505,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9400454
+   },
+   "datetime": "2026-08-30T20:43:06.000000Z",
+   "guid": 1132542,
+   "id": 9400454,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100489,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_plate_dungeonplate_c_03.png",
+    "name": "Головной убор Падшего",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T20:36:47.000000Z",
+   "guid": 1132542,
+   "id": 225994969,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9400373
+   },
+   "datetime": "2026-08-30T20:24:53.000000Z",
+   "guid": 1132542,
+   "id": 9400373,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6317,
+    "icon": "https://cdn3.scourge.tech/icons/spell_mage_overpowered.png",
+    "name": "Венец магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788122586,
+   "datetime": "2026-08-30T17:43:06.000000Z",
+   "guid": 1132542,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788121493,
+   "datetime": "2026-08-30T17:24:53.000000Z",
+   "guid": 1132542,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47278,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_80.png",
+    "name": "Обруч Темной Целительницы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-29T13:27:14.000000Z",
+   "guid": 1132542,
+   "id": 225700799,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47278,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_80.png",
+    "name": "Обруч Темной Целительницы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-29T10:40:37.000000Z",
+   "guid": 1132542,
+   "id": 225671462,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 1132542,
+ "name": "Евилбосс",
+ "ts": "2026-09-01T12-54Z"
+}

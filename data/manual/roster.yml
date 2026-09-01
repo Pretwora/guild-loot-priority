@@ -1,0 +1,366 @@
+# Ростер: персонаж → игрок (раздел 6.1 SPEC). Без него система разваливается
+# на второй неделе: на рейде один человек ходит разными персонажами, а API
+# знает только персонажа.
+#
+# 🛑 АВТОСИД ИЗ ЛОГОВ — пройтись руками:
+#   • объединить твинков одного человека в один player (несколько characters);
+#   • display / rank (trial|member|officer);
+#   • team — РЕЙД-СОСТАВ. Гильдия водит ДВА непересекающихся состава по 10
+#     (см. docs/api-schema.md). Посещаемость считается по знаменателю СВОЕЙ
+#     команды: вечер чужой команды не штрафует. team автоопределён по 2 вечерам —
+#     проверь. null = считать по всем вечерам (для играющих в обоих составах).
+#   Пуги из чужих гильдий сюда НЕ включены.
+
+players:
+  - id: carti
+    display: Carti
+    rank: member
+    team: A
+    characters:
+      - name: Carti   # Чернокнижник/Демонология/dps, килов: 12
+        class_id: 9
+        spec: 1
+        role: dps
+        main: true
+
+  - id: ploskost
+    display: Плоскость
+    rank: member
+    team: A
+    characters:
+      - name: Плоскость   # Друид/Баланс/dps, килов: 12
+        class_id: 11
+        spec: 0
+        role: dps
+        main: true
+
+  - id: bloodycat
+    display: Bloodycat
+    rank: member
+    team: A
+    characters:
+      - name: Bloodycat   # Друид/Сила зверя/dps, килов: 12
+        class_id: 11
+        spec: 1
+        role: dps
+        main: true
+
+  - id: trusynapravo
+    display: Трусынаправо
+    rank: member
+    team: A
+    characters:
+      - name: Трусынаправо   # Маг/Тайная магия/dps, килов: 10
+        class_id: 8
+        spec: 0
+        role: dps
+        main: true
+
+  - id: moornight
+    display: Moornight
+    rank: member
+    team: A
+    characters:
+      - name: Moornight   # Рыцарь смерти/Кровь/tank, килов: 9
+        class_id: 6
+        spec: 0
+        role: tank
+        main: true
+
+  - id: urshifu
+    display: Urshifu
+    rank: member
+    team: A
+    characters:
+      - name: Urshifu   # Паладин/Воздаяние/dps, килов: 9
+        class_id: 2
+        spec: 2
+        role: dps
+        main: true
+
+  - id: hasbullaa
+    display: Хасбуллаа
+    rank: member
+    team: A
+    characters:
+      - name: Хасбуллаа   # Шаман/Стихии/dps, килов: 9
+        class_id: 7
+        spec: 0
+        role: dps
+        main: true
+
+  - id: zhestkanehilyu
+    display: Жестканехилю
+    rank: member
+    team: A
+    characters:
+      - name: Жестканехилю   # Жрец/Послушание/heal, килов: 9
+        class_id: 5
+        spec: 0
+        role: heal
+        main: true
+
+  - id: devaleria
+    display: Devaleria
+    rank: member
+    team: A
+    characters:
+      - name: Devaleria   # Паладин/Свет/heal, килов: 9
+        class_id: 2
+        spec: 0
+        role: heal
+        main: true
+
+  - id: echkeree
+    display: Эчкерее
+    rank: member
+    team: A
+    characters:
+      - name: Эчкерее   # Маг/Тайная магия/dps, килов: 2
+        class_id: 8
+        spec: 0
+        role: dps
+        main: true
+
+  - id: fexler
+    display: Fexler
+    rank: member
+    team: B
+    characters:
+      - name: Fexler   # Охотник/Стрельба/dps, килов: 16
+        class_id: 3
+        spec: 1
+        role: dps
+        main: true
+
+  - id: kriptid
+    display: Криптид
+    rank: member
+    team: B
+    characters:
+      - name: Криптид   # Друид/Сила зверя/dps, килов: 16
+        class_id: 11
+        spec: 1
+        role: dps
+        main: true
+
+  - id: horikuz
+    display: Horikuz
+    rank: member
+    team: B
+    characters:
+      - name: Horikuz   # Друид/Баланс/dps, килов: 16
+        class_id: 11
+        spec: 0
+        role: dps
+        main: true
+
+  - id: killhord
+    display: Killhord
+    rank: member
+    team: B
+    characters:
+      - name: Killhord   # Паладин/Воздаяние/dps, килов: 16
+        class_id: 2
+        spec: 2
+        role: dps
+        main: true
+
+  - id: ashqdexe
+    display: Ashqdexe
+    rank: member
+    team: B
+    characters:
+      - name: Ashqdexe   # Шаман/Стихии/dps, килов: 16
+        class_id: 7
+        spec: 0
+        role: dps
+        main: true
+
+  - id: mozol
+    display: Мозол
+    rank: member
+    team: B
+    characters:
+      - name: Мозол   # Рыцарь смерти/Кровь/tank, килов: 16
+        class_id: 6
+        spec: 0
+        role: tank
+        main: true
+
+  - id: sonechko
+    display: Сонечко
+    rank: member
+    team: B
+    characters:
+      - name: Сонечко   # Жрец/Послушание/heal, килов: 16
+        class_id: 5
+        spec: 0
+        role: heal
+        main: true
+
+  - id: serezhka
+    display: Серёжка
+    rank: member
+    team: B
+    characters:
+      - name: Серёжка   # Паладин/Свет/heal, килов: 13
+        class_id: 2
+        spec: 0
+        role: heal
+        main: true
+
+  - id: arkeli
+    display: Arkeli
+    rank: member
+    team: B
+    characters:
+      - name: Arkeli   # Воин/Неистовство/dps, килов: 13
+        class_id: 1
+        spec: 1
+        role: dps
+        main: true
+
+  - id: probol
+    display: Проболь
+    rank: member
+    team: B
+    characters:
+      - name: Проболь   # Жрец/Тьма/dps, килов: 12
+        class_id: 5
+        spec: 2
+        role: dps
+        main: true
+
+  - id: sayashiro
+    display: Sayashiro
+    rank: member
+    team: null
+    characters:
+      - name: Sayashiro   # Маг/Огонь/dps, килов: 3
+        class_id: 8
+        spec: 1
+        role: dps
+        main: true
+
+  - id: ilom
+    display: Ilom
+    rank: member
+    team: null
+    characters:
+      - name: Ilom   # Паладин/Свет/heal, килов: 3
+        class_id: 2
+        spec: 0
+        role: heal
+        main: true
+
+  - id: iyos
+    display: Iyos
+    rank: member
+    team: null
+    characters:
+      - name: Iyos   # Паладин/Защита/tank, килов: 3
+        class_id: 2
+        spec: 1
+        role: tank
+        main: true
+
+  - id: pertduchchi
+    display: Пертдуччи
+    rank: member
+    team: null
+    characters:
+      - name: Пертдуччи   # Паладин/Свет/heal, килов: 3
+        class_id: 2
+        spec: 0
+        role: heal
+        main: true
+
+  - id: palotence
+    display: Palotence
+    rank: member
+    team: null
+    characters:
+      - name: Palotence   # Паладин/Воздаяние/dps, килов: 3
+        class_id: 2
+        spec: 2
+        role: dps
+        main: true
+
+  - id: kolbassenkoo
+    display: Колбассенкоо
+    rank: member
+    team: null
+    characters:
+      - name: Колбассенкоо   # Маг/Тайная магия/dps, килов: 3
+        class_id: 8
+        spec: 0
+        role: dps
+        main: true
+
+  - id: evilboss
+    display: Евилбосс
+    rank: member
+    team: null
+    characters:
+      - name: Евилбосс   # Рыцарь смерти/Нечестивость/dps, килов: 3
+        class_id: 6
+        spec: 2
+        role: dps
+        main: true
+
+  - id: flareonis
+    display: Flareonis
+    rank: member
+    team: null
+    characters:
+      - name: Flareonis   # Шаман/Совершенствование/dps, килов: 3
+        class_id: 7
+        spec: 1
+        role: dps
+        main: true
+
+  - id: umenyazhelapki
+    display: Уменяжелапки
+    rank: member
+    team: null
+    characters:
+      - name: Уменяжелапки   # Друид/Сила зверя/dps, килов: 3
+        class_id: 11
+        spec: 1
+        role: dps
+        main: true
+
+  - id: deefa
+    display: Deefa
+    rank: member
+    team: null
+    characters:
+      - name: Deefa   # Рыцарь смерти/Нечестивость/dps, килов: 3
+        class_id: 6
+        spec: 2
+        role: dps
+        main: true
+
+  - id: salatur
+    display: Salatur
+    rank: member
+    team: null
+    characters:
+      - name: Salatur   # Чернокнижник/Разрушение/dps, килов: 1
+        class_id: 9
+        spec: 2
+        role: dps
+        main: true
+
+  - id: ligad
+    display: Ligad
+    rank: member
+    team: null
+    characters:
+      - name: Ligad   # Воин/Неистовство/dps, килов: 1
+        class_id: 1
+        spec: 1
+        role: dps
+        main: true
+

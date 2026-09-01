@@ -1,0 +1,191 @@
+"""Тесты ядра: формулы разделов 7–8 фиксируются числами.
+
+Запуск:  python3 -m unittest tests.test_core   (из корня репозитория)
+Без внешних зависимостей (unittest из stdlib).
+"""
+
+import datetime as dt
+import unittest
+
+from core.common import Config, clip, decay_weight, median, parse_server_time
+from core import scoring as SC
+from core.items import ItemDB
+from core.normalize import Kill, PlayerLine, RaidNight, Roster, build_nights, size_bucket
+
+
+def kill(rid, when, players, size=10, boss=(532, 1)):
+    return Kill(
+        record_id=rid, killed_at=when, map_id=boss[0], map_name="m", boss_name=f"b{boss[1]}",
+        encounter_id=boss[1], difficulty=0, player_count=size, size_bucket=size, players=players,
+    )
+
+
+def line(name, cls=3, spec=1, role="dps", dps=1000, hps=0):
+    return PlayerLine(name=name, guid=0, class_id=cls, spec=spec, role=role, dps=dps, hps=hps,
+                      ilvl=250, guild_name="NoName", itemset=[])
+
+
+class TestCommon(unittest.TestCase):
+    def test_parse_time(self):
+        self.assertEqual(parse_server_time("2026-08-31 23:50:30"),
+                         dt.datetime(2026, 8, 31, 23, 50, 30))
+        self.assertIsNone(parse_server_time("мусор"))
+
+    def test_median(self):
+        self.assertEqual(median([1, 2, 3]), 2)
+        self.assertEqual(median([1, 2, 3, 4]), 2.5)
+        self.assertIsNone(median([]))
+
+    def test_clip_decay(self):
+        self.assertEqual(clip(5, 0, 2), 2)
+        self.assertEqual(clip(-1, 0, 2), 0)
+        self.assertAlmostEqual(decay_weight(0.98, 0), 1.0)
+        self.assertAlmostEqual(decay_weight(0.5, 2), 0.25)
+
+
+class TestNights(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+
+    def test_size_bucket(self):
+        self.assertEqual(size_bucket(10, self.cfg), 10)
+        self.assertEqual(size_bucket(9, self.cfg), 10)
+        self.assertEqual(size_bucket(24, self.cfg), 25)
+        self.assertIsNone(size_bucket(3, self.cfg))
+
+    def test_gap_splits_nights(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        kills = [
+            kill(1, base, [line("A")]),
+            kill(2, base + dt.timedelta(minutes=30), [line("A")]),
+            kill(3, base + dt.timedelta(hours=5), [line("A")]),  # >3ч разрыв → новый вечер
+        ]
+        nights = build_nights(kills, self.cfg)
+        self.assertEqual(len(nights), 2)
+        self.assertEqual(nights[0].kill_count, 2)
+        self.assertEqual(nights[1].kill_count, 1)
+
+    def test_presence_share(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        kills = [
+            kill(1, base, [line("A"), line("B")]),
+            kill(2, base + dt.timedelta(minutes=20), [line("A")]),  # B пропустил
+        ]
+        night = build_nights(kills, self.cfg)[0]
+        self.assertEqual(night.presence["A"], 1.0)
+        self.assertEqual(night.presence["B"], 0.5)
+
+
+class TestPerformance(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+        self.roster = Roster(char_to_player={f"P{i}": f"p{i}" for i in range(6)},
+                             players={f"p{i}": {"characters": [{"name": f"P{i}"}]} for i in range(6)})
+
+    def test_small_sample_neutral(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        kills = [kill(1, base, [line("P0", dps=1000), line("P1", dps=2000)])]
+        perf = SC.performance_scores(kills, self.roster, self.cfg)
+        # <5 записей в пуле → нейтрально 0.5
+        self.assertEqual(perf["p0"]["P"], 0.5)
+        self.assertEqual(perf["p1"]["P"], 0.5)
+
+    def test_tank_neutral(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        players = [line(f"P{i}", role="dps", dps=1000 * (i + 1)) for i in range(5)]
+        players.append(line("P5", role="tank", dps=50))
+        perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg)
+        self.assertEqual(perf["p5"]["P"], 0.5)  # танк — всегда нейтрально
+
+    def test_percentile_orders(self):
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        # 6 записей одного спека/босса → пул >=5, перцентили осмысленны
+        players = [line(f"P{i}", dps=1000 * (i + 1)) for i in range(6)]
+        perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg)
+        self.assertEqual(perf["p0"]["P"], 0.0)   # худший
+        self.assertEqual(perf["p5"]["P"], 1.0)   # лучший
+        self.assertTrue(0 < perf["p3"]["P"] < 1)
+
+
+class TestLootAndScore(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+        self.db = ItemDB(self.cfg)
+        self.roster = Roster(char_to_player={}, players={
+            "a": {"rank": "member", "characters": []},
+            "b": {"rank": "trial", "characters": []},
+        })
+
+    def test_award_type_shard_skipped(self):
+        now = dt.datetime(2026, 9, 1)
+        log = [
+            {"date": "2026-09-01", "record_id": "1", "item_entry": "139519",
+             "item_name": "шлем", "player": "a", "award_type": "bis", "note": ""},
+            {"date": "2026-09-01", "record_id": "1", "item_entry": "139519",
+             "item_name": "шлем", "player": "a", "award_type": "shard", "note": ""},
+        ]
+        loot = SC.loot_scores(log, self.roster, self.db, self.cfg, now)
+        # shard не учитывается — только одна запись формирует L
+        self.assertEqual(len(loot["a"]["awards"]), 1)
+        self.assertGreater(loot["a"]["L"], 0)
+
+    def test_final_formula_exact(self):
+        # S = 100 * (0.7*A_eff + 0.3*P) / (1 + 0.35*L_norm) * gate
+        att = {"a": {"A_eff": 1.0}, "b": {"A_eff": 1.0}}
+        perf = {"a": {"P": 0.5}, "b": {"P": 0.5}}
+        loot = {"a": {"L_norm": 0.0}, "b": {"L_norm": 0.0}}
+        final = SC.final_scores(att, perf, loot, self.roster, self.cfg, dt.datetime(2026, 9, 1))
+        base = 0.7 * 1.0 + 0.3 * 0.5  # 0.85
+        self.assertAlmostEqual(final["a"]["S"], 100 * base / 1.0 * 1.0, places=2)
+        self.assertAlmostEqual(final["b"]["S"], 100 * base / 1.0 * 0.6, places=2)  # триал gate 0.6
+
+    def test_loot_penalty_reduces_score(self):
+        att = {"a": {"A_eff": 1.0}}
+        perf = {"a": {"P": 0.5}}
+        r = Roster(char_to_player={}, players={"a": {"rank": "member", "characters": []}})
+        s0 = SC.final_scores(att, perf, {"a": {"L_norm": 0.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
+        s1 = SC.final_scores(att, perf, {"a": {"L_norm": 2.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
+        self.assertGreater(s0["a"]["S"], s1["a"]["S"])  # больше лута → ниже приоритет
+
+
+class TestItems(unittest.TestCase):
+    def setUp(self):
+        self.cfg = Config()
+        self.db = ItemDB(self.cfg)
+
+    def test_plate_gated_to_plate_classes(self):
+        ic = self.db.classify(139519)  # латный шлем, сила, танк-маркеры
+        self.assertEqual(ic.slot, "head")
+        self.assertEqual(ic.armor_type, "plate")
+        self.assertTrue(set(ic.eligible_classes).issubset({1, 2, 6}))  # воин/пал/рыцарь
+
+    def test_cloth_int_excludes_plate(self):
+        ic = self.db.classify(139547)  # тканевые плечи, интеллект
+        self.assertEqual(ic.armor_type, "cloth")
+        self.assertNotIn(1, ic.eligible_classes)  # воин ткань не носит
+
+    def test_need_none_for_wrong_class(self):
+        mult, label, _ = self.db.need_level(139519, class_id=8, spec_idx=0)  # маг на латы
+        self.assertEqual(label, "none")
+        self.assertEqual(mult, self.cfg.w("fit", "need_none"))
+
+
+class TestLootAttrib(unittest.TestCase):
+    def test_manual_overrides_auto(self):
+        from core.loot_attrib import merge_with_manual
+
+        manual = [{"record_id": 1, "item_entry": 100, "player": "a", "award_type": "bis"}]
+        auto = [
+            {"record_id": 1, "item_entry": 100, "player": "b", "award_type": "bis", "_source": "auto"},
+            {"record_id": 1, "item_entry": 200, "player": "c", "award_type": "bis", "_source": "auto"},
+        ]
+        merged = merge_with_manual(manual, auto)
+        # ручная запись по (1,100) перекрывает авто; авто по (1,200) добавляется
+        keys = {(r["record_id"], r["item_entry"], r["player"]) for r in merged}
+        self.assertIn((1, 100, "a"), keys)
+        self.assertNotIn((1, 100, "b"), keys)
+        self.assertIn((1, 200, "c"), keys)
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)

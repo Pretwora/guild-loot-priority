@@ -1,0 +1,134 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117346,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Клобук Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:35:47.000000Z",
+   "guid": 1025280,
+   "id": 225428834,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 1025280,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 1025280,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 1025280,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3843,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "5000 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787855863,
+   "datetime": "2026-08-27T15:37:43.000000Z",
+   "guid": 1025280,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6333,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_ritualofsacrifice.png",
+    "name": "Сорванный ритуал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787852698,
+   "datetime": "2026-08-27T14:44:58.000000Z",
+   "guid": 1025280,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9369821
+   },
+   "datetime": "2026-08-26T10:36:33.000000Z",
+   "guid": 1025280,
+   "id": 9369821,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9369777
+   },
+   "datetime": "2026-08-26T09:52:21.000000Z",
+   "guid": 1025280,
+   "id": 9369777,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9369757
+   },
+   "datetime": "2026-08-26T09:36:57.000000Z",
+   "guid": 1025280,
+   "id": 9369757,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9369656
+   },
+   "datetime": "2026-08-26T07:26:46.000000Z",
+   "guid": 1025280,
+   "id": 9369656,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 1025280,
+ "name": "Колбассенкоо",
+ "ts": "2026-09-01T12-54Z"
+}

@@ -1,0 +1,139 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 2929,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 139707,
+    "icon": "https://cdn3.scourge.tech/icons/inv_plate_draenorcrafted_d_01shoulder.png",
+    "name": "Наплечье отчаянного воителя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:42:35.000000Z",
+   "guid": 2929,
+   "id": 226150121,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 2929,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 2929,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 55313,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_cataclysm_melee_b_01.png",
+    "name": "Плащ Мерельдара",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:19:34.000000Z",
+   "guid": 2929,
+   "id": 226146709,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 2929,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82094,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_leather_panda_b_02_brown.png",
+    "name": "Брюки из шкуры мушана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T19:52:53.000000Z",
+   "guid": 2929,
+   "id": 226141684,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 2929,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82905,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate_panda_b_01gold.png",
+    "name": "Кованная духами кираса",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T19:22:45.000000Z",
+   "guid": 2929,
+   "id": 226136129,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 2929,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 2929,
+ "name": "Серёжка",
+ "ts": "2026-09-01T12-54Z"
+}

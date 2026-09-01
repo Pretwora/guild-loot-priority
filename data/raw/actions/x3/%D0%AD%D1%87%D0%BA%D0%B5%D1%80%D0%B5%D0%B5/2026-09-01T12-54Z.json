@@ -1,0 +1,132 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9398266
+   },
+   "datetime": "2026-08-30T18:04:19.000000Z",
+   "guid": 1436851,
+   "id": 9398266,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82086,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_cloth_panda_b_02_white.png",
+    "name": "Растущие повязки",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T17:46:27.000000Z",
+   "guid": 1436851,
+   "id": 225959036,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9398115
+   },
+   "datetime": "2026-08-30T17:45:47.000000Z",
+   "guid": 1436851,
+   "id": 9398115,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788113059,
+   "datetime": "2026-08-30T15:04:19.000000Z",
+   "guid": 1436851,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9388787
+   },
+   "datetime": "2026-08-29T15:18:42.000000Z",
+   "guid": 1436851,
+   "id": 9388787,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9388735
+   },
+   "datetime": "2026-08-29T15:08:15.000000Z",
+   "guid": 1436851,
+   "id": 9388735,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9388721
+   },
+   "datetime": "2026-08-29T15:05:25.000000Z",
+   "guid": 1436851,
+   "id": 9388721,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9388700
+   },
+   "datetime": "2026-08-29T15:03:15.000000Z",
+   "guid": 1436851,
+   "id": 9388700,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9388691
+   },
+   "datetime": "2026-08-29T15:00:26.000000Z",
+   "guid": 1436851,
+   "id": 9388691,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9388669
+   },
+   "datetime": "2026-08-29T14:58:24.000000Z",
+   "guid": 1436851,
+   "id": 9388669,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 1436851,
+ "name": "Эчкерее",
+ "ts": "2026-09-01T12-54Z"
+}

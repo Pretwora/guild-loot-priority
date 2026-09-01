@@ -1,0 +1,136 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 206116,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 206116,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 206116,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104220,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_68.png",
+    "name": "Перстень владыки пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:23:24.000000Z",
+   "guid": 206116,
+   "id": 226147295,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104218,
+    "icon": "https://cdn3.scourge.tech/icons/inv_axe_59.png",
+    "name": "Штурмовой топор эредаров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:19:23.000000Z",
+   "guid": 206116,
+   "id": 226146679,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 206116,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104220,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_68.png",
+    "name": "Перстень владыки пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T19:52:51.000000Z",
+   "guid": 206116,
+   "id": 226141680,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 206116,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 206116,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9405336
+   },
+   "datetime": "2026-08-31T18:54:00.000000Z",
+   "guid": 206116,
+   "id": 9405336,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 206116,
+ "name": "Мозол",
+ "ts": "2026-09-01T12-54Z"
+}

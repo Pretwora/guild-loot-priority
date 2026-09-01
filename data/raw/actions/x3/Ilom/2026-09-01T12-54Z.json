@@ -1,0 +1,149 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44310,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_shortblade_63.png",
+    "name": "Лишний шип Намлака",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T23:43:43.000000Z",
+   "guid": 196429,
+   "id": 226165201,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375469,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_152.png",
+    "name": "Печатка забытых королей",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T21:37:09.000000Z",
+   "guid": 196429,
+   "id": 226156576,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 7267,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков IX",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222908,
+   "datetime": "2026-08-31T21:35:08.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7266,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков VIII",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222685,
+   "datetime": "2026-08-31T21:31:25.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7277,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_ladydeathwhisper.png",
+    "name": "Пришло время умирать",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222426,
+   "datetime": "2026-08-31T21:27:06.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7274,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_stonetablet_06.png",
+    "name": "Разрушитель могил",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222359,
+   "datetime": "2026-08-31T21:25:59.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7269,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_arathihighlands_01.png",
+    "name": "Садовод",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222309,
+   "datetime": "2026-08-31T21:25:09.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7265,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков VII",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788222210,
+   "datetime": "2026-08-31T21:23:30.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7264,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков VI",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788221959,
+   "datetime": "2026-08-31T21:19:19.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7263,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков V",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788221709,
+   "datetime": "2026-08-31T21:15:09.000000Z",
+   "guid": 196429,
+   "realm_id": 22,
+   "type": "achievement"
+  }
+ ],
+ "guid": 196429,
+ "name": "Ilom",
+ "ts": "2026-09-01T12-54Z"
+}

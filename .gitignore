@@ -1,0 +1,21 @@
+# Производное пересчитывается с нуля из сырья (принцип 1 SPEC) — в репозиторий не кладём.
+data/dist/
+web/dist/
+web/public/dashboard.json
+
+# Разведка — образцы для docs/api-schema.md, но не часть пайплайна.
+# (recon_out/ можно оставить как приложенное свидетельство; по умолчанию не игнорируем.)
+
+# Node / Python
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Временное
+*.tmp
+.DS_Store
+loot_errors.md
+issue_body.md
+issue_filled.md

@@ -1,0 +1,59 @@
+{
+  "_comment": "Операционный конфиг: реалм, гильдия, пути, политики. Формульные константы — в weights.yml (раздел 3 SPEC).",
+
+  "realm": "x3",
+  "guild_id": "7868",
+  "guild_name_api": "NoName",
+  "server_utc_offset_hours": 3,
+
+  "data_dir": "data/raw",
+  "min_interval_sec": 1.5,
+  "max_retries": 4,
+  "max_details_per_run": 40,
+
+  "paths": {
+    "raw": "data/raw",
+    "manual": "data/manual",
+    "items": "data/items",
+    "dist": "data/dist",
+    "dashboard": "data/dist/dashboard.json"
+  },
+
+  "raid_night": {
+    "_comment": "Какие размеры рейда идут в ладдер и как player_count раскладывается по бакетам. См. docs/api-schema.md — критическое расхождение с ТЗ: гильдия сейчас ходит в основном 10-ки (Каражан). Дефолт — считать все размеры, каждый вечер помечен своим. Чтобы вернуть рамку ТЗ (только 25), поставь count_raid_sizes: [25].",
+    "count_raid_sizes": [10, 25],
+    "size_buckets": [
+      { "size": 10, "min": 8, "max": 15 },
+      { "size": 25, "min": 20, "max": 30 }
+    ],
+    "team_quorum": 0.5,
+    "_team_comment": "Гильдия водит два состава по 10 (roster team A/B). Вечер считается 'сыгранным командой', если присутствовал ≥ team_quorum её состава. Посещаемость игрока считается по знаменателю только тех вечеров, что играла ЕГО команда — чужие вечера не штрафуют. team:null у игрока → считать по всем вечерам."
+  },
+
+  "loot": {
+    "_comment": "Кандидат на ручную выдачу = quality>=min_quality И count==1 И entry не в валюте. Валюта/значки в дропе (Очки доблести, quality 4, count 30) не должны попадать в issue.",
+    "min_quality": 4,
+    "currency_entry_denylist": [160000],
+    "currency_name_markers": ["Очки доблести", "Значок", "Эмблема", "Знак почета", "Метка"],
+    "attrib_window_hours": 6,
+    "_attrib_comment": "Автоатрибуция лута по ленте действий (event obtaineditem). Игрок считается получателем дропа, если он был на киле И получил этот entry в окне attrib_window_hours после кила. Ручной loot_log.csv перекрывает авто."
+  },
+
+  "tier": {
+    "_comment": "🛑 Раздел 11 SPEC: дата начала тира — граница сравнения перформанса. Не угадана. null = сравнивать по всей доступной истории. Заполни, когда заказчик скажет.",
+    "name": "T4",
+    "start": null
+  },
+
+  "trial": {
+    "_comment": "🛑 Раздел 11 SPEC: сколько рейдов до перевода триала в состав. Это ПОЛИТИКА совета, не код: ранг берётся из roster.yml. Здесь только для страницы 'Как это считается'.",
+    "raids_to_member": null
+  },
+
+  "display": {
+    "_comment": "Раздел 11 SPEC: показывать ли сырые dps публично. Дефолт (обратимо) — только перцентили внутри спека.",
+    "show_raw_dps": false
+  },
+
+  "schema_version": 1
+}

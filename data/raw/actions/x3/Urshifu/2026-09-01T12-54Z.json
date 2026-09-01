@@ -1,0 +1,133 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9400246
+   },
+   "datetime": "2026-08-30T19:52:57.000000Z",
+   "guid": 285546,
+   "id": 9400246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9400136
+   },
+   "datetime": "2026-08-30T19:35:04.000000Z",
+   "guid": 285546,
+   "id": 9400136,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9400085
+   },
+   "datetime": "2026-08-30T19:23:45.000000Z",
+   "guid": 285546,
+   "id": 9400085,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9398724
+   },
+   "datetime": "2026-08-30T19:05:44.000000Z",
+   "guid": 285546,
+   "id": 9398724,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104221,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boot_plate_panda_b_01.png",
+    "name": "Пепельная поступь",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T18:47:50.000000Z",
+   "guid": 285546,
+   "id": 225972620,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9398584
+   },
+   "datetime": "2026-08-30T18:46:40.000000Z",
+   "guid": 285546,
+   "id": 9398584,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9398498
+   },
+   "datetime": "2026-08-30T18:33:41.000000Z",
+   "guid": 285546,
+   "id": 9398498,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82123,
+    "icon": "https://cdn3.scourge.tech/icons/inv_glove_plate_panda_b_01gold.png",
+    "name": "Рукавицы горняка",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T18:24:59.000000Z",
+   "guid": 285546,
+   "id": 225967513,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9398440
+   },
+   "datetime": "2026-08-30T18:24:28.000000Z",
+   "guid": 285546,
+   "id": 9398440,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9398266
+   },
+   "datetime": "2026-08-30T18:04:19.000000Z",
+   "guid": 285546,
+   "id": 9398266,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 285546,
+ "name": "Urshifu",
+ "ts": "2026-09-01T12-54Z"
+}

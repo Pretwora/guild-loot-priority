@@ -1,0 +1,137 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153676,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_diamondring1.png",
+    "name": "Символ мудреца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:44:49.000000Z",
+   "guid": 156786,
+   "id": 226128835,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153671,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_diamondring1.png",
+    "name": "Символ мудреца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:41:32.000000Z",
+   "guid": 156786,
+   "id": 226128146,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9404328
+   },
+   "datetime": "2026-08-31T17:53:27.000000Z",
+   "guid": 156786,
+   "id": 9404328,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9404265
+   },
+   "datetime": "2026-08-31T17:47:36.000000Z",
+   "guid": 156786,
+   "id": 9404265,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6805,
+    "icon": "https://cdn3.scourge.tech/icons/inv_banner_tolbarad_horde.png",
+    "name": "Батальон Кор'крона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788201661,
+   "datetime": "2026-08-31T15:41:01.000000Z",
+   "guid": 156786,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3997,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_shadowmend.png",
+    "name": "Болезненная процедура (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788198807,
+   "datetime": "2026-08-31T14:53:27.000000Z",
+   "guid": 156786,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9400246
+   },
+   "datetime": "2026-08-30T19:52:57.000000Z",
+   "guid": 156786,
+   "id": 9400246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9400136
+   },
+   "datetime": "2026-08-30T19:35:04.000000Z",
+   "guid": 156786,
+   "id": 9400136,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9400085
+   },
+   "datetime": "2026-08-30T19:23:45.000000Z",
+   "guid": 156786,
+   "id": 9400085,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9398724
+   },
+   "datetime": "2026-08-30T19:05:44.000000Z",
+   "guid": 156786,
+   "id": 9398724,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 156786,
+ "name": "Плоскость",
+ "ts": "2026-09-01T12-54Z"
+}

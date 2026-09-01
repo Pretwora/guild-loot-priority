@@ -1,0 +1,136 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9391921
+   },
+   "datetime": "2026-08-30T15:18:40.000000Z",
+   "guid": 1232847,
+   "id": 9391921,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9391902
+   },
+   "datetime": "2026-08-30T15:12:39.000000Z",
+   "guid": 1232847,
+   "id": 9391902,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9391898
+   },
+   "datetime": "2026-08-30T15:10:37.000000Z",
+   "guid": 1232847,
+   "id": 9391898,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9391895
+   },
+   "datetime": "2026-08-30T15:09:19.000000Z",
+   "guid": 1232847,
+   "id": 9391895,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9391892
+   },
+   "datetime": "2026-08-30T15:07:56.000000Z",
+   "guid": 1232847,
+   "id": 9391892,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9391884
+   },
+   "datetime": "2026-08-30T15:06:23.000000Z",
+   "guid": 1232847,
+   "id": 9391884,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3936,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pet_worm.png",
+    "name": "Два йормунгара по цене одного (рейд для 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788102326,
+   "datetime": "2026-08-30T12:05:26.000000Z",
+   "guid": 1232847,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 408,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_fire.png",
+    "name": "Полоса везения",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788051612,
+   "datetime": "2026-08-29T22:00:12.000000Z",
+   "guid": 1232847,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7240,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pet_cats_blacktabbycat.png",
+    "name": "Пушистый царапокалипсис",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787955010,
+   "datetime": "2026-08-28T19:10:10.000000Z",
+   "guid": 1232847,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51378,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T17:40:16.000000Z",
+   "guid": 1232847,
+   "id": 225560763,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 1232847,
+ "name": "Flareonis",
+ "ts": "2026-09-01T12-54Z"
+}

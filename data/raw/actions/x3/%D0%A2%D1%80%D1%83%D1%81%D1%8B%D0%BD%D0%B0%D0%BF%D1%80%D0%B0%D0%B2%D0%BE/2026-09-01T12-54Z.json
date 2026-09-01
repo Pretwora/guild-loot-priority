@@ -1,0 +1,139 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9403913
+   },
+   "datetime": "2026-08-31T16:47:33.000000Z",
+   "guid": 47814,
+   "id": 9403913,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9403881
+   },
+   "datetime": "2026-08-31T16:42:34.000000Z",
+   "guid": 47814,
+   "id": 9403881,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9403862
+   },
+   "datetime": "2026-08-31T16:39:58.000000Z",
+   "guid": 47814,
+   "id": 9403862,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9403847
+   },
+   "datetime": "2026-08-31T16:37:24.000000Z",
+   "guid": 47814,
+   "id": 9403847,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9403837
+   },
+   "datetime": "2026-08-31T16:34:43.000000Z",
+   "guid": 47814,
+   "id": 9403837,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9403819
+   },
+   "datetime": "2026-08-31T16:32:39.000000Z",
+   "guid": 47814,
+   "id": 9403819,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117347,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T16:27:05.000000Z",
+   "guid": 47814,
+   "id": 226100441,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117349,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Нарамник Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T16:27:02.000000Z",
+   "guid": 47814,
+   "id": 226100435,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117346,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Клобук Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T16:27:00.000000Z",
+   "guid": 47814,
+   "id": 226100427,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117345,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T16:26:55.000000Z",
+   "guid": 47814,
+   "id": 226100419,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 47814,
+ "name": "Трусынаправо",
+ "ts": "2026-09-01T12-54Z"
+}

@@ -1,0 +1,77 @@
+# .github/workflows/build.yml
+#
+# Пересчёт приоритета из неизменяемого сырья + сборка сайта + деплой на Pages.
+# Отдельно от collect.yml: поломка формул не должна останавливать накопление истории
+# (принцип 4 SPEC). Всё производное считается с нуля — никакого инкрементального состояния.
+
+name: build
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/raw/**"
+      - "data/manual/**"
+      - "data/items/**"
+      - "config/**"
+      - "core/**"
+      - "web/**"
+      - ".github/workflows/build.yml"
+  workflow_dispatch: {}
+
+# Права для деплоя на Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Зависимости ядра
+        run: pip install -r requirements.txt
+
+      - name: Тесты формул (гейт)
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Пересчёт dashboard.json
+        run: python3 -m core.build_dashboard --config config/config.json
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Сборка фронта
+        working-directory: web
+        run: |
+          npm ci
+          # единственный контракт с фронтом — статический dashboard.json
+          mkdir -p public
+          cp ../data/dist/dashboard.json public/dashboard.json
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

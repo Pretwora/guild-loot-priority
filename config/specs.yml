@@ -1,0 +1,103 @@
+# Справочник классов и спеков Sirus x3.
+#
+# API отдаёт class_id (int) и spec (int, индекс вкладки талантов 0..2) и role (int).
+# Здесь — маппинг в человекочитаемое: имя класса, цвет класса WoW (обязателен на
+# дашборде, раздел 9.3), тип брони, и по каждому спеку — имя, роль по умолчанию,
+# основной стат. Роль в конкретном киле берётся из API (role 1/2/3), а не отсюда;
+# здесь роль дефолтная, для отображения и для каскада item→class (раздел 8).
+#
+# Маппинг role из API: 1=tank, 2=heal, 3=dps (см. docs/api-schema.md).
+
+role_map:
+  1: tank
+  2: heal
+  3: dps
+
+# Типы брони → классы (раздел 8, каскад шаг 1)
+armor_classes:
+  cloth: [5, 8, 9] # жрец, маг, чернокнижник
+  leather: [4, 11] # разбойник, друид
+  mail: [3, 7] # охотник, шаман
+  plate: [1, 2, 6] # воин, паладин, рыцарь смерти
+
+classes:
+  1:
+    name: Воин
+    color: "C69B6D"
+    armor: plate
+    specs:
+      0: { name: Оружие, role: dps, stat: strength }
+      1: { name: Неистовство, role: dps, stat: strength }
+      2: { name: Защита, role: tank, stat: strength }
+  2:
+    name: Паладин
+    color: "F48CBA"
+    armor: plate
+    specs:
+      0: { name: Свет, role: heal, stat: intellect }
+      1: { name: Защита, role: tank, stat: strength }
+      2: { name: Воздаяние, role: dps, stat: strength }
+  3:
+    name: Охотник
+    color: "AAD372"
+    armor: mail
+    specs:
+      0: { name: Повелитель зверей, role: dps, stat: agility }
+      1: { name: Стрельба, role: dps, stat: agility }
+      2: { name: Выживание, role: dps, stat: agility }
+  4:
+    name: Разбойник
+    color: "FFF468"
+    armor: leather
+    specs:
+      0: { name: Ликвидация, role: dps, stat: agility }
+      1: { name: Бой, role: dps, stat: agility }
+      2: { name: Скрытность, role: dps, stat: agility }
+  5:
+    name: Жрец
+    color: "FFFFFF"
+    armor: cloth
+    specs:
+      0: { name: Послушание, role: heal, stat: intellect }
+      1: { name: Свет, role: heal, stat: intellect }
+      2: { name: Тьма, role: dps, stat: intellect }
+  6:
+    name: Рыцарь смерти
+    color: "C41E3A"
+    armor: plate
+    specs:
+      0: { name: Кровь, role: tank, stat: strength }
+      1: { name: Лед, role: dps, stat: strength }
+      2: { name: Нечестивость, role: dps, stat: strength }
+  7:
+    name: Шаман
+    color: "0070DD"
+    armor: mail
+    specs:
+      0: { name: Стихии, role: dps, stat: intellect }
+      1: { name: Совершенствование, role: dps, stat: agility }
+      2: { name: Исцеление, role: heal, stat: intellect }
+  8:
+    name: Маг
+    color: "3FC7EB"
+    armor: cloth
+    specs:
+      0: { name: Тайная магия, role: dps, stat: intellect }
+      1: { name: Огонь, role: dps, stat: intellect }
+      2: { name: Лед, role: dps, stat: intellect }
+  9:
+    name: Чернокнижник
+    color: "8788EE"
+    armor: cloth
+    specs:
+      0: { name: Колдовство, role: dps, stat: intellect }
+      1: { name: Демонология, role: dps, stat: intellect }
+      2: { name: Разрушение, role: dps, stat: intellect }
+  11:
+    name: Друид
+    color: "FF7C0A"
+    armor: leather
+    specs:
+      0: { name: Баланс, role: dps, stat: intellect }
+      1: { name: Сила зверя, role: dps, stat: agility } # кот (dps) или медведь (танк) — уточняется по role из API
+      2: { name: Восстановление, role: heal, stat: intellect }

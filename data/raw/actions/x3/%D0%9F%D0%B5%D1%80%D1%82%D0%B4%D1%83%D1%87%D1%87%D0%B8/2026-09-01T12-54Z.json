@@ -1,0 +1,141 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ticket_tarot_maelstrom_01.png",
+    "name": "Счастливая карта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:36:03.000000Z",
+   "guid": 287095,
+   "id": 225428888,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 287095,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 287095,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 287095,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48593,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_65.png",
+    "name": "Перчатки триумфа Лиадрин",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T15:03:18.000000Z",
+   "guid": 287095,
+   "id": 225368871,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Коралон Страж Огня",
+    "bossfight_id": 9374979
+   },
+   "datetime": "2026-08-27T15:01:51.000000Z",
+   "guid": 287095,
+   "id": 9374979,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41767,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_53.png",
+    "name": "Кожаные перчатки гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T15:00:11.000000Z",
+   "guid": 287095,
+   "id": 225368231,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Эмалон Страж Бури",
+    "bossfight_id": 9374968
+   },
+   "datetime": "2026-08-27T14:59:44.000000Z",
+   "guid": 287095,
+   "id": 9374968,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Аркавон Страж Камня",
+    "bossfight_id": 9374950
+   },
+   "datetime": "2026-08-27T14:57:33.000000Z",
+   "guid": 287095,
+   "id": 9374950,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": true,
+    "level": 11,
+    "reward_level": 2,
+    "run_id": 979316,
+    "score": 156.062,
+    "timer": 1827
+   },
+   "datetime": "2026-08-27T10:49:52.000000Z",
+   "guid": 287095,
+   "id": 979316,
+   "realm_id": 22,
+   "type": "challenge"
+  }
+ ],
+ "guid": 287095,
+ "name": "Пертдуччи",
+ "ts": "2026-09-01T12-54Z"
+}

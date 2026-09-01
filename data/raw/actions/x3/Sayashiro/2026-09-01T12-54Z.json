@@ -1,0 +1,143 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9391762
+   },
+   "datetime": "2026-08-30T13:42:28.000000Z",
+   "guid": 154066,
+   "id": 9391762,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9391747
+   },
+   "datetime": "2026-08-30T13:33:04.000000Z",
+   "guid": 154066,
+   "id": 9391747,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9391741
+   },
+   "datetime": "2026-08-30T13:31:01.000000Z",
+   "guid": 154066,
+   "id": 9391741,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9391738
+   },
+   "datetime": "2026-08-30T13:29:48.000000Z",
+   "guid": 154066,
+   "id": 9391738,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9391734
+   },
+   "datetime": "2026-08-30T13:28:21.000000Z",
+   "guid": 154066,
+   "id": 9391734,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9391729
+   },
+   "datetime": "2026-08-30T13:26:45.000000Z",
+   "guid": 154066,
+   "id": 9391729,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375699,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_10.png",
+    "name": "Кристаллические браслеты мага",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T15:19:54.000000Z",
+   "guid": 154066,
+   "id": 225533572,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 13,
+    "dungeon_name": "Аукиндон: Аукенайские гробницы",
+    "has_run_log": false,
+    "level": 12,
+    "reward_level": 0,
+    "run_id": 984577,
+    "score": 0,
+    "timer": 3873
+   },
+   "datetime": "2026-08-28T12:19:37.000000Z",
+   "guid": 154066,
+   "id": 984577,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 9,
+    "reward_level": 3,
+    "run_id": 984552,
+    "score": 135,
+    "timer": 1400
+   },
+   "datetime": "2026-08-28T11:05:28.000000Z",
+   "guid": 154066,
+   "id": 984552,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 90488,
+    "icon": "https://cdn3.scourge.tech/icons/inv_offhand_1h_pandariaquest_b_02.png",
+    "name": "Журавль Шоми",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:29:29.000000Z",
+   "guid": 154066,
+   "id": 225427250,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 154066,
+ "name": "Sayashiro",
+ "ts": "2026-09-01T12-54Z"
+}

@@ -1,0 +1,62 @@
+﻿# .github/workflows/collect.yml
+#
+# Единственная задача воркфлоу — регулярно забирать сырьё и коммитить его.
+# Пересчёт приоритета и сборка сайта живут в отдельном build.yml, чтобы
+# поломка формул никогда не останавливала сбор данных.
+
+name: collect
+
+on:
+  schedule:
+    # каждые 30 минут. Cron в Actions неточный и может опаздывать на 5-15 минут —
+    # это нормально, лента килов живёт достаточно долго.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Сбор килов
+        run: python3 collector/collect.py --config config/config.json
+
+      - name: Добор карточек упавших предметов
+        # Тоже «качает и складывает»: слота/статов в дропе нет, тянем карточку по одному
+        # и кешируем навсегда. best-effort — не валит сбор килов.
+        continue-on-error: true
+        run: python3 tools/fetch_items.py --config config/config.json
+
+      - name: Снимки ленты действий (получатели лута)
+        # obtaineditem → кто что залутал. Часто, чтобы ловить события пока они в окне ленты.
+        continue-on-error: true
+        run: python3 tools/collect_actions.py --config config/config.json
+
+      - name: Коммит сырья
+        run: |
+          if [ -z "$(git status --porcelain data/raw data/items)" ]; then
+            echo "Новых данных нет"
+            exit 0
+          fi
+          git config user.name  "loot-collector"
+          git config user.email "actions@github.com"
+          git add data/raw data/items
+          COUNT=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "data: +${COUNT} файлов ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          # На случай, если параллельный прогон уже что-то залил
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+          git push

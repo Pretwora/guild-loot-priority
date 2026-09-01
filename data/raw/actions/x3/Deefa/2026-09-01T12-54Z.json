@@ -1,0 +1,139 @@
+{
+ "events": [
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 43586,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_11.png",
+    "name": "Нагрудный доспех ледяной погибели",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T07:37:00.000000Z",
+   "guid": 1374511,
+   "id": 226186471,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9407404
+   },
+   "datetime": "2026-08-31T22:35:15.000000Z",
+   "guid": 1374511,
+   "id": 9407404,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9407399
+   },
+   "datetime": "2026-08-31T22:29:23.000000Z",
+   "guid": 1374511,
+   "id": 9407399,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9407398
+   },
+   "datetime": "2026-08-31T22:26:19.000000Z",
+   "guid": 1374511,
+   "id": 9407398,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9407395
+   },
+   "datetime": "2026-08-31T22:24:10.000000Z",
+   "guid": 1374511,
+   "id": 9407395,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9407394
+   },
+   "datetime": "2026-08-31T22:22:11.000000Z",
+   "guid": 1374511,
+   "id": 9407394,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9407389
+   },
+   "datetime": "2026-08-31T22:20:33.000000Z",
+   "guid": 1374511,
+   "id": 9407389,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117379,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate_dungeonplate_c_03.png",
+    "name": "Доспех Падшего",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:35:45.000000Z",
+   "guid": 1374511,
+   "id": 226149268,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 107454,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_56.png",
+    "name": "Печать мрачного суда",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:34:31.000000Z",
+   "guid": 1374511,
+   "id": 226149121,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117311,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_dungeonplate_c_03.png",
+    "name": "Штаны Падшего",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:19:30.000000Z",
+   "guid": 1374511,
+   "id": 226146698,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 1374511,
+ "name": "Deefa",
+ "ts": "2026-09-01T12-54Z"
+}

@@ -1,0 +1,140 @@
+{
+ "events": [
+  {
+   "action": {
+    "entry": 687,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_cthun.png",
+    "name": "Храм Ан'Киража",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788264501,
+   "datetime": "2026-09-01T09:08:21.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 856,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_silithus_01.png",
+    "name": "Силитус",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788263000,
+   "datetime": "2026-09-01T08:43:20.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 201965,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 201965,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 140195,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boot_mail_draenorcrafted_d_01_alliance.png",
+    "name": "Окольцованные ботинки внезапной бури",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:32:53.000000Z",
+   "guid": 201965,
+   "id": 226148875,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 201965,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100422,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_15.png",
+    "name": "Большой шлем смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:23:50.000000Z",
+   "guid": 201965,
+   "id": 226147399,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 55313,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_cataclysm_melee_b_01.png",
+    "name": "Плащ Мерельдара",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:20:16.000000Z",
+   "guid": 201965,
+   "id": 226146830,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 201965,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 201965,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 201965,
+ "name": "Ashqdexe",
+ "ts": "2026-09-01T12-54Z"
+}

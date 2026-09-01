@@ -1,0 +1,127 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 961025,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 961025,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 961025,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9375337
+   },
+   "datetime": "2026-08-27T16:17:02.000000Z",
+   "guid": 961025,
+   "id": 9375337,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9375271
+   },
+   "datetime": "2026-08-27T16:05:38.000000Z",
+   "guid": 961025,
+   "id": 9375271,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9375256
+   },
+   "datetime": "2026-08-27T16:03:08.000000Z",
+   "guid": 961025,
+   "id": 9375256,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9375236
+   },
+   "datetime": "2026-08-27T16:00:16.000000Z",
+   "guid": 961025,
+   "id": 9375236,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9375231
+   },
+   "datetime": "2026-08-27T15:57:16.000000Z",
+   "guid": 961025,
+   "id": 9375231,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9375212
+   },
+   "datetime": "2026-08-27T15:54:28.000000Z",
+   "guid": 961025,
+   "id": 9375212,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9365473
+   },
+   "datetime": "2026-08-25T20:44:03.000000Z",
+   "guid": 961025,
+   "id": 9365473,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 961025,
+ "name": "Palotence",
+ "ts": "2026-09-01T12-54Z"
+}
