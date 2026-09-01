@@ -20,6 +20,7 @@ export function PlayerName({ p }) {
     <>
       <span className="pname" style={{ color: readableColor(p.class_color) }}>{p.display}</span>
       <span className="spec">{p.spec_name}</span>
+      {p.signed_up && <span className="signed-mark" title={`Записан на рейд (+${p.signup_bonus} к рейтингу)`}>✍</span>}
       {p.frozen && <span className="frozen-mark" title="Рейтинг заморожен советом">❄</span>}
     </>
   );

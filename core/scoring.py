@@ -401,7 +401,7 @@ def load_adjustments(cfg, now):
     return active
 
 
-def final_scores(att, perf, loot, roster, cfg, now):
+def final_scores(att, perf, loot, roster, cfg, now, signup_bonus=None):
     scale = cfg.w("score", "scale")
     w_att = cfg.w("score", "w_attendance")
     w_perf = cfg.w("score", "w_perf")
@@ -426,6 +426,8 @@ def final_scores(att, perf, loot, roster, cfg, now):
         else:
             # перформанс к роли не применяется (танк/хил): его вес уходит в посещаемость
             base = (w_att + w_perf) * A_eff
+        sign_bonus = (signup_bonus or {}).get(pid, 0.0)
+        base += sign_bonus  # небольшой бонус за запись на рейд (raid-helper)
         adj_applied = []
         frozen = None
         for a in adj_by_player.get(pid, []):
@@ -450,7 +452,8 @@ def final_scores(att, perf, loot, roster, cfg, now):
             "base": round(base, 4),
             "rank": rank, "rank_gate": gate,
             "perf_measured": measured,
-            "components": {"A_eff": A_eff, "P": P, "L_norm": L_norm},
+            "signup_bonus": round(sign_bonus, 4),
+            "components": {"A_eff": A_eff, "P": P, "L_norm": L_norm, "signup": round(sign_bonus, 4)},
             "adjustments": adj_applied,
             "frozen": bool(frozen),
         }

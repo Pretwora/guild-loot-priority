@@ -22,6 +22,7 @@ export default function HowItWorks({ data }) {
             <dt>rank_gate триал</dt><dd className="num">{w.score.rank_gate.trial}</dd>
             <dt>rank_gate состав</dt><dd className="num">{w.score.rank_gate.member}</dd>
           </dl>
+          <p className="reason">Небольшой бонус за запись на рейд (raid-helper): +{w.signup?.bonus_signed ?? 0} за подтверждённую, +{w.signup?.bonus_tentative ?? 0} за «может быть», потолок +{w.signup?.cap ?? 0}. Ответственность поощряется чуть-чуть, отметка ✍ в списке.</p>
         </Panel>
 
         <Panel title="A — посещаемость (0..1)">

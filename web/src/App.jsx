@@ -110,6 +110,7 @@ function IssuesBar({ issues, meta }) {
   const unclosed = issues.unclosed_count || 0;
   const auto = issues.loot_auto_count || 0;
   const ambiguous = issues.loot_ambiguous?.length || 0;
+  const signupUnmatched = issues.signup_unmatched?.length || 0;
   const combat = meta.combat || {};
   return (
     <div className="issues">
@@ -122,6 +123,7 @@ function IssuesBar({ issues, meta }) {
       {ambiguous > 0 && <span className="chip alert">спорная атрибуция: <b>{ambiguous}</b></span>}
       {unknown > 0 && <span className="chip alert">в ростер: <b>{unknown}</b></span>}
       {unmarked > 0 && <span className="chip alert">размётка предметов: <b>{unmarked}</b></span>}
+      {signupUnmatched > 0 && <span className="chip alert">записи без ростера: <b>{signupUnmatched}</b></span>}
       {pugs > 0 && <span className="chip">пугов вне ростера: <b>{pugs}</b></span>}
     </div>
   );

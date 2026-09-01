@@ -103,6 +103,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                 : <span className="reason">не применяется — {ROLE_RU[p.performance.role] || "роль"} судится по посещаемости (слишком ситуативно)</span>}</dd>
               <dt>Лут L_norm</dt><dd className="num">{f2(c.L_norm)} <span className="reason">чем больше уже получил, тем ниже приоритет</span></dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
+              {p.signup_bonus > 0 && (<><dt>Запись на рейд</dt><dd className="num delta up">+{p.signup_bonus} <span className="reason">бонус за запись (raid-helper)</span></dd></>)}
             </dl>
           </div>
         </div>

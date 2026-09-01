@@ -16,6 +16,7 @@ from core.common import Config, server_now
 from core import normalize as N
 from core import scoring as SC
 from core import loot_attrib as LA
+from core import signups as SU
 from core.combat import CombatDB
 from core.items import ItemDB
 
@@ -32,7 +33,7 @@ def _counted(kills, cfg):
     return [k for k in kills if k.size_bucket in sizes]
 
 
-def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen):
+def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen, signup_bonus=None):
     """Скоринг: посещаемость — только по РТ (attendance.raid_sizes) из ВСЕХ килов и общая
     для всех скоупов; перформанс/лут/вечера-для-показа — по килам скоупа."""
     ks = [k for k in scope_kills if k.killed_at is not None and k.killed_at <= cutoff]
@@ -52,7 +53,7 @@ def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_
     auto_rows = [r for r in auto_rows if _row_before(r, cutoff)]
     loot_log = LA.merge_with_manual(manual, auto_rows)
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
-    final = SC.final_scores(att, perf, loot, roster, cfg, cutoff)
+    final = SC.final_scores(att, perf, loot, roster, cfg, cutoff, signup_bonus)
     return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
             "final": final, "loot_log": loot_log, "kills": ks,
             "auto_count": len(auto_rows), "loot_ambiguous": ambiguous}
@@ -80,13 +81,13 @@ def _scope_defs(cfg):
     return defs
 
 
-def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen):
+def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus):
     counted = [k for k in all_kills if k.size_bucket in set(sizes)]
-    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen)
+    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen, signup_bonus)
     prev_final = {}
     if len(cur["nights"]) >= 2:
         cutoff_prev = cur["nights"][-1].started_at - timedelta(seconds=1)
-        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen)["final"]
+        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen, signup_bonus)["final"]
     return cur, prev_final, counted
 
 
@@ -98,15 +99,16 @@ def build(config_path="config/config.json"):
     combat = CombatDB(cfg)
     all_kills = N.load_kills(cfg)
     first_seen = N.first_seen_by_player(all_kills, roster)
+    signup_bonus, signed_latest, signup_unmatched, signup_events = SU.compute(cfg, roster)
 
     scopes = []
     all_cur = all_counted = None
     for key, label, sizes in _scope_defs(cfg):
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen)
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
-            "players": _players(cfg, roster, cur, prev_final),
+            "players": _players(cfg, roster, cur, prev_final, signed_latest),
             "nights": _nights(cfg, roster, cur["nights"]),
         })
         if key == "all":
@@ -122,7 +124,7 @@ def build(config_path="config/config.json"):
         "nights": scopes[0]["nights"],
         "lootboard": _lootboard(cfg, roster, all_cur),
         "unclosed_drops": _unclosed(cfg, roster, all_cur, item_db, now),
-        "issues": _issues(cfg, roster, all_counted, item_db, all_cur),
+        "issues": _issues(cfg, roster, all_counted, item_db, all_cur, signup_unmatched),
         "formula": _formula(cfg),
     }
 
@@ -164,7 +166,7 @@ def _meta(cfg, all_kills, counted, nights, combat):
     }
 
 
-def _players(cfg, roster, cur, prev_final):
+def _players(cfg, roster, cur, prev_final, signed_latest=frozenset()):
     show_dps = cfg.raw["display"]["show_raw_dps"]
     rows = []
     for pid, pl in roster.players.items():
@@ -194,6 +196,8 @@ def _players(cfg, roster, cur, prev_final):
             "rank_gate": final["rank_gate"],
             "frozen": final["frozen"],
             "perf_measured": final["perf_measured"],
+            "signup_bonus": final.get("signup_bonus", 0.0),
+            "signed_up": pid in signed_latest,
             "adjustments": final["adjustments"],
             "components": final["components"],
             "attendance": cur["att"][pid],
@@ -213,10 +217,11 @@ def _delta_breakdown(cfg, now, prev, total):
     k = cfg.w("score", "loot_penalty_k")
     gate = now.get("rank_gate", 1.0)
     measured = now.get("perf_measured", True)
+    sg = now["components"].get("signup", 0.0)  # бонус записи — константа между отсечками
 
     def S(A, P, L):
         base = (wa * A + wp * P) if (measured and P is not None) else (wa + wp) * A
-        return scale * base / (1 + k * L) * gate
+        return scale * (base + sg) / (1 + k * L) * gate
 
     cn, cp = now["components"], prev["components"]
     an, pn, ln = cn["A_eff"], cn["P"], cn["L_norm"]
@@ -308,7 +313,7 @@ def _unclosed(cfg, roster, cur, item_db, now):
     return out
 
 
-def _issues(cfg, roster, counted, item_db, cur):
+def _issues(cfg, roster, counted, item_db, cur, signup_unmatched=None):
     unknown = N.unknown_characters(counted, roster, cfg)
     # неразмеченные предметы среди упавших
     seen, unmarked = set(), []
@@ -328,6 +333,7 @@ def _issues(cfg, roster, counted, item_db, cur):
         "unclosed_count": len(_unclosed_ids(cfg, cur)),
         "loot_auto_count": cur.get("auto_count", 0),
         "loot_ambiguous": cur.get("loot_ambiguous", []),
+        "signup_unmatched": signup_unmatched or [],
     }
 
 
