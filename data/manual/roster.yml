@@ -124,6 +124,7 @@ players:
         main: true
 
   - id: fexler
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Fexler
     rank: member
     team: B
@@ -135,6 +136,7 @@ players:
         main: true
 
   - id: kriptid
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Криптид
     rank: member
     team: B
@@ -146,6 +148,7 @@ players:
         main: true
 
   - id: horikuz
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Horikuz
     rank: member
     team: B
@@ -157,6 +160,7 @@ players:
         main: true
 
   - id: killhord
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Killhord
     rank: member
     team: B
@@ -179,6 +183,7 @@ players:
         main: true
 
   - id: mozol
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Мозол
     rank: member
     team: B
@@ -190,6 +195,7 @@ players:
         main: true
 
   - id: sonechko
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Сонечко
     rank: member
     team: B
@@ -201,6 +207,7 @@ players:
         main: true
 
   - id: serezhka
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Серёжка
     rank: member
     team: B
@@ -212,6 +219,7 @@ players:
         main: true
 
   - id: arkeli
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Arkeli
     rank: member
     team: B
@@ -223,6 +231,7 @@ players:
         main: true
 
   - id: probol
+    joined: 2026-08-13   # своей пачкой в гильдии с 13.08 (со слов РЛ)
     display: Проболь
     rank: member
     team: B
