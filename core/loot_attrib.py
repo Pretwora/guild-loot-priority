@@ -58,30 +58,58 @@ def attribute(cfg, kills, roster, item_db):
     lead = timedelta(minutes=10)  # выдать могли за пару минут до отметки кила
     min_q = cfg.raw["loot"]["min_quality"]
     sizes = set(cfg.raw["raid_night"]["count_raid_sizes"])
+    master = cfg.raw["loot"].get("master_looter")  # ГМ/мастер-лутер — транзит, не получатель
+
+    # Присутствие считаем по РЕЙД-ВЕЧЕРУ, а не по конкретному килу: при мастер-луте ГМ
+    # раздаёт трейдом любому в рейде (получатель мог быть не на этом боссе). Плюс это
+    # отсекает шум чужих рейдов по тому же entry. record_id → имена рейда за вечер.
+    line_of = {p.name: p for k in kills for p in k.players}
+    night_roster = {}
+    dated = sorted((k for k in kills if k.size_bucket in sizes and k.killed_at),
+                   key=lambda x: x.killed_at)
+    grp = []
+
+    def _flush(g):
+        names = {p.name for kk in g for p in kk.players}
+        for kk in g:
+            night_roster[kk.record_id] = names
+
+    for k in dated:
+        if grp and (k.killed_at - grp[-1].killed_at).total_seconds() > 3 * 3600:
+            _flush(grp)
+            grp = []
+        grp.append(k)
+    if grp:
+        _flush(grp)
 
     auto_rows, ambiguous = [], []
     for k in kills:
         if k.size_bucket not in sizes or k.killed_at is None:
             continue
         kt_utc = k.killed_at - timedelta(hours=off)
-        present = {p.name: p for p in k.players}
+        raid_names = night_roster.get(k.record_id) or {p.name for p in k.players}
         for lo in k.loots:
             if lo.is_currency or lo.quality < min_q or lo.count != 1:
                 continue
-            receivers = {}  # pid -> (name, obtain_dt)
-            for nm, p in present.items():
+            receivers = {}  # pid -> (name, latest_obtain_dt)
+            for nm in raid_names:
+                if master and nm == master:
+                    continue  # мастер-лутер получает всё в момент кила — не он получатель
                 pid = roster.player_of(nm)
                 if not pid:
                     continue
                 for entry, dt in obtained.get(nm, []):
                     if entry == lo.entry and (kt_utc - lead) <= dt <= (kt_utc + window):
-                        if pid not in receivers or dt < receivers[pid][1]:
+                        # самое ПОЗДНЕЕ время: финальный держатель после трейда от ГМ
+                        if pid not in receivers or dt > receivers[pid][1]:
                             receivers[pid] = (nm, dt)
 
-            if len(receivers) == 1:
-                pid, (nm, dt) = next(iter(receivers.items()))
-                p = present[nm]
-                award = _infer_award(item_db, lo.entry, p.class_id, p.spec, lo.name)
+            if receivers:
+                # получатель = с самым поздним временем получения (конец цепочки трейдов)
+                pid = max(receivers, key=lambda p: receivers[p][1])
+                nm = receivers[pid][0]
+                p = line_of.get(nm)
+                award = _infer_award(item_db, lo.entry, p.class_id, p.spec, lo.name) if p else "bis"
                 auto_rows.append({
                     "date": k.killed_at.strftime("%Y-%m-%d"),
                     "record_id": k.record_id,
@@ -92,9 +120,9 @@ def attribute(cfg, kills, roster, item_db):
                     "note": "auto:actions",
                     "_source": "auto",
                 })
-            elif len(receivers) > 1:
-                ambiguous.append({"record_id": k.record_id, "entry": lo.entry,
-                                  "item": lo.name, "players": sorted(receivers)})
+                if len({p for p in receivers}) > 1:  # были и другие держатели — на проверку
+                    ambiguous.append({"record_id": k.record_id, "entry": lo.entry,
+                                      "item": lo.name, "players": sorted(receivers)})
     return auto_rows, ambiguous
 
 
