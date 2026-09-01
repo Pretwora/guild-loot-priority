@@ -39,7 +39,7 @@
   "loot": {
     "_comment": "Кандидат на ручную выдачу = quality>=min_quality И count==1 И entry не в валюте. Валюта/значки в дропе (Очки доблести, quality 4, count 30) не должны попадать в issue.",
     "min_quality": 4,
-    "currency_entry_denylist": [160000],
+    "currency_entry_denylist": [160000, 99899, 47242],
     "currency_name_markers": ["Очки доблести", "Значок", "Эмблема", "Знак почета", "Метка"],
     "attrib_window_hours": 6,
     "_attrib_comment": "Автоатрибуция лута по ленте действий (event obtaineditem). Игрок считается получателем дропа, если он был на киле И получил этот entry в окне attrib_window_hours после кила. Ручной loot_log.csv перекрывает авто."
