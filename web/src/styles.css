@@ -187,18 +187,30 @@ kbd { font-family: var(--mono); background: #26262e; border: 1px solid var(--lin
   nav.tabs button, tbody tr { transition: background-color 90ms ease, color 90ms ease; }
 }
 
-/* светлая тема — бонус через prefers-color-scheme */
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #f4f2ee; --bg-panel: #ffffff; --bg-row-alt: #faf9f6; --bg-row-hover: #efece5;
-    --line: #e0ddd4; --line-strong: #cfcbbf; --ink: #23221e; --ink-muted: #6a675e;
-    --ink-faint: #9a968b; --accent: #9a6d1e; --accent-dim: #caa869;
-    color-scheme: light;
-  }
-  .topbar { background: #efece5; }
-  thead th { background: #efece5; }
-  .meter .track { background: #e0ddd4; }
+/* Светлая тема — по атрибуту data-theme (ставит переключатель + инлайн-скрипт в
+   index.html до отрисовки, чтобы не мигало). Тёмная — дефолт на :root выше. */
+:root[data-theme="light"] {
+  --bg: #f4f2ee; --bg-panel: #ffffff; --bg-row-alt: #faf9f6; --bg-row-hover: #ece9e2;
+  --line: #e0ddd4; --line-strong: #cfcbbf; --ink: #23221e; --ink-muted: #6a675e;
+  --ink-faint: #9a968b; --accent: #9a6d1e; --accent-dim: #caa869;
+  color-scheme: light;
 }
+:root[data-theme="light"] .topbar { background: #efece5; }
+:root[data-theme="light"] thead th { background: #efece5; }
+:root[data-theme="light"] .meter .track { background: #e0ddd4; }
+:root[data-theme="light"] .meter .fill { background: linear-gradient(90deg, #6f86a8, #93a9c6); }
+:root[data-theme="light"] .meter .fill.perf { background: linear-gradient(90deg, #7f9d5f, #a6c081); }
+:root[data-theme="light"] .formula-block { background: #efece5; color: var(--ink); }
+
+/* Переключатель темы — правый верхний угол */
+.theme-toggle {
+  margin-left: auto; align-self: center;
+  appearance: none; background: transparent; border: 1px solid var(--line-strong);
+  color: var(--ink-muted); border-radius: var(--radius); cursor: pointer;
+  min-width: 30px; height: 26px; font-size: 14px; line-height: 1; padding: 0 8px;
+}
+.theme-toggle:hover { color: var(--ink); background: var(--bg-row-alt); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 @media (max-width: 640px) {
   .content { padding: 10px 8px 60px; }

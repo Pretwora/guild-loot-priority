@@ -25,14 +25,25 @@ function contrast(rgb, bgRgb) {
   return (hi + 0.05) / (lo + 0.05);
 }
 
-const DARK_BG = [22, 22, 26]; // --bg
+const DARK_BG = [22, 22, 26]; // --bg (тёмная тема)
+const LIGHT_BG = [244, 242, 238]; // --bg (светлая тема)
+
+// Активная тема — модульная переменная, App обновляет её при переключении, до
+// рендера детей. Так readableColor знает, в какую сторону тянуть цвет.
+let _theme = "dark";
+export function setColorTheme(t) {
+  _theme = t === "light" ? "light" : "dark";
+}
 
 export function readableColor(hex, target = 4.5) {
-  if (!hex) return "#e6e6ea";
+  if (!hex) return _theme === "light" ? "#23221e" : "#e6e6ea";
+  const light = _theme === "light";
+  const bg = light ? LIGHT_BG : DARK_BG;
   let rgb = hexToRgb(hex.startsWith("#") ? hex : "#" + hex);
   let guard = 0;
-  while (contrast(rgb, DARK_BG) < target && guard < 24) {
-    rgb = rgb.map((v) => v + (255 - v) * 0.14); // подмешиваем белый
+  while (contrast(rgb, bg) < target && guard < 28) {
+    // на тёмном фоне осветляем к белому, на светлом — затемняем к чёрному
+    rgb = light ? rgb.map((v) => v * 0.86) : rgb.map((v) => v + (255 - v) * 0.14);
     guard++;
   }
   return rgbToHex(rgb);

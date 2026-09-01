@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { setColorTheme } from "./lib.js";
 import Priority from "./screens/Priority.jsx";
 import LootBoard from "./screens/LootBoard.jsx";
 import Raids from "./screens/Raids.jsx";
@@ -18,6 +19,22 @@ export default function App() {
   const [tab, setTab] = useState("priority");
   const [player, setPlayer] = useState(null); // id для экрана «Игрок»
   const [scope, setScope] = useState("all"); // ладдер: all | 10 | 25
+  const [theme, setTheme] = useState(() => {
+    try {
+      return localStorage.getItem("loot-theme")
+        || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    } catch { return "dark"; }
+  });
+
+  // применяем тему до рендера детей — readableColor читает её при отрисовке
+  setColorTheme(theme);
+
+  useEffect(() => {
+    try {
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("loot-theme", theme);
+    } catch { /* приватный режим — не критично */ }
+  }, [theme]);
 
   useEffect(() => {
     fetch("./dashboard.json", { cache: "no-cache" })
@@ -51,6 +68,11 @@ export default function App() {
             <button aria-current={true} onClick={() => setTab("player")}>Игрок</button>
           )}
         </nav>
+        <button className="theme-toggle" onClick={() => setTheme((t) => (t === "dark" ? "light" : "dark"))}
+                aria-label={theme === "dark" ? "Переключить на светлую тему" : "Переключить на тёмную тему"}
+                title={theme === "dark" ? "Светлая тема" : "Тёмная тема"}>
+          {theme === "dark" ? "☀︎" : "☾"}
+        </button>
       </header>
 
       <main className="content">
