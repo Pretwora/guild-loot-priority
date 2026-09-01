@@ -52,6 +52,10 @@ def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_
     auto_rows, ambiguous = LA.attribute(cfg, ks, roster, item_db)
     auto_rows = [r for r in auto_rows if _row_before(r, cutoff)]
     loot_log = LA.merge_with_manual(manual, auto_rows)
+    # лут строго по килам скоупа: 10-к лут не идёт в зачёт 25-ок (и наоборот)
+    scope_records = {k.record_id for k in ks}
+    loot_log = [r for r in loot_log
+                if str(r.get("record_id")).isdigit() and int(r["record_id"]) in scope_records]
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
     final = SC.final_scores(att, perf, loot, roster, cfg, cutoff, signup_bonus)
     return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
@@ -105,11 +109,15 @@ def build(config_path="config/config.json"):
     scopes = []
     all_cur = all_counted = None
     for key, label, sizes in _scope_defs(cfg):
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus)
+        # записи распространяются только на 25-ки: в ладдере без 25 бонус/✍ не применяются
+        has25 = 25 in set(sizes)
+        sb = signup_bonus if has25 else {}
+        sl = signed_latest if has25 else frozenset()
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, sb)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
-            "players": _players(cfg, roster, cur, prev_final, signed_latest),
+            "players": _players(cfg, roster, cur, prev_final, sl),
             "nights": _nights(cfg, roster, cur["nights"]),
         })
         if key == "all":
