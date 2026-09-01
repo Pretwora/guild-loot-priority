@@ -1,4 +1,4 @@
-import { readableColor, pct, f2, f1, deltaClass, deltaText, useSort } from "../lib.js";
+import { readableColor, pct, f2, f1, deltaClass, deltaText, deltaTooltip, useSort } from "../lib.js";
 
 function Caret({ active, dir }) {
   if (!active) return null;
@@ -70,9 +70,15 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                 </td>
                 <td><RankBadge rank={p.rank} /></td>
                 <td className="r num score">{f1(p.score)}</td>
-                <td className={"r num delta " + deltaClass(p.delta)}>{deltaText(p.delta)}</td>
-                <td title={`факт. посещаемость; в рейтинге A_eff ${pct(p.components.A_eff)} (сжатие малой выборки)`}>
-                  <Meter value={p.attendance.A} />
+                <td className={"r num delta " + deltaClass(p.delta)} title={deltaTooltip(p.delta_parts)}>
+                  <span className={deltaTooltip(p.delta_parts) ? "hinted" : ""}>{deltaText(p.delta)}</span>
+                </td>
+                <td title={p.attendance.no_raid_data
+                    ? "не был ни на одной 25-ке (нет данных)"
+                    : `факт. посещаемость; в рейтинге A_eff ${pct(p.components.A_eff)} (сжатие малой выборки)`}>
+                  {p.attendance.no_raid_data
+                    ? <span className="reason">нет 25-к</span>
+                    : <Meter value={p.attendance.A} />}
                 </td>
                 <td><Meter value={p.components.P} kind="perf" /></td>
                 <td className="r num" title="Нормированный полученный лут">{f2(p.components.L_norm)}</td>

@@ -105,6 +105,7 @@ def attendance_scores(nights, roster, cfg, now, first_seen=None):
         player_team = roster.players[pid].get("team")
         num = den = 0.0
         attended = 0
+        eligible = 0  # рейдов в знаменателе (зачётных) — сколько раз наблюдали игрока
         excused_run = 0
         detail = []
         for ni in window:
@@ -148,24 +149,34 @@ def attendance_scores(nights, roster, cfg, now, first_seen=None):
 
             num += w * credit
             den += w
+            eligible += 1
             if credit > 0:
                 attended += 1
             detail.append({"date": date, "state": state, "credit": round(credit, 3), "weight": round(w, 3)})
 
         A = (num / den) if den > 0 else None
-        conf = min(1.0, attended / conf_nights)
+        # доверие по числу ЗАЧЁТНЫХ рейдов (сколько раз наблюдали), а не посещённых:
+        # частый прогульщик с 6 наблюдениями — это данные, а не «мало выборки».
+        conf = min(1.0, eligible / conf_nights)
         per_player[pid] = {
-            "A": A, "conf": conf, "nights_attended": attended,
+            "A": A, "conf": conf, "nights_attended": attended, "eligible": eligible,
             "nights_in_window": len(window), "detail": detail,
         }
 
-    # сжатие к медиане гильдии (7.1): A_eff = A*conf + median*(1-conf)
+    # медиана — только по игрокам С зачётными рейдами (no-data в неё не входят)
     med = median([v["A"] for v in per_player.values() if v["A"] is not None]) or 0.0
     for v in per_player.values():
-        A = v["A"] if v["A"] is not None else med
         v["A_median_guild"] = round(med, 4)
-        v["A_eff"] = round(A * v["conf"] + med * (1 - v["conf"]), 4)
-        v["A"] = round(A, 4)
+        if v["A"] is None:
+            # ни одного зачётного рейда (все до вступления / другой размер) — НЕ медиана,
+            # а «нет данных»: A_eff=0, отдельный флаг, чтобы не выдавать средний за факт
+            v["A_eff"] = 0.0
+            v["no_raid_data"] = True
+        else:
+            # сжатие к медиане при малой выборке (7.1): A_eff = A*conf + median*(1-conf)
+            v["A_eff"] = round(v["A"] * v["conf"] + med * (1 - v["conf"]), 4)
+            v["A"] = round(v["A"], 4)
+            v["no_raid_data"] = False
     return per_player
 
 

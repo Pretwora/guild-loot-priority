@@ -1,4 +1,4 @@
-import { readableColor, pct, f1, f2, deltaClass, deltaText } from "../lib.js";
+import { readableColor, pct, f1, f2, deltaClass, deltaText, deltaPartsList } from "../lib.js";
 import { RankBadge } from "./Priority.jsx";
 
 const ROLE_RU = { tank: "танк", heal: "хил", dps: "дпс" };
@@ -10,8 +10,10 @@ const STATE_LABEL = {
   before_join: "до вступления",
 };
 
-export default function PlayerCard({ data, playerId, onOpenPlayer }) {
-  const p = data.players.find((x) => x.id === playerId) || data.players[0];
+export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
+  // карточка следует активному ладдеру (перформанс/лут/Δ различаются по скоупу)
+  const scopePlayers = (data.scopes || []).find((s) => s.key === scope)?.players || data.players;
+  const p = scopePlayers.find((x) => x.id === playerId) || scopePlayers[0];
   if (!p) return <p className="sub">Нет данных.</p>;
   const w = data.formula.weights;
   const color = readableColor(p.class_color);
@@ -48,10 +50,23 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
         <div className="panel">
           <h3>Итоговый рейтинг</h3>
           <div className="body">
-            <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 10 }}>
+            <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginBottom: 4 }}>
               <span className="score num" style={{ fontSize: 26 }}>{f1(p.score)}</span>
               <span className={"num delta " + deltaClass(p.delta)}>{deltaText(p.delta)} с прошлого рейда</span>
             </div>
+            {deltaPartsList(p.delta_parts).length > 0 && (
+              <div className="reason" style={{ marginBottom: 10 }}>
+                из чего Δ:{" "}
+                {deltaPartsList(p.delta_parts).map((x, i) => (
+                  <span key={x.key}>
+                    {i > 0 ? " · " : ""}{x.label}{" "}
+                    <span className={"num delta " + (x.value > 0 ? "up" : "down")}>
+                      {x.value > 0 ? "+" : ""}{x.value.toFixed(1)}
+                    </span>
+                  </span>
+                ))}
+              </div>
+            )}
             <div className="formula-block">
               S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) / (1 + {w.score.loot_penalty_k}·L_norm) × gate<br />
               &nbsp;&nbsp;= {w.score.scale} × ({w.score.w_attendance}·{f2(c.A_eff)} + {w.score.w_perf}·{f2(c.P)}) / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
@@ -72,7 +87,9 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
           <h3>Компоненты</h3>
           <div className="body">
             <dl className="kv">
-              <dt>Посещаемость A_eff</dt><dd className="num">{pct(c.A_eff)} <span className="reason">(факт {pct(att.A)}; стаж {attended} рейд., доверие {f2(att.conf)} → сжатие к медиане {pct(att.A_median_guild)})</span></dd>
+              <dt>Посещаемость A_eff</dt><dd className="num">{att.no_raid_data
+                ? <span className="reason">нет 25-к — не был ни разу</span>
+                : <>{pct(c.A_eff)} <span className="reason">(факт {pct(att.A)}; стаж {attended} рейд., доверие {f2(att.conf)} → сжатие к медиане {pct(att.A_median_guild)})</span></>}</dd>
               <dt>Перформанс P</dt><dd className="num">{pct(c.P)} <span className="reason">{p.performance.neutral_fallback ? "мало данных → нейтрально" : `медиана перцентилей за ${p.performance.kills_counted} килов`}</span></dd>
               <dt>Лут L_norm</dt><dd className="num">{f2(c.L_norm)} <span className="reason">чем больше уже получил, тем ниже приоритет</span></dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
@@ -84,9 +101,13 @@ export default function PlayerCard({ data, playerId, onOpenPlayer }) {
           <h3>Посещаемость по вечерам (окно)</h3>
           <div className="body">
             <div className="reason" style={{ marginBottom: 8 }}>
-              Посещено <b style={{ color: "var(--ink)" }}>{attended} из {eligible}</b>
-              {beforeJoin > 0 ? ` · ${beforeJoin} до вступления` : ""}
-              {excluded - beforeJoin > 0 ? ` · ${excluded - beforeJoin} вне счёта` : ""}
+              {eligible === 0 ? (
+                <>Не был ни на одной 25-ке{beforeJoin > 0 ? ` · ${beforeJoin} рейдов до вступления` : ""}</>
+              ) : (
+                <>Посещено <b style={{ color: "var(--ink)" }}>{attended} из {eligible}</b>
+                  {beforeJoin > 0 ? ` · ${beforeJoin} до вступления` : ""}
+                  {excluded - beforeJoin > 0 ? ` · ${excluded - beforeJoin} вне счёта` : ""}</>
+              )}
             </div>
             <table style={{ fontSize: 12 }}>
               <tbody>

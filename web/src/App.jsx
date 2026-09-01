@@ -84,7 +84,7 @@ export default function App() {
         {tab === "loot" && <LootBoard data={data} onOpenPlayer={openPlayer} />}
         {tab === "raids" && <Raids data={data} scope={scope} />}
         {tab === "how" && <HowItWorks data={data} />}
-        {tab === "player" && <PlayerCard data={data} playerId={player} onOpenPlayer={openPlayer} />}
+        {tab === "player" && <PlayerCard data={data} scope={scope} playerId={player} onOpenPlayer={openPlayer} />}
       </main>
     </div>
   );

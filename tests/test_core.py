@@ -143,6 +143,17 @@ class TestAttendance(unittest.TestCase):
         self.assertEqual(states["2026-08-13"], "full")
         self.assertEqual(att["p"]["A"], 1.0)  # пришёл на все рейды ПОСЛЕ вступления
 
+    def test_no_eligible_is_no_data(self):
+        # все рейды до вступления → зачётных ноль → «нет данных», НЕ медиана
+        dates = [dt.datetime(2026, 8, d, 20, 0, 0) for d in (4, 13, 20)]
+        kills = [kill(i + 1, d, [line("X", guid=9)], size=25) for i, d in enumerate(dates)]
+        nights = build_nights(kills, self.cfg)
+        att = SC.attendance_scores(nights, self.roster, self.cfg,
+                                   dt.datetime(2026, 8, 25), first_seen={"p": dt.datetime(2026, 8, 30)})
+        self.assertTrue(att["p"]["no_raid_data"])
+        self.assertEqual(att["p"]["A_eff"], 0.0)  # не медиана
+        self.assertIsNone(att["p"]["A"])
+
 
 class TestCombatPerformance(unittest.TestCase):
     def setUp(self):

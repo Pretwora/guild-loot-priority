@@ -141,6 +141,7 @@ td.player { border-left: 3px solid var(--klass, transparent); }
 .delta.up { color: var(--good); }
 .delta.down { color: var(--bad); }
 .delta.flat { color: var(--ink-faint); }
+.delta .hinted { border-bottom: 1px dotted currentColor; cursor: help; }
 
 .frozen-mark { color: var(--accent); margin-left: 4px; }
 

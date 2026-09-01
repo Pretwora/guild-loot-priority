@@ -64,6 +64,24 @@ export function deltaText(d) {
   return (d > 0 ? "▲ " : "▼ ") + Math.abs(d).toFixed(1);
 }
 
+const DELTA_LABELS = {
+  attendance: "посещаемость", performance: "перформанс", loot: "лут", other: "прочее",
+};
+
+// Части ΔS → строки для тултипа/карточки. Только заметные слагаемые (|x| ≥ 0.05).
+export function deltaPartsList(parts) {
+  if (!parts) return [];
+  return ["attendance", "performance", "loot", "other"]
+    .map((k) => ({ key: k, label: DELTA_LABELS[k], value: parts[k] }))
+    .filter((x) => x.value != null && Math.abs(x.value) >= 0.05);
+}
+
+export function deltaTooltip(parts) {
+  const items = deltaPartsList(parts);
+  if (!items.length) return undefined;
+  return "Δ: " + items.map((x) => `${x.label} ${x.value > 0 ? "+" : ""}${x.value.toFixed(1)}`).join(" · ");
+}
+
 // ── Хук сортировки таблиц ──
 export function useSort(rows, initialKey, initialDir = "desc") {
   const [key, setKey] = useState(initialKey);

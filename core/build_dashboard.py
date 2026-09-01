@@ -174,8 +174,10 @@ def _players(cfg, roster, cur, prev_final):
         if not show_dps:  # прячем сырые dps/hps, оставляем перцентили (раздел 11)
             perf["recent"] = [{k: v for k, v in m.items() if k != "metric"} for m in perf.get("recent", [])]
         delta = None
+        delta_parts = None
         if pid in prev_final:
             delta = round(final["S"] - prev_final[pid]["S"], 2)
+            delta_parts = _delta_breakdown(cfg, final, prev_final[pid], delta)
         rows.append({
             "id": pid,
             "display": pl.get("display", pid),
@@ -187,6 +189,7 @@ def _players(cfg, roster, cur, prev_final):
             "spec_name": cfg.spec_name(class_id, spec) if class_id is not None else "?",
             "score": final["S"],
             "delta": delta,
+            "delta_parts": delta_parts,
             "base": final["base"],
             "rank_gate": final["rank_gate"],
             "frozen": final["frozen"],
@@ -198,6 +201,29 @@ def _players(cfg, roster, cur, prev_final):
         })
     rows.sort(key=lambda r: r["score"], reverse=True)
     return rows
+
+
+def _delta_breakdown(cfg, now, prev, total):
+    """ΔS → вклады посещаемости / перформанса / лута (последовательно, сумма = ΔS).
+    S нелинейна (лут в делителе), поэтому раскладываем путём: меняем компоненты по одному."""
+    scale = cfg.w("score", "scale")
+    wa = cfg.w("score", "w_attendance")
+    wp = cfg.w("score", "w_perf")
+    k = cfg.w("score", "loot_penalty_k")
+    gate = now.get("rank_gate", 1.0)
+
+    def S(A, P, L):
+        return scale * (wa * A + wp * P) / (1 + k * L) * gate
+
+    cn, cp = now["components"], prev["components"]
+    an, pn, ln = cn["A_eff"], cn["P"], cn["L_norm"]
+    ap, pp, lp = cp["A_eff"], cp["P"], cp["L_norm"]
+    d_att = S(an, pp, lp) - S(ap, pp, lp)
+    d_perf = S(an, pn, lp) - S(an, pp, lp)
+    d_loot = S(an, pn, ln) - S(an, pn, lp)
+    other = total - (d_att + d_perf + d_loot)  # заморозка / ручные правки / смена gate
+    return {"attendance": round(d_att, 1), "performance": round(d_perf, 1),
+            "loot": round(d_loot, 1), "other": round(other, 1)}
 
 
 def _nights(cfg, roster, nights):
