@@ -1,0 +1,2701 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 494103,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3876,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "15000 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787858277,
+   "datetime": "2026-08-27T16:17:57.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 139999,
+    "icon": "https://cdn3.scourge.tech/icons/inv_plate_draenorcrafted_d_01buckle.png",
+    "name": "Усиленный кровью боевой ремень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T18:36:16.000000Z",
+   "guid": 494103,
+   "id": 225107761,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 140359,
+    "icon": "https://cdn3.scourge.tech/icons/inv_plate_draenorcrafted_d_01bracer.png",
+    "name": "Усиленные магией наручи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T18:34:02.000000Z",
+   "guid": 494103,
+   "id": 225107327,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9364763
+   },
+   "datetime": "2026-08-25T18:31:53.000000Z",
+   "guid": 494103,
+   "id": 9364763,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9364702
+   },
+   "datetime": "2026-08-25T18:22:27.000000Z",
+   "guid": 494103,
+   "id": 9364702,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9364445
+   },
+   "datetime": "2026-08-25T17:51:01.000000Z",
+   "guid": 494103,
+   "id": 9364445,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 90323,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_rifle_36.png",
+    "name": "Запасное корабельное орудие",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T19:23:45.000000Z",
+   "guid": 494103,
+   "id": 224979867,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 21,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9355540
+   },
+   "datetime": "2026-08-24T18:02:04.000000Z",
+   "guid": 494103,
+   "id": 9355540,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9337237
+   },
+   "datetime": "2026-08-21T20:25:43.000000Z",
+   "guid": 494103,
+   "id": 9337237,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9336810
+   },
+   "datetime": "2026-08-21T19:03:46.000000Z",
+   "guid": 494103,
+   "id": 9336810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9336708
+   },
+   "datetime": "2026-08-21T18:50:40.000000Z",
+   "guid": 494103,
+   "id": 9336708,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9336583
+   },
+   "datetime": "2026-08-21T18:31:30.000000Z",
+   "guid": 494103,
+   "id": 9336583,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9336477
+   },
+   "datetime": "2026-08-21T18:13:03.000000Z",
+   "guid": 494103,
+   "id": 9336477,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9336362
+   },
+   "datetime": "2026-08-21T17:59:40.000000Z",
+   "guid": 494103,
+   "id": 9336362,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9336272
+   },
+   "datetime": "2026-08-21T17:49:11.000000Z",
+   "guid": 494103,
+   "id": 9336272,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9336170
+   },
+   "datetime": "2026-08-21T17:34:02.000000Z",
+   "guid": 494103,
+   "id": 9336170,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787335983,
+   "datetime": "2026-08-21T15:13:03.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9329740
+   },
+   "datetime": "2026-08-20T19:39:42.000000Z",
+   "guid": 494103,
+   "id": 9329740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9329576
+   },
+   "datetime": "2026-08-20T19:21:07.000000Z",
+   "guid": 494103,
+   "id": 9329576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9329494
+   },
+   "datetime": "2026-08-20T19:12:34.000000Z",
+   "guid": 494103,
+   "id": 9329494,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9329092
+   },
+   "datetime": "2026-08-20T18:36:08.000000Z",
+   "guid": 494103,
+   "id": 9329092,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9328913
+   },
+   "datetime": "2026-08-20T18:09:47.000000Z",
+   "guid": 494103,
+   "id": 9328913,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 81645,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_plate_panda_b_01gold.png",
+    "name": "Вороненые наручи поблекшего леса",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-20T17:30:49.000000Z",
+   "guid": 494103,
+   "id": 224304125,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9328537
+   },
+   "datetime": "2026-08-20T17:29:43.000000Z",
+   "guid": 494103,
+   "id": 9328537,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9314542
+   },
+   "datetime": "2026-08-19T18:55:48.000000Z",
+   "guid": 494103,
+   "id": 9314542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 63843,
+    "icon": "https://cdn3.scourge.tech/icons/inv_drink_30_blackheartgrog.png",
+    "name": "Окровавленная кружка эля",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-19T18:06:51.000000Z",
+   "guid": 494103,
+   "id": 224141526,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9313193
+   },
+   "datetime": "2026-08-19T18:05:59.000000Z",
+   "guid": 494103,
+   "id": 9313193,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9312979
+   },
+   "datetime": "2026-08-19T17:39:57.000000Z",
+   "guid": 494103,
+   "id": 9312979,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9296462
+   },
+   "datetime": "2026-08-17T18:38:24.000000Z",
+   "guid": 494103,
+   "id": 9296462,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100413,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Наголенники вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T18:26:49.000000Z",
+   "guid": 494103,
+   "id": 223893075,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80769,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_120.png",
+    "name": "Перстень змеиного хребта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T18:26:36.000000Z",
+   "guid": 494103,
+   "id": 223893023,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9296285
+   },
+   "datetime": "2026-08-17T18:25:58.000000Z",
+   "guid": 494103,
+   "id": 9296285,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 84256,
+    "icon": "https://cdn3.scourge.tech/icons/inv_firearm_2h_rifle_pandariaquest_b_01.png",
+    "name": "Нефритовое ружье",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T18:03:29.000000Z",
+   "guid": 494103,
+   "id": 223888588,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9296081
+   },
+   "datetime": "2026-08-17T18:03:17.000000Z",
+   "guid": 494103,
+   "id": 9296081,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9295971
+   },
+   "datetime": "2026-08-17T17:51:57.000000Z",
+   "guid": 494103,
+   "id": 9295971,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9295822
+   },
+   "datetime": "2026-08-17T17:39:32.000000Z",
+   "guid": 494103,
+   "id": 9295822,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82103,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bow_2h_crossbow_pandariaquest_b_01.png",
+    "name": "Варварский арбалет",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T17:23:11.000000Z",
+   "guid": 494103,
+   "id": 223880551,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9295685
+   },
+   "datetime": "2026-08-17T17:23:02.000000Z",
+   "guid": 494103,
+   "id": 9295685,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6312,
+    "icon": "https://cdn3.scourge.tech/icons/ability_creature_poison_06.png",
+    "name": "Концентрат",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786991157,
+   "datetime": "2026-08-17T15:25:57.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6308,
+    "icon": "https://cdn3.scourge.tech/icons/ability_paladin_handoflight.png",
+    "name": "Заземление",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786989117,
+   "datetime": "2026-08-17T14:51:57.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6309,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_prayerofhealing.png",
+    "name": "Ложное раскаяние",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786989117,
+   "datetime": "2026-08-17T14:51:57.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6304,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_feigndeath.png",
+    "name": "Незримое присутствие",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786987382,
+   "datetime": "2026-08-17T14:23:02.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9267572
+   },
+   "datetime": "2026-08-13T19:59:46.000000Z",
+   "guid": 494103,
+   "id": 9267572,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9267442
+   },
+   "datetime": "2026-08-13T19:45:18.000000Z",
+   "guid": 494103,
+   "id": 9267442,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9267314
+   },
+   "datetime": "2026-08-13T19:24:45.000000Z",
+   "guid": 494103,
+   "id": 9267314,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9266126
+   },
+   "datetime": "2026-08-13T19:15:01.000000Z",
+   "guid": 494103,
+   "id": 9266126,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9265923
+   },
+   "datetime": "2026-08-13T18:51:50.000000Z",
+   "guid": 494103,
+   "id": 9265923,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9265650
+   },
+   "datetime": "2026-08-13T18:21:29.000000Z",
+   "guid": 494103,
+   "id": 9265650,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9265536
+   },
+   "datetime": "2026-08-13T18:09:53.000000Z",
+   "guid": 494103,
+   "id": 9265536,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9265247
+   },
+   "datetime": "2026-08-13T17:32:45.000000Z",
+   "guid": 494103,
+   "id": 9265247,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9265121
+   },
+   "datetime": "2026-08-13T17:18:23.000000Z",
+   "guid": 494103,
+   "id": 9265121,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 11,
+    "reward_level": 0,
+    "run_id": 832033,
+    "score": 143.839,
+    "timer": 2445
+   },
+   "datetime": "2026-07-26T16:42:38.000000Z",
+   "guid": 494103,
+   "id": 832033,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 14,
+    "reward_level": 0,
+    "run_id": 831700,
+    "score": 163.5,
+    "timer": 2604
+   },
+   "datetime": "2026-07-26T09:00:23.000000Z",
+   "guid": 494103,
+   "id": 831700,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 4,
+    "dungeon_name": "Крепость Утгард",
+    "has_run_log": false,
+    "level": 15,
+    "reward_level": 0,
+    "run_id": 831644,
+    "score": 0,
+    "timer": 4351
+   },
+   "datetime": "2026-07-26T08:02:41.000000Z",
+   "guid": 494103,
+   "id": 831644,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 13,
+    "dungeon_name": "Auchindoun: Auchenai Crypts",
+    "has_run_log": true,
+    "level": 12,
+    "reward_level": 2,
+    "run_id": 831550,
+    "score": 162.955,
+    "timer": 1489
+   },
+   "datetime": "2026-07-26T05:40:24.000000Z",
+   "guid": 494103,
+   "id": 831550,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376152,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_plate_dungeonplage_c_04.png",
+    "name": "Шапка рунного прозрения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T06:51:58.000000Z",
+   "guid": 494103,
+   "id": 219964926,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": true,
+    "level": 14,
+    "reward_level": 1,
+    "run_id": 830765,
+    "score": 175.743,
+    "timer": 2233
+   },
+   "datetime": "2026-07-25T05:56:35.000000Z",
+   "guid": 494103,
+   "id": 830765,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": true,
+    "level": 14,
+    "reward_level": 1,
+    "run_id": 830721,
+    "score": 175.42,
+    "timer": 1773
+   },
+   "datetime": "2026-07-25T03:51:48.000000Z",
+   "guid": 494103,
+   "id": 830721,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9102237
+   },
+   "datetime": "2026-07-24T19:50:17.000000Z",
+   "guid": 494103,
+   "id": 9102237,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9101860
+   },
+   "datetime": "2026-07-24T18:32:45.000000Z",
+   "guid": 494103,
+   "id": 9101860,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784922617,
+   "datetime": "2026-07-24T16:50:17.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784922617,
+   "datetime": "2026-07-24T16:50:17.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378721,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_plate_dungeonplate_c_04.png",
+    "name": "Наручи безупречного удара",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T15:58:45.000000Z",
+   "guid": 494103,
+   "id": 219868017,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6332,
+    "icon": "https://cdn3.scourge.tech/icons/ability_demonhunter_sigilofchains.png",
+    "name": "Трижды переполняющая мощь",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784917964,
+   "datetime": "2026-07-24T15:32:44.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6333,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_ritualofsacrifice.png",
+    "name": "Сорванный ритуал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784917964,
+   "datetime": "2026-07-24T15:32:44.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376652,
+    "icon": "https://cdn3.scourge.tech/icons/inv_polearm_2h_cataclysm_c_01.png",
+    "name": "Легкое древко",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T13:48:50.000000Z",
+   "guid": 494103,
+   "id": 219846724,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": true,
+    "level": 14,
+    "reward_level": 2,
+    "run_id": 829364,
+    "score": 177.993,
+    "timer": 1909
+   },
+   "datetime": "2026-07-24T12:58:31.000000Z",
+   "guid": 494103,
+   "id": 829364,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 13,
+    "dungeon_name": "Аукиндон: Аукенайские гробницы",
+    "has_run_log": true,
+    "level": 10,
+    "reward_level": 2,
+    "run_id": 829315,
+    "score": 149.089,
+    "timer": 1362
+   },
+   "datetime": "2026-07-24T12:08:45.000000Z",
+   "guid": 494103,
+   "id": 829315,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 2,
+    "run_id": 829282,
+    "score": 126.25,
+    "timer": 1400
+   },
+   "datetime": "2026-07-24T11:35:29.000000Z",
+   "guid": 494103,
+   "id": 829282,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104545,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_33.png",
+    "name": "Тяжёлый ремень несгибаемой веры",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T20:03:30.000000Z",
+   "guid": 494103,
+   "id": 219745357,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9098416
+   },
+   "datetime": "2026-07-23T20:00:45.000000Z",
+   "guid": 494103,
+   "id": 9098416,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9098308
+   },
+   "datetime": "2026-07-23T19:47:40.000000Z",
+   "guid": 494103,
+   "id": 9098308,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9096055
+   },
+   "datetime": "2026-07-23T19:22:55.000000Z",
+   "guid": 494103,
+   "id": 9096055,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9095984
+   },
+   "datetime": "2026-07-23T19:12:21.000000Z",
+   "guid": 494103,
+   "id": 9095984,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9095784
+   },
+   "datetime": "2026-07-23T18:41:57.000000Z",
+   "guid": 494103,
+   "id": 9095784,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9095696
+   },
+   "datetime": "2026-07-23T18:24:13.000000Z",
+   "guid": 494103,
+   "id": 9095696,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9095523
+   },
+   "datetime": "2026-07-23T17:51:34.000000Z",
+   "guid": 494103,
+   "id": 9095523,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9095443
+   },
+   "datetime": "2026-07-23T17:38:43.000000Z",
+   "guid": 494103,
+   "id": 9095443,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9095373
+   },
+   "datetime": "2026-07-23T17:28:33.000000Z",
+   "guid": 494103,
+   "id": 9095373,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375614,
+    "icon": "https://cdn3.scourge.tech/icons/inv_cape_firelands_fireset_d_01.png",
+    "name": "Одеяние туманов долины скорби",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T16:23:14.000000Z",
+   "guid": 494103,
+   "id": 219689381,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784832117,
+   "datetime": "2026-07-23T15:41:57.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375068,
+    "icon": "https://cdn3.scourge.tech/icons/inv_polearm_2h_cataclysm_c_01.png",
+    "name": "Легкое древко",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T15:40:05.000000Z",
+   "guid": 494103,
+   "id": 219678773,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9091241
+   },
+   "datetime": "2026-07-23T13:26:35.000000Z",
+   "guid": 494103,
+   "id": 9091241,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": true,
+    "level": 11,
+    "reward_level": 3,
+    "run_id": 827931,
+    "score": 157.5,
+    "timer": 1549
+   },
+   "datetime": "2026-07-23T13:22:55.000000Z",
+   "guid": 494103,
+   "id": 827931,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9091208
+   },
+   "datetime": "2026-07-23T13:21:28.000000Z",
+   "guid": 494103,
+   "id": 9091208,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9091186
+   },
+   "datetime": "2026-07-23T13:17:28.000000Z",
+   "guid": 494103,
+   "id": 9091186,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9091164
+   },
+   "datetime": "2026-07-23T13:11:29.000000Z",
+   "guid": 494103,
+   "id": 9091164,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9091134
+   },
+   "datetime": "2026-07-23T13:07:20.000000Z",
+   "guid": 494103,
+   "id": 9091134,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 3,
+    "run_id": 827912,
+    "score": 127.5,
+    "timer": 753
+   },
+   "datetime": "2026-07-23T12:39:37.000000Z",
+   "guid": 494103,
+   "id": 827912,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378068,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_leather_16.png",
+    "name": "Корсарские поршни",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T12:29:20.000000Z",
+   "guid": 494103,
+   "id": 219635394,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374744,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_plate_dungeonplage_c_04.png",
+    "name": "Шапка рунного прозрения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T12:06:24.000000Z",
+   "guid": 494103,
+   "id": 219633105,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 3,
+    "run_id": 822828,
+    "score": 127.5,
+    "timer": 1058
+   },
+   "datetime": "2026-07-23T11:20:29.000000Z",
+   "guid": 494103,
+   "id": 822828,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T11:13:48.000000Z",
+   "guid": 494103,
+   "id": 219624781,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376691,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_cataclysm_melee_b_01.png",
+    "name": "Плащ хищной тени",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T11:13:41.000000Z",
+   "guid": 494103,
+   "id": 219624755,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 13,
+    "dungeon_name": "Аукиндон: Аукенайские гробницы",
+    "has_run_log": false,
+    "level": 5,
+    "reward_level": 3,
+    "run_id": 822815,
+    "score": 97.5,
+    "timer": 923
+   },
+   "datetime": "2026-07-23T10:53:38.000000Z",
+   "guid": 494103,
+   "id": 822815,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9088567
+   },
+   "datetime": "2026-07-23T09:26:37.000000Z",
+   "guid": 494103,
+   "id": 9088567,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9088543
+   },
+   "datetime": "2026-07-23T09:18:14.000000Z",
+   "guid": 494103,
+   "id": 9088543,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9088528
+   },
+   "datetime": "2026-07-23T09:11:02.000000Z",
+   "guid": 494103,
+   "id": 9088528,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9088512
+   },
+   "datetime": "2026-07-23T09:07:26.000000Z",
+   "guid": 494103,
+   "id": 9088512,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 821797,
+    "score": 67.5,
+    "timer": 1196
+   },
+   "datetime": "2026-07-23T09:06:08.000000Z",
+   "guid": 494103,
+   "id": 821797,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9088481
+   },
+   "datetime": "2026-07-23T08:57:27.000000Z",
+   "guid": 494103,
+   "id": 9088481,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9088442
+   },
+   "datetime": "2026-07-23T08:46:39.000000Z",
+   "guid": 494103,
+   "id": 9088442,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9088419
+   },
+   "datetime": "2026-07-23T08:35:42.000000Z",
+   "guid": 494103,
+   "id": 9088419,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9082391
+   },
+   "datetime": "2026-07-22T19:48:45.000000Z",
+   "guid": 494103,
+   "id": 9082391,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9082186
+   },
+   "datetime": "2026-07-22T19:12:03.000000Z",
+   "guid": 494103,
+   "id": 9082186,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 9,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9081799
+   },
+   "datetime": "2026-07-22T18:33:06.000000Z",
+   "guid": 494103,
+   "id": 9081799,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6317,
+    "icon": "https://cdn3.scourge.tech/icons/spell_mage_overpowered.png",
+    "name": "Венец магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784747523,
+   "datetime": "2026-07-22T16:12:03.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784745185,
+   "datetime": "2026-07-22T15:33:05.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9052570
+   },
+   "datetime": "2026-07-21T19:08:22.000000Z",
+   "guid": 494103,
+   "id": 9052570,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9050779
+   },
+   "datetime": "2026-07-21T18:44:58.000000Z",
+   "guid": 494103,
+   "id": 9050779,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9050471
+   },
+   "datetime": "2026-07-21T18:32:21.000000Z",
+   "guid": 494103,
+   "id": 9050471,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9048291
+   },
+   "datetime": "2026-07-21T17:42:58.000000Z",
+   "guid": 494103,
+   "id": 9048291,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 45609,
+    "icon": "https://cdn3.scourge.tech/icons/spell_arcane_starfire.png",
+    "name": "Хвост кометы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-20T19:56:19.000000Z",
+   "guid": 494103,
+   "id": 219315675,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Опера",
+    "bossfight_id": 9010017
+   },
+   "datetime": "2026-07-20T19:15:41.000000Z",
+   "guid": 494103,
+   "id": 9010017,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9009072
+   },
+   "datetime": "2026-07-20T18:53:24.000000Z",
+   "guid": 494103,
+   "id": 9009072,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9004162
+   },
+   "datetime": "2026-07-20T17:45:40.000000Z",
+   "guid": 494103,
+   "id": 9004162,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_cloth_witchhat_b_01.png",
+    "name": "Прекрасная трагедия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784574941,
+   "datetime": "2026-07-20T16:15:41.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784573604,
+   "datetime": "2026-07-20T15:53:24.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6303,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_unrelentingassault.png",
+    "name": "Матадор",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784569540,
+   "datetime": "2026-07-20T14:45:40.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 15,
+    "reward_level": 1,
+    "run_id": 811568,
+    "score": 182.764,
+    "timer": 2302
+   },
+   "datetime": "2026-07-20T13:14:09.000000Z",
+   "guid": 494103,
+   "id": 811568,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40716,
+    "icon": "https://cdn3.scourge.tech/icons/inv_throwingknife_07.png",
+    "name": "Крылатые клинки Лиллехоффа",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T19:55:59.000000Z",
+   "guid": 494103,
+   "id": 218722083,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8954330
+   },
+   "datetime": "2026-07-16T19:09:36.000000Z",
+   "guid": 494103,
+   "id": 8954330,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8954103
+   },
+   "datetime": "2026-07-16T18:43:14.000000Z",
+   "guid": 494103,
+   "id": 8954103,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8953977
+   },
+   "datetime": "2026-07-16T18:30:36.000000Z",
+   "guid": 494103,
+   "id": 8953977,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8953934
+   },
+   "datetime": "2026-07-16T18:26:28.000000Z",
+   "guid": 494103,
+   "id": 8953934,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8953869
+   },
+   "datetime": "2026-07-16T18:22:23.000000Z",
+   "guid": 494103,
+   "id": 8953869,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8953815
+   },
+   "datetime": "2026-07-16T18:15:08.000000Z",
+   "guid": 494103,
+   "id": 8953815,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8953757
+   },
+   "datetime": "2026-07-16T18:10:41.000000Z",
+   "guid": 494103,
+   "id": 8953757,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40371,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas03.png",
+    "name": "Знак отличия Бандита",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T18:00:47.000000Z",
+   "guid": 494103,
+   "id": 218695383,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8953621
+   },
+   "datetime": "2026-07-16T17:56:50.000000Z",
+   "guid": 494103,
+   "id": 8953621,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8953432
+   },
+   "datetime": "2026-07-16T17:31:09.000000Z",
+   "guid": 494103,
+   "id": 8953432,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8953317
+   },
+   "datetime": "2026-07-16T17:21:42.000000Z",
+   "guid": 494103,
+   "id": 8953317,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376228,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_plate_dungeonplate_c_04.png",
+    "name": "Наручи железной воли",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T14:29:51.000000Z",
+   "guid": 494103,
+   "id": 218653852,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376486,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_plate_dungeonplate_c_04.png",
+    "name": "Рукавицы медвежьей хватки",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T11:47:21.000000Z",
+   "guid": 494103,
+   "id": 218631240,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 17,
+    "reward_level": 1,
+    "run_id": 794052,
+    "score": 198.535,
+    "timer": 2191
+   },
+   "datetime": "2026-07-16T11:29:38.000000Z",
+   "guid": 494103,
+   "id": 794052,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": false,
+    "level": 15,
+    "reward_level": 1,
+    "run_id": 794012,
+    "score": 180.321,
+    "timer": 2064
+   },
+   "datetime": "2026-07-16T10:25:06.000000Z",
+   "guid": 494103,
+   "id": 794012,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": false,
+    "level": 18,
+    "reward_level": 0,
+    "run_id": 793971,
+    "score": 197.054,
+    "timer": 2405
+   },
+   "datetime": "2026-07-16T08:47:06.000000Z",
+   "guid": 494103,
+   "id": 793971,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 45609,
+    "icon": "https://cdn3.scourge.tech/icons/spell_arcane_starfire.png",
+    "name": "Хвост кометы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T06:17:40.000000Z",
+   "guid": 494103,
+   "id": 218595499,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154461,
+    "icon": "https://cdn3.scourge.tech/icons/inv_ragnaros_heart.png",
+    "name": "Сердце хранителя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T06:17:09.000000Z",
+   "guid": 494103,
+   "id": 218595468,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376247,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_dungeonplate_c_04.png",
+    "name": "Сапоги штормового гнева",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T06:02:42.000000Z",
+   "guid": 494103,
+   "id": 218594207,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8943723
+   },
+   "datetime": "2026-07-14T18:30:08.000000Z",
+   "guid": 494103,
+   "id": 8943723,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8943631
+   },
+   "datetime": "2026-07-14T18:18:10.000000Z",
+   "guid": 494103,
+   "id": 8943631,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8943567
+   },
+   "datetime": "2026-07-14T18:08:12.000000Z",
+   "guid": 494103,
+   "id": 8943567,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 10,
+    "reward_level": 1,
+    "run_id": 787218,
+    "score": 142.688,
+    "timer": 2079
+   },
+   "datetime": "2026-07-14T09:19:42.000000Z",
+   "guid": 494103,
+   "id": 787218,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 18,
+    "reward_level": 0,
+    "run_id": 787080,
+    "score": 0,
+    "timer": 4725
+   },
+   "datetime": "2026-07-14T01:46:36.000000Z",
+   "guid": 494103,
+   "id": 787080,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8935756
+   },
+   "datetime": "2026-07-12T19:57:04.000000Z",
+   "guid": 494103,
+   "id": 8935756,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Шахматы",
+    "bossfight_id": 8930123
+   },
+   "datetime": "2026-07-12T19:35:28.000000Z",
+   "guid": 494103,
+   "id": 8930123,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8930110
+   },
+   "datetime": "2026-07-12T19:31:29.000000Z",
+   "guid": 494103,
+   "id": 8930110,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 8930093
+   },
+   "datetime": "2026-07-12T19:24:09.000000Z",
+   "guid": 494103,
+   "id": 8930093,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 8930069
+   },
+   "datetime": "2026-07-12T19:19:18.000000Z",
+   "guid": 494103,
+   "id": 8930069,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8926923
+   },
+   "datetime": "2026-07-12T19:08:10.000000Z",
+   "guid": 494103,
+   "id": 8926923,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8926889
+   },
+   "datetime": "2026-07-12T18:58:23.000000Z",
+   "guid": 494103,
+   "id": 8926889,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8926865
+   },
+   "datetime": "2026-07-12T18:51:42.000000Z",
+   "guid": 494103,
+   "id": 8926865,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8926828
+   },
+   "datetime": "2026-07-12T18:42:19.000000Z",
+   "guid": 494103,
+   "id": 8926828,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 8926709
+   },
+   "datetime": "2026-07-12T18:21:38.000000Z",
+   "guid": 494103,
+   "id": 8926709,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8926574
+   },
+   "datetime": "2026-07-12T17:52:16.000000Z",
+   "guid": 494103,
+   "id": 8926574,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 8926484
+   },
+   "datetime": "2026-07-12T17:37:00.000000Z",
+   "guid": 494103,
+   "id": 8926484,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6075,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sillhoof.png",
+    "name": "Жертвоприношение? Нет!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783883958,
+   "datetime": "2026-07-12T16:19:18.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6078,
+    "icon": "https://cdn3.scourge.tech/icons/achi_snightbane.png",
+    "name": "Только не хвостом!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783882703,
+   "datetime": "2026-07-12T15:58:23.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6903,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pet_voidhound.png",
+    "name": "Пожиратель",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783880498,
+   "datetime": "2026-07-12T15:21:38.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6900,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_heraldofnzoth.png",
+    "name": "Глашатай Йогг-Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783877820,
+   "datetime": "2026-07-12T14:37:00.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376006,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_dungeonplate_c_04.png",
+    "name": "Сапоги пламенного скакуна",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T10:04:26.000000Z",
+   "guid": 494103,
+   "id": 218052708,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": false,
+    "level": 14,
+    "reward_level": 0,
+    "run_id": 778033,
+    "score": 165.806,
+    "timer": 3182
+   },
+   "datetime": "2026-07-12T07:04:14.000000Z",
+   "guid": 494103,
+   "id": 778033,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28579,
+    "icon": "https://cdn3.scourge.tech/icons/inv_poison_mindnumbing.png",
+    "name": "Флакон с ядом Ромуло",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-11T10:53:11.000000Z",
+   "guid": 494103,
+   "id": 217881142,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376117,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_plate_dungeonplate_c_04.png",
+    "name": "Наручи когтистой ярости",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-11T10:04:20.000000Z",
+   "guid": 494103,
+   "id": 217872945,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 377998,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate_dungeonplate_c_04.png",
+    "name": "Треснутая бригантина флибустьера",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-11T08:27:36.000000Z",
+   "guid": 494103,
+   "id": 217861568,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 14,
+    "reward_level": 1,
+    "run_id": 776462,
+    "score": 173.257,
+    "timer": 2591
+   },
+   "datetime": "2026-07-11T07:04:11.000000Z",
+   "guid": 494103,
+   "id": 776462,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 4,
+    "dungeon_name": "Крепость Утгард",
+    "has_run_log": false,
+    "level": 15,
+    "reward_level": 0,
+    "run_id": 772548,
+    "score": 172.268,
+    "timer": 2533
+   },
+   "datetime": "2026-07-11T05:27:20.000000Z",
+   "guid": 494103,
+   "id": 772548,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "entry": 618,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_leader_prophet_velen.png",
+    "name": "Гасите свет",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783664799,
+   "datetime": "2026-07-10T03:26:39.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158159,
+    "icon": "https://cdn3.scourge.tech/icons/inv_staff_2h_draenorcrafted_d_02_a_horde.png",
+    "name": "Посох ярости природы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T19:28:23.000000Z",
+   "guid": 494103,
+   "id": 217634352,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8907619
+   },
+   "datetime": "2026-07-09T19:27:31.000000Z",
+   "guid": 494103,
+   "id": 8907619,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8907436
+   },
+   "datetime": "2026-07-09T19:09:09.000000Z",
+   "guid": 494103,
+   "id": 8907436,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8907377
+   },
+   "datetime": "2026-07-09T19:04:39.000000Z",
+   "guid": 494103,
+   "id": 8907377,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8907321
+   },
+   "datetime": "2026-07-09T19:00:54.000000Z",
+   "guid": 494103,
+   "id": 8907321,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8907266
+   },
+   "datetime": "2026-07-09T18:56:13.000000Z",
+   "guid": 494103,
+   "id": 8907266,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8907165
+   },
+   "datetime": "2026-07-09T18:52:14.000000Z",
+   "guid": 494103,
+   "id": 8907165,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40371,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas03.png",
+    "name": "Знак отличия Бандита",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T17:45:09.000000Z",
+   "guid": 494103,
+   "id": 217608056,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8906181
+   },
+   "datetime": "2026-07-09T17:42:40.000000Z",
+   "guid": 494103,
+   "id": 8906181,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8905915
+   },
+   "datetime": "2026-07-09T17:23:38.000000Z",
+   "guid": 494103,
+   "id": 8905915,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8905810
+   },
+   "datetime": "2026-07-09T17:13:53.000000Z",
+   "guid": 494103,
+   "id": 8905810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_axe_09.png",
+    "name": "Сокрушительный смертоносец",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:52:42.000000Z",
+   "guid": 494103,
+   "id": 217597392,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49320,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_71.png",
+    "name": "Большой шлем гнева",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:52:39.000000Z",
+   "guid": 494103,
+   "id": 217597380,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8905697
+   },
+   "datetime": "2026-07-09T16:52:01.000000Z",
+   "guid": 494103,
+   "id": 8905697,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47902,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_30.png",
+    "name": "Ножные латы искупленной крови",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:35:49.000000Z",
+   "guid": 494103,
+   "id": 217595320,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47908,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_30.png",
+    "name": "Набедренники Странника Солнца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:35:47.000000Z",
+   "guid": 494103,
+   "id": 217595319,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8905423
+   },
+   "datetime": "2026-07-09T16:35:21.000000Z",
+   "guid": 494103,
+   "id": 8905423,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8905408
+   },
+   "datetime": "2026-07-09T16:32:54.000000Z",
+   "guid": 494103,
+   "id": 8905408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47877,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_73.png",
+    "name": "Наплечье защитника Похитителей Солнца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:31:44.000000Z",
+   "guid": 494103,
+   "id": 217594430,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47876,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_130.png",
+    "name": "Личина чемпиона Похитителей Солнца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:31:42.000000Z",
+   "guid": 494103,
+   "id": 217594426,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8905399
+   },
+   "datetime": "2026-07-09T16:31:28.000000Z",
+   "guid": 494103,
+   "id": 8905399,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47872,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_41.png",
+    "name": "Стойкость инфернала",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T16:29:36.000000Z",
+   "guid": 494103,
+   "id": 217594090,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8905383
+   },
+   "datetime": "2026-07-09T16:29:25.000000Z",
+   "guid": 494103,
+   "id": 8905383,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8905360
+   },
+   "datetime": "2026-07-09T16:27:37.000000Z",
+   "guid": 494103,
+   "id": 8905360,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6126,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sorcwarlock.png",
+    "name": "Прошедший срок",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783618960,
+   "datetime": "2026-07-09T14:42:40.000000Z",
+   "guid": 494103,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 14,
+    "reward_level": 0,
+    "run_id": 770819,
+    "score": 0,
+    "timer": 3049
+   },
+   "datetime": "2026-07-09T11:54:20.000000Z",
+   "guid": 494103,
+   "id": 770819,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40431,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_rainoffire.png",
+    "name": "Неистовство Пяти полетов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T03:03:39.000000Z",
+   "guid": 494103,
+   "id": 217496813,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378174,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_83.png",
+    "name": "Кожаные обмотки лесника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T03:02:25.000000Z",
+   "guid": 494103,
+   "id": 217496715,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 494103,
+ "name": "Ligad",
+ "ts": "2026-09-01T15-54Z"
+}

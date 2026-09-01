@@ -101,7 +101,9 @@ def main():
     saved = 0
 
     for name in names:
-        url = f"{API_BASE}/{realm}/statistics/{urllib.parse.quote(name)}/latest-actions?profile=true"
+        # без profile=true лента отдаёт до 200 событий (недели истории), а не 10 —
+        # это ловит раздачи лута прошлых рейдов (obtaineditem за несколько недель).
+        url = f"{API_BASE}/{realm}/statistics/{urllib.parse.quote(name)}/latest-actions"
         feed = get_json(url, ctx)
         time.sleep(args.min_interval)
         if not isinstance(feed, list):
