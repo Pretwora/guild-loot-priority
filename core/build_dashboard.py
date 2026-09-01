@@ -193,6 +193,7 @@ def _players(cfg, roster, cur, prev_final):
             "base": final["base"],
             "rank_gate": final["rank_gate"],
             "frozen": final["frozen"],
+            "perf_measured": final["perf_measured"],
             "adjustments": final["adjustments"],
             "components": final["components"],
             "attendance": cur["att"][pid],
@@ -211,9 +212,11 @@ def _delta_breakdown(cfg, now, prev, total):
     wp = cfg.w("score", "w_perf")
     k = cfg.w("score", "loot_penalty_k")
     gate = now.get("rank_gate", 1.0)
+    measured = now.get("perf_measured", True)
 
     def S(A, P, L):
-        return scale * (wa * A + wp * P) / (1 + k * L) * gate
+        base = (wa * A + wp * P) if (measured and P is not None) else (wa + wp) * A
+        return scale * base / (1 + k * L) * gate
 
     cn, cp = now["components"], prev["components"]
     an, pn, ln = cn["A_eff"], cn["P"], cn["L_norm"]

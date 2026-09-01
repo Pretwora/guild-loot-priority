@@ -270,20 +270,34 @@ def performance_scores(kills, roster, cfg, combat=None):
                 "consumable": (cm["has_consumable"] if cm else None),
             }))
 
+    measured_roles = set(cfg.w("performance", "measured_roles"))
     out = {}
     for pid in roster.players:
         pts = sorted(per_player_points.get(pid, []), key=lambda x: x[0])
         last = pts[-window_kills:]
-        P = median([p for _, p, _ in last])
-        out[pid] = {
-            "P": round(P, 4) if P is not None else neutral,
-            "kills_counted": len(last),
-            "neutral_fallback": P is None,
-            "combat_available": bool(combat),
+        roles = [m["role"] for _, _, m in last]
+        if roles:
+            dominant = max(set(roles), key=roles.count)
+        else:
+            cid, spec = player_main_spec(roster, kills, pid)
+            info = cfg.spec_info(cid, spec) if cid is not None else None
+            dominant = (info or {}).get("role", "dps")
+        measured = dominant in measured_roles
+
+        row = {
+            "role": dominant, "measured": measured,
+            "kills_counted": len(last), "combat_available": bool(combat),
             "recent": [m for _, _, m in last],
         }
-        if P is None:
-            out[pid]["P"] = neutral
+        if measured:
+            P = median([p for _, p, _ in last])
+            row["P"] = round(P, 4) if P is not None else neutral
+            row["neutral_fallback"] = P is None
+        else:
+            # перформанс к роли не применяется (танк/хил) — в рейтинг не идёт
+            row["P"] = None
+            row["neutral_fallback"] = False
+        out[pid] = row
     return out
 
 
@@ -401,12 +415,17 @@ def final_scores(att, perf, loot, roster, cfg, now):
     out = {}
     for pid, pl in roster.players.items():
         A_eff = att[pid]["A_eff"]
+        measured = perf[pid].get("measured", True)
         P = perf[pid]["P"]
         L_norm = loot[pid]["L_norm"]
         rank = pl.get("rank", "member")
         gate = gates.get(rank, gates["member"])
 
-        base = w_att * A_eff + w_perf * P
+        if measured and P is not None:
+            base = w_att * A_eff + w_perf * P
+        else:
+            # перформанс к роли не применяется (танк/хил): его вес уходит в посещаемость
+            base = (w_att + w_perf) * A_eff
         adj_applied = []
         frozen = None
         for a in adj_by_player.get(pid, []):
@@ -430,6 +449,7 @@ def final_scores(att, perf, loot, roster, cfg, now):
             "S": round(S, 2),
             "base": round(base, 4),
             "rank": rank, "rank_gate": gate,
+            "perf_measured": measured,
             "components": {"A_eff": A_eff, "P": P, "L_norm": L_norm},
             "adjustments": adj_applied,
             "frozen": bool(frozen),

@@ -67,11 +67,19 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                 ))}
               </div>
             )}
-            <div className="formula-block">
-              S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) / (1 + {w.score.loot_penalty_k}·L_norm) × gate<br />
-              &nbsp;&nbsp;= {w.score.scale} × ({w.score.w_attendance}·{f2(c.A_eff)} + {w.score.w_perf}·{f2(c.P)}) / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
-              &nbsp;&nbsp;= <b>{f1(p.score)}</b>
-            </div>
+            {p.perf_measured ? (
+              <div className="formula-block">
+                S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) / (1 + {w.score.loot_penalty_k}·L_norm) × gate<br />
+                &nbsp;&nbsp;= {w.score.scale} × ({w.score.w_attendance}·{f2(c.A_eff)} + {w.score.w_perf}·{f2(c.P)}) / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
+                &nbsp;&nbsp;= <b>{f1(p.score)}</b>
+              </div>
+            ) : (
+              <div className="formula-block">
+                S = {w.score.scale} × A_eff / (1 + {w.score.loot_penalty_k}·L_norm) × gate&nbsp;&nbsp;<span style={{ color: "var(--ink-faint)" }}>// перформанс не применяется (танк/хил)</span><br />
+                &nbsp;&nbsp;= {w.score.scale} × {f2(c.A_eff)} / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
+                &nbsp;&nbsp;= <b>{f1(p.score)}</b>
+              </div>
+            )}
             {p.adjustments?.length > 0 && (
               <div style={{ marginTop: 8 }}>
                 <div className="grp-label">Ручные корректировки совета</div>
@@ -90,7 +98,9 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
               <dt>Посещаемость A_eff</dt><dd className="num">{att.no_raid_data
                 ? <span className="reason">нет 25-к — не был ни разу</span>
                 : <>{pct(c.A_eff)} <span className="reason">(факт {pct(att.A)}; стаж {attended} рейд., доверие {f2(att.conf)} → сжатие к медиане {pct(att.A_median_guild)})</span></>}</dd>
-              <dt>Перформанс P</dt><dd className="num">{pct(c.P)} <span className="reason">{p.performance.neutral_fallback ? "мало данных → нейтрально" : `медиана перцентилей за ${p.performance.kills_counted} килов`}</span></dd>
+              <dt>Перформанс P</dt><dd className="num">{p.perf_measured
+                ? <>{pct(c.P)} <span className="reason">{p.performance.neutral_fallback ? "мало данных → нейтрально" : `медиана перцентилей за ${p.performance.kills_counted} килов`}</span></>
+                : <span className="reason">не применяется — {ROLE_RU[p.performance.role] || "роль"} судится по посещаемости (слишком ситуативно)</span>}</dd>
               <dt>Лут L_norm</dt><dd className="num">{f2(c.L_norm)} <span className="reason">чем больше уже получил, тем ниже приоритет</span></dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
             </dl>
@@ -127,6 +137,11 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
         <div className="panel">
           <h3>Перформанс по последним килам</h3>
           <div className="body">
+            {!p.perf_measured && p.performance.recent.length > 0 && (
+              <div className="reason" style={{ marginBottom: 8 }}>
+                Справочно — в рейтинг не идёт: {ROLE_RU[p.performance.role] || "роль"} по перформансу не оценивается.
+              </div>
+            )}
             {p.performance.recent.length === 0 ? <div className="reason">Нет килов в зачёте.</div> : (
               <table style={{ fontSize: 12 }}>
                 <thead>

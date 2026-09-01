@@ -103,12 +103,14 @@ class TestPerformance(unittest.TestCase):
         self.assertEqual(perf["p0"]["P"], 0.5)
         self.assertEqual(perf["p1"]["P"], 0.5)
 
-    def test_tank_neutral(self):
+    def test_tank_not_measured(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
         players = [line(f"P{i}", role="dps", dps=1000 * (i + 1)) for i in range(5)]
         players.append(line("P5", role="tank", dps=50))
         perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg)
-        self.assertEqual(perf["p5"]["P"], 0.5)  # танк — всегда нейтрально
+        self.assertFalse(perf["p5"]["measured"])  # танк не меряется
+        self.assertIsNone(perf["p5"]["P"])
+        self.assertTrue(perf["p0"]["measured"])   # ДД меряется
 
     def test_percentile_orders(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
@@ -166,16 +168,14 @@ class TestCombatPerformance(unittest.TestCase):
                 "taken": 0, "done": 0, "healing": 0, "interrupts": 0, "dispels": utility,
                 "has_consumable": has_consumable}
 
-    def test_tank_lower_taken_ranks_higher(self):
+    def test_tank_not_measured(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
-        # 6 танков на одном боссе, разный полученный урон/сек
         players = [line(f"T{i}", role="tank", guid=i) for i in range(6)]
         combat = StubCombat({1: {i: self._cm(taken_ps=1000 * (i + 1)) for i in range(6)}})
         perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, combat)
-        # меньше всех получил (T0) → выше; больше всех (T5) → ниже
-        self.assertGreater(perf["t0"]["P"], perf["t5"]["P"])
-        self.assertAlmostEqual(perf["t0"]["P"], 1.0, places=3)
-        self.assertAlmostEqual(perf["t5"]["P"], 0.0, places=3)
+        # танк не меряется — перформанс к нему не применяется
+        self.assertFalse(perf["t0"]["measured"])
+        self.assertIsNone(perf["t0"]["P"])
 
     def test_death_penalty_lowers_p(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
@@ -186,11 +186,12 @@ class TestCombatPerformance(unittest.TestCase):
         p1 = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, with_death)
         self.assertGreater(p0["t3"]["P"], p1["t3"]["P"])  # смерть роняет перформанс
 
-    def test_no_combat_tank_neutral(self):
+    def test_dps_measured(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
-        perf = SC.performance_scores([kill(1, base, [line("T0", role="tank", guid=0)])],
-                                     self.roster, self.cfg, combat=None)
-        self.assertEqual(perf["t0"]["P"], 0.5)  # без лога боя танк нейтрален
+        players = [line(f"T{i}", role="dps", dps=1000 * (i + 1), guid=i) for i in range(6)]
+        perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, combat=None)
+        self.assertTrue(perf["t0"]["measured"])  # ДД меряется
+        self.assertIsNotNone(perf["t0"]["P"])
 
 
 class TestLootAndScore(unittest.TestCase):
@@ -224,6 +225,14 @@ class TestLootAndScore(unittest.TestCase):
         base = 0.7 * 1.0 + 0.3 * 0.5  # 0.85
         self.assertAlmostEqual(final["a"]["S"], 100 * base / 1.0 * 1.0, places=2)
         self.assertAlmostEqual(final["b"]["S"], 100 * base / 1.0 * 0.6, places=2)  # триал gate 0.6
+
+    def test_unmeasured_role_folds_perf_into_attendance(self):
+        # танк/хил: перформанс не применяется, его вес уходит в посещаемость
+        att = {"a": {"A_eff": 1.0}}
+        perf = {"a": {"P": None, "measured": False}}
+        r = Roster(char_to_player={}, players={"a": {"rank": "member", "characters": []}})
+        final = SC.final_scores(att, perf, {"a": {"L_norm": 0.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
+        self.assertAlmostEqual(final["a"]["S"], 100.0, places=1)  # A_eff=1 → максимум без перформанса
 
     def test_loot_penalty_reduces_score(self):
         att = {"a": {"A_eff": 1.0}}

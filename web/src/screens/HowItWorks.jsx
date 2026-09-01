@@ -29,16 +29,11 @@ export default function HowItWorks({ data }) {
           <p className="reason">Окно: последние {w.attendance.window_weeks} недель или {w.attendance.window_nights} вечеров — что больше. Бенч = полный кредит. Вечер чужого состава не идёт в знаменатель. Сжатие к среднему не даёт новичку с двумя рейдами обойти того, кто ходит полгода.</p>
         </Panel>
 
-        <Panel title="P — перформанс (0..1)">
+        <Panel title="P — перформанс (0..1), только ДД">
           <div className="formula-block">p = ранг / (n−1) внутри пары «спек + босс»<br/>P = медиана p за последние {w.performance.window_kills} килов</div>
-          <p className="reason">Дпс сравниваются по урону, хилы по лечению — всегда внутри своего спека на своём боссе (сырые dps между классами не сравниваются). При n&lt;{w.performance.min_sample} записях p={w.performance.neutral} (мало данных = нейтрально).</p>
-          <p className="reason"><b>Из детального лога боя:</b> танки — по полученному урону/сек (меньше = лучше митигация), сравнение среди всех танков на боссе. Модификаторы покилово, под общим потолком {Math.round(w.score.w_perf * 100)}%:</p>
-          <dl className="kv">
-            <dt>перебивания + диспелы</dt><dd className="num">до +{Math.round(w.performance.util_weight * 100)}% (перцентиль внутри роли)</dd>
-            <dt>смерть в бою</dt><dd className="num">−{Math.round(w.performance.death_penalty * 100)}% за каждую</dd>
-            <dt>нет расходника</dt><dd className="num">−{Math.round(w.performance.consumable_penalty * 100)}%{data.meta.combat?.consumable_tracking ? "" : " (выкл — каталог не задан)"}</dd>
-          </dl>
-          <p className="reason">Боевой лог есть у {data.meta.combat?.kills_with_log ?? 0} из {data.meta.combat?.kills_counted ?? 0} зачётных килов.</p>
+          <p className="reason"><b>Меряется только у ДД</b> ({(w.performance.measured_roles || ["dps"]).join(", ")}): урон, перцентиль внутри своего спека на своём боссе (сырые dps между классами не сравниваются). При n&lt;{w.performance.min_sample} записях p={w.performance.neutral} (мало данных = нейтрально).</p>
+          <p className="reason"><b>Танки и хилы перформансом не оцениваются</b> — слишком ситуативно (мейн- vs офф-танк, оверхил, беготня по механике), а полезны они по определению. Их вес перформанса ({Math.round(w.score.w_perf * 100)}%) уходит в посещаемость: судятся по посещаемости и луту.</p>
+          <p className="reason">Модификаторы ДД (покилово, под потолком {Math.round(w.score.w_perf * 100)}%): перебивания+диспелы до +{Math.round(w.performance.util_weight * 100)}% (перцентиль внутри роли), смерть −{Math.round(w.performance.death_penalty * 100)}%. Боевой лог есть у {data.meta.combat?.kills_with_log ?? 0} из {data.meta.combat?.kills_counted ?? 0} зачётных килов.</p>
         </Panel>
 
         <Panel title="L — полученный лут">

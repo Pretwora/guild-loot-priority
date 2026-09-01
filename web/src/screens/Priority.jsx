@@ -80,7 +80,11 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                     ? <span className="reason">нет 25-к</span>
                     : <Meter value={p.attendance.A} />}
                 </td>
-                <td><Meter value={p.components.P} kind="perf" /></td>
+                <td title={p.perf_measured ? undefined : "перформанс не применяется к танкам/хилам — судятся по посещаемости"}>
+                  {p.perf_measured
+                    ? <Meter value={p.components.P} kind="perf" />
+                    : <span className="reason">—</span>}
+                </td>
                 <td className="r num" title="Нормированный полученный лут">{f2(p.components.L_norm)}</td>
               </tr>
             ))}
