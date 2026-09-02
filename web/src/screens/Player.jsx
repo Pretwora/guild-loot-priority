@@ -162,6 +162,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
               </div>
             )}
             {p.performance.recent.length === 0 ? <div className="reason">Нет килов в зачёте.</div> : (
+              <div className="table-scroll">
               <table style={{ fontSize: 12 }}>
                 <thead>
                   <tr>
@@ -188,6 +189,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                   ))}
                 </tbody>
               </table>
+              </div>
             )}
           </div>
         </div>

@@ -145,6 +145,8 @@ td.player { border-left: 3px solid var(--klass, transparent); }
 .loot-icon.noimg { display: inline-grid; place-items: center; font-size: 12px; font-weight: 700;
   color: #c98bff; text-transform: uppercase; box-sizing: border-box; }
 .loot-more { font-size: 11px; color: var(--ink-faint); }
+/* таблицы внутри панелей: скролл по горизонтали, чтобы не вылезать в соседнюю панель */
+.table-scroll { overflow-x: auto; }
 .loot-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 7px; }
 .loot-list li { display: flex; align-items: center; gap: 9px; }
 .loot-list .loot-name { font-weight: 600; }
