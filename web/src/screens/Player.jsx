@@ -1,5 +1,5 @@
 import { readableColor, pct, f1, f2, deltaClass, deltaText, deltaPartsList } from "../lib.js";
-import { RankBadge } from "./Priority.jsx";
+import { RankBadge, LootIcons } from "./Priority.jsx";
 
 const ROLE_RU = { tank: "танк", heal: "хил", dps: "дпс" };
 
@@ -69,14 +69,14 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
             )}
             {p.perf_measured ? (
               <div className="formula-block">
-                S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) / (1 + {w.score.loot_penalty_k}·L_norm) × gate<br />
-                &nbsp;&nbsp;= {w.score.scale} × ({w.score.w_attendance}·{f2(c.A_eff)} + {w.score.w_perf}·{f2(c.P)}) / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
+                S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) × gate<br />
+                &nbsp;&nbsp;= {w.score.scale} × ({w.score.w_attendance}·{f2(c.A_eff)} + {w.score.w_perf}·{f2(c.P)}) × {p.rank_gate}<br />
                 &nbsp;&nbsp;= <b>{f1(p.score)}</b>
               </div>
             ) : (
               <div className="formula-block">
-                S = {w.score.scale} × A_eff / (1 + {w.score.loot_penalty_k}·L_norm) × gate&nbsp;&nbsp;<span style={{ color: "var(--ink-faint)" }}>// перформанс не применяется (танк/хил)</span><br />
-                &nbsp;&nbsp;= {w.score.scale} × {f2(c.A_eff)} / (1 + {w.score.loot_penalty_k}·{f2(c.L_norm)}) × {p.rank_gate}<br />
+                S = {w.score.scale} × A_eff × gate&nbsp;&nbsp;<span style={{ color: "var(--ink-faint)" }}>// перформанс не применяется (танк/хил)</span><br />
+                &nbsp;&nbsp;= {w.score.scale} × {f2(c.A_eff)} × {p.rank_gate}<br />
                 &nbsp;&nbsp;= <b>{f1(p.score)}</b>
               </div>
             )}
@@ -101,10 +101,28 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
               <dt>Перформанс P</dt><dd className="num">{p.perf_measured
                 ? <>{pct(c.P)} <span className="reason">{p.performance.neutral_fallback ? "мало данных → нейтрально" : `медиана перцентилей за ${p.performance.kills_counted} килов`}</span></>
                 : <span className="reason">не применяется — {ROLE_RU[p.performance.role] || "роль"} судится по посещаемости (слишком ситуативно)</span>}</dd>
-              <dt>Лут L_norm</dt><dd className="num">{f2(c.L_norm)} <span className="reason">чем больше уже получил, тем ниже приоритет</span></dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
               {p.signup_bonus > 0 && (<><dt>Запись на рейд</dt><dd className="num delta up">+{p.signup_bonus} <span className="reason">бонус за запись (raid-helper)</span></dd></>)}
             </dl>
+          </div>
+        </div>
+
+        <div className="panel">
+          <h3>Полученный лут <span className="reason" style={{ fontWeight: 400 }}>· последние 2 КД · на рейтинг не влияет</span></h3>
+          <div className="body">
+            {p.recent_loot?.length ? (
+              <ul className="loot-list">
+                {p.recent_loot.map((it, i) => (
+                  <li key={i}>
+                    {it.icon
+                      ? <img className="loot-icon" src={it.icon} alt="" loading="lazy" />
+                      : <span className="loot-icon noimg">{(it.item || "?")[0]}</span>}
+                    <span className="loot-name">{it.item}</span>
+                    <span className="reason">{it.boss ? it.boss + " · " : ""}КД {it.date}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : <div className="reason">За последние 2 КД ничего не получал.</div>}
           </div>
         </div>
 

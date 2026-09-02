@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+from collections import defaultdict
 from datetime import timedelta
 
 from core.common import Config, server_now
@@ -81,9 +82,12 @@ SIZE_LABEL = {10: "10-ки", 25: "25-ки"}
 
 
 def _scope_defs(cfg):
-    """Ладдеры: совокупность и каждый размер отдельно (запрос РЛ — видеть активность
-    по 10-кам, по 25-кам и суммарно)."""
+    """Ладдеры по составу. Один размер (сейчас только 25) → один скоуп, без дублей.
+    Несколько размеров → совокупность + каждый отдельно."""
     all_sizes = cfg.raw["raid_night"]["count_raid_sizes"]
+    if len(all_sizes) == 1:
+        s = all_sizes[0]
+        return [(str(s), SIZE_LABEL.get(s, f"{s}-ки"), [s])]
     defs = [("all", "10 + 25" if set(all_sizes) == {10, 25} else "все", list(all_sizes))]
     for s in all_sizes:
         defs.append((str(s), SIZE_LABEL.get(s, f"{s}-ки"), [s]))
@@ -107,6 +111,10 @@ def build(config_path="config/config.json"):
     item_db = ItemDB(cfg)
     combat = CombatDB(cfg)
     all_kills = N.load_kills(cfg)
+    # 10-ки полностью вон из ВСЕЙ статистики (решение РЛ): фильтруем парсы на входе, дальше
+    # весь пайплайн (авто-игроки, first_seen, посещаемость, перформанс, лут) видит только 25-ки.
+    stat_sizes = set(cfg.raw["raid_night"]["count_raid_sizes"])
+    all_kills = [k for k in all_kills if k.size_bucket in stat_sizes]
     N.augment_roster_with_parses(roster, all_kills, cfg)  # авто-игроки за парсы (сирус знает всех рейдивших)
     first_seen = N.first_seen_by_player(all_kills, roster)
     signup_bonus, signed_latest, signup_unmatched, signup_events = SU.compute(cfg, roster)
@@ -122,10 +130,10 @@ def build(config_path="config/config.json"):
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
-            "players": _players(cfg, roster, cur, prev_final, sl),
+            "players": _players(cfg, roster, cur, item_db, prev_final, sl),
             "nights": _nights(cfg, roster, cur["nights"]),
         })
-        if key == "all":
+        if key == "all" or all_cur is None:  # источник для meta: 'all' если есть, иначе первый скоуп
             all_cur, all_counted = cur, counted
 
     dash = {
@@ -181,7 +189,53 @@ def _meta(cfg, all_kills, counted, nights, combat):
     }
 
 
-def _players(cfg, roster, cur, prev_final, signed_latest=frozenset()):
+def _recent_loot_map(roster, cur, item_db, n_kds=2):
+    """{pid: [полученные предметы за последние n_kds КД]} с иконками — для наглядности в
+    списке (лут на рейтинг не влияет, РЛ смотрит историю выдач глазами). Свежее сверху."""
+    nights = sorted(cur["nights"], key=lambda n: n.started_at, reverse=True)
+    dates = []
+    for ni in nights:
+        if ni.date not in dates:
+            dates.append(ni.date)
+        if len(dates) >= n_kds:
+            break
+    dateset = set(dates)
+
+    icon_of, boss_of = {}, {}
+    for k in cur.get("loot_kills", []):
+        boss_of[str(k.record_id)] = k.boss_name
+        for lo in k.loots:
+            if lo.entry not in icon_of and getattr(lo, "icon", None):
+                icon_of[lo.entry] = lo.icon
+
+    disp_to_pid = {}
+    for pid, pl in roster.players.items():
+        disp_to_pid.setdefault(SC._norm_name(pid), pid)
+        disp_to_pid.setdefault(SC._norm_name(pl.get("display", pid)), pid)
+
+    out = defaultdict(list)
+    for r in cur["loot_log"]:
+        rp = (r.get("player") or "").strip()
+        if not rp or r.get("date") not in dateset:
+            continue
+        pid = rp if rp in roster.players else disp_to_pid.get(SC._norm_name(rp), rp)
+        entry = int(r["item_entry"]) if str(r.get("item_entry", "")).isdigit() else None
+        ic = item_db.classify(entry, r.get("item_name", "?")) if entry else None
+        award = (r.get("award_type") or "").strip().lower()
+        if award in ("shard", "de"):
+            continue  # распылён — не выдача игроку
+        out[pid].append({
+            "item": r.get("item_name"), "entry": entry, "icon": icon_of.get(entry),
+            "slot": ic.slot if ic else "?", "ilvl": (ic.ilvl if ic else 0),
+            "date": r.get("date"), "boss": boss_of.get(str(r.get("record_id")), ""),
+        })
+    for pid in out:
+        out[pid].sort(key=lambda x: (x["date"], x["item"] or ""), reverse=True)
+    return dict(out)
+
+
+def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset()):
+    recent_loot = _recent_loot_map(roster, cur, item_db)
     show_dps = cfg.raw["display"]["show_raw_dps"]
     rows = []
     for pid, pl in roster.players.items():
@@ -218,6 +272,7 @@ def _players(cfg, roster, cur, prev_final, signed_latest=frozenset()):
             "attendance": cur["att"][pid],
             "performance": perf,
             "loot": cur["loot"][pid],
+            "recent_loot": recent_loot.get(pid, []),
         })
     rows.sort(key=lambda r: r["score"], reverse=True)
     return rows

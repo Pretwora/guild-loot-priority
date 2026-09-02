@@ -234,13 +234,15 @@ class TestLootAndScore(unittest.TestCase):
         final = SC.final_scores(att, perf, {"a": {"L_norm": 0.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
         self.assertAlmostEqual(final["a"]["S"], 100.0, places=1)  # A_eff=1 → максимум без перформанса
 
-    def test_loot_penalty_reduces_score(self):
+    def test_loot_does_not_affect_score(self):
+        # Решение РЛ: полученный лут НЕ влияет на рейтинг (loot_penalty_k=0) — показываем
+        # выдачи иконками для наглядности, приоритет считаем только по посещаемости+перформансу.
         att = {"a": {"A_eff": 1.0}}
         perf = {"a": {"P": 0.5}}
         r = Roster(char_to_player={}, players={"a": {"rank": "member", "characters": []}})
         s0 = SC.final_scores(att, perf, {"a": {"L_norm": 0.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
         s1 = SC.final_scores(att, perf, {"a": {"L_norm": 2.0}}, r, self.cfg, dt.datetime(2026, 9, 1))
-        self.assertGreater(s0["a"]["S"], s1["a"]["S"])  # больше лута → ниже приоритет
+        self.assertEqual(s0["a"]["S"], s1["a"]["S"])  # лут не меняет рейтинг
 
 
 class TestItems(unittest.TestCase):

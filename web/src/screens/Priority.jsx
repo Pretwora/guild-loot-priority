@@ -31,8 +31,25 @@ const COLS = [
   { key: "delta", label: "Δ рейд", sortable: true, cls: "r" },
   { key: "attendance.A", label: "Посещаемость", sortable: true },
   { key: "components.P", label: "Перформанс", sortable: true },
-  { key: "components.L_norm", label: "Лут", sortable: true, cls: "r" },
 ];
+
+export function LootIcons({ items, limit }) {
+  if (!items || !items.length) return <span className="reason">—</span>;
+  const shown = limit ? items.slice(0, limit) : items;
+  const rest = items.length - shown.length;
+  return (
+    <span className="loot-icons">
+      {shown.map((it, i) => (
+        it.icon
+          ? <img key={i} className="loot-icon" src={it.icon} alt={it.item} loading="lazy"
+                 title={`${it.item}${it.boss ? " · " + it.boss : ""} · КД ${it.date}`} />
+          : <span key={i} className="loot-icon noimg"
+                  title={`${it.item} · КД ${it.date}`}>{(it.item || "?")[0]}</span>
+      ))}
+      {rest > 0 && <span className="loot-more">+{rest}</span>}
+    </span>
+  );
+}
 
 export default function Priority({ data, scope, onOpenPlayer }) {
   const active = (data.scopes || []).find((s) => s.key === scope) || { players: data.players };
@@ -42,8 +59,8 @@ export default function Priority({ data, scope, onOpenPlayer }) {
     <>
       <h2 className="screen">Приоритет</h2>
       <p className="sub">
-        Кто заслужил{scope !== "all" ? ` (ладдер ${active.label})` : ""}. Сортировка по любой
-        колонке. Строка → карточка игрока с расшифровкой. Система — советник, а не судья.
+        Кто заслужил (по 25-кам). Сортировка по любой колонке. Строка → карточка игрока
+        с расшифровкой. Лут показан иконками — на рейтинг не влияет, кому отдавать решает РЛ.
       </p>
       <div className="table-wrap">
         <table>
@@ -59,6 +76,7 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                   {c.label} <Caret active={key === c.key} dir={dir} />
                 </th>
               ))}
+              <th title="Что игрок получил за последние 2 рейд-вечера (на рейтинг не влияет)">Последний лут</th>
             </tr>
           </thead>
           <tbody>
@@ -86,7 +104,7 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                     ? <Meter value={p.components.P} kind="perf" />
                     : <span className="reason">—</span>}
                 </td>
-                <td className="r num" title="Нормированный полученный лут">{f2(p.components.L_norm)}</td>
+                <td className="loot-cell"><LootIcons items={p.recent_loot} /></td>
               </tr>
             ))}
           </tbody>

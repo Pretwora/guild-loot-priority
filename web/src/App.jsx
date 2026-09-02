@@ -77,7 +77,7 @@ export default function App() {
 
       <main className="content">
         <IssuesBar issues={data.issues} meta={data.meta} onOpen={() => setTab("raids")} />
-        {(tab === "priority" || tab === "raids") && data.scopes && (
+        {(tab === "priority" || tab === "raids") && data.scopes && data.scopes.length > 1 && (
           <ScopeSwitch scopes={data.scopes} scope={scope} setScope={setScope} />
         )}
         {tab === "priority" && <Priority data={data} scope={scope} onOpenPlayer={openPlayer} />}

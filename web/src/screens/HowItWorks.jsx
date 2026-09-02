@@ -15,7 +15,7 @@ export default function HowItWorks({ data }) {
       <div className="grid2">
         <Panel title="Итоговый рейтинг S">
           <div className="formula-block">
-            S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) / (1 + {w.score.loot_penalty_k}·L_norm) × rank_gate
+            S = {w.score.scale} × ({w.score.w_attendance}·A_eff + {w.score.w_perf}·P) × rank_gate
           </div>
           <p className="reason">Вклад перформанса ограничен {Math.round(w.score.w_perf * 100)}% сознательно: выше — и топ-дпс в лучшей экипировке забирает всё, разрыв сам себя усиливает.</p>
           <dl className="kv">
@@ -33,34 +33,13 @@ export default function HowItWorks({ data }) {
         <Panel title="P — перформанс (0..1), только ДД">
           <div className="formula-block">p = ранг / (n−1) внутри пары «спек + босс»<br/>P = медиана p за последние {w.performance.window_kills} килов</div>
           <p className="reason"><b>Меряется только у ДД</b> ({(w.performance.measured_roles || ["dps"]).join(", ")}): урон, перцентиль внутри своего спека на своём боссе (сырые dps между классами не сравниваются). При n&lt;{w.performance.min_sample} записях p={w.performance.neutral} (мало данных = нейтрально).</p>
-          <p className="reason"><b>Танки и хилы перформансом не оцениваются</b> — слишком ситуативно (мейн- vs офф-танк, оверхил, беготня по механике), а полезны они по определению. Их вес перформанса ({Math.round(w.score.w_perf * 100)}%) уходит в посещаемость: судятся по посещаемости и луту.</p>
+          <p className="reason"><b>Танки и хилы перформансом не оцениваются</b> — слишком ситуативно (мейн- vs офф-танк, оверхил, беготня по механике), а полезны они по определению. Их вес перформанса ({Math.round(w.score.w_perf * 100)}%) уходит в посещаемость: судятся по посещаемости.</p>
           <p className="reason">Модификаторы ДД (покилово, под потолком {Math.round(w.score.w_perf * 100)}%): перебивания+диспелы до +{Math.round(w.performance.util_weight * 100)}% (перцентиль внутри роли), смерть −{Math.round(w.performance.death_penalty * 100)}%. Боевой лог есть у {data.meta.combat?.kills_with_log ?? 0} из {data.meta.combat?.kills_counted ?? 0} зачётных килов.</p>
         </Panel>
 
-        <Panel title="L — полученный лут">
-          <div className="formula-block">L = Σ(вес_предмета · множитель_типа · {w.loot.decay_lambda}^дней)<br/>L_norm = clip(L / {w.loot.norm_reference}, 0, {w.loot.norm_clip_max})</div>
-          <p className="reason"><b>Только по 25-кам</b> ({(data.meta.loot_raid_sizes || [25]).join(", ")}): лут с 10-к рейтинг не режет — как и посещаемость. Считается по гильдийным РТ, одинаково во всех вкладках.</p>
-          <p className="reason">Нормируем на <b>фикс-шкалу</b> ({w.loot.norm_reference} ≈ один БиС-предмет), а не на медиану гильдии: иначе лёгкая броня резала бы рейтинг так же, как оружие. Максимум L_norm={w.loot.norm_clip_max} → примерно −{Math.round((1 - 1/(1 + w.score.loot_penalty_k*w.loot.norm_clip_max))*100)}% рейтинга.</p>
-          <table style={{ fontSize: 12, marginTop: 6 }}>
-            <thead><tr><th>тип выдачи</th><th className="r">множитель</th></tr></thead>
-            <tbody>
-              {Object.entries(w.loot.award_type_mult).map(([k, v]) => (
-                <tr key={k}><td>{k}</td><td className="r num">{v == null ? "не учитывается" : v}</td></tr>
-              ))}
-            </tbody>
-          </table>
-          <p className="reason"><b>Офспек не снимает рейтинг</b> (множитель 0): взял в запасной спек — это не в счёт. Парсер сам делит мейн/офспек по статам предмета относительно мейн-спека игрока; спорное совет правит вручную.</p>
-        </Panel>
-
-        <Panel title="Вес предмета за штуку">
-          <table style={{ fontSize: 12 }}>
-            <tbody>
-              <tr><td>тринкет, оружие, токен/печеньки <span className="reason">(ilvl {w.loot.ilvl_bis}+)</span></td><td className="r num">{w.loot.weight_bis}</td></tr>
-              <tr><td>прочая броня <span className="reason">(сровнено, одинаково)</span></td><td className="r num">{w.loot.weight_armor}</td></tr>
-              <tr><td>рецепты / расходники / непонятное</td><td className="r num">{w.loot.weight_recipe}</td></tr>
-            </tbody>
-          </table>
-          <p className="reason">Дорогие слоты (тринкеты, оружие, печеньки) режут рейтинг сильно = БиС. Вся остальная броня 258+ отнимает мало и одинаково, чтобы не штрафовать за расходную экипировку. Оружие/тринкет ниже ilvl {w.loot.ilvl_bis} считаются как броня (старьё).</p>
+        <Panel title="Полученный лут — только для наглядности">
+          <p className="reason"><b>Лут НЕ влияет на рейтинг.</b> Раньше полученный шмот снижал приоритет — совет решил убрать это. Теперь в списке у каждого игрока показаны иконками вещи, полученные за <b>последние 2 КД</b> (рейд-вечера). Кому отдавать — РЛ решает сам, глядя на посещаемость, стабильность, запись и эту историю выдач.</p>
+          <p className="reason">Получатели определяются автоматически по ленте действий Sirus (кто получил предмет в окне после кила; при мастер-луте — конечный держатель после трейда от ГМ). Только 25-ки.</p>
         </Panel>
 
         <Panel title="Fit — соответствие предмета (0..1)">
