@@ -192,27 +192,6 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
           </div>
         </div>
 
-        <div className="panel">
-          <h3>Полученный лут</h3>
-          <div className="body">
-            {p.loot.awards.length === 0 ? <div className="reason">Пока ничего не получено.</div> : (
-              <table style={{ fontSize: 12 }}>
-                <tbody>
-                  {p.loot.awards.map((a, i) => (
-                    <tr key={i}>
-                      <td className="num">{a.date}</td>
-                      <td>{a.item}</td>
-                      <td className="reason">{a.slot} · {a.award_type} ×{a.mult}</td>
-                      <td>{a.source === "auto"
-                        ? <span className="badge" title="Распознано по ленте действий">авто</span>
-                        : <span className="badge officer" title="Внесено вручную">рука</span>}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-          </div>
-        </div>
       </div>
     </>
   );
