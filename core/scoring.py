@@ -317,11 +317,35 @@ def load_loot_log(cfg):
         return [row for row in csv.DictReader(f) if row.get("record_id")]
 
 
-def item_loot_weight(ic, cfg):
-    """Вес полученного предмета за штуку (правило совета, раздел 7.3):
-    тринкеты/оружие/токены = БиС (weight_bis), прочая броня = weight_armor (мало и одинаково),
-    рецепты/непонятное = weight_recipe. Оружие/тринкет ниже ilvl_bis — как броня (старьё)."""
+def _norm_name(s):
+    return " ".join((s or "").strip().lower().split())
+
+
+def bis_whitelist(cfg):
+    """(mode, names, entries) из data/manual/bis_items.yml.
+    mode 'whitelist' → штрафуют ТОЛЬКО перечисленные предметы (совет ведёт список руками),
+    всё прочее = 0. mode 'auto' (или нет файла) → старая шкала слот+ilvl."""
+    data = load_yaml(os.path.join(cfg.paths["manual"], "bis_items.yml")) or {}
+    mode = (data.get("mode") or "auto").strip().lower()
+    items = data.get("items") or []
+    names = {_norm_name(x) for x in items if isinstance(x, str)}
+    entries = {int(x) for x in items if isinstance(x, int)}
+    return mode, names, entries
+
+
+def item_loot_weight(ic, cfg, wl=None):
+    """Вес полученного предмета за штуку. Два режима (bis_items.yml):
+    • whitelist — БиС только у предметов из списка совета, прочее = 0 (не снимает рейтинг);
+    • auto — тринкеты/оружие/токены = БиС (weight_bis), прочая броня мало, рецепты символически."""
     w_bis = cfg.w("loot", "weight_bis")
+    if wl is None:
+        wl = bis_whitelist(cfg)
+    mode, names, entries = wl
+    if mode == "whitelist":
+        if ic and (_norm_name(ic.name) in names or ic.entry in entries):
+            return w_bis
+        return 0.0                            # не в списке БиС — рейтинг не режет
+
     w_armor = cfg.w("loot", "weight_armor")
     w_recipe = cfg.w("loot", "weight_recipe")
     ilvl_bis = cfg.w("loot", "ilvl_bis")
@@ -346,6 +370,7 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
     mults = cfg.w("loot", "award_type_mult")
     clip_max = cfg.w("loot", "norm_clip_max")
     reference = cfg.w("loot", "norm_reference")
+    wl = bis_whitelist(cfg)  # режим весов (whitelist/auto) — грузим один раз
 
     raw = defaultdict(float)
     awards = defaultdict(list)
@@ -354,11 +379,18 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
     # человеческие синонимы разметки → канон (чтобы РЛ мог писать «main»/«off» руками)
     aliases = {"main": "bis", "mainspec": "bis", "мейн": "bis",
                "off": "offspec", "os": "offspec", "офф": "offspec", "офспек": "offspec"}
+    # игрок в логе может быть id ('fexler') ИЛИ отображаемым именем ('Fexler', 'Серёжка') —
+    # ручная таблица/маркер отдают отображаемые. Резолвим оба к канон-id ростера.
+    disp_to_pid = {}
+    for pid_, pl in roster.players.items():
+        disp_to_pid.setdefault(_norm_name(pid_), pid_)
+        disp_to_pid.setdefault(_norm_name(pl.get("display", pid_)), pid_)
     for row in loot_log:
-        pid = (row.get("player") or "").strip()
+        raw_player = (row.get("player") or "").strip()
+        pid = raw_player if raw_player in roster.players else disp_to_pid.get(_norm_name(raw_player), raw_player)
         atype = (row.get("award_type") or "").strip().lower()
         atype = aliases.get(atype, atype)
-        if not pid:
+        if not raw_player:
             continue  # шард/никому — учитывается только для «незакрытых», не в L
         mult = mults.get(atype)
         if mult is None:
@@ -366,7 +398,7 @@ def loot_scores(loot_log, roster, item_db, cfg, now):
         entry = int(row["item_entry"]) if str(row.get("item_entry", "")).isdigit() else None
         ic = item_db.classify(entry, row.get("item_name", "?")) if entry else None
         slot = ic.slot if ic else "unknown"
-        weight = item_loot_weight(ic, cfg)
+        weight = item_loot_weight(ic, cfg, wl)
         try:
             d = datetime.strptime(row["date"], "%Y-%m-%d")
         except Exception:

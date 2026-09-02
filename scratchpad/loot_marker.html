@@ -1,0 +1,264 @@
+<title>Разметка лута</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<style>
+:root{
+  --bg:#f4f1f7; --surface:#ffffff; --surface-2:#f1ecf6; --ink:#1b1622; --ink-soft:#655c72;
+  --line:#e4dcee; --accent:#7c3aed; --accent-soft:#ede4fb;
+  --main:#0d9d63; --main-soft:#d9f5e8; --off:#bf720a; --off-soft:#fbeed4;
+  --free:#6b7280; --free-soft:#eceef1; --alert:#d63a5c; --alert-soft:#fbe1e8;
+  --shadow:0 1px 2px rgba(27,22,34,.06),0 4px 16px rgba(27,22,34,.05);
+}
+:root:not([data-theme="light"]){ @media (prefers-color-scheme:dark){
+  --bg:#14111b; --surface:#1d1928; --surface-2:#272033; --ink:#ece7f3; --ink-soft:#9b91ab;
+  --line:#322b40; --accent:#a988f7; --accent-soft:#2c2440;
+  --main:#33d18f; --main-soft:#123528; --off:#e5a13c; --off-soft:#3a2c14;
+  --free:#8b93a1; --free-soft:#2a2f38; --alert:#f2708f; --alert-soft:#3a1c26;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --bg:#14111b; --surface:#1d1928; --surface-2:#272033; --ink:#ece7f3; --ink-soft:#9b91ab;
+  --line:#322b40; --accent:#a988f7; --accent-soft:#2c2440;
+  --main:#33d18f; --main-soft:#123528; --off:#e5a13c; --off-soft:#3a2c14;
+  --free:#8b93a1; --free-soft:#2a2f38; --alert:#f2708f; --alert-soft:#3a1c26;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px 120px}
+h1{font-family:Cinzel,Georgia,serif;font-weight:700;font-size:26px;letter-spacing:.02em;margin:0;color:var(--accent)}
+.sub{color:var(--ink-soft);font-size:13px;margin:2px 0 0}
+.tabnum{font-variant-numeric:tabular-nums}
+
+/* шапка */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.head-in{max-width:920px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.head-in .grow{flex:1;min-width:180px}
+.progress{display:flex;align-items:center;gap:12px}
+.pbar{width:120px;height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line)}
+.pbar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),color-mix(in srgb,var(--accent) 60%,var(--main)));transition:width .3s}
+.pnum{font-weight:700;font-size:15px}
+.pnum b{color:var(--accent)}
+.need{font-size:12px;color:var(--alert);font-weight:600}
+.iconbtn{width:36px;height:36px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:9px;cursor:pointer;font-size:16px;display:grid;place-items:center}
+.iconbtn:hover{border-color:var(--accent)}
+
+/* секции-вечера */
+.night{margin-top:26px}
+.night>h2{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 10px;padding-bottom:8px;
+  border-bottom:2px solid var(--line)}
+.night>h2 .date{font-size:19px;font-weight:700}
+.night>h2 .inst{font-size:13px;color:var(--ink-soft)}
+.night>h2 .cnt{margin-left:auto;font-size:12px;color:var(--ink-soft)}
+
+/* строка предмета */
+.row{display:grid;grid-template-columns:1fr 200px auto;gap:12px;align-items:center;
+  background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:11px 14px;margin-bottom:8px;
+  box-shadow:var(--shadow);position:relative;overflow:hidden}
+.row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:transparent}
+.row.need::before{background:var(--alert)}
+.row.done::before{background:var(--main)}
+.iname{font-weight:600;color:var(--accent);line-height:1.25}
+.chips{display:flex;gap:6px;margin-top:4px;flex-wrap:wrap}
+.chip{font-size:11px;color:var(--ink-soft);background:var(--surface-2);border:1px solid var(--line);
+  border-radius:6px;padding:1px 7px;letter-spacing:.02em}
+.chip.boss{color:var(--ink-soft)}
+
+select{width:100%;font:inherit;font-size:13px;color:var(--ink);background:var(--surface-2);
+  border:1px solid var(--line);border-radius:8px;padding:7px 8px;cursor:pointer;appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.5'/></svg>");
+  background-repeat:no-repeat;background-position:right 8px center;padding-right:24px}
+select:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+select.empty{color:var(--alert);border-color:var(--alert);border-style:dashed}
+
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface-2)}
+.seg button{border:0;background:transparent;color:var(--ink-soft);font:inherit;font-size:13px;font-weight:600;
+  padding:7px 12px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"][data-v="main"]{background:var(--main-soft);color:var(--main)}
+.seg button[aria-pressed="true"][data-v="off"]{background:var(--off-soft);color:var(--off)}
+.seg button[aria-pressed="true"][data-v="free"]{background:var(--free-soft);color:var(--free)}
+.row.none .seg{opacity:.4;pointer-events:none}
+
+/* нижняя панель */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:color-mix(in srgb,var(--bg) 92%,transparent);
+  backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+.bar-in{max-width:920px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:14px}
+.status{font-size:13px;color:var(--ink-soft);flex:1}
+.status b{color:var(--main)}
+.cta{border:0;background:var(--accent);color:#fff;font:inherit;font-weight:700;font-size:14px;
+  padding:11px 18px;border-radius:10px;cursor:pointer;box-shadow:var(--shadow)}
+.cta:hover{filter:brightness(1.06)}
+.cta.ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+dialog{border:0;border-radius:14px;padding:0;max-width:560px;width:92vw;background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+dialog::backdrop{background:rgba(10,8,14,.5)}
+.dlg{padding:20px}
+.dlg h3{margin:0 0 8px;font-family:Cinzel,serif;color:var(--accent)}
+.dlg textarea{width:100%;height:200px;font:12px/1.5 ui-monospace,Menlo,monospace;color:var(--ink);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:10px;resize:vertical}
+@media (max-width:640px){
+  .row{grid-template-columns:1fr;gap:9px}
+  .seg{width:100%}.seg button{flex:1}
+  select{width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header>
+  <div class="head-in">
+    <div class="grow">
+      <h1>Разметка лута</h1>
+      <p class="sub">Гильдийные 25-ки с 13.08 · тыкай «кто получил» и Мейн / Офф / Фри</p>
+    </div>
+    <div class="progress">
+      <div class="pbar"><i id="pfill" style="width:0%"></i></div>
+      <div>
+        <div class="pnum tabnum"><b id="pdone">0</b> / <span id="ptot">0</span></div>
+        <div class="need" id="pneed"></div>
+      </div>
+    </div>
+    <button class="iconbtn" id="theme" title="Тема">◐</button>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<div class="bar"><div class="bar-in">
+  <div class="status" id="status">Загрузка…</div>
+  <button class="cta ghost" id="copy">Скопировать для Клода</button>
+</div></div>
+
+<dialog id="dlg"><div class="dlg">
+  <h3>Готово — отправь Клоду</h3>
+  <p class="sub" style="margin:0 0 10px">Скопируй текст ниже и вставь в чат. (Если Клод уже подтягивает отметки сам — можно не отправлять.)</p>
+  <textarea id="out" readonly></textarea>
+  <div style="display:flex;gap:10px;margin-top:12px;justify-content:flex-end">
+    <button class="cta ghost" id="dlgclose">Закрыть</button>
+    <button class="cta" id="dlgcopy">Скопировать</button>
+  </div>
+</div></dialog>
+
+<script>
+const DATA = {"items": [{"id": "9265121_47423", "rid": "9265121", "entry": "47423", "date": "2026-08-13", "boss": "Чудовища Нордскола", "item": "Сапоги суровой зимы", "ilvl": "258", "slot": "feet", "player": "", "spec": ""}, {"id": "9265121_47415", "rid": "9265121", "entry": "47415", "date": "2026-08-13", "boss": "Чудовища Нордскола", "item": "Хауберк непомерного уродства", "ilvl": "258", "slot": "chest", "player": "Серёжка", "spec": "off"}, {"id": "9265121_47421", "rid": "9265121", "entry": "47421", "date": "2026-08-13", "boss": "Чудовища Нордскола", "item": "Забытая преграда", "ilvl": "258", "slot": "one_hand", "player": "Bloodkiss", "spec": "off"}, {"id": "9265247_47429", "rid": "9265247", "entry": "47429", "date": "2026-08-13", "boss": "Лорд Джараксус", "item": "Ремень кровавой бани", "ilvl": "258", "slot": "waist", "player": "Arkeli", "spec": "main"}, {"id": "9265247_47430", "rid": "9265247", "entry": "47430", "date": "2026-08-13", "boss": "Лорд Джараксус", "item": "Башмаки занимающейся зари", "ilvl": "258", "slot": "feet", "player": "Iyos", "spec": "main"}, {"id": "9265247_47431", "rid": "9265247", "entry": "47431", "date": "2026-08-13", "boss": "Лорд Джараксус", "item": "Жилет злосчастной судьбы", "ilvl": "258", "slot": "chest", "player": "Garoshik", "spec": "off"}, {"id": "9265650_47457", "rid": "9265650", "entry": "47457", "date": "2026-08-13", "boss": "Валь'киры-близнецы", "item": "Наголенники безжалостного правосудия", "ilvl": "258", "slot": "feet", "player": "Fexler", "spec": "main"}, {"id": "9265650_47462", "rid": "9265650", "entry": "47462", "date": "2026-08-13", "boss": "Валь'киры-близнецы", "item": "Одежды небесного ткача", "ilvl": "258", "slot": "chest", "player": "Колбассенкоо", "spec": "main"}, {"id": "9265650_47470", "rid": "9265650", "entry": "47470", "date": "2026-08-13", "boss": "Валь'киры-близнецы", "item": "Таинственное очарование", "ilvl": "258", "slot": "one_hand", "player": "Sayashiro", "spec": "main"}, {"id": "9265923_47491", "rid": "9265923", "entry": "47491", "date": "2026-08-13", "boss": "Ануб'арак", "item": "Глефа геллиона", "ilvl": "258", "slot": "two_hand", "player": "Fexler", "spec": "main"}, {"id": "9265923_47481", "rid": "9265923", "entry": "47481", "date": "2026-08-13", "boss": "Ануб'арак", "item": "Мощь Неруба", "ilvl": "258", "slot": "back", "player": "Urshifu", "spec": "main"}, {"id": "9265923_47486", "rid": "9265923", "entry": "47486", "date": "2026-08-13", "boss": "Ануб'арак", "item": "Панцирь струящихся элементов", "ilvl": "258", "slot": "chest", "player": "Ashqdexe", "spec": "off"}, {"id": "9265923_47483", "rid": "9265923", "entry": "47483", "date": "2026-08-13", "boss": "Ануб'арак", "item": "Конец страданий", "ilvl": "258", "slot": "one_hand", "player": "Жестканехилю", "spec": "main"}, {"id": "9267314_29767", "rid": "9267314", "entry": "29767", "date": "2026-08-13", "boss": "Груул Драконобой", "item": "Поножи павшего заступника", "ilvl": "245", "slot": "unknown", "player": "", "spec": ""}, {"id": "9267314_29766", "rid": "9267314", "entry": "29766", "date": "2026-08-13", "boss": "Груул Драконобой", "item": "Поножи павшего воителя", "ilvl": "245", "slot": "unknown", "player": "", "spec": ""}, {"id": "9267314_28830", "rid": "9267314", "entry": "28830", "date": "2026-08-13", "boss": "Груул Драконобой", "item": "Трофей из драконьего хребта", "ilvl": "245", "slot": "trinket", "player": "", "spec": ""}, {"id": "9267314_158814", "rid": "9267314", "entry": "158814", "date": "2026-08-13", "boss": "Груул Драконобой", "item": "Топор с перьями раптора", "ilvl": "245", "slot": "one_hand", "player": "Iyos", "spec": "main"}, {"id": "9267442_29754", "rid": "9267442", "entry": "29754", "date": "2026-08-13", "boss": "Магтеридон", "item": "Нагрудный доспех павшего воителя", "ilvl": "245", "slot": "unknown", "player": "", "spec": ""}, {"id": "9267442_29753", "rid": "9267442", "entry": "29753", "date": "2026-08-13", "boss": "Магтеридон", "item": "Нагрудный доспех павшего заступника", "ilvl": "245", "slot": "unknown", "player": "", "spec": ""}, {"id": "9267442_28780", "rid": "9267442", "entry": "28780", "date": "2026-08-13", "boss": "Магтеридон", "item": "Повязки пожирателя душ", "ilvl": "245", "slot": "hands", "player": "Плоскость", "spec": "main"}, {"id": "9267442_28781", "rid": "9267442", "entry": "28781", "date": "2026-08-13", "boss": "Магтеридон", "item": "Караборский талисман", "ilvl": "245", "slot": "one_hand", "player": "", "spec": ""}, {"id": "9312979_81966", "rid": "9312979", "entry": "81966", "date": "2026-08-19", "boss": "Король Молгар", "item": "Прошитый шнурованный ремень", "ilvl": "260", "slot": "waist", "player": "Жестканехилю", "spec": "main"}, {"id": "9312979_90343", "rid": "9312979", "entry": "90343", "date": "2026-08-19", "boss": "Король Молгар", "item": "Кольчатый шлем нарушителя спокойствия", "ilvl": "260", "slot": "head", "player": "Серёжка", "spec": "main"}, {"id": "9312979_158816", "rid": "9312979", "entry": "158816", "date": "2026-08-19", "boss": "Король Молгар", "item": "Молот верховного суда", "ilvl": "260", "slot": "one_hand", "player": "Мозол", "spec": "main"}, {"id": "9312979_280005", "rid": "9312979", "entry": "280005", "date": "2026-08-19", "boss": "Король Молгар", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9313193_280005", "rid": "9313193", "entry": "280005", "date": "2026-08-19", "boss": "Груул Драконобой", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9313193_63779", "rid": "9313193", "entry": "63779", "date": "2026-08-19", "boss": "Груул Драконобой", "item": "Гранатовый пояс", "ilvl": "260", "slot": "waist", "player": "", "spec": ""}, {"id": "9313193_63843", "rid": "9313193", "entry": "63843", "date": "2026-08-19", "boss": "Груул Драконобой", "item": "Окровавленная кружка эля", "ilvl": "260", "slot": "trinket", "player": "Ligad", "spec": "main"}, {"id": "9313193_82218", "rid": "9313193", "entry": "82218", "date": "2026-08-19", "boss": "Груул Драконобой", "item": "Инкрустированные ножи", "ilvl": "260", "slot": "ranged", "player": "Bloodkiss", "spec": "off"}, {"id": "9314542_280005", "rid": "9314542", "entry": "280005", "date": "2026-08-19", "boss": "Магтеридон", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9314542_82040", "rid": "9314542", "entry": "82040", "date": "2026-08-19", "boss": "Магтеридон", "item": "Перчатки шепота", "ilvl": "260", "slot": "hands", "player": "Криптид", "spec": "main"}, {"id": "9314542_90292", "rid": "9314542", "entry": "90292", "date": "2026-08-19", "boss": "Магтеридон", "item": "Вороненый головной покров нарушителя спокойствия", "ilvl": "260", "slot": "head", "player": "Нифертити", "spec": "off"}, {"id": "9314542_90378", "rid": "9314542", "entry": "90378", "date": "2026-08-19", "boss": "Магтеридон", "item": "Посох небесного мага", "ilvl": "260", "slot": "two_hand", "player": "Колбассенкоо", "spec": "main"}, {"id": "9328537_81666", "rid": "9328537", "entry": "81666", "date": "2026-08-20", "boss": "Король Молгар", "item": "Шаль поблекшего леса", "ilvl": "260", "slot": "back", "player": "Уменяжелапки", "spec": "off"}, {"id": "9328537_81645", "rid": "9328537", "entry": "81645", "date": "2026-08-20", "boss": "Король Молгар", "item": "Вороненые наручи поблекшего леса", "ilvl": "260", "slot": "wrist", "player": "Ligad", "spec": "main"}, {"id": "9328537_158816", "rid": "9328537", "entry": "158816", "date": "2026-08-20", "boss": "Король Молгар", "item": "Молот верховного суда", "ilvl": "260", "slot": "one_hand", "player": "Deefa", "spec": "main"}, {"id": "9328537_280005", "rid": "9328537", "entry": "280005", "date": "2026-08-20", "boss": "Король Молгар", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9328913_280005", "rid": "9328913", "entry": "280005", "date": "2026-08-20", "boss": "Груул Драконобой", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9328913_80742", "rid": "9328913", "entry": "80742", "date": "2026-08-20", "boss": "Груул Драконобой", "item": "Рукавицы нефритовой ведьмы", "ilvl": "260", "slot": "hands", "player": "Уменяжелапки", "spec": "main"}, {"id": "9328913_63843", "rid": "9328913", "entry": "63843", "date": "2026-08-20", "boss": "Груул Драконобой", "item": "Окровавленная кружка эля", "ilvl": "260", "slot": "trinket", "player": "Fexler", "spec": "main"}, {"id": "9328913_82218", "rid": "9328913", "entry": "82218", "date": "2026-08-20", "boss": "Груул Драконобой", "item": "Инкрустированные ножи", "ilvl": "260", "slot": "ranged", "player": "Уменяжелапки", "spec": "main"}, {"id": "9329092_280005", "rid": "9329092", "entry": "280005", "date": "2026-08-20", "boss": "Магтеридон", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9329092_61415", "rid": "9329092", "entry": "61415", "date": "2026-08-20", "boss": "Магтеридон", "item": "Плащ микоза", "ilvl": "260", "slot": "back", "player": "", "spec": ""}, {"id": "9329092_90292", "rid": "9329092", "entry": "90292", "date": "2026-08-20", "boss": "Магтеридон", "item": "Вороненый головной покров нарушителя спокойствия", "ilvl": "260", "slot": "head", "player": "", "spec": ""}, {"id": "9329092_84251", "rid": "9329092", "entry": "84251", "date": "2026-08-20", "boss": "Магтеридон", "item": "Посох внутреннего сосредоточения", "ilvl": "260", "slot": "two_hand", "player": "", "spec": ""}, {"id": "9329494_47422", "rid": "9329494", "entry": "47422", "date": "2026-08-20", "boss": "Чудовища Нордскола", "item": "Жало Тараска", "ilvl": "258", "slot": "one_hand", "player": "Carti", "spec": "main"}, {"id": "9329494_47425", "rid": "9329494", "entry": "47425", "date": "2026-08-20", "boss": "Чудовища Нордскола", "item": "Развевающиеся одеяния восхождения", "ilvl": "258", "slot": "chest", "player": "Уменяжелапки", "spec": "main"}, {"id": "9329494_47420", "rid": "9329494", "entry": "47420", "date": "2026-08-20", "boss": "Чудовища Нордскола", "item": "Бриджи прирученного зверя", "ilvl": "258", "slot": "legs", "player": "", "spec": ""}, {"id": "9329576_47439", "rid": "9329576", "entry": "47439", "date": "2026-08-20", "boss": "Лорд Джараксус", "item": "Обруч Темной Целительницы", "ilvl": "258", "slot": "finger", "player": "Уменяжелапки", "spec": "off"}, {"id": "9329576_47430", "rid": "9329576", "entry": "47430", "date": "2026-08-20", "boss": "Лорд Джараксус", "item": "Башмаки занимающейся зари", "ilvl": "258", "slot": "feet", "player": "Moornight", "spec": "main"}, {"id": "9329576_47432", "rid": "9329576", "entry": "47432", "date": "2026-08-20", "boss": "Лорд Джараксус", "item": "Утешение павших", "ilvl": "258", "slot": "trinket", "player": "Garoshik", "spec": "main"}, {"id": "9375808_81966", "rid": "9375808", "entry": "81966", "date": "2026-08-27", "boss": "Король Молгар", "item": "Прошитый шнурованный ремень", "ilvl": "260", "slot": "waist", "player": "Сонечко", "spec": "main"}, {"id": "9375808_81645", "rid": "9375808", "entry": "81645", "date": "2026-08-27", "boss": "Король Молгар", "item": "Вороненые наручи поблекшего леса", "ilvl": "260", "slot": "wrist", "player": "Мозол", "spec": "main"}, {"id": "9375808_158816", "rid": "9375808", "entry": "158816", "date": "2026-08-27", "boss": "Король Молгар", "item": "Молот верховного суда", "ilvl": "260", "slot": "one_hand", "player": "Deefa", "spec": "main"}, {"id": "9375808_280005", "rid": "9375808", "entry": "280005", "date": "2026-08-27", "boss": "Король Молгар", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9376264_280005", "rid": "9376264", "entry": "280005", "date": "2026-08-27", "boss": "Груул Драконобой", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9376264_90287", "rid": "9376264", "entry": "90287", "date": "2026-08-27", "boss": "Груул Драконобой", "item": "Прочный кожаный шлем нарушителя спокойствия", "ilvl": "260", "slot": "head", "player": "", "spec": ""}, {"id": "9376264_82024", "rid": "9376264", "entry": "82024", "date": "2026-08-27", "boss": "Груул Драконобой", "item": "Степные наголенники", "ilvl": "260", "slot": "feet", "player": "Ashqdexe", "spec": "main"}, {"id": "9376264_82019", "rid": "9376264", "entry": "82019", "date": "2026-08-27", "boss": "Груул Драконобой", "item": "Полированный широкий топор", "ilvl": "260", "slot": "two_hand", "player": "Deefa", "spec": "main"}, {"id": "9376595_280005", "rid": "9376595", "entry": "280005", "date": "2026-08-27", "boss": "Магтеридон", "item": "Печать Пустоты", "ilvl": "260", "slot": "token", "player": "", "spec": ""}, {"id": "9376595_82040", "rid": "9376595", "entry": "82040", "date": "2026-08-27", "boss": "Магтеридон", "item": "Перчатки шепота", "ilvl": "260", "slot": "hands", "player": "", "spec": ""}, {"id": "9376595_90488", "rid": "9376595", "entry": "90488", "date": "2026-08-27", "boss": "Магтеридон", "item": "Журавль Шоми", "ilvl": "260", "slot": "one_hand", "player": "Сонечко", "spec": "main"}, {"id": "9376595_104226", "rid": "9376595", "entry": "104226", "date": "2026-08-27", "boss": "Магтеридон", "item": "Щит кровавого шамана", "ilvl": "260", "slot": "one_hand", "player": "Ashqdexe", "spec": "off"}, {"id": "9410859_47419", "rid": "9410859", "entry": "47419", "date": "2026-09-01", "boss": "Чудовища Нордскола", "item": "Пояс мрачного тумана", "ilvl": "258", "slot": "waist", "player": "", "spec": ""}, {"id": "9410859_47414", "rid": "9410859", "entry": "47414", "date": "2026-09-01", "boss": "Чудовища Нордскола", "item": "Тяжелые наручи-костеломы", "ilvl": "258", "slot": "wrist", "player": "", "spec": ""}, {"id": "9410859_47420", "rid": "9410859", "entry": "47420", "date": "2026-09-01", "boss": "Чудовища Нордскола", "item": "Бриджи прирученного зверя", "ilvl": "258", "slot": "legs", "player": "", "spec": ""}, {"id": "9410922_47439", "rid": "9410922", "entry": "47439", "date": "2026-09-01", "boss": "Лорд Джараксус", "item": "Обруч Темной Целительницы", "ilvl": "258", "slot": "finger", "player": "", "spec": ""}, {"id": "9410922_47427", "rid": "9410922", "entry": "47427", "date": "2026-09-01", "boss": "Лорд Джараксус", "item": "Кровавое остервенение", "ilvl": "258", "slot": "one_hand", "player": "Deefa", "spec": "main"}, {"id": "9410922_47432", "rid": "9410922", "entry": "47432", "date": "2026-09-01", "boss": "Лорд Джараксус", "item": "Утешение павших", "ilvl": "258", "slot": "trinket", "player": "Ashqdexe", "spec": "main"}, {"id": "9411379_47461", "rid": "9411379", "entry": "47461", "date": "2026-09-01", "boss": "Валь'киры-близнецы", "item": "Парализующий удар холодного сердца", "ilvl": "258", "slot": "one_hand", "player": "Трусынаправо", "spec": "main"}, {"id": "9411379_47460", "rid": "9411379", "entry": "47460", "date": "2026-09-01", "boss": "Валь'киры-близнецы", "item": "Пояс беспощадного убийцы", "ilvl": "258", "slot": "waist", "player": "", "spec": ""}, {"id": "9411379_47471", "rid": "9411379", "entry": "47471", "date": "2026-09-01", "boss": "Валь'киры-близнецы", "item": "Бригантина замерзшего озера", "ilvl": "258", "slot": "chest", "player": "Urshifu", "spec": "off"}, {"id": "9411495_47474", "rid": "9411495", "entry": "47474", "date": "2026-09-01", "boss": "Ануб'арак", "item": "Поручи мрачной решимости", "ilvl": "258", "slot": "wrist", "player": "Arkeli", "spec": "main"}, {"id": "9411495_47492", "rid": "9411495", "entry": "47492", "date": "2026-09-01", "boss": "Ануб'арак", "item": "Рукавицы мучительного возмездия", "ilvl": "258", "slot": "hands", "player": "Deefa", "spec": "main"}, {"id": "9411495_47478", "rid": "9411495", "entry": "47478", "date": "2026-09-01", "boss": "Ануб'арак", "item": "Брюки разрастающейся бездны", "ilvl": "258", "slot": "legs", "player": "", "spec": ""}, {"id": "9411495_47472", "rid": "9411495", "entry": "47472", "date": "2026-09-01", "boss": "Ануб'арак", "item": "Воинский пояс смертельной власти", "ilvl": "258", "slot": "waist", "player": "Deefa", "spec": "main"}], "players": ["Arkeli", "Ashqdexe", "Bloodkiss", "Bloodycat", "Carti", "Cnz", "Deefa", "Devaleria", "Dezunixc", "Fexler", "Flareonis", "Garoshik", "Horikuz", "Ilom", "Iyos", "Killhord", "Ligad", "Lonelerey", "Moornight", "Mortaniel", "Palotence", "Salatur", "Sayashiro", "Setder", "Turmion", "Urshifu", "Whitenoiseqx", "Zicas", "Алёнабалласт", "Евилбосс", "Жестканехилю", "Заденьгида", "Колбассенкоо", "Криптид", "Мозол", "Муркадин", "Нифертити", "Пертдуччи", "Плоскость", "Проболь", "Серёжка", "Сонечко", "Сычтаёж", "Трусынаправо", "Уменяжелапки", "Хасбуллаа", "Эчкерее", "sejuani"]};
+const NONE = "__none__";
+const itemsById = {}; DATA.items.forEach(it=>itemsById[it.id]=it);
+const KEY = "lootmarks_v1";
+let state = {};
+DATA.items.forEach(it=>state[it.id]={player:it.player||"", spec:it.spec||""});
+try{const s=JSON.parse(localStorage.getItem(KEY)||"{}");for(const k in s)if(itemsById[k])state[k]=s[k];}catch(e){}
+
+let db=null;
+function saveLocal(){try{localStorage.setItem(KEY,JSON.stringify(state));}catch(e){}}
+function setStatus(t,ok){const s=document.getElementById("status");s.innerHTML=ok?("<b>"+t+"</b>"):t;}
+function pushDb(id){
+  if(!db)return;
+  const it=itemsById[id],v=state[id];
+  db.doc("marks/"+id).set({player:v.player,spec:v.spec,item:it.item,date:it.date,boss:it.boss,rid:it.rid,entry:it.entry,ts:Date.now()})
+    .then(()=>setStatus("сохранено ✓",true)).catch(()=>setStatus("сохранено локально (Клод подтянет позже)"));
+}
+
+/* тема */
+const root=document.documentElement;
+try{const t=localStorage.getItem("theme");if(t)root.setAttribute("data-theme",t);}catch(e){}
+document.getElementById("theme").onclick=()=>{
+  const cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light");
+  const next=cur==="dark"?"light":"dark";root.setAttribute("data-theme",next);
+  try{localStorage.setItem("theme",next);}catch(e){}
+};
+
+function rowStatus(id){
+  const v=state[id];
+  if(v.player===NONE)return "none";       // ГМ оставил / не роздан — решено
+  if(v.player&&v.spec)return "done";
+  return "need";
+}
+function render(){
+  const app=document.getElementById("app");
+  const groups={};DATA.items.forEach(it=>{(groups[it.date]=groups[it.date]||[]).push(it);});
+  const dates=Object.keys(groups).sort();
+  app.innerHTML="";
+  for(const date of dates){
+    const list=groups[date];
+    const insts=[...new Set(list.map(x=>x.boss))];
+    const sec=document.createElement("section");sec.className="night";
+    const doneN=list.filter(x=>rowStatus(x.id)!=="need").length;
+    sec.innerHTML='<h2><span class="date tabnum">'+date+'</span>'+
+      '<span class="inst">'+insts.slice(0,3).join(" · ")+(insts.length>3?" …":"")+'</span>'+
+      '<span class="cnt tabnum">'+doneN+' / '+list.length+'</span></h2>';
+    for(const it of list){
+      const v=state[it.id];const st=rowStatus(it.id);
+      const row=document.createElement("div");row.className="row "+st+(v.player===NONE?" none":"");
+      row.dataset.id=it.id;
+      let opts='<option value="">— выбери получателя —</option><option value="'+NONE+'">— не роздан / ГМ оставил —</option>';
+      const names=DATA.players.slice();if(v.player&&v.player!==NONE&&!names.includes(v.player))names.unshift(v.player);
+      for(const nm of names)opts+='<option value="'+nm.replace(/"/g,'&quot;')+'"'+(v.player===nm?" selected":"")+'>'+nm+'</option>';
+      const chips='<span class="chip">il'+(it.ilvl||"—")+'</span><span class="chip">'+it.slot+'</span>'+
+        '<span class="chip boss">'+it.boss+'</span>';
+      const spec=v.player&&v.player!==NONE?v.spec:"";
+      row.innerHTML=
+        '<div><div class="iname">'+it.item+'</div><div class="chips">'+chips+'</div></div>'+
+        '<select class="rcv'+(v.player===""?" empty":"")+'">'+opts+'</select>'+
+        '<div class="seg">'+
+          '<button data-v="main" aria-pressed="'+(spec==="main")+'">Мейн</button>'+
+          '<button data-v="off" aria-pressed="'+(spec==="off")+'">Офф</button>'+
+          '<button data-v="free" aria-pressed="'+(spec==="free")+'">Фри</button>'+
+        '</div>';
+      const sel=row.querySelector("select");
+      sel.onchange=()=>{
+        state[it.id].player=sel.value;
+        if(sel.value&&sel.value!==NONE&&!state[it.id].spec)state[it.id].spec="main";
+        saveLocal();pushDb(it.id);render();
+      };
+      row.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{
+        if(!state[it.id].player||state[it.id].player===NONE)return;
+        state[it.id].spec=b.dataset.v;saveLocal();pushDb(it.id);render();
+      });
+      sec.appendChild(row);
+    }
+    app.appendChild(sec);
+  }
+  updateProgress();
+}
+function updateProgress(){
+  const tot=DATA.items.length;
+  const done=DATA.items.filter(x=>rowStatus(x.id)!=="need").length;
+  const need=DATA.items.filter(x=>state[x.id].player==="").length;
+  document.getElementById("ptot").textContent=tot;
+  document.getElementById("pdone").textContent=done;
+  document.getElementById("pfill").style.width=(done/tot*100)+"%";
+  document.getElementById("pneed").textContent=need?("нужен получатель: "+need):"всё решено ✓";
+}
+
+/* экспорт для Клода (запасной путь) */
+function buildCsv(){
+  let out="record_id,item_entry,player,award_type\n";
+  for(const it of DATA.items){
+    const v=state[it.id];
+    if(v.player===NONE){out+=it.rid+","+it.entry+",,\n";continue;}
+    if(v.player&&v.spec)out+=it.rid+","+it.entry+","+v.player+","+v.spec+"\n";
+  }
+  return out;
+}
+const dlg=document.getElementById("dlg");
+document.getElementById("copy").onclick=()=>{document.getElementById("out").value=buildCsv();dlg.showModal();};
+document.getElementById("dlgclose").onclick=()=>dlg.close();
+document.getElementById("dlgcopy").onclick=()=>{const t=document.getElementById("out");t.select();
+  try{navigator.clipboard.writeText(t.value);}catch(e){document.execCommand("copy");}
+  document.getElementById("dlgcopy").textContent="Скопировано ✓";};
+
+render();
+setStatus("отметки сохраняются автоматически на этом устройстве");
+(async()=>{
+  try{db=window.claude&&window.claude.use?await window.claude.use("db"):null;}catch(e){db=null;}
+  if(!db){setStatus("сохранение локальное — в конце жми «Скопировать для Клода»");return;}
+  try{
+    const snap=await db.collection("marks").get();
+    let n=0;snap.docs.forEach(d=>{const v=d.data();if(v&&itemsById[d.id]){state[d.id]={player:v.player||"",spec:v.spec||""};n++;}});
+    if(n){saveLocal();render();}
+    setStatus("подключено — Клод видит твои отметки ✓",true);
+  }catch(e){setStatus("отметки сохраняются локально (Клод подтянет позже)");}
+})();
+</script>
