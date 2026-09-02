@@ -138,6 +138,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                   {excluded - beforeJoin > 0 ? ` · ${excluded - beforeJoin} вне счёта` : ""}</>
               )}
             </div>
+            <div className="table-scroll">
             <table style={{ fontSize: 12 }}>
               <tbody>
                 {p.attendance.detail.slice().reverse().map((d, i) => (
@@ -150,6 +151,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
         </div>
 

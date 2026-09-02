@@ -80,6 +80,7 @@ function Drop({ d, onOpenPlayer }) {
         {d.candidates.length === 0 ? (
           <div className="reason">Нет очевидных кандидатов — размётка предмета или ростер.</div>
         ) : (
+          <div className="table-scroll">
           <table style={{ fontSize: 12 }}>
             <tbody>
               {d.candidates.map((c) => (
@@ -91,6 +92,7 @@ function Drop({ d, onOpenPlayer }) {
               ))}
             </tbody>
           </table>
+          </div>
         )}
       </div>
     </div>
