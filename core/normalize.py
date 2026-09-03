@@ -288,7 +288,7 @@ def augment_roster_with_parses(roster: Roster, kills: list[Kill], cfg: Config) -
     return added
 
 
-def first_seen_by_player(kills: list[Kill], roster: Roster) -> dict:
+def first_seen_by_player(kills: list[Kill], roster: Roster, cfg: Config | None = None) -> dict:
     """{player_id: самый ранний killed_at, где встречен любой его персонаж}.
 
     Прокси даты вступления в гильдию: рейды до этого — «не пока мы в гильдии»,
@@ -304,16 +304,42 @@ def first_seen_by_player(kills: list[Kill], roster: Roster) -> dict:
             pid = roster.player_of(p.name)
             if pid and pid not in out:
                 out[pid] = k.killed_at
-    # приоритет — явный joined из ростера
+    # даты вступления из серверного ростера гильдии (API, tools/collect_guild.py) —
+    # авторитетнее прокси-first-parse (основатели вроде Bloodycat больше не «до вступления»),
+    # но ниже явного roster joined. Матчинг по имени персонажа.
+    if cfg is not None:
+        from core.common import load_yaml
+        auto = load_yaml(os.path.join(cfg.paths["raw"], "guild", cfg.raw["realm"], "joined.yml")) or {}
+        for name, d in auto.items():
+            pid = roster.player_of(name)
+            jd = _parse_join_date(d)
+            if pid and jd:
+                out[pid] = jd
+    # явный joined из roster.yml — авторитетнее всего (ручная правка совета)
     for pid, pl in roster.players.items():
-        joined = pl.get("joined")
-        if joined:
-            try:
-                jd = _dt.datetime.strptime(str(joined), "%Y-%m-%d")
-                out[pid] = jd  # ростер авторитетнее прокси
-            except ValueError:
-                pass
+        jd = _parse_join_date(pl.get("joined"))
+        if jd:
+            out[pid] = jd
     return out
+
+
+def _parse_join_date(v):
+    """Дата вступления из разных форматов: 'YYYY-MM-DD', ISO-datetime, unix-таймстамп."""
+    if v is None or v == "":
+        return None
+    s = str(v).strip()
+    if s.isdigit():  # unix timestamp (сек или мс)
+        try:
+            ts = int(s)
+            if ts > 1e12:
+                ts //= 1000
+            return _dt.datetime.utcfromtimestamp(ts)
+        except (ValueError, OverflowError, OSError):
+            return None
+    try:
+        return _dt.datetime.strptime(s[:10], "%Y-%m-%d")  # префикс даты у ISO-строк
+    except ValueError:
+        return None
 
 
 def unknown_characters(kills: list[Kill], roster: Roster, cfg: Config) -> list[dict]:

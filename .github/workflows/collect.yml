@@ -35,6 +35,12 @@ jobs:
       - name: Сбор килов
         run: python3 collector/collect.py --config config/config.json
 
+      - name: Снимок ростера гильдии (даты вступления)
+        # guild endpoint → серверный ростер + реальные даты вступления. Чинит «до вступления»
+        # для основателей (first_seen по первому парсу их занижал). best-effort — не валит сбор.
+        continue-on-error: true
+        run: python3 tools/collect_guild.py --config config/config.json
+
       - name: Добор карточек упавших предметов
         # Тоже «качает и складывает»: слота/статов в дропе нет, тянем карточку по одному
         # и кешируем навсегда. best-effort — не валит сбор килов.
