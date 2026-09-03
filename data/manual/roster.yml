@@ -116,6 +116,7 @@ players:
     display: Эчкерее
     rank: member
     team: A
+    joined: 2026-09-01   # впервые в 25-ках 01.09 — вступил посреди сезона (со слов РЛ)
     characters:
       - name: Эчкерее   # Маг/Тайная магия/dps, килов: 2
         class_id: 8
@@ -257,6 +258,7 @@ players:
     display: Ilom
     rank: member
     team: null
+    joined: 2026-08-27   # впервые в 25-ках 27.08 — вступил посреди сезона (со слов РЛ)
     characters:
       - name: Ilom   # Паладин/Свет/heal, килов: 3
         class_id: 2
@@ -312,6 +314,7 @@ players:
     display: Евилбосс
     rank: member
     team: null
+    joined: 2026-08-20   # впервые в 25-ках 20.08 — вступил посреди сезона (со слов РЛ)
     characters:
       - name: Евилбосс   # Рыцарь смерти/Нечестивость/dps, килов: 3
         class_id: 6
@@ -384,6 +387,18 @@ players:
     discord_id: "921543918993145917"
     characters:
       - name: sejuani   # Друид / Баланс, саб
+        class_id: 11
+        spec: 0
+        role: dps
+        main: true
+
+  - id: murkadin
+    display: Муркадин
+    rank: member
+    team: null
+    joined: 2026-09-01   # впервые в 25-ках 01.09 — вступил посреди сезона (со слов РЛ)
+    characters:
+      - name: Муркадин   # Друид/Баланс/dps
         class_id: 11
         spec: 0
         role: dps
