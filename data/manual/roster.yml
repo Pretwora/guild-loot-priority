@@ -421,8 +421,8 @@ players:
     rank: member
     team: null
     characters:
-      - name: Agamalore   # Жрец/Свет/heal — спек предположение (Sirus: class 5, Основа, ilvl 244)
+      - name: Agamalore   # Жрец/Тьма/dps (Sirus: class 5, Основа, ilvl 244; спек со слов РЛ)
         class_id: 5
-        spec: 1
-        role: heal
+        spec: 2
+        role: dps
         main: true
