@@ -177,6 +177,7 @@ def _meta(cfg, all_kills, counted, nights, combat):
         "nights_count": len(nights),
         "count_raid_sizes": cfg.raw["raid_night"]["count_raid_sizes"],
         "loot_raid_sizes": cfg.raw.get("loot", {}).get("raid_sizes", [25]),
+        "attendance_season_start": cfg.raw.get("attendance", {}).get("season_start"),
         "window": {"weeks": cfg.w("attendance", "window_weeks"),
                    "nights": cfg.w("attendance", "window_nights")},
         "show_raw_dps": cfg.raw["display"]["show_raw_dps"],

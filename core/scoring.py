@@ -54,15 +54,20 @@ def night_presence_by_player(night, roster):
 
 
 def select_window_nights(nights, cfg, now):
-    """Последние 8 недель ИЛИ последние 12 вечеров — что больше (объединение)."""
-    weeks = cfg.w("attendance", "window_weeks")
+    """Окно посещаемости — последние window_nights КД, но НЕ раньше season_start (решение РЛ).
+    Всё до season_start и всё за пределами последних N вечеров на рейтинг не влияет."""
+    import datetime as _dt
     n_nights = cfg.w("attendance", "window_nights")
+    season = cfg.raw.get("attendance", {}).get("season_start")
+    floor = _dt.datetime.strptime(season, "%Y-%m-%d") if season else None
     ordered = sorted(nights, key=lambda x: x.started_at, reverse=True)
     window = []
-    for i, ni in enumerate(ordered):
-        age_days = days_between(now, ni.started_at)
-        if age_days <= weeks * 7 or i < n_nights:
-            window.append(ni)
+    for ni in ordered:
+        if floor and ni.started_at < floor:
+            continue  # до старта сезона — вне окна
+        window.append(ni)
+        if len(window) >= n_nights:
+            break
     return sorted(window, key=lambda x: x.started_at)  # хронологически
 
 

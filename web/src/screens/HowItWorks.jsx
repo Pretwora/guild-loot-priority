@@ -27,7 +27,7 @@ export default function HowItWorks({ data }) {
 
         <Panel title="A — посещаемость (0..1)">
           <div className="formula-block">A = Σ(λ^дней · кредит) / Σ(λ^дней),&nbsp; λ={w.attendance.decay_lambda}<br/>A_eff = A·conf + медиана·(1−conf),&nbsp; conf=min(1, вечеров/{w.attendance.confidence_nights})</div>
-          <p className="reason">Окно: последние {w.attendance.window_weeks} недель или {w.attendance.window_nights} вечеров — что больше. Бенч = полный кредит. Вечер чужого состава не идёт в знаменатель. Сжатие к среднему не даёт новичку с двумя рейдами обойти того, кто ходит полгода.</p>
+          <p className="reason">Окно: <b>последние {w.attendance.window_nights} КД</b> (рейд-вечера){data.meta.attendance_season_start ? <>, но не раньше <b>{data.meta.attendance_season_start}</b> — рейды до старта сезона на рейтинг не влияют</> : ""}. Бенч = полный кредит. Вечер до даты вступления игрока не идёт в знаменатель. Сжатие к среднему (conf) не даёт новичку с одним рейдом обойти того, кто отходил всё окно.</p>
         </Panel>
 
         <Panel title="P — перформанс (0..1), только ДД">

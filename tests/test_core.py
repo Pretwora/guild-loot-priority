@@ -128,12 +128,13 @@ class TestAttendance(unittest.TestCase):
         self.roster = Roster(char_to_player={"P": "p"},
                              players={"p": {"characters": [{"name": "P"}]}})
 
-    def test_before_join_excluded(self):
-        d1 = dt.datetime(2026, 8, 4, 20, 0, 0)   # до вступления игрока
+    def test_season_start_excludes_early(self):
+        # season_start=2026-08-13 (config): рейды ДО этой даты вне окна — на рейтинг не влияют
+        d1 = dt.datetime(2026, 8, 4, 20, 0, 0)   # до season_start
         d2 = dt.datetime(2026, 8, 13, 20, 0, 0)
         d3 = dt.datetime(2026, 8, 20, 20, 0, 0)
         kills = [
-            kill(1, d1, [line("X", guid=9)], size=25),   # P нет (ещё не в гильдии)
+            kill(1, d1, [line("X", guid=9)], size=25),   # P нет — но это до season_start, неважно
             kill(2, d2, [line("P", guid=1)], size=25),   # пришёл
             kill(3, d3, [line("P", guid=1)], size=25),
         ]
@@ -141,9 +142,10 @@ class TestAttendance(unittest.TestCase):
         att = SC.attendance_scores(nights, self.roster, self.cfg,
                                    dt.datetime(2026, 8, 21), first_seen={"p": d2})
         states = {x["date"]: x["state"] for x in att["p"]["detail"]}
-        self.assertEqual(states["2026-08-04"], "before_join")  # не пропуск — его не было
+        self.assertNotIn("2026-08-04", states)  # до season_start — вообще вне окна
         self.assertEqual(states["2026-08-13"], "full")
-        self.assertEqual(att["p"]["A"], 1.0)  # пришёл на все рейды ПОСЛЕ вступления
+        self.assertEqual(states["2026-08-20"], "full")
+        self.assertEqual(att["p"]["A"], 1.0)
 
     def test_no_eligible_is_no_data(self):
         # все рейды до вступления → зачётных ноль → «нет данных», НЕ медиана
