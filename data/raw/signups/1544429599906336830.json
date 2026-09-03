@@ -1,0 +1,1577 @@
+{
+ "advanced": {
+  "12h_format": false,
+  "absence_emote": "612343589070045200",
+  "allow_duplicate": false,
+  "allowed_roles": "none",
+  "alt_names": false,
+  "apply_specreset": true,
+  "apply_unregister": false,
+  "attendance": "true",
+  "banned_roles": "none",
+  "bench_emote": "612373441051361353",
+  "bench_overflow": true,
+  "bold_all": true,
+  "color": "none",
+  "countdown1_emote": "1124530049329139772",
+  "countdown2_emote": "858794526176444467",
+  "create_discordevent": true,
+  "create_thread": "false",
+  "custom": "none",
+  "date1_emote": "1124529967611523272",
+  "date2_emote": "593930359985405983",
+  "date_variant": "local",
+  "deadline": "0",
+  "defaults_pre_req": true,
+  "delete_thread": false,
+  "deletion": "false",
+  "disable_archiving": false,
+  "disable_reason": false,
+  "dkp_amount": 0,
+  "dkp_delay": "24",
+  "dkp_include": "signed",
+  "duration": 0,
+  "embed_profile": "false",
+  "event_type": "interaction",
+  "font_style": "3",
+  "forum_tags": "Event",
+  "hide_comp": false,
+  "horizontal_mode": false,
+  "image": "none",
+  "info_variant": "short",
+  "late_emote": "612373443551297689",
+  "leader_emote": "1124529969926779050",
+  "limit": 9999,
+  "limit_per_user": 1,
+  "lock_at_limit": true,
+  "lower_limit": 0,
+  "mention_leader": false,
+  "mention_mode": false,
+  "mentions": "NoName",
+  "notes_enabled": true,
+  "opt_out": "none",
+  "pin_message": false,
+  "poll_add": false,
+  "poll_add_req": "none",
+  "poll_order": "sorted",
+  "preserve_order": "false",
+  "queue_bench": false,
+  "reminder": "false",
+  "response": "none",
+  "show_allowed": false,
+  "show_banned": false,
+  "show_classes": false,
+  "show_content": true,
+  "show_countdown": true,
+  "show_counter": true,
+  "show_emotes": true,
+  "show_extra_specs": true,
+  "show_footer": true,
+  "show_info": true,
+  "show_leader": true,
+  "show_numbering": true,
+  "show_on_overview": true,
+  "show_roles": true,
+  "show_title": true,
+  "signups1_emote": "1124529971428339752",
+  "signups2_emote": "593930418932285440",
+  "spec_saving": true,
+  "specreset_emote": "761163891144130560",
+  "specs_per_signup": 1,
+  "temp_role": "false",
+  "temp_time": 24,
+  "temp_voicechannel": "false",
+  "tentative_emote": "676284492754976788",
+  "text_1": "default",
+  "text_2": "default",
+  "thread_logging": false,
+  "thumbnail": "none",
+  "time1_emote": "1124529972883767398",
+  "time2_emote": "593930235658108939",
+  "tp_deletion": "1",
+  "tp_profile": "none",
+  "tp_win_min": 1,
+  "tr_include": "signed",
+  "twelve_format": false,
+  "unregister_emote": "579506704518217739",
+  "use_nicknames": true,
+  "vacuum": false,
+  "voice_channel": "none"
+ },
+ "announcement": {
+  "channel": "none",
+  "message": "none",
+  "time": "none"
+ },
+ "announcements": [],
+ "channelName": "💡25тки-рт",
+ "channelType": "text",
+ "channelid": "1510293028403806450",
+ "classes": [
+  {
+   "amount": 999,
+   "cName": "Tank",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "580801859221192714",
+   "name": "Tank",
+   "specs": [
+    {
+     "emote": "637564444834136065",
+     "limit": 999,
+     "name": "Protection",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "637564297647489034",
+     "limit": 999,
+     "name": "Protection1",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "637564171696734209",
+     "limit": 999,
+     "name": "Guardian",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371175210065960",
+     "limit": 999,
+     "name": "Blood_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371176430620725",
+     "limit": 999,
+     "name": "Frost_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371178485817424",
+     "limit": 999,
+     "name": "Unholy_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "DK",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "599012538935410701",
+   "name": "DK",
+   "specs": [
+    {
+     "emote": "1013371175210065960",
+     "limit": 999,
+     "name": "Blood_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371176430620725",
+     "limit": 999,
+     "name": "Frost_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371178485817424",
+     "limit": 999,
+     "name": "Unholy_Tank",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "1013371105874018405",
+     "limit": 999,
+     "name": "Blood_DPS",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "1013371107610468445",
+     "limit": 999,
+     "name": "Frost_DPS",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "1013371108575162419",
+     "limit": 999,
+     "name": "Unholy_DPS",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Warrior",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532030153588739",
+   "name": "Warrior",
+   "specs": [
+    {
+     "emote": "637564445031399474",
+     "limit": 999,
+     "name": "Arms",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564445215948810",
+     "limit": 999,
+     "name": "Fury",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564444834136065",
+     "limit": 999,
+     "name": "Protection",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Druid",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532029675438081",
+   "name": "Druid",
+   "specs": [
+    {
+     "emote": "637564171994529798",
+     "limit": 999,
+     "name": "Balance",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564172061900820",
+     "limit": 999,
+     "name": "Feral",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564172007112723",
+     "limit": 999,
+     "name": "Restoration",
+     "role": "Healers",
+     "role_emote": "592438128057253898",
+     "role_emotes": [
+      "592438128057253898"
+     ],
+     "roles": [
+      {
+       "cName": "Healers",
+       "emoteId": "592438128057253898",
+       "name": "Healers"
+      }
+     ]
+    },
+    {
+     "emote": "637564171696734209",
+     "limit": 999,
+     "name": "Guardian",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Paladin",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532029906124840",
+   "name": "Paladin",
+   "specs": [
+    {
+     "emote": "637564297622454272",
+     "limit": 999,
+     "name": "Holy1",
+     "role": "Healers",
+     "role_emote": "592438128057253898",
+     "role_emotes": [
+      "592438128057253898"
+     ],
+     "roles": [
+      {
+       "cName": "Healers",
+       "emoteId": "592438128057253898",
+       "name": "Healers"
+      }
+     ]
+    },
+    {
+     "emote": "637564297647489034",
+     "limit": 999,
+     "name": "Protection1",
+     "role": "Tanks",
+     "role_emote": "598989638098747403",
+     "role_emotes": [
+      "598989638098747403"
+     ],
+     "roles": [
+      {
+       "cName": "Tanks",
+       "emoteId": "598989638098747403",
+       "name": "Tanks"
+      }
+     ]
+    },
+    {
+     "emote": "637564297953673216",
+     "limit": 999,
+     "name": "Retribution",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Rogue",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532030086217748",
+   "name": "Rogue",
+   "specs": [
+    {
+     "emote": "637564351707873324",
+     "limit": 999,
+     "name": "Assassination",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564352333086720",
+     "limit": 999,
+     "name": "Combat",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564352169508892",
+     "limit": 999,
+     "name": "Subtlety",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Hunter",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532029880827924",
+   "name": "Hunter",
+   "specs": [
+    {
+     "emote": "637564202021814277",
+     "limit": 999,
+     "name": "Beastmastery",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564202084466708",
+     "limit": 999,
+     "name": "Marksmanship",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564202130866186",
+     "limit": 999,
+     "name": "Survival",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Mage",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532030161977355",
+   "name": "Mage",
+   "specs": [
+    {
+     "emote": "637564231545389056",
+     "limit": 999,
+     "name": "Arcane",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564231239073802",
+     "limit": 999,
+     "name": "Fire",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564231469891594",
+     "limit": 999,
+     "name": "Frost",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Warlock",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532029851336716",
+   "name": "Warlock",
+   "specs": [
+    {
+     "emote": "637564406984867861",
+     "limit": 999,
+     "name": "Affliction",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564407001513984",
+     "limit": 999,
+     "name": "Demonology",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564406682877964",
+     "limit": 999,
+     "name": "Destruction",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Priest",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532029901799437",
+   "name": "Priest",
+   "specs": [
+    {
+     "emote": "637564323442720768",
+     "limit": 999,
+     "name": "Discipline",
+     "role": "Healers",
+     "role_emote": "592438128057253898",
+     "role_emotes": [
+      "592438128057253898"
+     ],
+     "roles": [
+      {
+       "cName": "Healers",
+       "emoteId": "592438128057253898",
+       "name": "Healers"
+      }
+     ]
+    },
+    {
+     "emote": "637564323530539019",
+     "limit": 999,
+     "name": "Holy",
+     "role": "Healers",
+     "role_emote": "592438128057253898",
+     "role_emotes": [
+      "592438128057253898"
+     ],
+     "roles": [
+      {
+       "cName": "Healers",
+       "emoteId": "592438128057253898",
+       "name": "Healers"
+      }
+     ]
+    },
+    {
+     "emote": "637564323291725825",
+     "limit": 999,
+     "name": "Shadow",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "887257034066653184",
+     "limit": 999,
+     "name": "Smite",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Shaman",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "emote": "579532030056857600",
+   "name": "Shaman",
+   "specs": [
+    {
+     "emote": "637564379595931649",
+     "limit": 999,
+     "name": "Elemental",
+     "role": "Ranged",
+     "role_emote": "592446395596931072",
+     "role_emotes": [
+      "592446395596931072",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Ranged",
+       "emoteId": "592446395596931072",
+       "name": "Ranged"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564379772223489",
+     "limit": 999,
+     "name": "Enhancement",
+     "role": "Melee",
+     "role_emote": "734439523328720913",
+     "role_emotes": [
+      "734439523328720913",
+      "592440132129521664"
+     ],
+     "roles": [
+      {
+       "cName": "Melee",
+       "emoteId": "734439523328720913",
+       "name": "Melee"
+      },
+      {
+       "cName": "Dps",
+       "emoteId": "592440132129521664",
+       "name": "Dps"
+      }
+     ]
+    },
+    {
+     "emote": "637564379847458846",
+     "limit": 999,
+     "name": "Restoration1",
+     "role": "Healers",
+     "role_emote": "592438128057253898",
+     "role_emotes": [
+      "592438128057253898"
+     ],
+     "roles": [
+      {
+       "cName": "Healers",
+       "emoteId": "592438128057253898",
+       "name": "Healers"
+      }
+     ]
+    }
+   ],
+   "type": "primary"
+  },
+  {
+   "amount": 999,
+   "cName": "Late",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "effective_name": "Late",
+   "emote": "612373443551297689",
+   "name": "Late",
+   "specs": [],
+   "type": "default"
+  },
+  {
+   "amount": 999,
+   "cName": "Bench",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "effective_name": "Bench",
+   "emote": "612373441051361353",
+   "name": "Bench",
+   "specs": [],
+   "type": "default"
+  },
+  {
+   "amount": 999,
+   "cName": "Tentative",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "effective_name": "Tentative",
+   "emote": "676284492754976788",
+   "name": "Tentative",
+   "specs": [],
+   "type": "default"
+  },
+  {
+   "amount": 999,
+   "cName": "Absence",
+   "discordRoleAction": "",
+   "discordRoleId": "",
+   "effective_name": "Absence",
+   "emote": "612343589070045200",
+   "name": "Absence",
+   "specs": [],
+   "type": "default"
+  }
+ ],
+ "closingtime": 1788454200,
+ "coleaders": [],
+ "color": "113,54,138",
+ "comp": {},
+ "creator": {
+  "id": "171901981261168640",
+  "name": "Bloodycat | Аля"
+ },
+ "date": "03-09-2026",
+ "description": "",
+ "description2": "",
+ "displayTitle": "RT 25",
+ "last_updated": 1788449321904,
+ "leaderid": "171901981261168640",
+ "leadername": "Bloodycat | Аля",
+ "premium": true,
+ "raidid": "1544429599906336830",
+ "roles": [
+  {
+   "amount": 999,
+   "cName": "Tanks",
+   "emote": "598989638098747403",
+   "name": "Tanks"
+  },
+  {
+   "amount": 999,
+   "cName": "Melee",
+   "emote": "734439523328720913",
+   "name": "Melee"
+  },
+  {
+   "amount": 999,
+   "cName": "Ranged",
+   "emote": "592446395596931072",
+   "name": "Ranged"
+  },
+  {
+   "amount": 999,
+   "cName": "Healers",
+   "emote": "592438128057253898",
+   "name": "Healers"
+  },
+  {
+   "amount": 999,
+   "cName": "Dps",
+   "emote": "592440132129521664",
+   "name": "Dps"
+  }
+ ],
+ "servericon": "https://cdn.discordapp.com/icons/1429315818562261065/7aefaeb83b12b241a5fc95d7a52666c8.png",
+ "serverid": "1429315818562261065",
+ "servername": "NoName x3",
+ "signups": [
+  {
+   "cClass": "Paladin",
+   "cSpec": "Retribution",
+   "class": "Paladin",
+   "class_emote": "579532029906124840",
+   "name": "haerophant",
+   "position": 20,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788410752,
+   "spec": "Retribution",
+   "spec_emote": "637564297953673216",
+   "status": "primary",
+   "timestamp": "2026-09-03T06:45:52.983864",
+   "userid": "561568682933747752"
+  },
+  {
+   "cClass": "Tentative",
+   "cSpec": "Fire",
+   "class": "Tentative",
+   "class_emote": "676284492754976788",
+   "name": "Sayashiro/Вова",
+   "position": 15,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788362268,
+   "spec": "Fire",
+   "spec_emote": "637564231239073802",
+   "status": "primary",
+   "timestamp": "2026-09-02T17:17:48.356524",
+   "userid": "399198179695788032"
+  },
+  {
+   "cClass": "Druid",
+   "cSpec": "Feral",
+   "class": "Druid",
+   "class_emote": "579532029675438081",
+   "name": "Криптид/Антон",
+   "position": 12,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788297772,
+   "spec": "Feral",
+   "spec_emote": "637564172061900820",
+   "status": "primary",
+   "timestamp": "2026-09-01T23:22:52.047196",
+   "userid": "736284618818453574"
+  },
+  {
+   "cClass": "Priest",
+   "cSpec": "Shadow",
+   "class": "Priest",
+   "class_emote": "579532029901799437",
+   "name": "Проболь/Александр",
+   "position": 2,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788291125,
+   "spec": "Shadow",
+   "spec_emote": "637564323291725825",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:05.213631",
+   "userid": "877438407020806144"
+  },
+  {
+   "cClass": "Mage",
+   "cSpec": "Arcane",
+   "class": "Mage",
+   "class_emote": "579532030161977355",
+   "name": "Трусынаправо/Даня",
+   "position": 24,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788443162,
+   "spec": "Arcane",
+   "spec_emote": "637564231545389056",
+   "status": "primary",
+   "timestamp": "2026-09-03T15:46:02.640831",
+   "userid": "323170584538382336"
+  },
+  {
+   "cClass": "Priest",
+   "cSpec": "Discipline",
+   "class": "Priest",
+   "class_emote": "579532029901799437",
+   "name": "Жестканехилю/Аскер",
+   "position": 8,
+   "role": "Healers",
+   "role_emote": "592438128057253898",
+   "signuptime": 1788291927,
+   "spec": "Discipline",
+   "spec_emote": "637564323442720768",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:45:27.265620",
+   "userid": "852111506068996137"
+  },
+  {
+   "cClass": "DK",
+   "cSpec": "Blood_DPS",
+   "class": "DK",
+   "class_emote": "599012538935410701",
+   "name": "Deefa/Андрей",
+   "position": 5,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788291133,
+   "spec": "Blood_DPS",
+   "spec_emote": "1013371105874018405",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:13.242644",
+   "userid": "481471939118891019"
+  },
+  {
+   "cClass": "Tentative",
+   "cSpec": "Balance",
+   "class": "Tentative",
+   "class_emote": "676284492754976788",
+   "name": "sedjuani",
+   "position": 25,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788449321,
+   "spec": "Balance",
+   "spec_emote": "637564171994529798",
+   "status": "primary",
+   "timestamp": "2026-09-03T17:28:41.899528",
+   "userid": "921543918993145917"
+  },
+  {
+   "cClass": "Shaman",
+   "cSpec": "Elemental",
+   "class": "Shaman",
+   "class_emote": "579532030056857600",
+   "name": "Ashqdexe/Лина",
+   "position": 9,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788293010,
+   "spec": "Elemental",
+   "spec_emote": "637564379595931649",
+   "status": "primary",
+   "timestamp": "2026-09-01T22:03:30.411517",
+   "userid": "992122653840253008"
+  },
+  {
+   "cClass": "Warrior",
+   "cSpec": "Arms",
+   "class": "Warrior",
+   "class_emote": "579532030153588739",
+   "name": "BloodKiss/Дмитрий",
+   "position": 16,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788377819,
+   "spec": "Arms",
+   "spec_emote": "637564445031399474",
+   "status": "primary",
+   "timestamp": "2026-09-02T21:36:59.835890",
+   "userid": "300709767004028929"
+  },
+  {
+   "cClass": "Warlock",
+   "cSpec": "Demonology",
+   "class": "Warlock",
+   "class_emote": "579532029851336716",
+   "name": "ПРИПОТ/Заденьгида/Вадим",
+   "position": 13,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788328113,
+   "spec": "Demonology",
+   "spec_emote": "637564407001513984",
+   "status": "primary",
+   "timestamp": "2026-09-02T07:48:33.038188",
+   "userid": "1284402608328540165"
+  },
+  {
+   "cClass": "Tentative",
+   "cSpec": "Feral",
+   "class": "Tentative",
+   "class_emote": "676284492754976788",
+   "name": "Сексилапки/Чтозаколя",
+   "position": 19,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788408468,
+   "spec": "Feral",
+   "spec_emote": "637564172061900820",
+   "status": "primary",
+   "timestamp": "2026-09-03T06:07:48.820789",
+   "userid": "173832548303110154"
+  },
+  {
+   "cClass": "Tank",
+   "cSpec": "Blood_Tank",
+   "class": "Tank",
+   "class_emote": "580801859221192714",
+   "name": "Война/Коля",
+   "position": 14,
+   "role": "Tanks",
+   "role_emote": "598989638098747403",
+   "signuptime": 1788338478,
+   "spec": "Blood_Tank",
+   "spec_emote": "1013371175210065960",
+   "status": "primary",
+   "timestamp": "2026-09-02T10:41:18.361808",
+   "userid": "435067610393083905"
+  },
+  {
+   "cClass": "Paladin",
+   "cSpec": "Retribution",
+   "class": "Paladin",
+   "class_emote": "579532029906124840",
+   "name": "Urshifu/Cаша",
+   "position": 3,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788291127,
+   "spec": "Retribution",
+   "spec_emote": "637564297953673216",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:07.118073",
+   "userid": "536172386706391042"
+  },
+  {
+   "cClass": "Shaman",
+   "cSpec": "Elemental",
+   "class": "Shaman",
+   "class_emote": "579532030056857600",
+   "name": "Turmion/Леха",
+   "position": 22,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788433847,
+   "spec": "Elemental",
+   "spec_emote": "637564379595931649",
+   "status": "primary",
+   "timestamp": "2026-09-03T13:10:47.753351",
+   "userid": "260010595053600768"
+  },
+  {
+   "cClass": "Tentative",
+   "cSpec": "Demonology",
+   "class": "Tentative",
+   "class_emote": "676284492754976788",
+   "name": "Carti/Вова",
+   "position": 21,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788428036,
+   "spec": "Demonology",
+   "spec_emote": "637564407001513984",
+   "status": "primary",
+   "timestamp": "2026-09-03T11:33:56.152501",
+   "userid": "490731851023908875"
+  },
+  {
+   "cClass": "Tentative",
+   "cSpec": "Retribution",
+   "class": "Tentative",
+   "class_emote": "676284492754976788",
+   "name": "Palotence/Сергей",
+   "position": 6,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788291144,
+   "spec": "Retribution",
+   "spec_emote": "637564297953673216",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:24.688046",
+   "userid": "553489566795956244"
+  },
+  {
+   "cClass": "Absence",
+   "cSpec": "Absence",
+   "class": "Absence",
+   "class_emote": "612343589070045200",
+   "name": "Iyos/Гриша",
+   "position": 23,
+   "role": "Absence",
+   "role_emote": "612343589070045200",
+   "signuptime": 1788440255,
+   "spec": "Absence",
+   "spec_emote": "612343589070045200",
+   "status": "primary",
+   "timestamp": "2026-09-03T14:57:35.993687",
+   "userid": "524632457572646932"
+  },
+  {
+   "cClass": "Paladin",
+   "cSpec": "Holy1",
+   "class": "Paladin",
+   "class_emote": "579532029906124840",
+   "name": "Серёжка|Хпал/арканмаг",
+   "position": 10,
+   "role": "Healers",
+   "role_emote": "592438128057253898",
+   "signuptime": 1788295430,
+   "spec": "Holy1",
+   "spec_emote": "637564297622454272",
+   "status": "primary",
+   "timestamp": "2026-09-01T22:43:50.898308001",
+   "userid": "267322824560082944"
+  },
+  {
+   "cClass": "Druid",
+   "cSpec": "Feral",
+   "class": "Druid",
+   "class_emote": "579532029675438081",
+   "name": "Bloodycat|Аля",
+   "position": 4,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788291131,
+   "spec": "Feral",
+   "spec_emote": "637564172061900820",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:11.079869",
+   "userid": "171901981261168640"
+  },
+  {
+   "cClass": "Priest",
+   "cSpec": "Discipline",
+   "class": "Priest",
+   "class_emote": "579532029901799437",
+   "name": "Сонечко/Лина",
+   "position": 7,
+   "role": "Healers",
+   "role_emote": "592438128057253898",
+   "signuptime": 1788291328,
+   "spec": "Discipline",
+   "spec_emote": "637564323442720768",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:35:28.586977",
+   "userid": "711868866979954690"
+  },
+  {
+   "cClass": "Tank",
+   "cSpec": "Blood_Tank",
+   "class": "Tank",
+   "class_emote": "580801859221192714",
+   "name": "Данил(Мозол)",
+   "position": 17,
+   "role": "Tanks",
+   "role_emote": "598989638098747403",
+   "signuptime": 1788382198,
+   "spec": "Blood_Tank",
+   "spec_emote": "1013371175210065960",
+   "status": "primary",
+   "timestamp": "2026-09-02T22:49:58.887282",
+   "userid": "842121176163024917"
+  },
+  {
+   "cClass": "Warrior",
+   "cSpec": "Fury",
+   "class": "Warrior",
+   "class_emote": "579532030153588739",
+   "name": "Arkeli(Рома)",
+   "position": 18,
+   "role": "Melee",
+   "role_emote": "734439523328720913",
+   "signuptime": 1788382237,
+   "spec": "Fury",
+   "spec_emote": "637564445215948810",
+   "status": "primary",
+   "timestamp": "2026-09-02T22:50:37.319516",
+   "userid": "736576752939171933"
+  },
+  {
+   "cClass": "Hunter",
+   "cSpec": "Marksmanship",
+   "class": "Hunter",
+   "class_emote": "579532029880827924",
+   "name": "Fexler/Игорь",
+   "position": 11,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788295728,
+   "spec": "Marksmanship",
+   "spec_emote": "637564202084466708",
+   "status": "primary",
+   "timestamp": "2026-09-01T22:48:48.964602",
+   "userid": "267506627484057600"
+  },
+  {
+   "cClass": "Druid",
+   "cSpec": "Balance",
+   "class": "Druid",
+   "class_emote": "579532029675438081",
+   "name": "Мурка/Ульф",
+   "position": 1,
+   "role": "Ranged",
+   "role_emote": "592446395596931072",
+   "signuptime": 1788291120,
+   "spec": "Balance",
+   "spec_emote": "637564171994529798",
+   "status": "primary",
+   "timestamp": "2026-09-01T21:32:00.471142",
+   "userid": "288668364547817473"
+  }
+ ],
+ "template": "4",
+ "templateEmote": "732179749480300546",
+ "time": "18:50",
+ "title": "RT 25",
+ "unixtime": 1788454200
+}
