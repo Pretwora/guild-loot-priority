@@ -42,16 +42,19 @@ def make_ctx():
 
 
 def get_json(url, ctx):
-    for attempt in range(1, 5):
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=40, context=ctx) as r:
-                return json.loads(r.read().decode("utf-8", "replace"))
-        except urllib.error.HTTPError as e:
-            if e.code != 429 and e.code < 500:
-                return None
-        except Exception:
-            pass
-        time.sleep(min(30, 2 ** attempt) + random.uniform(0, 1))
+    # sirus.su падает — при отказе сразу пробуем зеркало sirus.org
+    for host in ("https://sirus.su", "https://sirus.org"):
+        u = url.replace("https://sirus.su", host)
+        for attempt in range(1, 5):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, headers=HEADERS), timeout=40, context=ctx) as r:
+                    return json.loads(r.read().decode("utf-8", "replace"))
+            except urllib.error.HTTPError as e:
+                if e.code != 429 and e.code < 500:
+                    break
+            except Exception:
+                break  # сеть/DNS — сразу к зеркалу
+            time.sleep(min(30, 2 ** attempt) + random.uniform(0, 1))
     return None
 
 

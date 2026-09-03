@@ -1,0 +1,4337 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9421734
+   },
+   "datetime": "2026-09-03T20:11:14.000000Z",
+   "guid": 1046862,
+   "id": 9421734,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 1046862,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 1046862,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 1046862,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 1046862,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47418,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_18.png",
+    "name": "Плащ дикого хищника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-03T18:58:04.000000Z",
+   "guid": 1046862,
+   "id": 226559225,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 1046862,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419941
+   },
+   "datetime": "2026-09-03T18:30:45.000000Z",
+   "guid": 1046862,
+   "id": 9419941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419775
+   },
+   "datetime": "2026-09-03T18:04:41.000000Z",
+   "guid": 1046862,
+   "id": 9419775,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419576
+   },
+   "datetime": "2026-09-03T17:46:30.000000Z",
+   "guid": 1046862,
+   "id": 9419576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3876,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "15000 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788460245,
+   "datetime": "2026-09-03T15:30:45.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6333,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_ritualofsacrifice.png",
+    "name": "Сорванный ритуал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788457590,
+   "datetime": "2026-09-03T14:46:30.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9400246
+   },
+   "datetime": "2026-08-30T19:52:57.000000Z",
+   "guid": 1046862,
+   "id": 9400246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9400136
+   },
+   "datetime": "2026-08-30T19:35:04.000000Z",
+   "guid": 1046862,
+   "id": 9400136,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9400085
+   },
+   "datetime": "2026-08-30T19:23:45.000000Z",
+   "guid": 1046862,
+   "id": 9400085,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9398724
+   },
+   "datetime": "2026-08-30T19:05:44.000000Z",
+   "guid": 1046862,
+   "id": 9398724,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104211,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_panda_b_02blue.png",
+    "name": "Наголенники пикейщика",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T18:47:28.000000Z",
+   "guid": 1046862,
+   "id": 225972559,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9398584
+   },
+   "datetime": "2026-08-30T18:46:40.000000Z",
+   "guid": 1046862,
+   "id": 9398584,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9398498
+   },
+   "datetime": "2026-08-30T18:33:41.000000Z",
+   "guid": 1046862,
+   "id": 9398498,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9398440
+   },
+   "datetime": "2026-08-30T18:24:28.000000Z",
+   "guid": 1046862,
+   "id": 9398440,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9398266
+   },
+   "datetime": "2026-08-30T18:04:19.000000Z",
+   "guid": 1046862,
+   "id": 9398266,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9398115
+   },
+   "datetime": "2026-08-30T17:45:47.000000Z",
+   "guid": 1046862,
+   "id": 9398115,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ticket_tarot_maelstrom_01.png",
+    "name": "Счастливая карта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T16:48:48.000000Z",
+   "guid": 1046862,
+   "id": 225550098,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9314542
+   },
+   "datetime": "2026-08-19T18:55:48.000000Z",
+   "guid": 1046862,
+   "id": 9314542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9313193
+   },
+   "datetime": "2026-08-19T18:05:59.000000Z",
+   "guid": 1046862,
+   "id": 9313193,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9312979
+   },
+   "datetime": "2026-08-19T17:39:57.000000Z",
+   "guid": 1046862,
+   "id": 9312979,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787162759,
+   "datetime": "2026-08-19T15:05:59.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787162759,
+   "datetime": "2026-08-19T15:05:59.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6332,
+    "icon": "https://cdn3.scourge.tech/icons/ability_demonhunter_sigilofchains.png",
+    "name": "Трижды переполняющая мощь",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787161197,
+   "datetime": "2026-08-19T14:39:57.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80728,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_panda_b_02blue.png",
+    "name": "Башмаки Лисьей рощи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T19:50:22.000000Z",
+   "guid": 1046862,
+   "id": 223769736,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9291687
+   },
+   "datetime": "2026-08-16T19:49:58.000000Z",
+   "guid": 1046862,
+   "id": 9291687,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9291564
+   },
+   "datetime": "2026-08-16T19:32:06.000000Z",
+   "guid": 1046862,
+   "id": 9291564,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Опера",
+    "bossfight_id": 9291350
+   },
+   "datetime": "2026-08-16T18:58:17.000000Z",
+   "guid": 1046862,
+   "id": 9291350,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9291135
+   },
+   "datetime": "2026-08-16T18:27:40.000000Z",
+   "guid": 1046862,
+   "id": 9291135,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9290965
+   },
+   "datetime": "2026-08-16T18:06:31.000000Z",
+   "guid": 1046862,
+   "id": 9290965,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9290774
+   },
+   "datetime": "2026-08-16T17:43:56.000000Z",
+   "guid": 1046862,
+   "id": 9290774,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786906697,
+   "datetime": "2026-08-16T15:58:17.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6309,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_prayerofhealing.png",
+    "name": "Ложное раскаяние",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786904860,
+   "datetime": "2026-08-16T15:27:40.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9265923
+   },
+   "datetime": "2026-08-13T18:51:50.000000Z",
+   "guid": 1046862,
+   "id": 9265923,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9265650
+   },
+   "datetime": "2026-08-13T18:21:29.000000Z",
+   "guid": 1046862,
+   "id": 9265650,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9265536
+   },
+   "datetime": "2026-08-13T18:09:53.000000Z",
+   "guid": 1046862,
+   "id": 9265536,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9265247
+   },
+   "datetime": "2026-08-13T17:32:45.000000Z",
+   "guid": 1046862,
+   "id": 9265247,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47421,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_71.png",
+    "name": "Забытая преграда",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T17:19:46.000000Z",
+   "guid": 1046862,
+   "id": 223214599,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9265121
+   },
+   "datetime": "2026-08-13T17:18:23.000000Z",
+   "guid": 1046862,
+   "id": 9265121,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9207521
+   },
+   "datetime": "2026-08-06T18:44:48.000000Z",
+   "guid": 1046862,
+   "id": 9207521,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28827,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_25.png",
+    "name": "Рукавицы истребителя драконов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-06T18:22:40.000000Z",
+   "guid": 1046862,
+   "id": 222089020,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9207286
+   },
+   "datetime": "2026-08-06T18:18:20.000000Z",
+   "guid": 1046862,
+   "id": 9207286,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9207192
+   },
+   "datetime": "2026-08-06T18:07:06.000000Z",
+   "guid": 1046862,
+   "id": 9207192,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47483,
+    "icon": "https://cdn3.scourge.tech/icons/inv_mace_103.png",
+    "name": "Suffering's End",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-04T19:42:11.000000Z",
+   "guid": 1046862,
+   "id": 221792014,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9194652
+   },
+   "datetime": "2026-08-04T19:40:55.000000Z",
+   "guid": 1046862,
+   "id": 9194652,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9194479
+   },
+   "datetime": "2026-08-04T19:16:49.000000Z",
+   "guid": 1046862,
+   "id": 9194479,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9193893
+   },
+   "datetime": "2026-08-04T18:13:50.000000Z",
+   "guid": 1046862,
+   "id": 9193893,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47431,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_18a.png",
+    "name": "Vest of Calamitous Fate",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-04T18:00:07.000000Z",
+   "guid": 1046862,
+   "id": 221773573,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9193714
+   },
+   "datetime": "2026-08-04T17:59:04.000000Z",
+   "guid": 1046862,
+   "id": 9193714,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47420,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_leather_30a.png",
+    "name": "Legwraps of the Broken Beast",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-04T17:49:45.000000Z",
+   "guid": 1046862,
+   "id": 221771787,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9193633
+   },
+   "datetime": "2026-08-04T17:48:19.000000Z",
+   "guid": 1046862,
+   "id": 9193633,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104547,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_16.png",
+    "name": "Кольчужный пояс с вулканическим напылением",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T16:45:39.000000Z",
+   "guid": 1046862,
+   "id": 219876915,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378613,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_mail_dungeonmail_c_03.png",
+    "name": "Рукавицы точного разряда",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T16:09:32.000000Z",
+   "guid": 1046862,
+   "id": 219869924,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9098416
+   },
+   "datetime": "2026-07-23T20:00:45.000000Z",
+   "guid": 1046862,
+   "id": 9098416,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9098308
+   },
+   "datetime": "2026-07-23T19:47:40.000000Z",
+   "guid": 1046862,
+   "id": 9098308,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9096055
+   },
+   "datetime": "2026-07-23T19:22:55.000000Z",
+   "guid": 1046862,
+   "id": 9096055,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9095984
+   },
+   "datetime": "2026-07-23T19:12:21.000000Z",
+   "guid": 1046862,
+   "id": 9095984,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9095784
+   },
+   "datetime": "2026-07-23T18:41:57.000000Z",
+   "guid": 1046862,
+   "id": 9095784,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9095696
+   },
+   "datetime": "2026-07-23T18:24:13.000000Z",
+   "guid": 1046862,
+   "id": 9095696,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9095523
+   },
+   "datetime": "2026-07-23T17:51:34.000000Z",
+   "guid": 1046862,
+   "id": 9095523,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9095443
+   },
+   "datetime": "2026-07-23T17:38:43.000000Z",
+   "guid": 1046862,
+   "id": 9095443,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9095373
+   },
+   "datetime": "2026-07-23T17:28:33.000000Z",
+   "guid": 1046862,
+   "id": 9095373,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376677,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_153.png",
+    "name": "Перстень молчаливого крика",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T17:04:10.000000Z",
+   "guid": 1046862,
+   "id": 219699951,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784832117,
+   "datetime": "2026-07-23T15:41:57.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154436,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_grimbatolraid_d_01.png",
+    "name": "Баклер заклинателя духов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T11:22:38.000000Z",
+   "guid": 1046862,
+   "id": 219626526,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376510,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_mail_dungeonmail_c_03.png",
+    "name": "Кольчужный пояс тактика",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T11:14:04.000000Z",
+   "guid": 1046862,
+   "id": 219624841,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9082391
+   },
+   "datetime": "2026-07-22T19:48:45.000000Z",
+   "guid": 1046862,
+   "id": 9082391,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9082186
+   },
+   "datetime": "2026-07-22T19:12:03.000000Z",
+   "guid": 1046862,
+   "id": 9082186,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100422,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_15.png",
+    "name": "Большой шлем смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-22T18:34:07.000000Z",
+   "guid": 1046862,
+   "id": 219548909,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 9,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9081799
+   },
+   "datetime": "2026-07-22T18:33:06.000000Z",
+   "guid": 1046862,
+   "id": 9081799,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6317,
+    "icon": "https://cdn3.scourge.tech/icons/spell_mage_overpowered.png",
+    "name": "Венец магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784747523,
+   "datetime": "2026-07-22T16:12:03.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784745185,
+   "datetime": "2026-07-22T15:33:05.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47448,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_70.png",
+    "name": "Бастион решимости",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-21T19:58:56.000000Z",
+   "guid": 1046862,
+   "id": 219441817,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9052570
+   },
+   "datetime": "2026-07-21T19:08:22.000000Z",
+   "guid": 1046862,
+   "id": 9052570,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9050779
+   },
+   "datetime": "2026-07-21T18:44:58.000000Z",
+   "guid": 1046862,
+   "id": 9050779,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9050471
+   },
+   "datetime": "2026-07-21T18:32:21.000000Z",
+   "guid": 1046862,
+   "id": 9050471,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9048291
+   },
+   "datetime": "2026-07-21T17:42:58.000000Z",
+   "guid": 1046862,
+   "id": 9048291,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Опера",
+    "bossfight_id": 9010017
+   },
+   "datetime": "2026-07-20T19:15:41.000000Z",
+   "guid": 1046862,
+   "id": 9010017,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9009072
+   },
+   "datetime": "2026-07-20T18:53:24.000000Z",
+   "guid": 1046862,
+   "id": 9009072,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9006315
+   },
+   "datetime": "2026-07-20T18:21:53.000000Z",
+   "guid": 1046862,
+   "id": 9006315,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9004162
+   },
+   "datetime": "2026-07-20T17:45:40.000000Z",
+   "guid": 1046862,
+   "id": 9004162,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_cloth_witchhat_b_01.png",
+    "name": "Прекрасная трагедия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784574941,
+   "datetime": "2026-07-20T16:15:41.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784573604,
+   "datetime": "2026-07-20T15:53:24.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6064,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sparty.png",
+    "name": "Погостили... и хватит",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784573063,
+   "datetime": "2026-07-20T15:44:23.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6308,
+    "icon": "https://cdn3.scourge.tech/icons/ability_paladin_handoflight.png",
+    "name": "Заземление",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784571713,
+   "datetime": "2026-07-20T15:21:53.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6303,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_unrelentingassault.png",
+    "name": "Матадор",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784569540,
+   "datetime": "2026-07-20T14:45:40.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378612,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_mail_dungeonmail_c_03.png",
+    "name": "Рукавицы точного разряда",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-19T17:00:14.000000Z",
+   "guid": 1046862,
+   "id": 219154162,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 17,
+    "reward_level": 1,
+    "run_id": 810154,
+    "score": 197.361,
+    "timer": 2360
+   },
+   "datetime": "2026-07-19T13:59:57.000000Z",
+   "guid": 1046862,
+   "id": 810154,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 9,
+    "dungeon_name": "Чертоги Молний",
+    "has_run_log": false,
+    "level": 17,
+    "reward_level": 0,
+    "run_id": 804761,
+    "score": 184.125,
+    "timer": 2709
+   },
+   "datetime": "2026-07-18T13:27:49.000000Z",
+   "guid": 1046862,
+   "id": 804761,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8954103
+   },
+   "datetime": "2026-07-16T18:43:14.000000Z",
+   "guid": 1046862,
+   "id": 8954103,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8953977
+   },
+   "datetime": "2026-07-16T18:30:36.000000Z",
+   "guid": 1046862,
+   "id": 8953977,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8953934
+   },
+   "datetime": "2026-07-16T18:26:28.000000Z",
+   "guid": 1046862,
+   "id": 8953934,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8953869
+   },
+   "datetime": "2026-07-16T18:22:23.000000Z",
+   "guid": 1046862,
+   "id": 8953869,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47272,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_34.png",
+    "name": "Рывок эредаров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T18:16:34.000000Z",
+   "guid": 1046862,
+   "id": 218699501,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8953815
+   },
+   "datetime": "2026-07-16T18:15:08.000000Z",
+   "guid": 1046862,
+   "id": 8953815,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8953757
+   },
+   "datetime": "2026-07-16T18:10:41.000000Z",
+   "guid": 1046862,
+   "id": 8953757,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8953621
+   },
+   "datetime": "2026-07-16T17:56:50.000000Z",
+   "guid": 1046862,
+   "id": 8953621,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8953432
+   },
+   "datetime": "2026-07-16T17:31:09.000000Z",
+   "guid": 1046862,
+   "id": 8953432,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8953317
+   },
+   "datetime": "2026-07-16T17:21:42.000000Z",
+   "guid": 1046862,
+   "id": 8953317,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-16 11:19:09",
+     "duration": 264,
+     "id": 27475867,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 27475867,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 1,
+    "score_damage_done": 93641,
+    "score_deaths": 2,
+    "score_healing_done": 3723,
+    "score_honorable_kills": 16,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27475867,
+   "datetime": "2026-07-16T08:19:09.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T08:03:59.000000Z",
+   "guid": 1046862,
+   "id": 218605614,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 2143,
+    "icon": "https://cdn3.scourge.tech/icons/ability_mount_mammoth_black.png",
+    "name": "Командир кавалерии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784190665,
+   "datetime": "2026-07-16T05:31:05.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48724,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_gem_bloodstone_03.png",
+    "name": "Талисман восстановления",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-15T08:23:39.000000Z",
+   "guid": 1046862,
+   "id": 218474802,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6839,
+    "icon": "https://cdn3.scourge.tech/icons/inv_radientazeritematrix.png",
+    "name": "Хрупкий пол III",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784102483,
+   "datetime": "2026-07-15T05:01:23.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8943723
+   },
+   "datetime": "2026-07-14T18:30:08.000000Z",
+   "guid": 1046862,
+   "id": 8943723,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8943631
+   },
+   "datetime": "2026-07-14T18:18:10.000000Z",
+   "guid": 1046862,
+   "id": 8943631,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8943567
+   },
+   "datetime": "2026-07-14T18:08:12.000000Z",
+   "guid": 1046862,
+   "id": 8943567,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8926220
+   },
+   "datetime": "2026-07-12T16:41:17.000000Z",
+   "guid": 1046862,
+   "id": 8926220,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8926204
+   },
+   "datetime": "2026-07-12T16:36:55.000000Z",
+   "guid": 1046862,
+   "id": 8926204,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8926194
+   },
+   "datetime": "2026-07-12T16:33:25.000000Z",
+   "guid": 1046862,
+   "id": 8926194,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8926189
+   },
+   "datetime": "2026-07-12T16:30:18.000000Z",
+   "guid": 1046862,
+   "id": 8926189,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8926168
+   },
+   "datetime": "2026-07-12T16:25:44.000000Z",
+   "guid": 1046862,
+   "id": 8926168,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-12 15:14:25",
+     "duration": 691,
+     "id": 27409312,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 27409312,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 28,
+    "score_damage_done": 285201,
+    "score_deaths": 7,
+    "score_healing_done": 270170,
+    "score_honorable_kills": 77,
+    "score_killing_blows": 14,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27409312,
+   "datetime": "2026-07-12T12:14:25.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-12 13:01:48",
+     "duration": 399,
+     "id": 27396417,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 1
+    },
+    "battleground_id": 27396417,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 17,
+    "score_damage_done": 205501,
+    "score_deaths": 9,
+    "score_healing_done": 15100,
+    "score_honorable_kills": 28,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27396417,
+   "datetime": "2026-07-12T10:01:48.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-12 12:50:17",
+     "duration": 551,
+     "id": 27396261,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 0
+    },
+    "battleground_id": 27396261,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 13,
+    "score_damage_done": 223254,
+    "score_deaths": 4,
+    "score_healing_done": 22767,
+    "score_honorable_kills": 26,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27396261,
+   "datetime": "2026-07-12T09:50:17.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-12 12:40:53",
+     "duration": 824,
+     "id": 27396141,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 27396141,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 10,
+    "score_damage_done": 349417,
+    "score_deaths": 7,
+    "score_healing_done": 62630,
+    "score_honorable_kills": 42,
+    "score_killing_blows": 6,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27396141,
+   "datetime": "2026-07-12T09:40:53.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 3296,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_profession_chefhat.png",
+    "name": "Готовим со смаком",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783769443,
+   "datetime": "2026-07-11T08:30:43.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 2002,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ribbon_01.png",
+    "name": "100 даларанских кулинарных наград",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783769349,
+   "datetime": "2026-07-11T08:29:09.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-11 10:52:53",
+     "duration": 772,
+     "id": 27334786,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 27334786,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 8,
+    "score_damage_done": 315707,
+    "score_deaths": 9,
+    "score_healing_done": 22785,
+    "score_honorable_kills": 23,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27334786,
+   "datetime": "2026-07-11T07:52:53.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 247,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-11 10:32:18",
+     "duration": 1621,
+     "id": 27334637,
+     "name": "Альтеракская долина",
+     "objectives": [],
+     "type": 1,
+     "winner_faction": 1
+    },
+    "battleground_id": 27334637,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 0,
+    "score_damage_done": 70538,
+    "score_deaths": 3,
+    "score_healing_done": 26458,
+    "score_honorable_kills": 15,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27334637,
+   "datetime": "2026-07-11T07:32:18.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-11 10:25:11",
+     "duration": 399,
+     "id": 27334690,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 27334690,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 9,
+    "score_damage_done": 262050,
+    "score_deaths": 5,
+    "score_healing_done": 93325,
+    "score_honorable_kills": 18,
+    "score_killing_blows": 6,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27334690,
+   "datetime": "2026-07-11T07:25:11.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8913161
+   },
+   "datetime": "2026-07-10T20:26:36.000000Z",
+   "guid": 1046862,
+   "id": 8913161,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8913076
+   },
+   "datetime": "2026-07-10T20:07:34.000000Z",
+   "guid": 1046862,
+   "id": 8913076,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 8913014
+   },
+   "datetime": "2026-07-10T19:57:25.000000Z",
+   "guid": 1046862,
+   "id": 8913014,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 8912934
+   },
+   "datetime": "2026-07-10T19:47:23.000000Z",
+   "guid": 1046862,
+   "id": 8912934,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8912881
+   },
+   "datetime": "2026-07-10T19:35:42.000000Z",
+   "guid": 1046862,
+   "id": 8912881,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28519,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_25.png",
+    "name": "Перчатки предвосхищения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-10T19:22:44.000000Z",
+   "guid": 1046862,
+   "id": 217796247,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8912793
+   },
+   "datetime": "2026-07-10T19:22:14.000000Z",
+   "guid": 1046862,
+   "id": 8912793,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8912648
+   },
+   "datetime": "2026-07-10T19:03:27.000000Z",
+   "guid": 1046862,
+   "id": 8912648,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 8912361
+   },
+   "datetime": "2026-07-10T18:31:46.000000Z",
+   "guid": 1046862,
+   "id": 8912361,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8912264
+   },
+   "datetime": "2026-07-10T18:20:04.000000Z",
+   "guid": 1046862,
+   "id": 8912264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 8912173
+   },
+   "datetime": "2026-07-10T18:08:58.000000Z",
+   "guid": 1046862,
+   "id": 8912173,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 2,
+   "count": 4,
+   "datetime": "2026-07-10T13:08:34.000000Z",
+   "draws": 0,
+   "guid": 1046862,
+   "last_arena_id": 1161396,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1161396,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 712,
+     "rating_change": 43,
+     "score_damage_done": 54300,
+     "score_deaths": 0,
+     "score_heal_done": 13754,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1161380,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 713,
+     "rating_change": -1,
+     "score_damage_done": 6146,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161360,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 714,
+     "rating_change": -1,
+     "score_damage_done": 17323,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161341,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 715,
+     "rating_change": -1,
+     "score_damage_done": 7686,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 712,
+   "rating_change": 40,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 2,
+   "count": 8,
+   "datetime": "2026-07-10T12:59:09.000000Z",
+   "draws": 0,
+   "guid": 1046862,
+   "last_arena_id": 1161313,
+   "loses": 8,
+   "matches": [
+    {
+     "arena_id": 1161313,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 716,
+     "rating_change": -1,
+     "score_damage_done": 8139,
+     "score_deaths": 1,
+     "score_heal_done": 1755,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161300,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 717,
+     "rating_change": -1,
+     "score_damage_done": 43250,
+     "score_deaths": 1,
+     "score_heal_done": 6965,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1161285,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 717,
+     "rating_change": 0,
+     "score_damage_done": 1421,
+     "score_deaths": 1,
+     "score_heal_done": 1978,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161252,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 718,
+     "rating_change": -1,
+     "score_damage_done": 10653,
+     "score_deaths": 1,
+     "score_heal_done": 6760,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161230,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 719,
+     "rating_change": -1,
+     "score_damage_done": 19245,
+     "score_deaths": 1,
+     "score_heal_done": 1976,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161212,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 720,
+     "rating_change": -1,
+     "score_damage_done": 2951,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161198,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 721,
+     "rating_change": -1,
+     "score_damage_done": 25439,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161193,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 722,
+     "rating_change": -1,
+     "score_damage_done": 15932,
+     "score_deaths": 1,
+     "score_heal_done": 605,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 716,
+   "rating_change": -7,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-07-10T12:38:05.000000Z",
+   "draws": 0,
+   "guid": 1046862,
+   "last_arena_id": 1161175,
+   "loses": 6,
+   "matches": [
+    {
+     "arena_id": 1161175,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 723,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161122,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 724,
+     "rating_change": -1,
+     "score_damage_done": 7780,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161108,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 725,
+     "rating_change": -1,
+     "score_damage_done": 25993,
+     "score_deaths": 1,
+     "score_heal_done": 19335,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161087,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 726,
+     "rating_change": -1,
+     "score_damage_done": 23529,
+     "score_deaths": 1,
+     "score_heal_done": 665,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161076,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 727,
+     "rating_change": -1,
+     "score_damage_done": 16395,
+     "score_deaths": 1,
+     "score_heal_done": 16458,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161054,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 728,
+     "rating_change": -1,
+     "score_damage_done": 11193,
+     "score_deaths": 1,
+     "score_heal_done": 14465,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 723,
+   "rating_change": -6,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42123,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-10T12:30:08.000000Z",
+   "guid": 1046862,
+   "id": 217726880,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 11,
+   "datetime": "2026-07-10T12:17:59.000000Z",
+   "draws": 0,
+   "guid": 1046862,
+   "last_arena_id": 1161026,
+   "loses": 11,
+   "matches": [
+    {
+     "arena_id": 1161026,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 729,
+     "rating_change": -1,
+     "score_damage_done": 30720,
+     "score_deaths": 1,
+     "score_heal_done": 5183,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1161006,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 730,
+     "rating_change": -1,
+     "score_damage_done": 10608,
+     "score_deaths": 1,
+     "score_heal_done": 1005,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160993,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 731,
+     "rating_change": -1,
+     "score_damage_done": 13513,
+     "score_deaths": 1,
+     "score_heal_done": 758,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160980,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 732,
+     "rating_change": -1,
+     "score_damage_done": 2536,
+     "score_deaths": 1,
+     "score_heal_done": 147,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160976,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 733,
+     "rating_change": -1,
+     "score_damage_done": 1934,
+     "score_deaths": 1,
+     "score_heal_done": 1980,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160962,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 734,
+     "rating_change": -1,
+     "score_damage_done": 6760,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160952,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 735,
+     "rating_change": -1,
+     "score_damage_done": 9052,
+     "score_deaths": 1,
+     "score_heal_done": 3993,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160943,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 736,
+     "rating_change": -1,
+     "score_damage_done": 15008,
+     "score_deaths": 1,
+     "score_heal_done": 1396,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160931,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 737,
+     "rating_change": -1,
+     "score_damage_done": 8366,
+     "score_deaths": 1,
+     "score_heal_done": 523,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160917,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 738,
+     "rating_change": -1,
+     "score_damage_done": 7382,
+     "score_deaths": 1,
+     "score_heal_done": 11851,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160904,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 739,
+     "rating_change": -1,
+     "score_damage_done": 1120,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 729,
+   "rating_change": -11,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 12,
+   "datetime": "2026-07-10T11:58:35.000000Z",
+   "draws": 0,
+   "guid": 1046862,
+   "last_arena_id": 1160892,
+   "loses": 9,
+   "matches": [
+    {
+     "arena_id": 1160892,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 740,
+     "rating_change": -1,
+     "score_damage_done": 21926,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160881,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 742,
+     "rating_change": -2,
+     "score_damage_done": 4459,
+     "score_deaths": 1,
+     "score_heal_done": 264,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160872,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 743,
+     "rating_change": -1,
+     "score_damage_done": 43420,
+     "score_deaths": 1,
+     "score_heal_done": 37899,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160856,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 744,
+     "rating_change": -1,
+     "score_damage_done": 14725,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160847,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 746,
+     "rating_change": -2,
+     "score_damage_done": 19626,
+     "score_deaths": 1,
+     "score_heal_done": 17923,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160832,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 747,
+     "rating_change": -1,
+     "score_damage_done": 10816,
+     "score_deaths": 1,
+     "score_heal_done": 1624,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160825,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 748,
+     "rating_change": -1,
+     "score_damage_done": 3405,
+     "score_deaths": 1,
+     "score_heal_done": 1581,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160811,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 703,
+     "rating_change": 45,
+     "score_damage_done": 40637,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1160803,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 704,
+     "rating_change": -1,
+     "score_damage_done": 7922,
+     "score_deaths": 1,
+     "score_heal_done": 1902,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160796,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 705,
+     "rating_change": -1,
+     "score_damage_done": 11494,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1160787,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 659,
+     "rating_change": 46,
+     "score_damage_done": 63698,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1160780,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1046862,
+      "level": 80,
+      "name": "Хасбуллаа",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1046862,
+     "rating": 612,
+     "rating_change": 47,
+     "score_damage_done": 44289,
+     "score_deaths": 0,
+     "score_heal_done": 17970,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 740,
+   "rating_change": 127,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "entry": 700,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Свобода Орды",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783686608,
+   "datetime": "2026-07-10T09:30:08.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 706,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_frostwolftrinket_01.png",
+    "name": "Верховой Северный Волк",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783685979,
+   "datetime": "2026-07-10T09:19:39.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6600,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_kill_on_mount.png",
+    "name": "Мое первое седло!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783684366,
+   "datetime": "2026-07-10T08:52:46.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 699,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pathfinding.png",
+    "name": "Чемпион войны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783683800,
+   "datetime": "2026-07-10T08:43:20.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6618,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_featsofstrength_gladiator_06.png",
+    "name": "План - капкан",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783683800,
+   "datetime": "2026-07-10T08:43:20.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8906972
+   },
+   "datetime": "2026-07-09T18:37:25.000000Z",
+   "guid": 1046862,
+   "id": 8906972,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8906745
+   },
+   "datetime": "2026-07-09T18:23:02.000000Z",
+   "guid": 1046862,
+   "id": 8906745,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8906667
+   },
+   "datetime": "2026-07-09T18:16:46.000000Z",
+   "guid": 1046862,
+   "id": 8906667,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8906572
+   },
+   "datetime": "2026-07-09T18:11:53.000000Z",
+   "guid": 1046862,
+   "id": 8906572,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8906499
+   },
+   "datetime": "2026-07-09T18:03:56.000000Z",
+   "guid": 1046862,
+   "id": 8906499,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8906427
+   },
+   "datetime": "2026-07-09T18:00:00.000000Z",
+   "guid": 1046862,
+   "id": 8906427,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117465,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_15.png",
+    "name": "Нагрудный доспех Смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T17:47:50.000000Z",
+   "guid": 1046862,
+   "id": 217608596,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8906181
+   },
+   "datetime": "2026-07-09T17:42:40.000000Z",
+   "guid": 1046862,
+   "id": 8906181,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8905915
+   },
+   "datetime": "2026-07-09T17:23:38.000000Z",
+   "guid": 1046862,
+   "id": 8905915,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8905810
+   },
+   "datetime": "2026-07-09T17:13:53.000000Z",
+   "guid": 1046862,
+   "id": 8905810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6126,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sorcwarlock.png",
+    "name": "Прошедший срок",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783618960,
+   "datetime": "2026-07-09T14:42:40.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 4,
+    "attr_3": 4,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-09 10:49:20",
+     "duration": 1237,
+     "id": 27282143,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 27282143,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 21,
+    "score_damage_done": 993422,
+    "score_deaths": 7,
+    "score_healing_done": 156289,
+    "score_honorable_kills": 66,
+    "score_killing_blows": 14,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27282143,
+   "datetime": "2026-07-09T07:49:20.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-09 10:23:00",
+     "duration": 91,
+     "id": 27282119,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 27282119,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 1,
+    "score_damage_done": 24138,
+    "score_deaths": 0,
+    "score_healing_done": 2562,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27282119,
+   "datetime": "2026-07-09T07:23:00.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 587,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Убийца с Ока Бури",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783582872,
+   "datetime": "2026-07-09T04:41:12.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 512,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_pvp_p_06.png",
+    "name": "5000 почетных побед в PvP",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783582394,
+   "datetime": "2026-07-09T04:33:14.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51557,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_73.png",
+    "name": "Руническая печатка Кирин-Тора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T04:29:26.000000Z",
+   "guid": 1046862,
+   "id": 217501187,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-09 07:25:34",
+     "duration": 542,
+     "id": 27281801,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 27281801,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 12,
+    "score_damage_done": 300702,
+    "score_deaths": 6,
+    "score_healing_done": 64321,
+    "score_honorable_kills": 38,
+    "score_killing_blows": 6,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27281801,
+   "datetime": "2026-07-09T04:25:34.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154456,
+    "icon": "https://cdn3.scourge.tech/icons/dh_shattered_souls.png",
+    "name": "Последний вдох",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T04:07:05.000000Z",
+   "guid": 1046862,
+   "id": 217499911,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378657,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_dungeonmail_c_03.png",
+    "name": "Ботфорты точной бури",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-09T03:47:31.000000Z",
+   "guid": 1046862,
+   "id": 217498951,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8900899
+   },
+   "datetime": "2026-07-08T20:18:41.000000Z",
+   "guid": 1046862,
+   "id": 8900899,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8900878
+   },
+   "datetime": "2026-07-08T20:08:34.000000Z",
+   "guid": 1046862,
+   "id": 8900878,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8900865
+   },
+   "datetime": "2026-07-08T20:01:46.000000Z",
+   "guid": 1046862,
+   "id": 8900865,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8900840
+   },
+   "datetime": "2026-07-08T19:55:45.000000Z",
+   "guid": 1046862,
+   "id": 8900840,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8900793
+   },
+   "datetime": "2026-07-08T19:39:36.000000Z",
+   "guid": 1046862,
+   "id": 8900793,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Опера",
+    "bossfight_id": 8900749
+   },
+   "datetime": "2026-07-08T19:30:25.000000Z",
+   "guid": 1046862,
+   "id": 8900749,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8900671
+   },
+   "datetime": "2026-07-08T19:05:47.000000Z",
+   "guid": 1046862,
+   "id": 8900671,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8900617
+   },
+   "datetime": "2026-07-08T18:50:43.000000Z",
+   "guid": 1046862,
+   "id": 8900617,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 8900583
+   },
+   "datetime": "2026-07-08T18:39:19.000000Z",
+   "guid": 1046862,
+   "id": 8900583,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 8900547
+   },
+   "datetime": "2026-07-08T18:34:06.000000Z",
+   "guid": 1046862,
+   "id": 8900547,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8900474
+   },
+   "datetime": "2026-07-08T18:14:57.000000Z",
+   "guid": 1046862,
+   "id": 8900474,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28514,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_15.png",
+    "name": "Наручи Злобности",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-08T17:59:29.000000Z",
+   "guid": 1046862,
+   "id": 217447457,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 8900396
+   },
+   "datetime": "2026-07-08T17:58:40.000000Z",
+   "guid": 1046862,
+   "id": 8900396,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28545,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_06.png",
+    "name": "Высокие сапоги краехода",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-08T17:46:18.000000Z",
+   "guid": 1046862,
+   "id": 217445169,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8900349
+   },
+   "datetime": "2026-07-08T17:45:46.000000Z",
+   "guid": 1046862,
+   "id": 8900349,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-08 19:42:19",
+     "duration": 889,
+     "id": 27279361,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 0
+    },
+    "battleground_id": 27279361,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 14,
+    "score_damage_done": 601590,
+    "score_deaths": 6,
+    "score_healing_done": 28230,
+    "score_honorable_kills": 59,
+    "score_killing_blows": 11,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27279361,
+   "datetime": "2026-07-08T16:42:19.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-08 12:48:25",
+     "duration": 459,
+     "id": 27273187,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 0
+    },
+    "battleground_id": 27273187,
+    "deaths": null,
+    "guid": 1046862,
+    "score_bonus_honor": 2,
+    "score_damage_done": 95129,
+    "score_deaths": 2,
+    "score_healing_done": 0,
+    "score_honorable_kills": 19,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27273187,
+   "datetime": "2026-07-08T09:48:25.000000Z",
+   "guid": 1046862,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8892328
+   },
+   "datetime": "2026-07-07T18:14:26.000000Z",
+   "guid": 1046862,
+   "id": 8892328,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8892222
+   },
+   "datetime": "2026-07-07T17:59:37.000000Z",
+   "guid": 1046862,
+   "id": 8892222,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47412,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_mail_03.png",
+    "name": "Панцирь жестокого намерения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-07T17:40:53.000000Z",
+   "guid": 1046862,
+   "id": 217312714,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8892105
+   },
+   "datetime": "2026-07-07T17:40:13.000000Z",
+   "guid": 1046862,
+   "id": 8892105,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 16,
+    "reward_level": 1,
+    "run_id": 765535,
+    "score": 189.201,
+    "timer": 2455
+   },
+   "datetime": "2026-07-07T11:30:28.000000Z",
+   "guid": 1046862,
+   "id": 765535,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 31570,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_17.png",
+    "name": "Мундир туманного покрова",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-05T20:18:43.000000Z",
+   "guid": 1046862,
+   "id": 217050302,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8865866
+   },
+   "datetime": "2026-07-04T13:48:11.000000Z",
+   "guid": 1046862,
+   "id": 8865866,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8865776
+   },
+   "datetime": "2026-07-04T13:25:30.000000Z",
+   "guid": 1046862,
+   "id": 8865776,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8865757
+   },
+   "datetime": "2026-07-04T13:20:03.000000Z",
+   "guid": 1046862,
+   "id": 8865757,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8865728
+   },
+   "datetime": "2026-07-04T13:16:23.000000Z",
+   "guid": 1046862,
+   "id": 8865728,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8865700
+   },
+   "datetime": "2026-07-04T13:07:05.000000Z",
+   "guid": 1046862,
+   "id": 8865700,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8865672
+   },
+   "datetime": "2026-07-04T13:03:05.000000Z",
+   "guid": 1046862,
+   "id": 8865672,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8865445
+   },
+   "datetime": "2026-07-04T12:03:28.000000Z",
+   "guid": 1046862,
+   "id": 8865445,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8865364
+   },
+   "datetime": "2026-07-04T11:38:39.000000Z",
+   "guid": 1046862,
+   "id": 8865364,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 1046862,
+ "name": "Хасбуллаа",
+ "ts": "2026-09-03T21-05Z"
+}

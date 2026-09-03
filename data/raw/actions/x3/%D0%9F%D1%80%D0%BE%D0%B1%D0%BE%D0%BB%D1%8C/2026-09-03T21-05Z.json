@@ -1,0 +1,6514 @@
+{
+ "events": [
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 1,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-03 23:53:39",
+     "duration": 1704,
+     "id": 29043689,
+     "name": "Альтеракская долина",
+     "objectives": [],
+     "type": 1,
+     "winner_faction": 1
+    },
+    "battleground_id": 29043689,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 5,
+    "score_damage_done": 61152,
+    "score_deaths": 8,
+    "score_healing_done": 1796140,
+    "score_honorable_kills": 85,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29043689,
+   "datetime": "2026-09-03T20:53:39.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9421740
+   },
+   "datetime": "2026-09-03T20:13:34.000000Z",
+   "guid": 59940,
+   "id": 9421740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 59940,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 59940,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 59940,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 59940,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 59940,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419941
+   },
+   "datetime": "2026-09-03T18:30:45.000000Z",
+   "guid": 59940,
+   "id": 9419941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419775
+   },
+   "datetime": "2026-09-03T18:04:41.000000Z",
+   "guid": 59940,
+   "id": 9419775,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419576
+   },
+   "datetime": "2026-09-03T17:46:30.000000Z",
+   "guid": 59940,
+   "id": 9419576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154451,
+    "icon": "https://cdn3.scourge.tech/icons/trade_archaeology_trolltooth w goldfilling.png",
+    "name": "Клык Тол'Гародской лисицы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-03T13:02:23.000000Z",
+   "guid": 59940,
+   "id": 226491607,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-03 00:18:29",
+     "duration": 250,
+     "id": 29029890,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 29029890,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 9292,
+    "score_deaths": 2,
+    "score_healing_done": 347708,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29029890,
+   "datetime": "2026-09-02T21:18:29.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-03 00:08:15",
+     "duration": 647,
+     "id": 29029765,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 1
+    },
+    "battleground_id": 29029765,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 3974,
+    "score_deaths": 0,
+    "score_healing_done": 246631,
+    "score_honorable_kills": 18,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29029765,
+   "datetime": "2026-09-02T21:08:15.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9411495
+   },
+   "datetime": "2026-09-01T18:55:09.000000Z",
+   "guid": 59940,
+   "id": 9411495,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9411379
+   },
+   "datetime": "2026-09-01T18:41:50.000000Z",
+   "guid": 59940,
+   "id": 9411379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9410983
+   },
+   "datetime": "2026-09-01T17:51:04.000000Z",
+   "guid": 59940,
+   "id": 9410983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9410922
+   },
+   "datetime": "2026-09-01T17:37:20.000000Z",
+   "guid": 59940,
+   "id": 9410922,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9410859
+   },
+   "datetime": "2026-09-01T17:27:41.000000Z",
+   "guid": 59940,
+   "id": 9410859,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7260,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков II",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788282128,
+   "datetime": "2026-09-01T14:02:08.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7259,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков I",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788281913,
+   "datetime": "2026-09-01T13:58:33.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 59940,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 59940,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9405336
+   },
+   "datetime": "2026-08-31T18:54:00.000000Z",
+   "guid": 59940,
+   "id": 9405336,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100442,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Ошейник Души Воплощенного",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:42:13.000000Z",
+   "guid": 59940,
+   "id": 226128322,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82043,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_leather_panda_b_02_brown.png",
+    "name": "Наплечники шепота",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:39:27.000000Z",
+   "guid": 59940,
+   "id": 226127728,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9405280
+   },
+   "datetime": "2026-08-31T18:38:53.000000Z",
+   "guid": 59940,
+   "id": 9405280,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9405246
+   },
+   "datetime": "2026-08-31T18:24:10.000000Z",
+   "guid": 59940,
+   "id": 9405246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9405225
+   },
+   "datetime": "2026-08-31T18:15:09.000000Z",
+   "guid": 59940,
+   "id": 9405225,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9405201
+   },
+   "datetime": "2026-08-31T18:07:20.000000Z",
+   "guid": 59940,
+   "id": 9405201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82084,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_cloth_panda_b_02_white.png",
+    "name": "Растущий шнурованный ремень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:01:10.000000Z",
+   "guid": 59940,
+   "id": 226119925,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9405175
+   },
+   "datetime": "2026-08-31T17:59:35.000000Z",
+   "guid": 59940,
+   "id": 9405175,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9405142
+   },
+   "datetime": "2026-08-31T17:46:55.000000Z",
+   "guid": 59940,
+   "id": 9405142,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 1,
+   "count": 4,
+   "datetime": "2026-08-31T17:34:29.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 253538,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 253538,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1568,
+     "rating_change": 10,
+     "score_damage_done": 6891,
+     "score_deaths": 0,
+     "score_heal_done": 231489,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 253517,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1579,
+     "rating_change": -11,
+     "score_damage_done": 4417,
+     "score_deaths": 1,
+     "score_heal_done": 93190,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 253497,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1564,
+     "rating_change": 15,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 55581,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 253487,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1553,
+     "rating_change": 11,
+     "score_damage_done": 8888,
+     "score_deaths": 0,
+     "score_heal_done": 158405,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1568,
+   "rating_change": 25,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9403476
+   },
+   "datetime": "2026-08-31T14:32:43.000000Z",
+   "guid": 59940,
+   "id": 9403476,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9403451
+   },
+   "datetime": "2026-08-31T14:21:46.000000Z",
+   "guid": 59940,
+   "id": 9403451,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9403429
+   },
+   "datetime": "2026-08-31T14:15:15.000000Z",
+   "guid": 59940,
+   "id": 9403429,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9403417
+   },
+   "datetime": "2026-08-31T14:12:25.000000Z",
+   "guid": 59940,
+   "id": 9403417,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9403408
+   },
+   "datetime": "2026-08-31T14:08:32.000000Z",
+   "guid": 59940,
+   "id": 9403408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9403388
+   },
+   "datetime": "2026-08-31T14:05:17.000000Z",
+   "guid": 59940,
+   "id": 9403388,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-31T13:48:12.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 251688,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 251688,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1567,
+     "rating_change": -14,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 102602,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 251659,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1555,
+     "rating_change": 12,
+     "score_damage_done": 21016,
+     "score_deaths": 0,
+     "score_heal_done": 155878,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1567,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-30 21:09:44",
+     "duration": 981,
+     "id": 28945741,
+     "name": "Зимняя Низина Арати",
+     "objectives": [],
+     "type": 59,
+     "winner_faction": 0
+    },
+    "battleground_id": 28945741,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 56941,
+    "score_deaths": 4,
+    "score_healing_done": 797576,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28945741,
+   "datetime": "2026-08-30T18:09:44.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-28T19:42:33.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 230396,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 230396,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1545,
+     "rating_change": 10,
+     "score_damage_done": 18924,
+     "score_deaths": 0,
+     "score_heal_done": 42482,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1545,
+   "rating_change": 10,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-28 22:37:32",
+     "duration": 585,
+     "id": 28884622,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 0
+    },
+    "battleground_id": 28884622,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 3,
+    "score_damage_done": 29821,
+    "score_deaths": 2,
+    "score_healing_done": 924764,
+    "score_honorable_kills": 29,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28884622,
+   "datetime": "2026-08-28T19:37:32.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-28T19:24:30.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 230335,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 230335,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1534,
+     "rating_change": 11,
+     "score_damage_done": 3521,
+     "score_deaths": 0,
+     "score_heal_done": 87615,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 230323,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1517,
+     "rating_change": 17,
+     "score_damage_done": 7536,
+     "score_deaths": 0,
+     "score_heal_done": 42220,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1534,
+   "rating_change": 28,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-28T19:19:00.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 230310,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 230310,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1501,
+     "rating_change": 16,
+     "score_damage_done": 10805,
+     "score_deaths": 0,
+     "score_heal_done": 187353,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 230293,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1489,
+     "rating_change": 12,
+     "score_damage_done": 5025,
+     "score_deaths": 0,
+     "score_heal_done": 63146,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1501,
+   "rating_change": 28,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-28 22:10:52",
+     "duration": 472,
+     "id": 28884524,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 1
+    },
+    "battleground_id": 28884524,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 134743,
+    "score_deaths": 0,
+    "score_healing_done": 55130,
+    "score_honorable_kills": 23,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28884524,
+   "datetime": "2026-08-28T19:10:52.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 59940,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 59940,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 59940,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 22:22:41",
+     "duration": 686,
+     "id": 28827898,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28827898,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 23105,
+    "score_deaths": 1,
+    "score_healing_done": 868338,
+    "score_honorable_kills": 41,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28827898,
+   "datetime": "2026-08-26T19:22:41.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 3,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 254,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:44:27",
+     "duration": 393,
+     "id": 28827723,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28827723,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 14332,
+    "score_deaths": 0,
+    "score_healing_done": 277367,
+    "score_honorable_kills": 38,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28827723,
+   "datetime": "2026-08-26T18:44:27.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41870,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_89.png",
+    "name": "Мантия неумолимого гладиатора из луноткани",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T18:19:05.000000Z",
+   "guid": 59940,
+   "id": 225243898,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104535,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_30naxxramas.png",
+    "name": "Амулет тлеющей искры",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T18:06:32.000000Z",
+   "guid": 59940,
+   "id": 225241623,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 21:02:59",
+     "duration": 451,
+     "id": 28839360,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839360,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 16904,
+    "score_deaths": 0,
+    "score_healing_done": 670092,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28839360,
+   "datetime": "2026-08-26T18:02:59.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 5,
+    "attr_3": 5,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-26 20:51:23",
+     "duration": 770,
+     "id": 28839255,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28839255,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 51430,
+    "score_deaths": 1,
+    "score_healing_done": 309065,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28839255,
+   "datetime": "2026-08-26T17:51:23.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-26T17:41:34.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 216363,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 216363,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1444,
+     "rating_change": 13,
+     "score_damage_done": 13116,
+     "score_deaths": 0,
+     "score_heal_done": 168980,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1444,
+   "rating_change": 13,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 6,
+   "datetime": "2026-08-26T17:36:35.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 216325,
+   "loses": 6,
+   "matches": [
+    {
+     "arena_id": 216325,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1453,
+     "rating_change": -9,
+     "score_damage_done": 13014,
+     "score_deaths": 1,
+     "score_heal_done": 167475,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 216308,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1460,
+     "rating_change": -7,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 155251,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 216282,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1468,
+     "rating_change": -8,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 194445,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 216260,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1477,
+     "rating_change": -9,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 32160,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 216250,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1484,
+     "rating_change": -7,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 119987,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 216239,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1490,
+     "rating_change": -6,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 20823,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1453,
+   "rating_change": -46,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-26T17:15:25.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 216209,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 216209,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1503,
+     "rating_change": -13,
+     "score_damage_done": 5607,
+     "score_deaths": 1,
+     "score_heal_done": 85766,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1503,
+   "rating_change": -13,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9365178
+   },
+   "datetime": "2026-08-25T19:32:10.000000Z",
+   "guid": 59940,
+   "id": 9365178,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 14,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9365081
+   },
+   "datetime": "2026-08-25T19:16:07.000000Z",
+   "guid": 59940,
+   "id": 9365081,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9364378
+   },
+   "datetime": "2026-08-25T17:38:53.000000Z",
+   "guid": 59940,
+   "id": 9364378,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9364342
+   },
+   "datetime": "2026-08-25T17:33:57.000000Z",
+   "guid": 59940,
+   "id": 9364342,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9364328
+   },
+   "datetime": "2026-08-25T17:31:41.000000Z",
+   "guid": 59940,
+   "id": 9364328,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9364318
+   },
+   "datetime": "2026-08-25T17:30:13.000000Z",
+   "guid": 59940,
+   "id": 9364318,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9364309
+   },
+   "datetime": "2026-08-25T17:28:39.000000Z",
+   "guid": 59940,
+   "id": 9364309,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9364289
+   },
+   "datetime": "2026-08-25T17:26:48.000000Z",
+   "guid": 59940,
+   "id": 9364289,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41855,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_136.png",
+    "name": "Капюшон неумолимого гладиатора из луноткани",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T05:00:32.000000Z",
+   "guid": 59940,
+   "id": 225015192,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41865,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_31.png",
+    "name": "Поножи неумолимого гладиатора из луноткани",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T05:00:24.000000Z",
+   "guid": 59940,
+   "id": 225015182,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9357050
+   },
+   "datetime": "2026-08-24T20:11:03.000000Z",
+   "guid": 59940,
+   "id": 9357050,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9356949
+   },
+   "datetime": "2026-08-24T19:39:08.000000Z",
+   "guid": 59940,
+   "id": 9356949,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9356806
+   },
+   "datetime": "2026-08-24T19:01:10.000000Z",
+   "guid": 59940,
+   "id": 9356806,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9356780
+   },
+   "datetime": "2026-08-24T18:50:49.000000Z",
+   "guid": 59940,
+   "id": 9356780,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9356738
+   },
+   "datetime": "2026-08-24T18:41:23.000000Z",
+   "guid": 59940,
+   "id": 9356738,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9356685
+   },
+   "datetime": "2026-08-24T18:27:50.000000Z",
+   "guid": 59940,
+   "id": 9356685,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9356648
+   },
+   "datetime": "2026-08-24T18:13:23.000000Z",
+   "guid": 59940,
+   "id": 9356648,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 8,
+    "attr_3": 8,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-24 20:10:58",
+     "duration": 475,
+     "id": 28777431,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 28777431,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 34969,
+    "score_deaths": 1,
+    "score_healing_done": 228807,
+    "score_honorable_kills": 15,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28777431,
+   "datetime": "2026-08-24T17:10:58.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 3,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-24 19:43:24",
+     "duration": 666,
+     "id": 28777247,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28777247,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 3,
+    "score_damage_done": 24502,
+    "score_deaths": 1,
+    "score_healing_done": 579880,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28777247,
+   "datetime": "2026-08-24T16:43:24.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117177,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо избавления разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T16:29:05.000000Z",
+   "guid": 59940,
+   "id": 224946313,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787596070,
+   "datetime": "2026-08-24T15:27:50.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117178,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:07:55.000000Z",
+   "guid": 59940,
+   "id": 224877300,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51346,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_16.png",
+    "name": "Плащ спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:07:22.000000Z",
+   "guid": 59940,
+   "id": 224877266,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51347,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_36.png",
+    "name": "Подвеска спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:07:13.000000Z",
+   "guid": 59940,
+   "id": 224877255,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51367,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_33.png",
+    "name": "Манжеты спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:06:49.000000Z",
+   "guid": 59940,
+   "id": 224877227,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51366,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_26.png",
+    "name": "Ботфорты спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:06:41.000000Z",
+   "guid": 59940,
+   "id": 224877221,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51365,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_78.png",
+    "name": "Шнурованный ремень спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T06:06:34.000000Z",
+   "guid": 59940,
+   "id": 224877208,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-24T06:02:46.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195685,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 195685,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1489,
+     "rating_change": 14,
+     "score_damage_done": 4970,
+     "score_deaths": 0,
+     "score_heal_done": 172239,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1489,
+   "rating_change": 14,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-24T05:58:10.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195676,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 195676,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1497,
+     "rating_change": -8,
+     "score_damage_done": 795,
+     "score_deaths": 1,
+     "score_heal_done": 174497,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195666,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1481,
+     "rating_change": 16,
+     "score_damage_done": 10532,
+     "score_deaths": 0,
+     "score_heal_done": 211247,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195660,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1492,
+     "rating_change": -11,
+     "score_damage_done": 2986,
+     "score_deaths": 1,
+     "score_heal_done": 101857,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1497,
+   "rating_change": -3,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-24T05:32:54.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195636,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 195636,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1480,
+     "rating_change": 12,
+     "score_damage_done": 10781,
+     "score_deaths": 0,
+     "score_heal_done": 66370,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195631,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1467,
+     "rating_change": 13,
+     "score_damage_done": 4214,
+     "score_deaths": 0,
+     "score_heal_done": 141609,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195618,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1480,
+     "rating_change": -13,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 69191,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1480,
+   "rating_change": 12,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-24 08:27:45",
+     "duration": 320,
+     "id": 28763086,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 28763086,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 6896,
+    "score_deaths": 2,
+    "score_healing_done": 352773,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28763086,
+   "datetime": "2026-08-24T05:27:45.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 5,
+   "datetime": "2026-08-24T05:17:36.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195613,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 195613,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1470,
+     "rating_change": 10,
+     "score_damage_done": 12348,
+     "score_deaths": 0,
+     "score_heal_done": 72742,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195612,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1479,
+     "rating_change": -9,
+     "score_damage_done": 20866,
+     "score_deaths": 1,
+     "score_heal_done": 181349,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195608,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1489,
+     "rating_change": -10,
+     "score_damage_done": 4961,
+     "score_deaths": 1,
+     "score_heal_done": 98333,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195604,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1473,
+     "rating_change": 16,
+     "score_damage_done": 18687,
+     "score_deaths": 0,
+     "score_heal_done": 365064,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195599,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1459,
+     "rating_change": 14,
+     "score_damage_done": 5965,
+     "score_deaths": 0,
+     "score_heal_done": 63718,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1470,
+   "rating_change": 21,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-24 08:03:24",
+     "duration": 293,
+     "id": 28763052,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 28763052,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 0,
+    "score_deaths": 4,
+    "score_healing_done": 336592,
+    "score_honorable_kills": 2,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28763052,
+   "datetime": "2026-08-24T05:03:24.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 5,
+   "datetime": "2026-08-24T04:52:41.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195589,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 195589,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1468,
+     "rating_change": -9,
+     "score_damage_done": 1800,
+     "score_deaths": 1,
+     "score_heal_done": 82106,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195586,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1479,
+     "rating_change": -11,
+     "score_damage_done": 896,
+     "score_deaths": 1,
+     "score_heal_done": 80154,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195585,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1468,
+     "rating_change": 11,
+     "score_damage_done": 1793,
+     "score_deaths": 0,
+     "score_heal_done": 49058,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195581,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1453,
+     "rating_change": 15,
+     "score_damage_done": 42215,
+     "score_deaths": 0,
+     "score_heal_done": 302239,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195578,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1461,
+     "rating_change": -8,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 64691,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1468,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 5,
+   "datetime": "2026-08-24T04:39:52.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 195575,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 195575,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1472,
+     "rating_change": -11,
+     "score_damage_done": 19835,
+     "score_deaths": 1,
+     "score_heal_done": 151883,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195572,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1462,
+     "rating_change": 10,
+     "score_damage_done": 4439,
+     "score_deaths": 0,
+     "score_heal_done": 13393,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195569,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1447,
+     "rating_change": 15,
+     "score_damage_done": 9602,
+     "score_deaths": 0,
+     "score_heal_done": 137368,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195566,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1431,
+     "rating_change": 16,
+     "score_damage_done": 4259,
+     "score_deaths": 0,
+     "score_heal_done": 31446,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 195564,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1440,
+     "rating_change": -9,
+     "score_damage_done": 2190,
+     "score_deaths": 1,
+     "score_heal_done": 180481,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1472,
+   "rating_change": 21,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-23T18:32:38.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 193488,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 193488,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1427,
+     "rating_change": 13,
+     "score_damage_done": 49929,
+     "score_deaths": 0,
+     "score_heal_done": 417816,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 193455,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1437,
+     "rating_change": -10,
+     "score_damage_done": 1302,
+     "score_deaths": 1,
+     "score_heal_done": 35205,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 193442,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1442,
+     "rating_change": -5,
+     "score_damage_done": 1645,
+     "score_deaths": 1,
+     "score_heal_done": 90060,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1427,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 6,
+   "datetime": "2026-08-23T18:18:21.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 193433,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 193433,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1447,
+     "rating_change": -5,
+     "score_damage_done": 4582,
+     "score_deaths": 1,
+     "score_heal_done": 136361,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 193421,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1456,
+     "rating_change": -9,
+     "score_damage_done": 436,
+     "score_deaths": 1,
+     "score_heal_done": 60854,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 193413,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1464,
+     "rating_change": -8,
+     "score_damage_done": 925,
+     "score_deaths": 1,
+     "score_heal_done": 123140,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 193405,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1473,
+     "rating_change": -9,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 88500,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 193383,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1459,
+     "rating_change": 14,
+     "score_damage_done": 16017,
+     "score_deaths": 0,
+     "score_heal_done": 112945,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 193368,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1442,
+     "rating_change": 17,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 73915,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1447,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-23 21:00:07",
+     "duration": 246,
+     "id": 28740796,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 28740796,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 8054,
+    "score_deaths": 2,
+    "score_healing_done": 288583,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28740796,
+   "datetime": "2026-08-23T18:00:07.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9347831
+   },
+   "datetime": "2026-08-23T17:26:19.000000Z",
+   "guid": 59940,
+   "id": 9347831,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Шахматы",
+    "bossfight_id": 9347792
+   },
+   "datetime": "2026-08-23T17:15:51.000000Z",
+   "guid": 59940,
+   "id": 9347792,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9347747
+   },
+   "datetime": "2026-08-23T17:03:23.000000Z",
+   "guid": 59940,
+   "id": 9347747,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9347714
+   },
+   "datetime": "2026-08-23T16:53:51.000000Z",
+   "guid": 59940,
+   "id": 9347714,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9347697
+   },
+   "datetime": "2026-08-23T16:49:38.000000Z",
+   "guid": 59940,
+   "id": 9347697,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9347662
+   },
+   "datetime": "2026-08-23T16:39:18.000000Z",
+   "guid": 59940,
+   "id": 9347662,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-21 23:33:18",
+     "duration": 243,
+     "id": 28694752,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 28694752,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 8107,
+    "score_deaths": 0,
+    "score_healing_done": 484904,
+    "score_honorable_kills": 15,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28694752,
+   "datetime": "2026-08-21T20:33:18.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-21T20:17:00.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 178246,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 178246,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1419,
+     "rating_change": 11,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 235993,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 178154,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1424,
+     "rating_change": -5,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 55394,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1419,
+   "rating_change": 6,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-21 23:10:42",
+     "duration": 274,
+     "id": 28694597,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 28694597,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7418,
+    "score_deaths": 3,
+    "score_healing_done": 207314,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28694597,
+   "datetime": "2026-08-21T20:10:42.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-21T19:59:23.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 178122,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 178122,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1433,
+     "rating_change": -9,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 30298,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 178040,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1419,
+     "rating_change": 14,
+     "score_damage_done": 6141,
+     "score_deaths": 0,
+     "score_heal_done": 127402,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 178019,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1432,
+     "rating_change": -13,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 19456,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1433,
+   "rating_change": -8,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41860,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_74.png",
+    "name": "Одеяние неумолимого гладиатора из луноткани",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-21T19:56:02.000000Z",
+   "guid": 59940,
+   "id": 224489255,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-21 22:43:49",
+     "duration": 836,
+     "id": 28694343,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28694343,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 7,
+    "score_damage_done": 31519,
+    "score_deaths": 2,
+    "score_healing_done": 888745,
+    "score_honorable_kills": 37,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28694343,
+   "datetime": "2026-08-21T19:43:49.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-21T19:27:21.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 177924,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 177924,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1416,
+     "rating_change": 16,
+     "score_damage_done": 17851,
+     "score_deaths": 0,
+     "score_heal_done": 158088,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 177910,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1425,
+     "rating_change": -9,
+     "score_damage_done": 8226,
+     "score_deaths": 1,
+     "score_heal_done": 144338,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1416,
+   "rating_change": 7,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "entry": 6351,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_kidneyshot.png",
+    "name": "На полкорпуса впереди",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787341429,
+   "datetime": "2026-08-21T16:43:49.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-21 00:07:17",
+     "duration": 592,
+     "id": 28666152,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28666152,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 38468,
+    "score_deaths": 3,
+    "score_healing_done": 904961,
+    "score_honorable_kills": 17,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28666152,
+   "datetime": "2026-08-20T21:07:17.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9329740
+   },
+   "datetime": "2026-08-20T19:39:42.000000Z",
+   "guid": 59940,
+   "id": 9329740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9329576
+   },
+   "datetime": "2026-08-20T19:21:07.000000Z",
+   "guid": 59940,
+   "id": 9329576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9329494
+   },
+   "datetime": "2026-08-20T19:12:34.000000Z",
+   "guid": 59940,
+   "id": 9329494,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9329092
+   },
+   "datetime": "2026-08-20T18:36:08.000000Z",
+   "guid": 59940,
+   "id": 9329092,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9328913
+   },
+   "datetime": "2026-08-20T18:09:47.000000Z",
+   "guid": 59940,
+   "id": 9328913,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9328537
+   },
+   "datetime": "2026-08-20T17:29:43.000000Z",
+   "guid": 59940,
+   "id": 9328537,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9316171
+   },
+   "datetime": "2026-08-19T20:41:19.000000Z",
+   "guid": 59940,
+   "id": 9316171,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9316117
+   },
+   "datetime": "2026-08-19T20:18:55.000000Z",
+   "guid": 59940,
+   "id": 9316117,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Опера",
+    "bossfight_id": 9316105
+   },
+   "datetime": "2026-08-19T20:09:02.000000Z",
+   "guid": 59940,
+   "id": 9316105,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9316038
+   },
+   "datetime": "2026-08-19T19:49:43.000000Z",
+   "guid": 59940,
+   "id": 9316038,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9315997
+   },
+   "datetime": "2026-08-19T19:40:04.000000Z",
+   "guid": 59940,
+   "id": 9315997,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9315966
+   },
+   "datetime": "2026-08-19T19:28:24.000000Z",
+   "guid": 59940,
+   "id": 9315966,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9314542
+   },
+   "datetime": "2026-08-19T18:55:48.000000Z",
+   "guid": 59940,
+   "id": 9314542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9313193
+   },
+   "datetime": "2026-08-19T18:05:59.000000Z",
+   "guid": 59940,
+   "id": 9313193,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9312979
+   },
+   "datetime": "2026-08-19T17:39:57.000000Z",
+   "guid": 59940,
+   "id": 9312979,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6332,
+    "icon": "https://cdn3.scourge.tech/icons/ability_demonhunter_sigilofchains.png",
+    "name": "Трижды переполняющая мощь",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787161197,
+   "datetime": "2026-08-19T14:39:57.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-17 22:16:49",
+     "duration": 785,
+     "id": 28528069,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 28528069,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 3773,
+    "score_deaths": 0,
+    "score_healing_done": 145587,
+    "score_honorable_kills": 10,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28528069,
+   "datetime": "2026-08-17T19:16:49.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-17 21:18:00",
+     "duration": 563,
+     "id": 28527857,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28527857,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 3,
+    "score_damage_done": 51699,
+    "score_deaths": 2,
+    "score_healing_done": 550680,
+    "score_honorable_kills": 44,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28527857,
+   "datetime": "2026-08-17T18:18:00.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-17 21:05:52",
+     "duration": 781,
+     "id": 28527795,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28527795,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 5,
+    "score_damage_done": 119863,
+    "score_deaths": 0,
+    "score_healing_done": 474077,
+    "score_honorable_kills": 28,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28527795,
+   "datetime": "2026-08-17T18:05:52.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-17T17:50:17.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 152063,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 152063,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1362,
+     "rating_change": 15,
+     "score_damage_done": 4916,
+     "score_deaths": 0,
+     "score_heal_done": 34336,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1362,
+   "rating_change": 15,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-17 20:44:49",
+     "duration": 756,
+     "id": 28527706,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 28527706,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 6,
+    "score_damage_done": 31082,
+    "score_deaths": 5,
+    "score_healing_done": 702545,
+    "score_honorable_kills": 13,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28527706,
+   "datetime": "2026-08-17T17:44:49.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-17T17:32:20.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 151989,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 151989,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1369,
+     "rating_change": -7,
+     "score_damage_done": 18811,
+     "score_deaths": 1,
+     "score_heal_done": 128527,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 151948,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1376,
+     "rating_change": -7,
+     "score_damage_done": 5560,
+     "score_deaths": 1,
+     "score_heal_done": 86692,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1369,
+   "rating_change": -14,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 4,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-17 20:22:24",
+     "duration": 583,
+     "id": 28527587,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 1
+    },
+    "battleground_id": 28527587,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 17383,
+    "score_deaths": 3,
+    "score_healing_done": 725447,
+    "score_honorable_kills": 25,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28527587,
+   "datetime": "2026-08-17T17:22:24.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-16T11:05:16.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 141330,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 141330,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1360,
+     "rating_change": 16,
+     "score_damage_done": 8803,
+     "score_deaths": 0,
+     "score_heal_done": 75560,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 141291,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1366,
+     "rating_change": -6,
+     "score_damage_done": 21056,
+     "score_deaths": 1,
+     "score_heal_done": 253482,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1360,
+   "rating_change": 10,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 4,
+   "datetime": "2026-08-16T10:57:38.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 141220,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 141220,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1346,
+     "rating_change": 20,
+     "score_damage_done": 14154,
+     "score_deaths": 0,
+     "score_heal_done": 138058,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 141173,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1333,
+     "rating_change": 13,
+     "score_damage_done": 9801,
+     "score_deaths": 0,
+     "score_heal_done": 110873,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 141127,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1317,
+     "rating_change": 16,
+     "score_damage_done": 7799,
+     "score_deaths": 0,
+     "score_heal_done": 39142,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 140985,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1322,
+     "rating_change": -5,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 97979,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1346,
+   "rating_change": 44,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-16 13:49:36",
+     "duration": 409,
+     "id": 28487405,
+     "name": "Храм Котмогу",
+     "objectives": [],
+     "type": 19,
+     "winner_faction": 0
+    },
+    "battleground_id": 28487405,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 13705,
+    "score_deaths": 1,
+    "score_healing_done": 738069,
+    "score_honorable_kills": 33,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28487405,
+   "datetime": "2026-08-16T10:49:36.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-16 13:37:55",
+     "duration": 658,
+     "id": 28487176,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 0
+    },
+    "battleground_id": 28487176,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 3,
+    "score_damage_done": 31787,
+    "score_deaths": 2,
+    "score_healing_done": 969103,
+    "score_honorable_kills": 22,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28487176,
+   "datetime": "2026-08-16T10:37:55.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-16T10:24:32.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 140763,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 140763,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1331,
+     "rating_change": -9,
+     "score_damage_done": 21569,
+     "score_deaths": 1,
+     "score_heal_done": 112831,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1331,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-16 13:20:40",
+     "duration": 942,
+     "id": 28486867,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 0
+    },
+    "battleground_id": 28486867,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28263,
+    "score_deaths": 5,
+    "score_healing_done": 917759,
+    "score_honorable_kills": 21,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28486867,
+   "datetime": "2026-08-16T10:20:40.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-16 13:00:07",
+     "duration": 996,
+     "id": 28486607,
+     "name": "Зимняя Низина Арати",
+     "objectives": [],
+     "type": 59,
+     "winner_faction": 0
+    },
+    "battleground_id": 28486607,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 36288,
+    "score_deaths": 9,
+    "score_healing_done": 973424,
+    "score_honorable_kills": 27,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28486607,
+   "datetime": "2026-08-16T10:00:07.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-15T19:25:02.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 137262,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 137262,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1347,
+     "rating_change": -9,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 17339,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1347,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-15T19:19:00.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 137238,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 137238,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1312,
+     "rating_change": 19,
+     "score_damage_done": 1601,
+     "score_deaths": 0,
+     "score_heal_done": 78406,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 137206,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1310,
+     "rating_change": 15,
+     "score_damage_done": 2748,
+     "score_deaths": 0,
+     "score_heal_done": 209597,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 137172,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1328,
+     "rating_change": -5,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 218156,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1312,
+   "rating_change": 29,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_46.png",
+    "name": "Подвеска связующих элементов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-15T18:35:21.000000Z",
+   "guid": 59940,
+   "id": 223572135,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48667,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_18.png",
+    "name": "Шаль благочестивого рыцаря",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-15T18:32:35.000000Z",
+   "guid": 59940,
+   "id": 223571581,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9283542
+   },
+   "datetime": "2026-08-15T18:28:16.000000Z",
+   "guid": 59940,
+   "id": 9283542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9283494
+   },
+   "datetime": "2026-08-15T18:23:16.000000Z",
+   "guid": 59940,
+   "id": 9283494,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9283458
+   },
+   "datetime": "2026-08-15T18:19:07.000000Z",
+   "guid": 59940,
+   "id": 9283458,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9283417
+   },
+   "datetime": "2026-08-15T18:14:02.000000Z",
+   "guid": 59940,
+   "id": 9283417,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9283371
+   },
+   "datetime": "2026-08-15T18:08:19.000000Z",
+   "guid": 59940,
+   "id": 9283371,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-14T20:40:39.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 129964,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 129964,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1310,
+     "rating_change": 18,
+     "score_damage_done": 6841,
+     "score_deaths": 0,
+     "score_heal_done": 2796,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1310,
+   "rating_change": 18,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-14 23:22:51",
+     "duration": 1084,
+     "id": 28453476,
+     "name": "Зимняя Низина Арати",
+     "objectives": [],
+     "type": 59,
+     "winner_faction": 0
+    },
+    "battleground_id": 28453476,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 2,
+    "score_damage_done": 41839,
+    "score_deaths": 5,
+    "score_healing_done": 1793172,
+    "score_honorable_kills": 42,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28453476,
+   "datetime": "2026-08-14T20:22:51.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9267548
+   },
+   "datetime": "2026-08-13T19:55:55.000000Z",
+   "guid": 59940,
+   "id": 9267548,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9267442
+   },
+   "datetime": "2026-08-13T19:45:18.000000Z",
+   "guid": 59940,
+   "id": 9267442,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9267314
+   },
+   "datetime": "2026-08-13T19:24:45.000000Z",
+   "guid": 59940,
+   "id": 9267314,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9266126
+   },
+   "datetime": "2026-08-13T19:15:01.000000Z",
+   "guid": 59940,
+   "id": 9266126,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9265923
+   },
+   "datetime": "2026-08-13T18:51:50.000000Z",
+   "guid": 59940,
+   "id": 9265923,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9265650
+   },
+   "datetime": "2026-08-13T18:21:29.000000Z",
+   "guid": 59940,
+   "id": 9265650,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9265536
+   },
+   "datetime": "2026-08-13T18:09:53.000000Z",
+   "guid": 59940,
+   "id": 9265536,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9265247
+   },
+   "datetime": "2026-08-13T17:32:45.000000Z",
+   "guid": 59940,
+   "id": 9265247,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9265121
+   },
+   "datetime": "2026-08-13T17:18:23.000000Z",
+   "guid": 59940,
+   "id": 9265121,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 14,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9256300
+   },
+   "datetime": "2026-08-12T21:04:08.000000Z",
+   "guid": 59940,
+   "id": 9256300,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6480,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_note_01.png",
+    "name": "Подписано кровью",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786566546,
+   "datetime": "2026-08-12T17:29:06.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 151579,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_cloth_panda_b_01_green.png",
+    "name": "Клобук из ткани Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-11T21:26:24.000000Z",
+   "guid": 59940,
+   "id": 222949285,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9250957
+   },
+   "datetime": "2026-08-11T21:17:48.000000Z",
+   "guid": 59940,
+   "id": 9250957,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9250931
+   },
+   "datetime": "2026-08-11T20:56:46.000000Z",
+   "guid": 59940,
+   "id": 9250931,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9250882
+   },
+   "datetime": "2026-08-11T20:40:53.000000Z",
+   "guid": 59940,
+   "id": 9250882,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9250577
+   },
+   "datetime": "2026-08-11T19:27:01.000000Z",
+   "guid": 59940,
+   "id": 9250577,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82090,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_cloth_panda_b_02_white.png",
+    "name": "Растущие наплечные пластины",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-11T19:14:30.000000Z",
+   "guid": 59940,
+   "id": 222928883,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9250452
+   },
+   "datetime": "2026-08-11T19:10:25.000000Z",
+   "guid": 59940,
+   "id": 9250452,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9250302
+   },
+   "datetime": "2026-08-11T18:42:43.000000Z",
+   "guid": 59940,
+   "id": 9250302,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9250231
+   },
+   "datetime": "2026-08-11T18:31:43.000000Z",
+   "guid": 59940,
+   "id": 9250231,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82084,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_cloth_panda_b_02_white.png",
+    "name": "Растущий шнурованный ремень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-11T18:21:20.000000Z",
+   "guid": 59940,
+   "id": 222918915,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6327,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_rune.png",
+    "name": "Пироманьяк",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786483068,
+   "datetime": "2026-08-11T18:17:48.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-11T17:43:43.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 108129,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 108129,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1290,
+     "rating_change": -10,
+     "score_damage_done": 4186,
+     "score_deaths": 1,
+     "score_heal_done": 171686,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1290,
+   "rating_change": -10,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "entry": 6314,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_sealoffire.png",
+    "name": "Магия огня",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786476421,
+   "datetime": "2026-08-11T16:27:01.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9249225
+   },
+   "datetime": "2026-08-10T19:57:00.000000Z",
+   "guid": 59940,
+   "id": 9249225,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9249012
+   },
+   "datetime": "2026-08-10T19:13:28.000000Z",
+   "guid": 59940,
+   "id": 9249012,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9248906
+   },
+   "datetime": "2026-08-10T19:02:12.000000Z",
+   "guid": 59940,
+   "id": 9248906,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9248667
+   },
+   "datetime": "2026-08-10T18:24:09.000000Z",
+   "guid": 59940,
+   "id": 9248667,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9248583
+   },
+   "datetime": "2026-08-10T18:14:02.000000Z",
+   "guid": 59940,
+   "id": 9248583,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9248556
+   },
+   "datetime": "2026-08-10T18:11:51.000000Z",
+   "guid": 59940,
+   "id": 9248556,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9248536
+   },
+   "datetime": "2026-08-10T18:10:37.000000Z",
+   "guid": 59940,
+   "id": 9248536,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9248525
+   },
+   "datetime": "2026-08-10T18:08:50.000000Z",
+   "guid": 59940,
+   "id": 9248525,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9248508
+   },
+   "datetime": "2026-08-10T18:07:02.000000Z",
+   "guid": 59940,
+   "id": 9248508,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-07T20:22:01.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 79687,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 79687,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1272,
+     "rating_change": 18,
+     "score_damage_done": 5369,
+     "score_deaths": 0,
+     "score_heal_done": 75406,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 79656,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1280,
+     "rating_change": -8,
+     "score_damage_done": 10761,
+     "score_deaths": 1,
+     "score_heal_done": 104052,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1272,
+   "rating_change": 10,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-07 23:16:43",
+     "duration": 286,
+     "id": 28266759,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 1
+    },
+    "battleground_id": 28266759,
+    "deaths": null,
+    "guid": 59940,
+    "score_bonus_honor": 1,
+    "score_damage_done": 16135,
+    "score_deaths": 1,
+    "score_healing_done": 337445,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28266759,
+   "datetime": "2026-08-07T20:16:43.000000Z",
+   "guid": 59940,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 4,
+   "datetime": "2026-08-07T20:12:05.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 79551,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 79551,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1263,
+     "rating_change": 17,
+     "score_damage_done": 7249,
+     "score_deaths": 0,
+     "score_heal_done": 100343,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 79503,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1242,
+     "rating_change": 21,
+     "score_damage_done": 18901,
+     "score_deaths": 0,
+     "score_heal_done": 262594,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 79444,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1247,
+     "rating_change": -5,
+     "score_damage_done": 4834,
+     "score_deaths": 1,
+     "score_heal_done": 24944,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 79419,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1252,
+     "rating_change": -5,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 136914,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1263,
+   "rating_change": 28,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-06T18:17:48.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 73102,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 73102,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1262,
+     "rating_change": -10,
+     "score_damage_done": 2503,
+     "score_deaths": 1,
+     "score_heal_done": 42939,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 72964,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1240,
+     "rating_change": 22,
+     "score_damage_done": 5055,
+     "score_deaths": 0,
+     "score_heal_done": 155970,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1262,
+   "rating_change": 12,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-06T17:56:26.000000Z",
+   "draws": 0,
+   "guid": 59940,
+   "last_arena_id": 72904,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 72904,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1246,
+     "rating_change": -6,
+     "score_damage_done": 19515,
+     "score_deaths": 1,
+     "score_heal_done": 157859,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 72870,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1249,
+     "rating_change": -3,
+     "score_damage_done": 11289,
+     "score_deaths": 1,
+     "score_heal_done": 84580,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 72849,
+     "character": {
+      "class_icon": "/images/icons/classpriest.webp",
+      "class_id": 5,
+      "class_name": "Жрец",
+      "faction": 2,
+      "gender": 1,
+      "guid": 59940,
+      "level": 80,
+      "name": "Проболь",
+      "race_icon": "/images/icons/race/queldofemale.webp",
+      "race_id": 15,
+      "race_name": "Высший эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 59940,
+     "rating": 1253,
+     "rating_change": -4,
+     "score_damage_done": 860,
+     "score_deaths": 1,
+     "score_heal_done": 43270,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1246,
+   "rating_change": -13,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  }
+ ],
+ "guid": 59940,
+ "name": "Проболь",
+ "ts": "2026-09-03T21-05Z"
+}

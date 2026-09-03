@@ -78,21 +78,22 @@ def main():
     ctx = make_ctx()
     saved = 0
     for entry, name in todo:
-        url = f"{API_BASE}/{realm}/tooltip/item/{entry}?lang=ru"
         data = None
-        for attempt in range(1, 5):
-            try:
-                req = urllib.request.Request(url, headers=HEADERS)
-                with urllib.request.urlopen(req, timeout=25, context=ctx) as r:
-                    data = json.loads(r.read().decode("utf-8", "replace"))
-                break
-            except urllib.error.HTTPError as e:
-                if e.code != 429 and e.code < 500:
-                    print(f"  ✗ {entry} HTTP {e.code}")
+        for base in ("https://sirus.su/api/base", "https://sirus.org/api/base"):  # su падает → зеркало
+            url = f"{base}/{realm}/tooltip/item/{entry}?lang=ru"
+            for attempt in range(1, 5):
+                try:
+                    with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25, context=ctx) as r:
+                        data = json.loads(r.read().decode("utf-8", "replace"))
                     break
-            except Exception as e:  # noqa: BLE001
-                print(f"  … {entry} {type(e).__name__}, попытка {attempt}")
-            time.sleep(min(60, 2 ** attempt) + random.uniform(0, 1.5))
+                except urllib.error.HTTPError as e:
+                    if e.code != 429 and e.code < 500:
+                        break
+                except Exception:
+                    break  # сеть/DNS — к зеркалу
+                time.sleep(min(60, 2 ** attempt) + random.uniform(0, 1.5))
+            if data:
+                break
         item = (data or {}).get("item")
         if not item:
             print(f"  ✗ {entry} ({name}) — не забрался")

@@ -1,0 +1,4326 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9421740
+   },
+   "datetime": "2026-09-03T20:13:34.000000Z",
+   "guid": 3007,
+   "id": 9421740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 3007,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 3007,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 3007,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 3007,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 3007,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419941
+   },
+   "datetime": "2026-09-03T18:30:45.000000Z",
+   "guid": 3007,
+   "id": 9419941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419775
+   },
+   "datetime": "2026-09-03T18:04:41.000000Z",
+   "guid": 3007,
+   "id": 9419775,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419576
+   },
+   "datetime": "2026-09-03T17:46:30.000000Z",
+   "guid": 3007,
+   "id": 9419576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9412736
+   },
+   "datetime": "2026-09-01T19:17:30.000000Z",
+   "guid": 3007,
+   "id": 9412736,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9411495
+   },
+   "datetime": "2026-09-01T18:55:09.000000Z",
+   "guid": 3007,
+   "id": 9411495,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9411379
+   },
+   "datetime": "2026-09-01T18:41:50.000000Z",
+   "guid": 3007,
+   "id": 9411379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9410983
+   },
+   "datetime": "2026-09-01T17:51:04.000000Z",
+   "guid": 3007,
+   "id": 9410983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9410922
+   },
+   "datetime": "2026-09-01T17:37:20.000000Z",
+   "guid": 3007,
+   "id": 9410922,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9410859
+   },
+   "datetime": "2026-09-01T17:27:41.000000Z",
+   "guid": 3007,
+   "id": 9410859,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7259,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков I",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788281777,
+   "datetime": "2026-09-01T13:56:17.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 3007,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 3007,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 3007,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 3007,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 3007,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 3007,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82080,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_mail_panda_b_02.png",
+    "name": "Шлем из змеиной кожи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:54:17.000000Z",
+   "guid": 3007,
+   "id": 226130867,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9405336
+   },
+   "datetime": "2026-08-31T18:54:00.000000Z",
+   "guid": 3007,
+   "id": 9405336,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9405280
+   },
+   "datetime": "2026-08-31T18:38:53.000000Z",
+   "guid": 3007,
+   "id": 9405280,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9405246
+   },
+   "datetime": "2026-08-31T18:24:10.000000Z",
+   "guid": 3007,
+   "id": 9405246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9405225
+   },
+   "datetime": "2026-08-31T18:15:09.000000Z",
+   "guid": 3007,
+   "id": 9405225,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9405201
+   },
+   "datetime": "2026-08-31T18:07:20.000000Z",
+   "guid": 3007,
+   "id": 9405201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9405175
+   },
+   "datetime": "2026-08-31T17:59:35.000000Z",
+   "guid": 3007,
+   "id": 9405175,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9405142
+   },
+   "datetime": "2026-08-31T17:46:55.000000Z",
+   "guid": 3007,
+   "id": 9405142,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 3007,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 3007,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 3007,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 1250,
+    "icon": "https://cdn3.scourge.tech/icons/inv_box_petcarrier_01.png",
+    "name": "Маленькая такая компания",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787850567,
+   "datetime": "2026-08-27T14:09:27.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117325,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_25.png",
+    "name": "Захваты Ловчего демонов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T20:30:18.000000Z",
+   "guid": 3007,
+   "id": 225129621,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9365406
+   },
+   "datetime": "2026-08-25T20:26:42.000000Z",
+   "guid": 3007,
+   "id": 9365406,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9365178
+   },
+   "datetime": "2026-08-25T19:32:10.000000Z",
+   "guid": 3007,
+   "id": 9365178,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 14,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9365081
+   },
+   "datetime": "2026-08-25T19:16:07.000000Z",
+   "guid": 3007,
+   "id": 9365081,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9364378
+   },
+   "datetime": "2026-08-25T17:38:53.000000Z",
+   "guid": 3007,
+   "id": 9364378,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9364342
+   },
+   "datetime": "2026-08-25T17:33:57.000000Z",
+   "guid": 3007,
+   "id": 9364342,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9364328
+   },
+   "datetime": "2026-08-25T17:31:41.000000Z",
+   "guid": 3007,
+   "id": 9364328,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9364318
+   },
+   "datetime": "2026-08-25T17:30:13.000000Z",
+   "guid": 3007,
+   "id": 9364318,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9364309
+   },
+   "datetime": "2026-08-25T17:28:39.000000Z",
+   "guid": 3007,
+   "id": 9364309,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9364289
+   },
+   "datetime": "2026-08-25T17:26:48.000000Z",
+   "guid": 3007,
+   "id": 9364289,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9357050
+   },
+   "datetime": "2026-08-24T20:11:03.000000Z",
+   "guid": 3007,
+   "id": 9357050,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104223,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_panda_b_02.png",
+    "name": "Тяжелоступы следопыта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T19:39:30.000000Z",
+   "guid": 3007,
+   "id": 224982598,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9356949
+   },
+   "datetime": "2026-08-24T19:39:08.000000Z",
+   "guid": 3007,
+   "id": 9356949,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9356806
+   },
+   "datetime": "2026-08-24T19:01:10.000000Z",
+   "guid": 3007,
+   "id": 9356806,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9356780
+   },
+   "datetime": "2026-08-24T18:50:49.000000Z",
+   "guid": 3007,
+   "id": 9356780,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9356738
+   },
+   "datetime": "2026-08-24T18:41:23.000000Z",
+   "guid": 3007,
+   "id": 9356738,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9356685
+   },
+   "datetime": "2026-08-24T18:27:50.000000Z",
+   "guid": 3007,
+   "id": 9356685,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9356648
+   },
+   "datetime": "2026-08-24T18:13:23.000000Z",
+   "guid": 3007,
+   "id": 9356648,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787596070,
+   "datetime": "2026-08-24T15:27:50.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9329740
+   },
+   "datetime": "2026-08-20T19:39:42.000000Z",
+   "guid": 3007,
+   "id": 9329740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9329576
+   },
+   "datetime": "2026-08-20T19:21:07.000000Z",
+   "guid": 3007,
+   "id": 9329576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9329494
+   },
+   "datetime": "2026-08-20T19:12:34.000000Z",
+   "guid": 3007,
+   "id": 9329494,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9329092
+   },
+   "datetime": "2026-08-20T18:36:08.000000Z",
+   "guid": 3007,
+   "id": 9329092,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 63843,
+    "icon": "https://cdn3.scourge.tech/icons/inv_drink_30_blackheartgrog.png",
+    "name": "Окровавленная кружка эля",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-20T18:11:34.000000Z",
+   "guid": 3007,
+   "id": 224314430,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9328913
+   },
+   "datetime": "2026-08-20T18:09:47.000000Z",
+   "guid": 3007,
+   "id": 9328913,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9328537
+   },
+   "datetime": "2026-08-20T17:29:43.000000Z",
+   "guid": 3007,
+   "id": 9328537,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9316171
+   },
+   "datetime": "2026-08-19T20:41:19.000000Z",
+   "guid": 3007,
+   "id": 9316171,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9316117
+   },
+   "datetime": "2026-08-19T20:18:55.000000Z",
+   "guid": 3007,
+   "id": 9316117,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Опера",
+    "bossfight_id": 9316105
+   },
+   "datetime": "2026-08-19T20:09:02.000000Z",
+   "guid": 3007,
+   "id": 9316105,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9316038
+   },
+   "datetime": "2026-08-19T19:49:43.000000Z",
+   "guid": 3007,
+   "id": 9316038,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9315997
+   },
+   "datetime": "2026-08-19T19:40:04.000000Z",
+   "guid": 3007,
+   "id": 9315997,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9315966
+   },
+   "datetime": "2026-08-19T19:28:24.000000Z",
+   "guid": 3007,
+   "id": 9315966,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117326,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_15.png",
+    "name": "Кираса Ловчего демонов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-19T19:06:20.000000Z",
+   "guid": 3007,
+   "id": 224154037,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9314542
+   },
+   "datetime": "2026-08-19T18:55:48.000000Z",
+   "guid": 3007,
+   "id": 9314542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9313193
+   },
+   "datetime": "2026-08-19T18:05:59.000000Z",
+   "guid": 3007,
+   "id": 9313193,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9312979
+   },
+   "datetime": "2026-08-19T17:39:57.000000Z",
+   "guid": 3007,
+   "id": 9312979,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787165747,
+   "datetime": "2026-08-19T15:55:47.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6332,
+    "icon": "https://cdn3.scourge.tech/icons/ability_demonhunter_sigilofchains.png",
+    "name": "Трижды переполняющая мощь",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787161197,
+   "datetime": "2026-08-19T14:39:57.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9267548
+   },
+   "datetime": "2026-08-13T19:55:55.000000Z",
+   "guid": 3007,
+   "id": 9267548,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9267442
+   },
+   "datetime": "2026-08-13T19:45:18.000000Z",
+   "guid": 3007,
+   "id": 9267442,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9267314
+   },
+   "datetime": "2026-08-13T19:24:45.000000Z",
+   "guid": 3007,
+   "id": 9267314,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9266126
+   },
+   "datetime": "2026-08-13T19:15:01.000000Z",
+   "guid": 3007,
+   "id": 9266126,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47491,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_halberd_31.png",
+    "name": "Глефа геллиона",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T18:58:58.000000Z",
+   "guid": 3007,
+   "id": 223238326,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9265923
+   },
+   "datetime": "2026-08-13T18:51:50.000000Z",
+   "guid": 3007,
+   "id": 9265923,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47457,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_07.png",
+    "name": "Наголенники безжалостного правосудия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T18:24:11.000000Z",
+   "guid": 3007,
+   "id": 223229645,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9265650
+   },
+   "datetime": "2026-08-13T18:21:29.000000Z",
+   "guid": 3007,
+   "id": 9265650,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9265536
+   },
+   "datetime": "2026-08-13T18:09:53.000000Z",
+   "guid": 3007,
+   "id": 9265536,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9265247
+   },
+   "datetime": "2026-08-13T17:32:45.000000Z",
+   "guid": 3007,
+   "id": 9265247,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9265121
+   },
+   "datetime": "2026-08-13T17:18:23.000000Z",
+   "guid": 3007,
+   "id": 9265121,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 14,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9256300
+   },
+   "datetime": "2026-08-12T21:04:08.000000Z",
+   "guid": 3007,
+   "id": 9256300,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6061,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_princemalchezaar_02.png",
+    "name": "Каражан (героич., 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786568648,
+   "datetime": "2026-08-12T18:04:08.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9250957
+   },
+   "datetime": "2026-08-11T21:17:48.000000Z",
+   "guid": 3007,
+   "id": 9250957,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9250931
+   },
+   "datetime": "2026-08-11T20:56:46.000000Z",
+   "guid": 3007,
+   "id": 9250931,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9250882
+   },
+   "datetime": "2026-08-11T20:40:53.000000Z",
+   "guid": 3007,
+   "id": 9250882,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9250577
+   },
+   "datetime": "2026-08-11T19:27:01.000000Z",
+   "guid": 3007,
+   "id": 9250577,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9250452
+   },
+   "datetime": "2026-08-11T19:10:25.000000Z",
+   "guid": 3007,
+   "id": 9250452,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9250302
+   },
+   "datetime": "2026-08-11T18:42:43.000000Z",
+   "guid": 3007,
+   "id": 9250302,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9250231
+   },
+   "datetime": "2026-08-11T18:31:43.000000Z",
+   "guid": 3007,
+   "id": 9250231,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6314,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_sealoffire.png",
+    "name": "Магия огня",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786476421,
+   "datetime": "2026-08-11T16:27:01.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9129466
+   },
+   "datetime": "2026-07-27T16:38:31.000000Z",
+   "guid": 3007,
+   "id": 9129466,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9129454
+   },
+   "datetime": "2026-07-27T16:36:29.000000Z",
+   "guid": 3007,
+   "id": 9129454,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9129446
+   },
+   "datetime": "2026-07-27T16:35:13.000000Z",
+   "guid": 3007,
+   "id": 9129446,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9129435
+   },
+   "datetime": "2026-07-27T16:33:56.000000Z",
+   "guid": 3007,
+   "id": 9129435,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9129413
+   },
+   "datetime": "2026-07-27T16:32:23.000000Z",
+   "guid": 3007,
+   "id": 9129413,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9128241
+   },
+   "datetime": "2026-07-27T16:03:01.000000Z",
+   "guid": 3007,
+   "id": 9128241,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9128171
+   },
+   "datetime": "2026-07-27T15:43:43.000000Z",
+   "guid": 3007,
+   "id": 9128171,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9128130
+   },
+   "datetime": "2026-07-27T15:33:32.000000Z",
+   "guid": 3007,
+   "id": 9128130,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49437,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_shortblade_18.png",
+    "name": "Заржавелый потрошитель Гутгора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:40:50.000000Z",
+   "guid": 3007,
+   "id": 220147436,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9116409
+   },
+   "datetime": "2026-07-26T07:40:08.000000Z",
+   "guid": 3007,
+   "id": 9116409,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44311,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_109.png",
+    "name": "Авулов меч Цинь",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:19:29.000000Z",
+   "guid": 3007,
+   "id": 220144898,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-25 21:47:18",
+     "duration": 1122,
+     "id": 27820970,
+     "name": "Зимняя Низина Арати",
+     "objectives": [],
+     "type": 59,
+     "winner_faction": 0
+    },
+    "battleground_id": 27820970,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 50,
+    "score_damage_done": 483143,
+    "score_deaths": 8,
+    "score_healing_done": 866,
+    "score_honorable_kills": 42,
+    "score_killing_blows": 9,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27820970,
+   "datetime": "2026-07-25T18:47:18.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158375,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_73.png",
+    "name": "Плетеные рукавицы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T18:23:41.000000Z",
+   "guid": 3007,
+   "id": 220076089,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9102302
+   },
+   "datetime": "2026-07-24T20:01:28.000000Z",
+   "guid": 3007,
+   "id": 9102302,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82076,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_mail_panda_b_02.png",
+    "name": "Belt of the Betrayed",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T19:42:08.000000Z",
+   "guid": 3007,
+   "id": 219910950,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9102211
+   },
+   "datetime": "2026-07-24T19:41:28.000000Z",
+   "guid": 3007,
+   "id": 9102211,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9102175
+   },
+   "datetime": "2026-07-24T19:30:59.000000Z",
+   "guid": 3007,
+   "id": 9102175,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80769,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_120.png",
+    "name": "Перстень змеиного хребта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T19:17:28.000000Z",
+   "guid": 3007,
+   "id": 219906440,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9102087
+   },
+   "datetime": "2026-07-24T19:16:40.000000Z",
+   "guid": 3007,
+   "id": 9102087,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9101868
+   },
+   "datetime": "2026-07-24T18:19:55.000000Z",
+   "guid": 3007,
+   "id": 9101868,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9101828
+   },
+   "datetime": "2026-07-24T18:10:55.000000Z",
+   "guid": 3007,
+   "id": 9101828,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9101791
+   },
+   "datetime": "2026-07-24T17:59:34.000000Z",
+   "guid": 3007,
+   "id": 9101791,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9101738
+   },
+   "datetime": "2026-07-24T17:34:04.000000Z",
+   "guid": 3007,
+   "id": 9101738,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6317,
+    "icon": "https://cdn3.scourge.tech/icons/spell_mage_overpowered.png",
+    "name": "Венец магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784921459,
+   "datetime": "2026-07-24T16:30:59.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 7,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9095981
+   },
+   "datetime": "2026-07-23T19:15:05.000000Z",
+   "guid": 3007,
+   "id": 9095981,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9095545
+   },
+   "datetime": "2026-07-23T17:59:32.000000Z",
+   "guid": 3007,
+   "id": 9095545,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784834105,
+   "datetime": "2026-07-23T16:15:05.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784834105,
+   "datetime": "2026-07-23T16:15:05.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6333,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_ritualofsacrifice.png",
+    "name": "Сорванный ритуал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784829572,
+   "datetime": "2026-07-23T14:59:32.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9084248
+   },
+   "datetime": "2026-07-22T20:00:53.000000Z",
+   "guid": 3007,
+   "id": 9084248,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 13,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9084115
+   },
+   "datetime": "2026-07-22T19:23:59.000000Z",
+   "guid": 3007,
+   "id": 9084115,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9083790
+   },
+   "datetime": "2026-07-22T17:57:43.000000Z",
+   "guid": 3007,
+   "id": 9083790,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9053606
+   },
+   "datetime": "2026-07-21T19:54:30.000000Z",
+   "guid": 3007,
+   "id": 9053606,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9053379
+   },
+   "datetime": "2026-07-21T19:44:58.000000Z",
+   "guid": 3007,
+   "id": 9053379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 140299,
+    "icon": "https://cdn3.scourge.tech/icons/inv_cloth_draenorcrafted_d_01bracer.png",
+    "name": "Тканые наручи боевого мага",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-21T19:38:13.000000Z",
+   "guid": 3007,
+   "id": 219439030,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 139575,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_leather_draenorcrafted_d_01_alliance.png",
+    "name": "Наплечник из дубленой кожи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-21T19:38:10.000000Z",
+   "guid": 3007,
+   "id": 219439026,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158131,
+    "icon": "https://cdn3.scourge.tech/icons/inv_wand_1h_draenorcrafted_d_01_a_horde.png",
+    "name": "Проклятье юной ведьмы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-21T19:38:08.000000Z",
+   "guid": 3007,
+   "id": 219439024,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9053243
+   },
+   "datetime": "2026-07-21T19:37:11.000000Z",
+   "guid": 3007,
+   "id": 9053243,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6896,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_fireandbrimstonegreen.png",
+    "name": "Быстрая расправа",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784663098,
+   "datetime": "2026-07-21T16:44:58.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 8,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9015365
+   },
+   "datetime": "2026-07-20T20:56:30.000000Z",
+   "guid": 3007,
+   "id": 9015365,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 84256,
+    "icon": "https://cdn3.scourge.tech/icons/inv_firearm_2h_rifle_pandariaquest_b_01.png",
+    "name": "Нефритовое ружье",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-20T19:21:12.000000Z",
+   "guid": 3007,
+   "id": 219309741,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 7,
+    "boss_name": "Опера",
+    "bossfight_id": 9012566
+   },
+   "datetime": "2026-07-20T19:20:23.000000Z",
+   "guid": 3007,
+   "id": 9012566,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9006607
+   },
+   "datetime": "2026-07-20T18:34:42.000000Z",
+   "guid": 3007,
+   "id": 9006607,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9005872
+   },
+   "datetime": "2026-07-20T18:03:05.000000Z",
+   "guid": 3007,
+   "id": 9005872,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784580990,
+   "datetime": "2026-07-20T17:56:30.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6312,
+    "icon": "https://cdn3.scourge.tech/icons/ability_creature_poison_06.png",
+    "name": "Концентрат",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784580990,
+   "datetime": "2026-07-20T17:56:30.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9003982
+   },
+   "datetime": "2026-07-20T17:38:13.000000Z",
+   "guid": 3007,
+   "id": 9003982,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_cloth_witchhat_b_01.png",
+    "name": "Прекрасная трагедия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784575223,
+   "datetime": "2026-07-20T16:20:23.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784575223,
+   "datetime": "2026-07-20T16:20:23.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6308,
+    "icon": "https://cdn3.scourge.tech/icons/ability_paladin_handoflight.png",
+    "name": "Заземление",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784572482,
+   "datetime": "2026-07-20T15:34:42.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6309,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_prayerofhealing.png",
+    "name": "Ложное раскаяние",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784572482,
+   "datetime": "2026-07-20T15:34:42.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6303,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_unrelentingassault.png",
+    "name": "Матадор",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784569093,
+   "datetime": "2026-07-20T14:38:13.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-07-19T07:27:39.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1219377,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1219377,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 96,
+     "rating_change": 0,
+     "score_damage_done": 14305,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1219374,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 17482,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1219371,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 16740,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 96,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-19 10:23:19",
+     "duration": 987,
+     "id": 27559742,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 27559742,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 51,
+    "score_damage_done": 530910,
+    "score_deaths": 12,
+    "score_healing_done": 1283,
+    "score_honorable_kills": 38,
+    "score_killing_blows": 12,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27559742,
+   "datetime": "2026-07-19T07:23:19.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-19 10:02:56",
+     "duration": 460,
+     "id": 27559695,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 27559695,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 63,
+    "score_damage_done": 394201,
+    "score_deaths": 1,
+    "score_healing_done": 0,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 13,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27559695,
+   "datetime": "2026-07-19T07:02:56.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-19 09:52:26",
+     "duration": 186,
+     "id": 27559671,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 27559671,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 8,
+    "score_damage_done": 113608,
+    "score_deaths": 0,
+    "score_healing_done": 0,
+    "score_honorable_kills": 10,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27559671,
+   "datetime": "2026-07-19T06:52:26.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-18 23:15:56",
+     "duration": 541,
+     "id": 27557260,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 27557260,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 75,
+    "score_damage_done": 374314,
+    "score_deaths": 1,
+    "score_healing_done": 0,
+    "score_honorable_kills": 25,
+    "score_killing_blows": 11,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27557260,
+   "datetime": "2026-07-18T20:15:56.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158373,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_mail_02.png",
+    "name": "Плетеный доспех гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T19:49:48.000000Z",
+   "guid": 3007,
+   "id": 219016640,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158379,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_16.png",
+    "name": "Плетеные поножи гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T19:49:42.000000Z",
+   "guid": 3007,
+   "id": 219016625,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-07-18T19:47:14.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1216785,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1216785,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1599,
+     "rating_change": 12,
+     "score_damage_done": 22484,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216775,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1586,
+     "rating_change": 13,
+     "score_damage_done": 32716,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1216756,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1569,
+     "rating_change": 17,
+     "score_damage_done": 51977,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216741,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1575,
+     "rating_change": -6,
+     "score_damage_done": 11440,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216719,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1587,
+     "rating_change": -12,
+     "score_damage_done": 13345,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216710,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1595,
+     "rating_change": -8,
+     "score_damage_done": 9136,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1599,
+   "rating_change": 16,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 12,
+   "datetime": "2026-07-18T19:39:09.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1216697,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1216697,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1582,
+     "rating_change": 13,
+     "score_damage_done": 13822,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216675,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1570,
+     "rating_change": 12,
+     "score_damage_done": 30628,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216663,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1582,
+     "rating_change": -12,
+     "score_damage_done": 50889,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216644,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1593,
+     "rating_change": -11,
+     "score_damage_done": 15061,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216630,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1599,
+     "rating_change": -6,
+     "score_damage_done": 5520,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216620,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1587,
+     "rating_change": 12,
+     "score_damage_done": 26997,
+     "score_deaths": 0,
+     "score_heal_done": 4312,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216595,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1573,
+     "rating_change": 14,
+     "score_damage_done": 27198,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216588,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1560,
+     "rating_change": 13,
+     "score_damage_done": 27784,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216576,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1548,
+     "rating_change": 12,
+     "score_damage_done": 38198,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216568,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1530,
+     "rating_change": 18,
+     "score_damage_done": 14871,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216528,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1514,
+     "rating_change": 16,
+     "score_damage_done": 26931,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216512,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1496,
+     "rating_change": 18,
+     "score_damage_done": 29079,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1582,
+   "rating_change": 99,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 9
+  },
+  {
+   "bracket_id": 2,
+   "count": 1,
+   "datetime": "2026-07-18T19:19:02.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1216496,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 1216496,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1482,
+     "rating_change": 14,
+     "score_damage_done": 35575,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1482,
+   "rating_change": 14,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 2,
+   "count": 1,
+   "datetime": "2026-07-18T10:20:34.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1212830,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1212830,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1457,
+     "rating_change": -9,
+     "score_damage_done": 5195,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1457,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 10,
+   "datetime": "2026-07-18T10:18:56.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1212809,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1212809,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1441,
+     "rating_change": 16,
+     "score_damage_done": 13532,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212784,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1450,
+     "rating_change": -9,
+     "score_damage_done": 16557,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212751,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1434,
+     "rating_change": 16,
+     "score_damage_done": 40427,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212737,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1440,
+     "rating_change": -6,
+     "score_damage_done": 30668,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212689,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1425,
+     "rating_change": 15,
+     "score_damage_done": 50970,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212677,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1433,
+     "rating_change": -8,
+     "score_damage_done": 20199,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212664,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1417,
+     "rating_change": 16,
+     "score_damage_done": 51422,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212649,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1400,
+     "rating_change": 17,
+     "score_damage_done": 36083,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212639,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1382,
+     "rating_change": 18,
+     "score_damage_done": 51049,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212619,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1367,
+     "rating_change": 15,
+     "score_damage_done": 41687,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1441,
+   "rating_change": 90,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 7
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-07-18T09:59:06.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1212611,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1212611,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1375,
+     "rating_change": -8,
+     "score_damage_done": 29331,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212600,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1355,
+     "rating_change": 20,
+     "score_damage_done": 23485,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212586,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1338,
+     "rating_change": 17,
+     "score_damage_done": 50161,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212577,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1318,
+     "rating_change": 20,
+     "score_damage_done": 7765,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212520,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1301,
+     "rating_change": 17,
+     "score_damage_done": 17274,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212501,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1281,
+     "rating_change": 20,
+     "score_damage_done": 22459,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212485,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1263,
+     "rating_change": 18,
+     "score_damage_done": 30382,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1375,
+   "rating_change": 104,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158384,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_13.png",
+    "name": "Воинский пояс триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:44.000000Z",
+   "guid": 3007,
+   "id": 218928836,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158513,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо победы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:32.000000Z",
+   "guid": 3007,
+   "id": 218928801,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158383,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_09.png",
+    "name": "Башмаки триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:26.000000Z",
+   "guid": 3007,
+   "id": 218928784,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158505,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Сила гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:20.000000Z",
+   "guid": 3007,
+   "id": 218928769,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158457,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:14.000000Z",
+   "guid": 3007,
+   "id": 218928756,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-07-18T09:39:48.000000Z",
+   "draws": 0,
+   "guid": 3007,
+   "last_arena_id": 1212468,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 1212468,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1243,
+     "rating_change": 20,
+     "score_damage_done": 17445,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212463,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1219,
+     "rating_change": 24,
+     "score_damage_done": 39787,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212448,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1195,
+     "rating_change": 24,
+     "score_damage_done": 22512,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212438,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1200,
+     "rating_change": -5,
+     "score_damage_done": 40405,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212404,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1174,
+     "rating_change": 26,
+     "score_damage_done": 36825,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212397,
+     "character": {
+      "class_icon": "/images/icons/classhunter.webp",
+      "class_id": 3,
+      "class_name": "Охотник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 3007,
+      "level": 80,
+      "name": "Fexler",
+      "race_icon": "/images/icons/race/bloodelffemale.webp",
+      "race_id": 10,
+      "race_name": "Эльф крови",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 3007,
+     "rating": 1179,
+     "rating_change": -5,
+     "score_damage_done": 30024,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1243,
+   "rating_change": 84,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41205,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_16.png",
+    "name": "Плетеные поножи гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:31:03.000000Z",
+   "guid": 3007,
+   "id": 218926669,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41143,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_73.png",
+    "name": "Плетеные рукавицы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:30:58.000000Z",
+   "guid": 3007,
+   "id": 218926657,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41157,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_125.png",
+    "name": "Плетеный шлем гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:30:52.000000Z",
+   "guid": 3007,
+   "id": 218926644,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41217,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_100.png",
+    "name": "Плетеный наплеч гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:30:48.000000Z",
+   "guid": 3007,
+   "id": 218926634,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41087,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_mail_02.png",
+    "name": "Плетеный доспех гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:30:43.000000Z",
+   "guid": 3007,
+   "id": 218926620,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Острокрылая",
+    "bossfight_id": 8963190
+   },
+   "datetime": "2026-07-18T07:53:30.000000Z",
+   "guid": 3007,
+   "id": 8963190,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 45282,
+    "icon": "https://cdn3.scourge.tech/icons/inv_mace_94.png",
+    "name": "Железный Дух",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T07:51:03.000000Z",
+   "guid": 3007,
+   "id": 218914661,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Огненный Левиафан",
+    "bossfight_id": 8963187
+   },
+   "datetime": "2026-07-18T07:50:29.000000Z",
+   "guid": 3007,
+   "id": 8963187,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8955546
+   },
+   "datetime": "2026-07-16T19:52:37.000000Z",
+   "guid": 3007,
+   "id": 8955546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47457,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_07.png",
+    "name": "Наголенники безжалостного правосудия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T19:31:35.000000Z",
+   "guid": 3007,
+   "id": 218717053,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8955427
+   },
+   "datetime": "2026-07-16T19:30:59.000000Z",
+   "guid": 3007,
+   "id": 8955427,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8955386
+   },
+   "datetime": "2026-07-16T19:23:11.000000Z",
+   "guid": 3007,
+   "id": 8955386,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8955338
+   },
+   "datetime": "2026-07-16T19:15:19.000000Z",
+   "guid": 3007,
+   "id": 8955338,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8955286
+   },
+   "datetime": "2026-07-16T19:07:29.000000Z",
+   "guid": 3007,
+   "id": 8955286,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49493,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_rifle_09.png",
+    "name": "Взрывострел с нарезным стволом",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-16T18:21:08.000000Z",
+   "guid": 3007,
+   "id": 218700908,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8955058
+   },
+   "datetime": "2026-07-16T18:19:32.000000Z",
+   "guid": 3007,
+   "id": 8955058,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8954705
+   },
+   "datetime": "2026-07-16T18:00:06.000000Z",
+   "guid": 3007,
+   "id": 8954705,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8954619
+   },
+   "datetime": "2026-07-16T17:37:53.000000Z",
+   "guid": 3007,
+   "id": 8954619,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-15 20:53:19",
+     "duration": 1069,
+     "id": 27473375,
+     "name": "Зимняя Низина Арати",
+     "objectives": [],
+     "type": 59,
+     "winner_faction": 1
+    },
+    "battleground_id": 27473375,
+    "deaths": null,
+    "guid": 3007,
+    "score_bonus_honor": 79,
+    "score_damage_done": 538547,
+    "score_deaths": 12,
+    "score_healing_done": 2875,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 13,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27473375,
+   "datetime": "2026-07-15T17:53:19.000000Z",
+   "guid": 3007,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8940983
+   },
+   "datetime": "2026-07-13T20:26:25.000000Z",
+   "guid": 3007,
+   "id": 8940983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8940963
+   },
+   "datetime": "2026-07-13T20:18:50.000000Z",
+   "guid": 3007,
+   "id": 8940963,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8940955
+   },
+   "datetime": "2026-07-13T20:16:49.000000Z",
+   "guid": 3007,
+   "id": 8940955,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8940952
+   },
+   "datetime": "2026-07-13T20:15:15.000000Z",
+   "guid": 3007,
+   "id": 8940952,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8940944
+   },
+   "datetime": "2026-07-13T20:13:54.000000Z",
+   "guid": 3007,
+   "id": 8940944,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8940939
+   },
+   "datetime": "2026-07-13T20:12:08.000000Z",
+   "guid": 3007,
+   "id": 8940939,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8940906
+   },
+   "datetime": "2026-07-13T20:04:53.000000Z",
+   "guid": 3007,
+   "id": 8940906,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Шахматы",
+    "bossfight_id": 8940826
+   },
+   "datetime": "2026-07-13T19:43:20.000000Z",
+   "guid": 3007,
+   "id": 8940826,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8940797
+   },
+   "datetime": "2026-07-13T19:39:52.000000Z",
+   "guid": 3007,
+   "id": 8940797,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 8940768
+   },
+   "datetime": "2026-07-13T19:32:21.000000Z",
+   "guid": 3007,
+   "id": 8940768,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 8940731
+   },
+   "datetime": "2026-07-13T19:27:25.000000Z",
+   "guid": 3007,
+   "id": 8940731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8940676
+   },
+   "datetime": "2026-07-13T19:16:52.000000Z",
+   "guid": 3007,
+   "id": 8940676,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8940613
+   },
+   "datetime": "2026-07-13T19:04:03.000000Z",
+   "guid": 3007,
+   "id": 8940613,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8940551
+   },
+   "datetime": "2026-07-13T18:55:26.000000Z",
+   "guid": 3007,
+   "id": 8940551,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8940444
+   },
+   "datetime": "2026-07-13T18:37:22.000000Z",
+   "guid": 3007,
+   "id": 8940444,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 8940419
+   },
+   "datetime": "2026-07-13T18:30:38.000000Z",
+   "guid": 3007,
+   "id": 8940419,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 3007,
+ "name": "Fexler",
+ "ts": "2026-09-03T21-05Z"
+}

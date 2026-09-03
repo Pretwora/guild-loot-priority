@@ -1,0 +1,3572 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 315842,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 315842,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 315842,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 315842,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 315842,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 7263,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков V",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788468430,
+   "datetime": "2026-09-03T17:47:10.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7274,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_stonetablet_06.png",
+    "name": "Разрушитель могил",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788468370,
+   "datetime": "2026-09-03T17:46:10.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7262,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков IV",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788468292,
+   "datetime": "2026-09-03T17:44:52.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7261,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков III",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788468127,
+   "datetime": "2026-09-03T17:42:07.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7269,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_arathihighlands_01.png",
+    "name": "Садовод",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788467825,
+   "datetime": "2026-09-03T17:37:05.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7272,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_penance.png",
+    "name": "Фотосинтез",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788467184,
+   "datetime": "2026-09-03T17:26:24.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7260,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков II",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788466817,
+   "datetime": "2026-09-03T17:20:17.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7259,
+    "icon": "https://cdn3.scourge.tech/icons/minigame_botva.png",
+    "name": "Ботва против мертвяков I",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788466725,
+   "datetime": "2026-09-03T17:18:45.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3812,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_argentchampion.png",
+    "name": "Призыв великого крестоносца (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788465332,
+   "datetime": "2026-09-03T16:55:32.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3817,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_14.png",
+    "name": "Дань умению (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788465332,
+   "datetime": "2026-09-03T16:55:32.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788465332,
+   "datetime": "2026-09-03T16:55:32.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158394,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_126.png",
+    "name": "Шлем гневного гладиатора из шкуры змея",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T19:44:37.000000Z",
+   "guid": 315842,
+   "id": 226288792,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 107451,
+    "icon": "https://cdn3.scourge.tech/icons/inv_offhand_1h_ulduarraid_d_01.png",
+    "name": "Идол двух небес",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T19:39:48.000000Z",
+   "guid": 315842,
+   "id": 226287973,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-01 21:26:25",
+     "duration": 375,
+     "id": 29005658,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 1
+    },
+    "battleground_id": 29005658,
+    "deaths": null,
+    "guid": 315842,
+    "score_bonus_honor": 21,
+    "score_damage_done": 228257,
+    "score_deaths": 0,
+    "score_healing_done": 44516,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29005658,
+   "datetime": "2026-09-01T18:26:25.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 32081,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_45.png",
+    "name": "Глаз Охотницы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T16:33:33.000000Z",
+   "guid": 315842,
+   "id": 225547177,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 906,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cauldron_arcane.png",
+    "name": "Заварим кашу",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787941494,
+   "datetime": "2026-08-28T15:24:54.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9336499
+   },
+   "datetime": "2026-08-21T18:19:54.000000Z",
+   "guid": 315842,
+   "id": 9336499,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9336422
+   },
+   "datetime": "2026-08-21T18:06:34.000000Z",
+   "guid": 315842,
+   "id": 9336422,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9336354
+   },
+   "datetime": "2026-08-21T17:57:55.000000Z",
+   "guid": 315842,
+   "id": 9336354,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3844,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "10000 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787336393,
+   "datetime": "2026-08-21T15:19:53.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1296,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_azjoluppercity_25man.png",
+    "name": "Пусть он умрет на твоих глазах",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787318082,
+   "datetime": "2026-08-21T10:14:42.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ticket_tarot_maelstrom_01.png",
+    "name": "Счастливая карта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T14:16:47.000000Z",
+   "guid": 315842,
+   "id": 223853123,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 2088,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_platnumdisks.png",
+    "name": "500 осколков каменного хранителя",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786975394,
+   "datetime": "2026-08-17T11:03:14.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "0070dd",
+    "entry": 37293,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_104.png",
+    "name": "Маска дозорного",
+    "quality": 3,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-14T09:56:44.000000Z",
+   "guid": 315842,
+   "id": 223316755,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378825,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_75.png",
+    "name": "Кольцо несгибаемой твердыни",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-14T09:13:17.000000Z",
+   "guid": 315842,
+   "id": 223311584,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378956,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_193.png",
+    "name": "Маска выжидающего хищника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T21:17:41.000000Z",
+   "guid": 315842,
+   "id": 222653310,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104510,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_07.png",
+    "name": "Armlets of the Cleansing Flame",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T20:23:27.000000Z",
+   "guid": 315842,
+   "id": 222644384,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9240496
+   },
+   "datetime": "2026-08-09T20:19:40.000000Z",
+   "guid": 315842,
+   "id": 9240496,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9240456
+   },
+   "datetime": "2026-08-09T20:11:25.000000Z",
+   "guid": 315842,
+   "id": 9240456,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9240426
+   },
+   "datetime": "2026-08-09T20:06:29.000000Z",
+   "guid": 315842,
+   "id": 9240426,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:43:22",
+     "duration": 740,
+     "id": 28315498,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28315498,
+    "deaths": null,
+    "guid": 315842,
+    "score_bonus_honor": 8,
+    "score_damage_done": 361991,
+    "score_deaths": 1,
+    "score_healing_done": 36395,
+    "score_honorable_kills": 26,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28315498,
+   "datetime": "2026-08-09T19:43:22.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "challenge": 13,
+    "dungeon_name": "Auchindoun: Auchenai Crypts",
+    "has_run_log": false,
+    "level": 5,
+    "reward_level": 2,
+    "run_id": 896288,
+    "score": 94.7857,
+    "timer": 1564
+   },
+   "datetime": "2026-08-09T18:17:20.000000Z",
+   "guid": 315842,
+   "id": 896288,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158390,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_leather_24.png",
+    "name": "Furious Gladiator's Wyrmhide Legguards",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T16:48:01.000000Z",
+   "guid": 315842,
+   "id": 222602103,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374599,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_83.png",
+    "name": "Наручи медвежьей силы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T14:50:32.000000Z",
+   "guid": 315842,
+   "id": 222579839,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Drak'Tharon Keep",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 8,
+    "dungeon_name": "Крепость Драк'Тарон",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 902386,
+    "score": 67.5,
+    "timer": 1220
+   },
+   "datetime": "2026-08-09T11:50:20.000000Z",
+   "guid": 315842,
+   "id": 902386,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Коралон Страж Огня",
+    "bossfight_id": 9230419
+   },
+   "datetime": "2026-08-09T10:42:44.000000Z",
+   "guid": 315842,
+   "id": 9230419,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Эмалон Страж Бури",
+    "bossfight_id": 9230411
+   },
+   "datetime": "2026-08-09T10:40:00.000000Z",
+   "guid": 315842,
+   "id": 9230411,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Аркавон Страж Камня",
+    "bossfight_id": 9230400
+   },
+   "datetime": "2026-08-09T10:36:56.000000Z",
+   "guid": 315842,
+   "id": 9230400,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 1270,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_icecrown_01.png",
+    "name": "Explore Icecrown",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786281044,
+   "datetime": "2026-08-09T10:10:44.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 2041,
+    "icon": "https://cdn3.scourge.tech/icons/spell_frost_summonwaterelemental_2.png",
+    "name": "Dehydration",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786279760,
+   "datetime": "2026-08-09T09:49:20.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 2,
+   "count": 5,
+   "datetime": "2026-08-09T08:45:59.000000Z",
+   "draws": 0,
+   "guid": 315842,
+   "last_arena_id": 90299,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 90299,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 478,
+     "rating_change": 0,
+     "score_damage_done": 25333,
+     "score_deaths": 1,
+     "score_heal_done": 26652,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90289,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 431,
+     "rating_change": 47,
+     "score_damage_done": 42189,
+     "score_deaths": 0,
+     "score_heal_done": 57518,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 90277,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 431,
+     "rating_change": 0,
+     "score_damage_done": 34623,
+     "score_deaths": 1,
+     "score_heal_done": 9737,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90268,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 431,
+     "rating_change": 0,
+     "score_damage_done": 2394,
+     "score_deaths": 1,
+     "score_heal_done": 2126,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90261,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 384,
+     "rating_change": 47,
+     "score_damage_done": 40743,
+     "score_deaths": 0,
+     "score_heal_done": 2671,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 478,
+   "rating_change": 94,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 12,
+   "datetime": "2026-08-09T08:39:39.000000Z",
+   "draws": 0,
+   "guid": 315842,
+   "last_arena_id": 90252,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 90252,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 45118,
+     "score_deaths": 0,
+     "score_heal_done": 40588,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90237,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 336,
+     "rating_change": 0,
+     "score_damage_done": 15600,
+     "score_deaths": 1,
+     "score_heal_done": 8858,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90221,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 336,
+     "rating_change": 0,
+     "score_damage_done": 10237,
+     "score_deaths": 1,
+     "score_heal_done": 9481,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90201,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 42970,
+     "score_deaths": 0,
+     "score_heal_done": 47998,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 90187,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 55636,
+     "score_deaths": 0,
+     "score_heal_done": 6021,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 90178,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 192,
+     "rating_change": 48,
+     "score_damage_done": 55106,
+     "score_deaths": 0,
+     "score_heal_done": 10806,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 90171,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90162,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 46250,
+     "score_deaths": 0,
+     "score_heal_done": 9463,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 90157,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 144,
+     "rating_change": 0,
+     "score_damage_done": 11008,
+     "score_deaths": 1,
+     "score_heal_done": 11448,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90144,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 42763,
+     "score_deaths": 0,
+     "score_heal_done": 5994,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 90129,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 37056,
+     "score_deaths": 0,
+     "score_heal_done": 40746,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 90105,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 63120,
+     "score_deaths": 0,
+     "score_heal_done": 38019,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 336,
+   "rating_change": 384,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 8
+  },
+  {
+   "action": {
+    "entry": 1778,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_food_141_fish.png",
+    "name": "The Northrend Gourmet",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786271748,
+   "datetime": "2026-08-09T07:35:48.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1832,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_food_115_condorsoup.png",
+    "name": "Tastes Like Chicken",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786270791,
+   "datetime": "2026-08-09T07:19:51.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1780,
+    "icon": "https://cdn3.scourge.tech/icons/inv_valentineschocolate01.png",
+    "name": "Second That Emotion",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786270790,
+   "datetime": "2026-08-09T07:19:50.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 877,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_celebrationcake_01.png",
+    "name": "The Cake Is Not A Lie",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786265512,
+   "datetime": "2026-08-09T05:51:52.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9208932
+   },
+   "datetime": "2026-08-06T20:18:53.000000Z",
+   "guid": 315842,
+   "id": 9208932,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9208871
+   },
+   "datetime": "2026-08-06T20:02:39.000000Z",
+   "guid": 315842,
+   "id": 9208871,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9208839
+   },
+   "datetime": "2026-08-06T19:55:04.000000Z",
+   "guid": 315842,
+   "id": 9208839,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9208812
+   },
+   "datetime": "2026-08-06T19:49:59.000000Z",
+   "guid": 315842,
+   "id": 9208812,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9208770
+   },
+   "datetime": "2026-08-06T19:37:48.000000Z",
+   "guid": 315842,
+   "id": 9208770,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154426,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_bag_10_black.png",
+    "name": "Полевой мешочек тауматурга",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-06T19:22:46.000000Z",
+   "guid": 315842,
+   "id": 222103389,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 242,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-06 22:09:27",
+     "duration": 747,
+     "id": 28213013,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 1
+    },
+    "battleground_id": 28213013,
+    "deaths": null,
+    "guid": 315842,
+    "score_bonus_honor": 26,
+    "score_damage_done": 319066,
+    "score_deaths": 3,
+    "score_healing_done": 102590,
+    "score_honorable_kills": 16,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28213013,
+   "datetime": "2026-08-06T19:09:27.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Нот Чумной",
+    "bossfight_id": 9206185
+   },
+   "datetime": "2026-08-06T15:52:09.000000Z",
+   "guid": 315842,
+   "id": 9206185,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 9206156
+   },
+   "datetime": "2026-08-06T15:47:07.000000Z",
+   "guid": 315842,
+   "id": 9206156,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 9206111
+   },
+   "datetime": "2026-08-06T15:41:38.000000Z",
+   "guid": 315842,
+   "id": 9206111,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Инструктор Разувий",
+    "bossfight_id": 9206091
+   },
+   "datetime": "2026-08-06T15:33:58.000000Z",
+   "guid": 315842,
+   "id": 9206091,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Таддиус",
+    "bossfight_id": 9206054
+   },
+   "datetime": "2026-08-06T15:29:39.000000Z",
+   "guid": 315842,
+   "id": 9206054,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 9206038
+   },
+   "datetime": "2026-08-06T15:23:31.000000Z",
+   "guid": 315842,
+   "id": 9206038,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 9206003
+   },
+   "datetime": "2026-08-06T15:20:38.000000Z",
+   "guid": 315842,
+   "id": 9206003,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 9205989
+   },
+   "datetime": "2026-08-06T15:17:08.000000Z",
+   "guid": 315842,
+   "id": 9205989,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 9205958
+   },
+   "datetime": "2026-08-06T15:10:54.000000Z",
+   "guid": 315842,
+   "id": 9205958,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 9205926
+   },
+   "datetime": "2026-08-06T15:07:19.000000Z",
+   "guid": 315842,
+   "id": 9205926,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'Рекан",
+    "bossfight_id": 9205915
+   },
+   "datetime": "2026-08-06T15:04:36.000000Z",
+   "guid": 315842,
+   "id": 9205915,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153671,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_diamondring1.png",
+    "name": "Символ мудреца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-01T09:08:32.000000Z",
+   "guid": 315842,
+   "id": 221193415,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-01T06:03:46.000000Z",
+   "draws": 0,
+   "guid": 315842,
+   "last_arena_id": 33422,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 33422,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 67856,
+     "score_deaths": 0,
+     "score_heal_done": 5196,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 48,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-01T05:57:41.000000Z",
+   "draws": 0,
+   "guid": 315842,
+   "last_arena_id": 33409,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 33409,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 124003,
+     "score_deaths": 1,
+     "score_heal_done": 689,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 0,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 2,
+   "count": 2,
+   "datetime": "2026-08-01T05:52:26.000000Z",
+   "draws": 0,
+   "guid": 315842,
+   "last_arena_id": 33402,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 33402,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 11947,
+     "score_deaths": 1,
+     "score_heal_done": 13709,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 33396,
+     "character": {
+      "class_icon": "/images/icons/classdruid.webp",
+      "class_id": 11,
+      "class_name": "Друид",
+      "faction": 2,
+      "gender": 0,
+      "guid": 315842,
+      "level": 80,
+      "name": "Sejuani",
+      "race_icon": "/images/icons/race/zandalarimale.webp",
+      "race_id": 23,
+      "race_name": "Зандалар",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 315842,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 25885,
+     "score_deaths": 1,
+     "score_heal_done": 7688,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 0,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-01 08:13:59",
+     "duration": 94,
+     "id": 28032153,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 28032153,
+    "deaths": null,
+    "guid": 315842,
+    "score_bonus_honor": 0,
+    "score_damage_done": 5197,
+    "score_deaths": 0,
+    "score_healing_done": 18771,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28032153,
+   "datetime": "2026-08-01T05:13:59.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 243,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-01 08:08:16",
+     "duration": 805,
+     "id": 28032123,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28032123,
+    "deaths": null,
+    "guid": 315842,
+    "score_bonus_honor": 60,
+    "score_damage_done": 302137,
+    "score_deaths": 7,
+    "score_healing_done": 80011,
+    "score_honorable_kills": 49,
+    "score_killing_blows": 11,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28032123,
+   "datetime": "2026-08-01T05:08:16.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 1798,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_food_13.png",
+    "name": "Старший повар",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785562777,
+   "datetime": "2026-08-01T02:39:37.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1797,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_food_60.png",
+    "name": "Искусный кулинар",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785562335,
+   "datetime": "2026-08-01T02:32:15.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3296,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_profession_chefhat.png",
+    "name": "Готовим со смаком",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785561996,
+   "datetime": "2026-08-01T02:26:36.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6352,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_stayofexecution.png",
+    "name": "Не задирай нос",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785560896,
+   "datetime": "2026-08-01T02:08:16.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 32080,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Мантия объятий тьмы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T20:15:12.000000Z",
+   "guid": 315842,
+   "id": 221124186,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27837,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_04.png",
+    "name": "Поножи Странника пустошей",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:58:39.000000Z",
+   "guid": 315842,
+   "id": 221121112,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27831,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_17.png",
+    "name": "Мантия Непрощенных",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:58:36.000000Z",
+   "guid": 315842,
+   "id": 221121102,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27545,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_05.png",
+    "name": "Чешуйчатые поножи Менну",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:46:22.000000Z",
+   "guid": 315842,
+   "id": 221118788,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27776,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_24.png",
+    "name": "Наплечные пластины ликвидации",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:42:17.000000Z",
+   "guid": 315842,
+   "id": 221117964,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29355,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_halberd19.png",
+    "name": "Тенепосох Терокка",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:42:13.000000Z",
+   "guid": 315842,
+   "id": 221117937,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27461,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_08.png",
+    "name": "Нагрудный доспех лесного хищника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:33:19.000000Z",
+   "guid": 315842,
+   "id": 221115827,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375048,
+    "icon": "https://cdn3.scourge.tech/icons/inv_neck_hyjaldaily_03.png",
+    "name": "Ожерелье плетения судеб",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:02:39.000000Z",
+   "guid": 315842,
+   "id": 221108586,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374879,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_32.png",
+    "name": "Нагрудник лунного сияния",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-28T23:11:43.000000Z",
+   "guid": 315842,
+   "id": 220649706,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374721,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_98.png",
+    "name": "Кольцо заката на лезвии",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-28T22:33:57.000000Z",
+   "guid": 315842,
+   "id": 220647849,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 5,
+    "reward_level": 3,
+    "run_id": 844681,
+    "score": 97.5,
+    "timer": 1496
+   },
+   "datetime": "2026-07-28T20:11:20.000000Z",
+   "guid": 315842,
+   "id": 844681,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 844670,
+    "score": 67.5,
+    "timer": 1309
+   },
+   "datetime": "2026-07-28T19:33:42.000000Z",
+   "guid": 315842,
+   "id": 844670,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27476,
+    "icon": "https://cdn3.scourge.tech/icons/inv_mace_44.png",
+    "name": "Буздыхан пяти преисподних",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-28T08:37:15.000000Z",
+   "guid": 315842,
+   "id": 220525888,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6023,
+    "icon": "https://cdn3.scourge.tech/icons/custom_category_4.png",
+    "name": "4 Категория",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1785223410,
+   "datetime": "2026-07-28T04:23:30.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 9106849
+   },
+   "datetime": "2026-07-24T20:41:32.000000Z",
+   "guid": 315842,
+   "id": 9106849,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 9106792
+   },
+   "datetime": "2026-07-24T20:31:51.000000Z",
+   "guid": 315842,
+   "id": 9106792,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6832,
+    "icon": "https://cdn3.scourge.tech/icons/ability_racial_embracetheloa.png",
+    "name": "Благословения Лоа",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784929728,
+   "datetime": "2026-07-24T18:48:48.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1727,
+    "icon": "https://cdn3.scourge.tech/icons/spell_arcane_teleporttheramore.png",
+    "name": "Падающая башня",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784927494,
+   "datetime": "2026-07-24T18:11:34.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Нот Чумной",
+    "bossfight_id": 9103644
+   },
+   "datetime": "2026-07-24T15:23:52.000000Z",
+   "guid": 315842,
+   "id": 9103644,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Таддиус",
+    "bossfight_id": 9103623
+   },
+   "datetime": "2026-07-24T15:20:23.000000Z",
+   "guid": 315842,
+   "id": 9103623,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 9103609
+   },
+   "datetime": "2026-07-24T15:16:33.000000Z",
+   "guid": 315842,
+   "id": 9103609,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 9103585
+   },
+   "datetime": "2026-07-24T15:12:20.000000Z",
+   "guid": 315842,
+   "id": 9103585,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 9103568
+   },
+   "datetime": "2026-07-24T15:09:12.000000Z",
+   "guid": 315842,
+   "id": 9103568,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 9103542
+   },
+   "datetime": "2026-07-24T15:02:49.000000Z",
+   "guid": 315842,
+   "id": 9103542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 9103513
+   },
+   "datetime": "2026-07-24T14:57:18.000000Z",
+   "guid": 315842,
+   "id": 9103513,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'Рекан",
+    "bossfight_id": 9103496
+   },
+   "datetime": "2026-07-24T14:54:28.000000Z",
+   "guid": 315842,
+   "id": 9103496,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9103376
+   },
+   "datetime": "2026-07-24T14:29:31.000000Z",
+   "guid": 315842,
+   "id": 9103376,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9103347
+   },
+   "datetime": "2026-07-24T14:21:23.000000Z",
+   "guid": 315842,
+   "id": 9103347,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9103337
+   },
+   "datetime": "2026-07-24T14:19:17.000000Z",
+   "guid": 315842,
+   "id": 9103337,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9103329
+   },
+   "datetime": "2026-07-24T14:18:06.000000Z",
+   "guid": 315842,
+   "id": 9103329,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9103321
+   },
+   "datetime": "2026-07-24T14:16:45.000000Z",
+   "guid": 315842,
+   "id": 9103321,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9103309
+   },
+   "datetime": "2026-07-24T14:15:20.000000Z",
+   "guid": 315842,
+   "id": 9103309,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9103201
+   },
+   "datetime": "2026-07-24T13:50:11.000000Z",
+   "guid": 315842,
+   "id": 9103201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 7,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9103141
+   },
+   "datetime": "2026-07-24T13:34:19.000000Z",
+   "guid": 315842,
+   "id": 9103141,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6831,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_raid_laststandzandalari.png",
+    "name": "Герои Атал'зула",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784903489,
+   "datetime": "2026-07-24T11:31:29.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3798,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_arena_5v5_3.png",
+    "name": "Устойчивость решает! (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784902686,
+   "datetime": "2026-07-24T11:18:06.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3936,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pet_worm.png",
+    "name": "Два йормунгара по цене одного (рейд для 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784902463,
+   "datetime": "2026-07-24T11:14:23.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6078,
+    "icon": "https://cdn3.scourge.tech/icons/achi_snightbane.png",
+    "name": "Только не хвостом!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784901010,
+   "datetime": "2026-07-24T10:50:10.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154426,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_bag_10_black.png",
+    "name": "Полевой мешочек тауматурга",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T20:42:27.000000Z",
+   "guid": 315842,
+   "id": 219754256,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104550,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_17.png",
+    "name": "Пояс дикой гармонии",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T20:17:47.000000Z",
+   "guid": 315842,
+   "id": 219748854,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9098416
+   },
+   "datetime": "2026-07-23T20:00:45.000000Z",
+   "guid": 315842,
+   "id": 9098416,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9098308
+   },
+   "datetime": "2026-07-23T19:47:40.000000Z",
+   "guid": 315842,
+   "id": 9098308,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104529,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_05.png",
+    "name": "Башмаки последней надежды",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T19:24:46.000000Z",
+   "guid": 315842,
+   "id": 219735805,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 2040,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_monsterhorn_04.png",
+    "name": "Мастодонты уже вымерли",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784748214,
+   "datetime": "2026-07-22T16:23:34.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50481,
+    "icon": "https://cdn3.scourge.tech/icons/inv_offhand_zulaman_d_02.png",
+    "name": "Лампада танцующих углей",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-20T07:32:08.000000Z",
+   "guid": 315842,
+   "id": 219221381,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 32080,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Мантия объятий тьмы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-19T21:21:23.000000Z",
+   "guid": 315842,
+   "id": 219195050,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-19T16:23:22.000000Z",
+   "guid": 315842,
+   "id": 219146920,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Коралон Страж Огня",
+    "bossfight_id": 8936383
+   },
+   "datetime": "2026-07-13T07:26:01.000000Z",
+   "guid": 315842,
+   "id": 8936383,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Эмалон Страж Бури",
+    "bossfight_id": 8936381
+   },
+   "datetime": "2026-07-13T07:22:16.000000Z",
+   "guid": 315842,
+   "id": 8936381,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Аркавон Страж Камня",
+    "bossfight_id": 8936379
+   },
+   "datetime": "2026-07-13T07:18:19.000000Z",
+   "guid": 315842,
+   "id": 8936379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 8926709
+   },
+   "datetime": "2026-07-12T18:21:38.000000Z",
+   "guid": 315842,
+   "id": 8926709,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158163,
+    "icon": "https://cdn3.scourge.tech/icons/inv_staff_2h_draenorcrafted_d_01_a_horde.png",
+    "name": "Предчувствие беды",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T17:53:29.000000Z",
+   "guid": 315842,
+   "id": 218142327,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 8926574
+   },
+   "datetime": "2026-07-12T17:52:16.000000Z",
+   "guid": 315842,
+   "id": 8926574,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 8926484
+   },
+   "datetime": "2026-07-12T17:37:00.000000Z",
+   "guid": 315842,
+   "id": 8926484,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6903,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pet_voidhound.png",
+    "name": "Пожиратель",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783880498,
+   "datetime": "2026-07-12T15:21:38.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6897,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Демон Скверны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783878736,
+   "datetime": "2026-07-12T14:52:16.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6900,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_heraldofnzoth.png",
+    "name": "Глашатай Йогг-Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783877820,
+   "datetime": "2026-07-12T14:37:00.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378980,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_leather_44.png",
+    "name": "Штаны хищной поступи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T09:44:22.000000Z",
+   "guid": 315842,
+   "id": 218049177,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378825,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_75.png",
+    "name": "Кольцо несгибаемой твердыни",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T14:58:17.000000Z",
+   "guid": 315842,
+   "id": 216806779,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374650,
+    "icon": "https://cdn3.scourge.tech/icons/inv_polearm_2h_cataclysm_b_02.png",
+    "name": "Древковое друида-отшельника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T14:15:31.000000Z",
+   "guid": 315842,
+   "id": 216799168,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374785,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_101.png",
+    "name": "Сигилляр шепота древних рун",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T13:55:33.000000Z",
+   "guid": 315842,
+   "id": 216795778,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29347,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_mastermarksman.png",
+    "name": "Талисман Дробителя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T12:11:45.000000Z",
+   "guid": 315842,
+   "id": 216777766,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 1,
+    "run_id": 750312,
+    "score": 122.125,
+    "timer": 2394
+   },
+   "datetime": "2026-07-04T11:58:06.000000Z",
+   "guid": 315842,
+   "id": 750312,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 750261,
+    "score": 67.5,
+    "timer": 660
+   },
+   "datetime": "2026-07-04T11:15:19.000000Z",
+   "guid": 315842,
+   "id": 750261,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 5,
+    "reward_level": 3,
+    "run_id": 750236,
+    "score": 97.5,
+    "timer": 1001
+   },
+   "datetime": "2026-07-04T10:55:16.000000Z",
+   "guid": 315842,
+   "id": 750236,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "entry": 856,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_silithus_01.png",
+    "name": "Силитус",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783171957,
+   "datetime": "2026-07-04T10:32:37.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Сартарион",
+    "bossfight_id": 8865081
+   },
+   "datetime": "2026-07-04T10:02:02.000000Z",
+   "guid": 315842,
+   "id": 8865081,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 8864970
+   },
+   "datetime": "2026-07-04T09:28:16.000000Z",
+   "guid": 315842,
+   "id": 8864970,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 8864966
+   },
+   "datetime": "2026-07-04T09:25:32.000000Z",
+   "guid": 315842,
+   "id": 8864966,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 8864963
+   },
+   "datetime": "2026-07-04T09:22:25.000000Z",
+   "guid": 315842,
+   "id": 8864963,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лотхиб",
+    "bossfight_id": 8864949
+   },
+   "datetime": "2026-07-04T09:15:22.000000Z",
+   "guid": 315842,
+   "id": 8864949,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Хейган Нечестивый",
+    "bossfight_id": 8864942
+   },
+   "datetime": "2026-07-04T09:11:29.000000Z",
+   "guid": 315842,
+   "id": 8864942,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Нот Чумной",
+    "bossfight_id": 8864937
+   },
+   "datetime": "2026-07-04T09:08:25.000000Z",
+   "guid": 315842,
+   "id": 8864937,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 8864925
+   },
+   "datetime": "2026-07-04T09:04:34.000000Z",
+   "guid": 315842,
+   "id": 8864925,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 8864913
+   },
+   "datetime": "2026-07-04T09:00:04.000000Z",
+   "guid": 315842,
+   "id": 8864913,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Инструктор Разувий",
+    "bossfight_id": 8864907
+   },
+   "datetime": "2026-07-04T08:52:31.000000Z",
+   "guid": 315842,
+   "id": 8864907,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39226,
+    "icon": "https://cdn3.scourge.tech/icons/inv_mace_1h_stratholme_d_01.png",
+    "name": "Бедренная кость Мексны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T08:48:33.000000Z",
+   "guid": 315842,
+   "id": 216743317,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 8864900
+   },
+   "datetime": "2026-07-04T08:47:51.000000Z",
+   "guid": 315842,
+   "id": 8864900,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 8864894
+   },
+   "datetime": "2026-07-04T08:43:35.000000Z",
+   "guid": 315842,
+   "id": 8864894,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'Рекан",
+    "bossfight_id": 8864888
+   },
+   "datetime": "2026-07-04T08:40:44.000000Z",
+   "guid": 315842,
+   "id": 8864888,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-04T08:10:17.000000Z",
+   "guid": 315842,
+   "id": 216738173,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 2076,
+    "icon": "https://cdn3.scourge.tech/icons/ability_mount_polarbear_brown.png",
+    "name": "Бронированный бурый медведь",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783161304,
+   "datetime": "2026-07-04T07:35:04.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 271,
+    "icon": "https://cdn3.scourge.tech/icons/ability_mage_firestarter.png",
+    "name": "Зажигательный танец у шеста",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783160880,
+   "datetime": "2026-07-04T07:28:00.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1039,
+    "icon": "https://cdn3.scourge.tech/icons/inv_summerfest_symbol_low.png",
+    "name": "Хранитель огня",
+    "points": 20,
+    "quality": ""
+   },
+   "date": 1783160880,
+   "datetime": "2026-07-04T07:28:00.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1265,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_dragonblight_01.png",
+    "name": "Драконий Погост",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783160561,
+   "datetime": "2026-07-04T07:22:41.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 2256,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_stormpeaks_03.png",
+    "name": "Освоение Севера",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783160471,
+   "datetime": "2026-07-04T07:21:11.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1996,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_quickrecovery.png",
+    "name": "Бескровная победа (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783156289,
+   "datetime": "2026-07-04T06:11:29.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8848711
+   },
+   "datetime": "2026-07-02T19:11:00.000000Z",
+   "guid": 315842,
+   "id": 8848711,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8848626
+   },
+   "datetime": "2026-07-02T18:56:43.000000Z",
+   "guid": 315842,
+   "id": 8848626,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8848518
+   },
+   "datetime": "2026-07-02T18:49:52.000000Z",
+   "guid": 315842,
+   "id": 8848518,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8848467
+   },
+   "datetime": "2026-07-02T18:39:05.000000Z",
+   "guid": 315842,
+   "id": 8848467,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8848409
+   },
+   "datetime": "2026-07-02T18:34:40.000000Z",
+   "guid": 315842,
+   "id": 8848409,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8848320
+   },
+   "datetime": "2026-07-02T18:23:04.000000Z",
+   "guid": 315842,
+   "id": 8848320,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117520,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_chain_15.png",
+    "name": "Chestpiece of Malorne BAL DRUID",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-02T18:05:37.000000Z",
+   "guid": 315842,
+   "id": 216517521,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8848117
+   },
+   "datetime": "2026-07-02T18:01:53.000000Z",
+   "guid": 315842,
+   "id": 8848117,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8847850
+   },
+   "datetime": "2026-07-02T17:28:24.000000Z",
+   "guid": 315842,
+   "id": 8847850,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8847757
+   },
+   "datetime": "2026-07-02T17:17:36.000000Z",
+   "guid": 315842,
+   "id": 8847757,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 370300,
+    "icon": "https://cdn3.scourge.tech/icons/inv_staff_78.png",
+    "name": "Frostscythe of Lord Ahune 232 ",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-02T16:23:46.000000Z",
+   "guid": 315842,
+   "id": 216495860,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 1032,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_masterofelements.png",
+    "name": "Погасить костры Калимдора",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1782807166,
+   "datetime": "2026-06-30T05:12:46.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1037,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_masterofelements.png",
+    "name": "Осквернение огней Альянса",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1782807166,
+   "datetime": "2026-06-30T05:12:46.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1026,
+    "icon": "https://cdn3.scourge.tech/icons/inv_summerfest_firespirit.png",
+    "name": "Хранитель огня Калимдора",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1782807028,
+   "datetime": "2026-06-30T05:10:28.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1036,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_fireball.png",
+    "name": "Огни Азерота",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1782807028,
+   "datetime": "2026-06-30T05:10:28.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27831,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_17.png",
+    "name": "Мантия Непрощенных",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-30T04:41:57.000000Z",
+   "guid": 315842,
+   "id": 216149727,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29346,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_38.png",
+    "name": "Потрошитель Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-30T04:22:43.000000Z",
+   "guid": 315842,
+   "id": 216149137,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 1033,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_masterofelements.png",
+    "name": "Погасить костры Запределья",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1782791931,
+   "datetime": "2026-06-30T00:58:51.000000Z",
+   "guid": 315842,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8827795
+   },
+   "datetime": "2026-06-29T19:27:38.000000Z",
+   "guid": 315842,
+   "id": 8827795,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48034,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_145b.png",
+    "name": "Шлем высоких холмов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-29T19:15:31.000000Z",
+   "guid": 315842,
+   "id": 216113991,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8827765
+   },
+   "datetime": "2026-06-29T19:15:21.000000Z",
+   "guid": 315842,
+   "id": 8827765,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8827756
+   },
+   "datetime": "2026-06-29T19:10:18.000000Z",
+   "guid": 315842,
+   "id": 8827756,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8827733
+   },
+   "datetime": "2026-06-29T18:59:50.000000Z",
+   "guid": 315842,
+   "id": 8827733,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8827708
+   },
+   "datetime": "2026-06-29T18:50:59.000000Z",
+   "guid": 315842,
+   "id": 8827708,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29287,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень верховного мага",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-29T18:39:47.000000Z",
+   "guid": 315842,
+   "id": 216107423,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8827666
+   },
+   "datetime": "2026-06-29T18:33:24.000000Z",
+   "guid": 315842,
+   "id": 8827666,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Шахматы",
+    "bossfight_id": 8827648
+   },
+   "datetime": "2026-06-29T18:23:24.000000Z",
+   "guid": 315842,
+   "id": 8827648,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8827612
+   },
+   "datetime": "2026-06-29T18:15:26.000000Z",
+   "guid": 315842,
+   "id": 8827612,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 315842,
+ "name": "Sejuani",
+ "ts": "2026-09-03T21-05Z"
+}
