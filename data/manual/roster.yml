@@ -403,3 +403,26 @@ players:
         spec: 0
         role: dps
         main: true
+
+  # Заведены из таблицы печенек: есть в гильдии (серверный ростер), 25-к у нас не рейдили.
+  - id: choice
+    display: Чоис
+    rank: member
+    team: null
+    characters:
+      - name: Чоис   # Маг/Тайная магия/dps (Sirus: class 8, Основа, ilvl 247)
+        class_id: 8
+        spec: 0
+        role: dps
+        main: true
+
+  - id: agamalore
+    display: Agamalore
+    rank: member
+    team: null
+    characters:
+      - name: Agamalore   # Жрец/Свет/heal — спек предположение (Sirus: class 5, Основа, ilvl 244)
+        class_id: 5
+        spec: 1
+        role: heal
+        main: true

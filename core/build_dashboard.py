@@ -236,6 +236,9 @@ def _recent_loot_map(roster, cur, item_db, n_kds=3):
 
 def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset()):
     recent_loot = _recent_loot_map(roster, cur, item_db)
+    from core.common import load_yaml
+    # печеньки (токены) на игрока из ручной таблицы РЛ; None → нет в таблице (в колонке пусто)
+    pechati = load_yaml(os.path.join(cfg.paths["manual"], "pechati.yml")) or {}
     show_dps = cfg.raw["display"]["show_raw_dps"]
     rows = []
     for pid, pl in roster.players.items():
@@ -273,6 +276,7 @@ def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset()):
             "performance": perf,
             "loot": cur["loot"][pid],
             "recent_loot": recent_loot.get(pid, []),
+            "pechati": pechati.get(pid),
         })
     rows.sort(key=lambda r: r["score"], reverse=True)
     return rows

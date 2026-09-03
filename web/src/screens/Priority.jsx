@@ -31,6 +31,7 @@ const COLS = [
   { key: "delta", label: "Δ рейд", sortable: true, cls: "r" },
   { key: "attendance.A", label: "Посещаемость", sortable: true },
   { key: "components.P", label: "Перформанс", sortable: true },
+  { key: "pechati", label: "🍪 Печати", sortable: true, cls: "r" },
 ];
 
 export function LootIcons({ items, limit }) {
@@ -104,6 +105,8 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                     ? <Meter value={p.components.P} kind="perf" />
                     : <span className="reason">—</span>}
                 </td>
+                <td className="r num" title={p.pechati != null ? "Печеньки (токены) — из таблицы РЛ" : "нет в таблице печенек"}>
+                  {p.pechati != null ? p.pechati : <span className="reason">—</span>}</td>
                 <td className="loot-cell"><LootIcons items={p.recent_loot} /></td>
               </tr>
             ))}
