@@ -289,24 +289,17 @@ def augment_roster_with_parses(roster: Roster, kills: list[Kill], cfg: Config) -
 
 
 def first_seen_by_player(kills: list[Kill], roster: Roster, cfg: Config | None = None) -> dict:
-    """{player_id: самый ранний killed_at, где встречен любой его персонаж}.
+    """{player_id: дата вступления} — ТОЛЬКО из явных источников (решение РЛ).
 
-    Прокси даты вступления в гильдию: рейды до этого — «не пока мы в гильдии»,
-    в знаменатель посещаемости не идут. roster joined (если задан) имеет приоритет.
+    Раньше дата вступления проксировалась первым появлением в логах — это ложно помечало
+    основателей (Bloodycat: первый парс позже основания → «до вступления» на ранних рейдах).
+    API дату вступления не отдаёт, поэтому before-join теперь ОПТ-ИН: применяется только к
+    тем, у кого явный joined (в roster.yml или серверном joined.yml, если появится источник).
+    Игрок без даты → НЕ в словаре → считается за все рейды (основатели/костяк «всегда свои»).
+    `kills` больше не используется — параметр оставлен для совместимости вызова.
     """
-    import datetime as _dt
-
     out: dict = {}
-    for k in sorted(kills, key=lambda x: x.killed_at or _dt.datetime.max):
-        if k.killed_at is None:
-            continue
-        for p in k.players:
-            pid = roster.player_of(p.name)
-            if pid and pid not in out:
-                out[pid] = k.killed_at
-    # даты вступления из серверного ростера гильдии (API, tools/collect_guild.py) —
-    # авторитетнее прокси-first-parse (основатели вроде Bloodycat больше не «до вступления»),
-    # но ниже явного roster joined. Матчинг по имени персонажа.
+    # серверный ростер (API, tools/collect_guild.py) — если появится источник дат вступления
     if cfg is not None:
         from core.common import load_yaml
         auto = load_yaml(os.path.join(cfg.paths["raw"], "guild", cfg.raw["realm"], "joined.yml")) or {}
