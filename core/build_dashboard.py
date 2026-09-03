@@ -34,7 +34,7 @@ def _counted(kills, cfg):
     return [k for k in kills if k.size_bucket in sizes]
 
 
-def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen, signup_bonus=None):
+def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen, signup_bonus=None, signup_penalized=frozenset()):
     """Скоринг: посещаемость — только по РТ (attendance.raid_sizes) из ВСЕХ килов и общая
     для всех скоупов; перформанс/лут/вечера-для-показа — по килам скоупа."""
     ks = [k for k in scope_kills if k.killed_at is not None and k.killed_at <= cutoff]
@@ -63,6 +63,17 @@ def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_
     loot_log = [r for r in loot_log
                 if str(r.get("record_id")).isdigit() and int(r["record_id"]) in loot_records]
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
+    # штраф за незапись на РТ — только тем, кто реально ходит (был ≥1 раз в окне): не бьём
+    # неактивных/не-рейдеров (у них посещаемости в окне нет). absence не в signup_penalized.
+    if signup_penalized:
+        from core.common import clip
+        penalty = cfg.w("signup", "penalty_no_signup")
+        cap = cfg.w("signup", "cap")
+        sb = dict(signup_bonus or {})
+        for pid in signup_penalized:
+            if att.get(pid, {}).get("nights_attended", 0) > 0:
+                sb[pid] = round(clip(sb.get(pid, 0.0) - penalty, -cap, cap), 4)
+        signup_bonus = sb
     final = SC.final_scores(att, perf, loot, roster, cfg, cutoff, signup_bonus)
     return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
             "final": final, "loot_log": loot_log, "kills": ks, "loot_kills": loot_kills,
@@ -94,13 +105,13 @@ def _scope_defs(cfg):
     return defs
 
 
-def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus):
+def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus, signup_penalized=frozenset()):
     counted = [k for k in all_kills if k.size_bucket in set(sizes)]
-    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen, signup_bonus)
+    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen, signup_bonus, signup_penalized)
     prev_final = {}
     if len(cur["nights"]) >= 2:
         cutoff_prev = cur["nights"][-1].started_at - timedelta(seconds=1)
-        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen, signup_bonus)["final"]
+        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen, signup_bonus, signup_penalized)["final"]
     return cur, prev_final, counted
 
 
@@ -117,7 +128,7 @@ def build(config_path="config/config.json"):
     all_kills = [k for k in all_kills if k.size_bucket in stat_sizes]
     N.augment_roster_with_parses(roster, all_kills, cfg)  # авто-игроки за парсы (сирус знает всех рейдивших)
     first_seen = N.first_seen_by_player(all_kills, roster, cfg)
-    signup_bonus, signed_latest, signup_unmatched, signup_events = SU.compute(cfg, roster)
+    signup_bonus, signed_latest, signup_unmatched, signup_events, signup_penalized = SU.compute(cfg, roster)
 
     scopes = []
     all_cur = all_counted = None
@@ -126,11 +137,12 @@ def build(config_path="config/config.json"):
         has25 = 25 in set(sizes)
         sb = signup_bonus if has25 else {}
         sl = signed_latest if has25 else frozenset()
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, sb)
+        sp = signup_penalized if has25 else frozenset()
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, sb, sp)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
-            "players": _players(cfg, roster, cur, item_db, prev_final, sl),
+            "players": _players(cfg, roster, cur, item_db, prev_final, sl, sp),
             "nights": _nights(cfg, roster, cur["nights"]),
         })
         if key == "all" or all_cur is None:  # источник для meta: 'all' если есть, иначе первый скоуп
@@ -235,7 +247,7 @@ def _recent_loot_map(roster, cur, item_db, n_kds=3):
     return dict(out)
 
 
-def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset()):
+def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset(), signup_penalized=frozenset()):
     recent_loot = _recent_loot_map(roster, cur, item_db)
     from core.common import load_yaml
     # печеньки (токены) на игрока из ручной таблицы РЛ; None → нет в таблице (в колонке пусто)
@@ -271,6 +283,7 @@ def _players(cfg, roster, cur, item_db, prev_final, signed_latest=frozenset()):
             "perf_measured": final["perf_measured"],
             "signup_bonus": final.get("signup_bonus", 0.0),
             "signed_up": pid in signed_latest,
+            "signup_penalized": pid in signup_penalized,
             "adjustments": final["adjustments"],
             "components": final["components"],
             "attendance": cur["att"][pid],

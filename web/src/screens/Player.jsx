@@ -103,6 +103,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                 : <span className="reason">не применяется — {ROLE_RU[p.performance.role] || "роль"} судится по посещаемости (слишком ситуативно)</span>}</dd>
               <dt>Ранг-гейт</dt><dd className="num">{p.rank_gate}</dd>
               {p.signup_bonus > 0 && (<><dt>Запись на рейд</dt><dd className="num delta up">+{p.signup_bonus} <span className="reason">бонус за запись (raid-helper)</span></dd></>)}
+              {p.signup_bonus < 0 && (<><dt>Запись на рейд</dt><dd className="num delta down">{p.signup_bonus} <span className="reason">штраф — не отметился на РТ в raid-helper</span></dd></>)}
             </dl>
           </div>
         </div>

@@ -20,7 +20,9 @@ export function PlayerName({ p }) {
     <>
       <span className="pname" style={{ color: readableColor(p.class_color) }}>{p.display}</span>
       <span className="spec">{p.spec_name}</span>
-      {p.signed_up && <span className="signed-mark" title={`Записан на рейд (+${p.signup_bonus} к рейтингу)`}>✍</span>}
+      {p.signed_up && <span className="signed-mark" title={`Записан на рейд (raid-helper)`}>✍</span>}
+      {p.signup_penalized && p.attendance?.nights_attended > 0 &&
+        <span className="penalty-mark" title="Не отметился на последний РТ в raid-helper — штраф к рейтингу" style={{ marginLeft: 4 }}>⚠️</span>}
       {p.frozen && <span className="frozen-mark" title="Рейтинг заморожен советом">❄</span>}
     </>
   );

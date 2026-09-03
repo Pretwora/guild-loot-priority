@@ -88,6 +88,7 @@ def compute(cfg, roster):
     counts = defaultdict(lambda: {"signed": 0, "tentative": 0, "absence": 0})
     unmatched, seen_unmatched = [], set()
     latest_signed = set()
+    latest_respondents = set()  # кто вообще отметился на последний РТ (любой статус)
     latest_id = recent[-1]["id"] if recent else None
 
     def resolve(su):
@@ -116,10 +117,16 @@ def compute(cfg, roster):
                                       "status": st, "event": ev["title"]})
                 continue
             counts[pid][st] += 1
-            if ev["id"] == latest_id and st == "signed":
-                latest_signed.add(pid)
+            if ev["id"] == latest_id:
+                latest_respondents.add(pid)  # отметился (signed/tentative/absence) — не штрафуем
+                if st == "signed":
+                    latest_signed.add(pid)
 
     bonus = {}
     for pid, c in counts.items():
         bonus[pid] = round(min(cap, c["signed"] * b_signed + c["tentative"] * b_tent), 4)
-    return bonus, latest_signed, unmatched, recent
+    # Оштрафованные = не отметились на последний РТ (ни signed/tentative/absence). Сам штраф
+    # (penalty к base) применяется в build_dashboard.compute — только тем, кто реально ходит
+    # (был ≥1 раз в окне), чтобы не бить неактивных/не-рейдеров. absence → не в этом множестве.
+    penalized = {pid for pid in roster.players if latest_id is not None and pid not in latest_respondents}
+    return bonus, latest_signed, unmatched, recent, penalized
