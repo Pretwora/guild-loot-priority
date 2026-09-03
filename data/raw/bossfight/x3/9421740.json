@@ -1,0 +1,395 @@
+{
+ "data": {
+  "achievements": [],
+  "attempts": 1,
+  "background": "/images/ejbackgrounds/onyxiaslair.webp",
+  "boss_name": "Ониксия",
+  "difficulty": 0,
+  "duration": 106,
+  "fight_length": "01:46",
+  "guild": {
+   "id": 7868,
+   "level": 24,
+   "name": "NoName"
+  },
+  "killed_at": "2026-09-03 23:13:34",
+  "loots": [
+   {
+    "count": 1,
+    "entry": 33470,
+    "item": {
+     "color": "ffffff",
+     "entry": 33470,
+     "icon": "https://cdn3.scourge.tech/icons/inv_fabric_soulcloth.png",
+     "name": "Ледяная ткань",
+     "quality": 1,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49643,
+    "item": {
+     "color": "a335ee",
+     "entry": 49643,
+     "icon": "https://cdn3.scourge.tech/icons/inv_misc_head_dragon_01.png",
+     "name": "Голова Ониксии",
+     "quality": 4,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49295,
+    "item": {
+     "color": "a335ee",
+     "entry": 49295,
+     "icon": "https://cdn3.scourge.tech/icons/inv_misc_bag_22.png",
+     "name": "Большой заплечный мешок из шкуры Ониксии",
+     "quality": 4,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49294,
+    "item": {
+     "color": "a335ee",
+     "entry": 49294,
+     "icon": "https://cdn3.scourge.tech/icons/inv_misc_bag_10_black.png",
+     "name": "Пепельный мешочек с самоцветами",
+     "quality": 4,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 60,
+    "entry": 170617,
+    "item": {
+     "color": "0070dd",
+     "entry": 170617,
+     "icon": "https://cdn3.scourge.tech/icons/pvecurrency-justice.png",
+     "name": "Очки справедливости",
+     "quality": 3,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49333,
+    "item": {
+     "color": "a335ee",
+     "entry": 49333,
+     "icon": "https://cdn3.scourge.tech/icons/inv_helmet_146.png",
+     "name": "Закаленный льдом полный шлем",
+     "quality": 4,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49318,
+    "item": {
+     "color": "a335ee",
+     "entry": 49318,
+     "icon": "https://cdn3.scourge.tech/icons/inv_helmet_70.png",
+     "name": "Капюшон ветра Пустоты",
+     "quality": 4,
+     "realm_id": 22
+    }
+   },
+   {
+    "count": 1,
+    "entry": 49296,
+    "item": {
+     "color": "a335ee",
+     "entry": 49296,
+     "icon": "https://cdn3.scourge.tech/icons/inv_sword_18.png",
+     "name": "Обожженный Вис'каг Кровопускатель",
+     "quality": 4,
+     "realm_id": 22
+    }
+   }
+  ],
+  "map_name": "Логово Ониксии",
+  "players": [
+   {
+    "category": 90016,
+    "class_id": 2,
+    "dps": 198,
+    "gender": 1,
+    "guid": 2929,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 3441,
+    "ilvl": 251,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1063,
+      "name": "Свет|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Серёжка",
+    "race_id": 10,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 866,
+     "name": "Созвездие Гармонии"
+    }
+   },
+   {
+    "category": 90019,
+    "class_id": 3,
+    "dps": 19575,
+    "gender": 1,
+    "guid": 3007,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 28,
+    "ilvl": 256,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1045,
+      "name": "Стрельба|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Fexler",
+    "race_id": 10,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 857,
+     "name": "Созвездие Безликого"
+    }
+   },
+   {
+    "category": 90020,
+    "class_id": 11,
+    "dps": 22617,
+    "gender": 0,
+    "guid": 14757,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 0,
+    "ilvl": 255,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1056,
+      "name": "Сила зверя|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Криптид",
+    "race_id": 5,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 857,
+     "name": "Созвездие Безликого"
+    }
+   },
+   {
+    "category": 90016,
+    "class_id": 11,
+    "dps": 5956,
+    "gender": 1,
+    "guid": 22897,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 419,
+    "ilvl": 244,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1057,
+      "name": "Страж|n|cffffd100Рейдовый комплект Тир 4|r"
+     },
+     {
+      "count": 1,
+      "id": 856,
+      "name": "Броня Рунического Тотема|n|cffffd100Рейдовый комплект Тир 9|r"
+     }
+    ],
+    "level": 80,
+    "name": "Horikuz",
+    "race_id": 20,
+    "role": 1,
+    "spec": 1,
+    "zodiac": {
+     "id": 853,
+     "name": "Созвездие Изобретателя"
+    }
+   },
+   {
+    "category": 90020,
+    "class_id": 5,
+    "dps": 22971,
+    "gender": 1,
+    "guid": 59940,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 875,
+    "ilvl": 253,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1064,
+      "name": "Тьма|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Проболь",
+    "race_id": 15,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 849,
+     "name": "Созвездие Вулкана"
+    }
+   },
+   {
+    "category": 90020,
+    "class_id": 2,
+    "dps": 33975,
+    "gender": 0,
+    "guid": 112968,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 1580,
+    "ilvl": 252,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1061,
+      "name": "Воздаяние|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Killhord",
+    "race_id": 6,
+    "role": 3,
+    "spec": 2,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90017,
+    "class_id": 6,
+    "dps": 3361,
+    "gender": 0,
+    "guid": 206116,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 755,
+    "ilvl": 251,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1072,
+      "name": "Кровь, Лед, Нечестивость|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Мозол",
+    "race_id": 2,
+    "role": 1,
+    "spec": 0,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90020,
+    "class_id": 1,
+    "dps": 30239,
+    "gender": 0,
+    "guid": 411958,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 100,
+    "ilvl": 254,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1043,
+      "name": "Неистовство|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Arkeli",
+    "race_id": 2,
+    "role": 3,
+    "spec": 1,
+    "zodiac": {
+     "id": 847,
+     "name": "Созвездие Ящера"
+    }
+   },
+   {
+    "category": 90010,
+    "class_id": 5,
+    "dps": 0,
+    "gender": 1,
+    "guid": 521567,
+    "guild": {
+     "id": 7868,
+     "level": 24,
+     "name": "NoName"
+    },
+    "hps": 3305,
+    "ilvl": 256,
+    "itemset": [
+     {
+      "count": 4,
+      "id": 1065,
+      "name": "Послушание|n|cffffd100Рейдовый комплект Тир 4|r"
+     }
+    ],
+    "level": 80,
+    "name": "Сонечко",
+    "race_id": 20,
+    "role": 2,
+    "spec": 0,
+    "zodiac": {
+     "id": 851,
+     "name": "Созвездие Кузнеца"
+    }
+   }
+  ]
+ },
+ "encounter": 0,
+ "order": 12
+}
