@@ -27,7 +27,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core.common import Config, REPO_ROOT
 
-API_BASE = "https://sirus.su/api/base"
+# Основной домен и зеркало. sirus.su периодически лежит — тогда доступ открывают на sirus.org.
+API_BASES = ["https://sirus.su/api/base", "https://sirus.org/api/base"]
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36"),
@@ -97,14 +98,20 @@ def main():
     cfg = Config(os.path.join(REPO_ROOT, args.config))
     realm, gid = cfg.raw["realm"], cfg.raw["guild_id"]
 
-    url = f"{API_BASE}/{realm}/guild/{gid}?lang=ru"
-    print(f"GET {url}")
-    try:
-        data = get_json(url)
-    except urllib.error.HTTPError as e:
-        print(f"HTTP {e.code} — эндпоинт недоступен/сменился."); return 1
-    except Exception as e:  # noqa: BLE001
-        print(f"Сеть недоступна: {type(e).__name__}: {e}"); return 1
+    data, last_err = None, None
+    for base in API_BASES:
+        url = f"{base}/{realm}/guild/{gid}?lang=ru"
+        print(f"GET {url}")
+        try:
+            data = get_json(url)
+            break
+        except urllib.error.HTTPError as e:
+            last_err = f"HTTP {e.code}"
+        except Exception as e:  # noqa: BLE001
+            last_err = f"{type(e).__name__}: {e}"
+        print(f"  не вышло: {last_err} — пробую зеркало…")
+    if data is None:
+        print(f"Все домены недоступны: {last_err}"); return 1
 
     raw_dir = os.path.join(REPO_ROOT, cfg.paths["raw"], "guild", realm)
     os.makedirs(raw_dir, exist_ok=True)
