@@ -86,25 +86,28 @@ class Client:
         self._last_call = time.monotonic()
 
     def get_json(self, url):
-        for attempt in range(1, self.max_retries + 1):
-            self._throttle()
-            req = urllib.request.Request(url, headers=HEADERS)
-            try:
-                with urllib.request.urlopen(req, timeout=25, context=self._ctx) as resp:
-                    return json.loads(resp.read().decode("utf-8", errors="replace"))
-            except urllib.error.HTTPError as e:
-                retryable = e.code == 429 or e.code >= 500
-                log(f"  HTTP {e.code} на попытке {attempt}")
-                if not retryable or attempt == self.max_retries:
-                    return None
-            except Exception as e:  # noqa: BLE001
-                log(f"  {type(e).__name__}: {e} (попытка {attempt})")
-                if attempt == self.max_retries:
-                    return None
-
-            backoff = min(60, 2 ** attempt) + random.uniform(0, 2)
-            log(f"  повтор через {backoff:.1f}с")
-            time.sleep(backoff)
+        # sirus.su периодически недоступен — при отказе пробуем зеркало sirus.org.
+        # URL собран на sirus.su; для зеркала просто меняем хост.
+        for host in ("https://sirus.su", "https://sirus.org"):
+            u = url.replace("https://sirus.su", host)
+            for attempt in range(1, self.max_retries + 1):
+                self._throttle()
+                req = urllib.request.Request(u, headers=HEADERS)
+                try:
+                    with urllib.request.urlopen(req, timeout=25, context=self._ctx) as resp:
+                        return json.loads(resp.read().decode("utf-8", errors="replace"))
+                except urllib.error.HTTPError as e:
+                    retryable = e.code == 429 or e.code >= 500
+                    log(f"  HTTP {e.code} на попытке {attempt} ({host})")
+                    if not retryable or attempt == self.max_retries:
+                        break  # этот хост не отдаёт — к зеркалу
+                except Exception as e:  # noqa: BLE001
+                    log(f"  {type(e).__name__}: {e} (попытка {attempt}, {host})")
+                    if attempt == self.max_retries:
+                        break
+                backoff = min(60, 2 ** attempt) + random.uniform(0, 2)
+                log(f"  повтор через {backoff:.1f}с")
+                time.sleep(backoff)
         return None
 
 
