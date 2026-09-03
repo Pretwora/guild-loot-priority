@@ -19,3 +19,6 @@ venv/
 loot_errors.md
 issue_body.md
 issue_filled.md
+
+# локальная песочница (не коммитить)
+scratchpad/
