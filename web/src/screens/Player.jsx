@@ -108,7 +108,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
         </div>
 
         <div className="panel">
-          <h3>Полученный лут <span className="reason" style={{ fontWeight: 400 }}>· последние 2 КД · на рейтинг не влияет</span></h3>
+          <h3>Полученный лут <span className="reason" style={{ fontWeight: 400 }}>· последние 3 КД · на рейтинг не влияет</span></h3>
           <div className="body">
             {p.recent_loot?.length ? (
               <ul className="loot-list">
@@ -122,7 +122,7 @@ export default function PlayerCard({ data, scope, playerId, onOpenPlayer }) {
                   </li>
                 ))}
               </ul>
-            ) : <div className="reason">За последние 2 КД ничего не получал.</div>}
+            ) : <div className="reason">За последние 3 КД ничего не получал.</div>}
           </div>
         </div>
 

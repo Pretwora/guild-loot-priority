@@ -76,7 +76,7 @@ export default function Priority({ data, scope, onOpenPlayer }) {
                   {c.label} <Caret active={key === c.key} dir={dir} />
                 </th>
               ))}
-              <th title="Что игрок получил за последние 2 рейд-вечера (на рейтинг не влияет)">Последний лут</th>
+              <th title="Что игрок получил за последние 3 рейд-вечера (на рейтинг не влияет)">Последний лут</th>
             </tr>
           </thead>
           <tbody>

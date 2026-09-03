@@ -189,7 +189,7 @@ def _meta(cfg, all_kills, counted, nights, combat):
     }
 
 
-def _recent_loot_map(roster, cur, item_db, n_kds=2):
+def _recent_loot_map(roster, cur, item_db, n_kds=3):
     """{pid: [полученные предметы за последние n_kds КД]} с иконками — для наглядности в
     списке (лут на рейтинг не влияет, РЛ смотрит историю выдач глазами). Свежее сверху."""
     nights = sorted(cur["nights"], key=lambda n: n.started_at, reverse=True)
