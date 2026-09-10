@@ -70,17 +70,21 @@ def _discord_char_map(cfg):
 
 
 def compute(cfg, roster):
-    """Возвращает (bonus_by_player, signed_latest_set, unmatched, events).
+    """Возвращает (bonus, signed_latest, unmatched, event_respondents, penalized_latest).
 
-    bonus_by_player: {pid: прибавка к merit}
-    signed_latest_set: {pid} — записан на самый свежий ивент (для метки на дашборде)
-    unmatched: [{name, userid, status, event}] — не сопоставлено с ростером
+    bonus: {pid: суммарная прибавка за записи по окну} — signed/tentative/absence, БЕЗ капа
+        (копится за каждый ивент).
+    signed_latest: {pid} — статус «приду» на самом свежем ивенте (метка ✍).
+    unmatched: [{name, userid, status, event}] — не сопоставлено с ростером.
+    event_respondents: [(when, frozenset(pid))] по каждому ивенту окна — для штрафа за незапись
+        (за КАЖДЫЙ ивент, где активный игрок не отметился; гейт по посещаемости/дате в build).
+    penalized_latest: {pid} — не отметился на самый свежий ивент (метка ⚠️; гейт по посещаемости в build).
     """
     events = load_events(cfg)
     window = cfg.w("signup", "window_events")
     b_signed = cfg.w("signup", "bonus_signed")
     b_tent = cfg.w("signup", "bonus_tentative")
-    cap = cfg.w("signup", "cap")
+    b_abs = cfg.w("signup", "bonus_absence")
     dmap = _discord_map(roster)
     dchar = _discord_char_map(cfg)  # userid → имя персонажа (ники raid-helper)
 
@@ -90,6 +94,7 @@ def compute(cfg, roster):
     latest_signed = set()
     latest_respondents = set()  # кто вообще отметился на последний РТ (любой статус)
     latest_id = recent[-1]["id"] if recent else None
+    event_respondents = []  # (when, frozenset(pid)) по каждому ивенту — для per-event штрафа
 
     def resolve(su):
         did = str(su.get("userid") or "")
@@ -106,6 +111,7 @@ def compute(cfg, roster):
         return None
 
     for ev in recent:
+        resp = set()  # кто отметился на ЭТОМ ивенте (любой статус)
         for su in ev["signups"]:
             st = _status(su.get("class"))
             pid = resolve(su)
@@ -117,16 +123,18 @@ def compute(cfg, roster):
                                       "status": st, "event": ev["title"]})
                 continue
             counts[pid][st] += 1
+            resp.add(pid)
             if ev["id"] == latest_id:
                 latest_respondents.add(pid)  # отметился (signed/tentative/absence) — не штрафуем
                 if st == "signed":
                     latest_signed.add(pid)
+        event_respondents.append((ev["when"], frozenset(resp)))
 
     bonus = {}
     for pid, c in counts.items():
-        bonus[pid] = round(min(cap, c["signed"] * b_signed + c["tentative"] * b_tent), 4)
-    # Оштрафованные = не отметились на последний РТ (ни signed/tentative/absence). Сам штраф
-    # (penalty к base) применяется в build_dashboard.compute — только тем, кто реально ходит
-    # (был ≥1 раз в окне), чтобы не бить неактивных/не-рейдеров. absence → не в этом множестве.
-    penalized = {pid for pid in roster.players if latest_id is not None and pid not in latest_respondents}
-    return bonus, latest_signed, unmatched, recent, penalized
+        # без капа: за каждый ивент +весы по статусу (приду > может быть > не приду)
+        bonus[pid] = round(c["signed"] * b_signed + c["tentative"] * b_tent + c["absence"] * b_abs, 4)
+    # penalized_latest — метка ⚠️ «не отметился на последний РТ». Сам штраф считается per-event
+    # в build_dashboard.compute (по event_respondents), гейт по посещаемости/дате вступления.
+    penalized_latest = {pid for pid in roster.players if latest_id is not None and pid not in latest_respondents}
+    return bonus, latest_signed, unmatched, event_respondents, penalized_latest

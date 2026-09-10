@@ -22,7 +22,7 @@ export default function HowItWorks({ data }) {
             <dt>rank_gate триал</dt><dd className="num">{w.score.rank_gate.trial}</dd>
             <dt>rank_gate состав</dt><dd className="num">{w.score.rank_gate.member}</dd>
           </dl>
-          <p className="reason">Запись на рейд (raid-helper): бонус +{w.signup?.bonus_signed ?? 0} за подтверждённую, +{w.signup?.bonus_tentative ?? 0} за «может быть»; <b>штраф −{w.signup?.penalty_no_signup ?? 0}</b> тем, кто вообще не отметился на последний РТ (и при этом активно ходит). «Не приду» (absence) — нейтрально, без штрафа. Потолок ±{w.signup?.cap ?? 0}. Отметки: ✍ записан, ⚠️ не отметился.</p>
+          <p className="reason">Запись на рейд (raid-helper) — <b>за каждый ивент, накопительно, без потолка</b>: +{w.signup?.bonus_signed ?? 0} «приду», +{w.signup?.bonus_tentative ?? 0} «может быть», +{w.signup?.bonus_absence ?? 0} «не приду» (отметился = ответственно, но меньше всех). <b>Штраф −{w.signup?.penalty_no_signup ?? 0} за каждый ивент</b>, где активный игрок не отметился вовсе. Гейт: только тем, кто реально ходит (≥1 вечер в окне) и на ивенты после вступления. Отметки: ✍ записан на последний РТ, ⚠️ не отметился.</p>
         </Panel>
 
         <Panel title="A — посещаемость (0..1)">

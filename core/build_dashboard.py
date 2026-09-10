@@ -34,7 +34,7 @@ def _counted(kills, cfg):
     return [k for k in kills if k.size_bucket in sizes]
 
 
-def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen, signup_bonus=None, signup_penalized=frozenset()):
+def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_seen, signup_bonus=None, signup_events=None):
     """Скоринг: посещаемость — только по РТ (attendance.raid_sizes) из ВСЕХ килов и общая
     для всех скоупов; перформанс/лут/вечера-для-показа — по килам скоупа."""
     ks = [k for k in scope_kills if k.killed_at is not None and k.killed_at <= cutoff]
@@ -63,16 +63,20 @@ def compute(cfg, all_kills, scope_kills, roster, item_db, cutoff, combat, first_
     loot_log = [r for r in loot_log
                 if str(r.get("record_id")).isdigit() and int(r["record_id"]) in loot_records]
     loot = SC.loot_scores(loot_log, roster, item_db, cfg, cutoff)
-    # штраф за незапись на РТ — только тем, кто реально ходит (был ≥1 раз в окне): не бьём
-    # неактивных/не-рейдеров (у них посещаемости в окне нет). absence не в signup_penalized.
-    if signup_penalized:
-        from core.common import clip
+    # штраф за незапись — за КАЖДЫЙ ивент рейд-хелпера в окне, где активный игрок (был ≥1 раз
+    # в окне) не отметился вовсе. Отметившиеся (signed/tentative/absence) не штрафуются — им идёт
+    # бонус в signup_bonus. Без капа: копится за каждый раз. Ивенты раньше вступления не бьют.
+    if signup_events:
         penalty = cfg.w("signup", "penalty_no_signup")
-        cap = cfg.w("signup", "cap")
         sb = dict(signup_bonus or {})
-        for pid in signup_penalized:
-            if att.get(pid, {}).get("nights_attended", 0) > 0:
-                sb[pid] = round(clip(sb.get(pid, 0.0) - penalty, -cap, cap), 4)
+        for when, resp in signup_events:
+            for pid, a in att.items():
+                if a.get("nights_attended", 0) <= 0 or pid in resp:
+                    continue
+                fs = first_seen.get(pid)
+                if fs is not None and when is not None and when < fs:
+                    continue  # ивент раньше даты вступления игрока — не штрафуем
+                sb[pid] = round(sb.get(pid, 0.0) - penalty, 4)
         signup_bonus = sb
     final = SC.final_scores(att, perf, loot, roster, cfg, cutoff, signup_bonus)
     return {"nights": nights, "att": att, "att_nights": att_nights, "perf": perf, "loot": loot,
@@ -105,13 +109,13 @@ def _scope_defs(cfg):
     return defs
 
 
-def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus, signup_penalized=frozenset()):
+def _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, signup_bonus, signup_events=None):
     counted = [k for k in all_kills if k.size_bucket in set(sizes)]
-    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen, signup_bonus, signup_penalized)
+    cur = compute(cfg, all_kills, counted, roster, item_db, now, combat, first_seen, signup_bonus, signup_events)
     prev_final = {}
     if len(cur["nights"]) >= 2:
         cutoff_prev = cur["nights"][-1].started_at - timedelta(seconds=1)
-        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen, signup_bonus, signup_penalized)["final"]
+        prev_final = compute(cfg, all_kills, counted, roster, item_db, cutoff_prev, combat, first_seen, signup_bonus, signup_events)["final"]
     return cur, prev_final, counted
 
 
@@ -129,6 +133,7 @@ def build(config_path="config/config.json"):
     N.augment_roster_with_parses(roster, all_kills, cfg)  # авто-игроки за парсы (сирус знает всех рейдивших)
     first_seen = N.first_seen_by_player(all_kills, roster, cfg)
     signup_bonus, signed_latest, signup_unmatched, signup_events, signup_penalized = SU.compute(cfg, roster)
+    # signup_events = [(when, respondents)] для per-event штрафа; signup_penalized — метка ⚠️ (последний ивент)
 
     scopes = []
     all_cur = all_counted = None
@@ -138,7 +143,8 @@ def build(config_path="config/config.json"):
         sb = signup_bonus if has25 else {}
         sl = signed_latest if has25 else frozenset()
         sp = signup_penalized if has25 else frozenset()
-        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, sb, sp)
+        se = signup_events if has25 else []
+        cur, prev_final, counted = _scope(cfg, all_kills, roster, item_db, now, sizes, combat, first_seen, sb, se)
         scopes.append({
             "key": key, "label": label, "sizes": sizes,
             "kills_counted": len(counted), "nights_count": len(cur["nights"]),
