@@ -1,0 +1,4452 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9465147
+   },
+   "datetime": "2026-09-10T20:33:00.000000Z",
+   "guid": 1138299,
+   "id": 9465147,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9465087
+   },
+   "datetime": "2026-09-10T20:23:10.000000Z",
+   "guid": 1138299,
+   "id": 9465087,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9464909
+   },
+   "datetime": "2026-09-10T19:36:52.000000Z",
+   "guid": 1138299,
+   "id": 9464909,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9461731
+   },
+   "datetime": "2026-09-10T19:25:31.000000Z",
+   "guid": 1138299,
+   "id": 9461731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9461647
+   },
+   "datetime": "2026-09-10T19:11:55.000000Z",
+   "guid": 1138299,
+   "id": 9461647,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9461605
+   },
+   "datetime": "2026-09-10T19:02:18.000000Z",
+   "guid": 1138299,
+   "id": 9461605,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9461420
+   },
+   "datetime": "2026-09-10T18:37:00.000000Z",
+   "guid": 1138299,
+   "id": 9461420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9461199
+   },
+   "datetime": "2026-09-10T17:54:56.000000Z",
+   "guid": 1138299,
+   "id": 9461199,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9461071
+   },
+   "datetime": "2026-09-10T17:35:51.000000Z",
+   "guid": 1138299,
+   "id": 9461071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3812,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_argentchampion.png",
+    "name": "Призыв великого крестоносца (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789071790,
+   "datetime": "2026-09-10T17:23:10.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3817,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_14.png",
+    "name": "Дань умению (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789071790,
+   "datetime": "2026-09-10T17:23:10.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789071790,
+   "datetime": "2026-09-10T17:23:10.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-09-10T16:50:10.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 324404,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 324404,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1298,
+     "rating_change": -4,
+     "score_damage_done": 11528,
+     "score_deaths": 1,
+     "score_heal_done": 2683,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 324363,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1260,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 324359,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1239,
+     "rating_change": 21,
+     "score_damage_done": 40630,
+     "score_deaths": 0,
+     "score_heal_done": 6569,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1298,
+   "rating_change": 17,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-09-10T16:39:37.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 324352,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 324352,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1242,
+     "rating_change": -3,
+     "score_damage_done": 25612,
+     "score_deaths": 1,
+     "score_heal_done": 9657,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 324335,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1228,
+     "rating_change": -6,
+     "score_damage_done": 20841,
+     "score_deaths": 1,
+     "score_heal_done": 7106,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 324326,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1232,
+     "rating_change": -4,
+     "score_damage_done": 6050,
+     "score_deaths": 1,
+     "score_heal_done": 20544,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1242,
+   "rating_change": -13,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4518,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789057445,
+   "datetime": "2026-09-10T13:24:05.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4521,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789057445,
+   "datetime": "2026-09-10T13:24:05.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4526,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_lichking.png",
+    "name": "Мы не отступаем, мы идем другим путем",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789057445,
+   "datetime": "2026-09-10T13:24:05.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4517,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789056100,
+   "datetime": "2026-09-10T13:01:40.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4520,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789056100,
+   "datetime": "2026-09-10T13:01:40.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4525,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_scourgelordtyrannus.png",
+    "name": "Носите каски",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789055617,
+   "datetime": "2026-09-10T12:53:37.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4516,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789054951,
+   "datetime": "2026-09-10T12:42:31.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4519,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789054951,
+   "datetime": "2026-09-10T12:42:31.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29287,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень верховного мага",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T20:28:18.000000Z",
+   "guid": 1138299,
+   "id": 227526696,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9459627
+   },
+   "datetime": "2026-09-09T20:23:17.000000Z",
+   "guid": 1138299,
+   "id": 9459627,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9459570
+   },
+   "datetime": "2026-09-09T20:01:41.000000Z",
+   "guid": 1138299,
+   "id": 9459570,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9459502
+   },
+   "datetime": "2026-09-09T19:47:12.000000Z",
+   "guid": 1138299,
+   "id": 9459502,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9459418
+   },
+   "datetime": "2026-09-09T19:25:35.000000Z",
+   "guid": 1138299,
+   "id": 9459418,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Опера",
+    "bossfight_id": 9459313
+   },
+   "datetime": "2026-09-09T18:51:30.000000Z",
+   "guid": 1138299,
+   "id": 9459313,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9459171
+   },
+   "datetime": "2026-09-09T18:22:36.000000Z",
+   "guid": 1138299,
+   "id": 9459171,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9459087
+   },
+   "datetime": "2026-09-09T18:10:58.000000Z",
+   "guid": 1138299,
+   "id": 9459087,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80766,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_110.png",
+    "name": "Кольцо одаренности",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T17:55:50.000000Z",
+   "guid": 1138299,
+   "id": 227500482,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9459010
+   },
+   "datetime": "2026-09-09T17:54:50.000000Z",
+   "guid": 1138299,
+   "id": 9459010,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6323,
+    "icon": "https://cdn3.scourge.tech/icons/spell_priest_void-flay.png",
+    "name": "Взгляд в бездну",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788985397,
+   "datetime": "2026-09-09T17:23:17.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 524,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_02.png",
+    "name": "Превознесение среди 10 фракций",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788983560,
+   "datetime": "2026-09-09T16:52:40.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 960,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_mindsooth.png",
+    "name": "Аметистовое Око",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788983560,
+   "datetime": "2026-09-09T16:52:40.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788983232,
+   "datetime": "2026-09-09T16:47:12.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-09 19:41:13",
+     "duration": 782,
+     "id": 29164027,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 1
+    },
+    "battleground_id": 29164027,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 101759,
+    "score_deaths": 10,
+    "score_healing_done": 86339,
+    "score_honorable_kills": 9,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29164027,
+   "datetime": "2026-09-09T16:41:13.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-09 19:24:49",
+     "duration": 593,
+     "id": 29163886,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29163886,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 16750,
+    "score_deaths": 3,
+    "score_healing_done": 28484,
+    "score_honorable_kills": 1,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29163886,
+   "datetime": "2026-09-09T16:24:49.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 7003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_cloth_witchhat_b_01.png",
+    "name": "Прекрасная трагедия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788979890,
+   "datetime": "2026-09-09T15:51:30.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788979890,
+   "datetime": "2026-09-09T15:51:30.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29265,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_05.png",
+    "name": "Сапоги щепы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T15:43:37.000000Z",
+   "guid": 1138299,
+   "id": 227477139,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6308,
+    "icon": "https://cdn3.scourge.tech/icons/ability_paladin_handoflight.png",
+    "name": "Заземление",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788978156,
+   "datetime": "2026-09-09T15:22:36.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6309,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_prayerofhealing.png",
+    "name": "Ложное раскаяние",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788978156,
+   "datetime": "2026-09-09T15:22:36.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6307,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_murderspree.png",
+    "name": "Череда неудач",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788977458,
+   "datetime": "2026-09-09T15:10:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6303,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_unrelentingassault.png",
+    "name": "Матадор",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788976490,
+   "datetime": "2026-09-09T14:54:50.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6304,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_feigndeath.png",
+    "name": "Незримое присутствие",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788976490,
+   "datetime": "2026-09-09T14:54:50.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-08 19:37:03",
+     "duration": 259,
+     "id": 29155628,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 29155628,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 56735,
+    "score_deaths": 1,
+    "score_healing_done": 24585,
+    "score_honorable_kills": 16,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29155628,
+   "datetime": "2026-09-08T16:37:03.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-08 19:30:09",
+     "duration": 709,
+     "id": 29155465,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29155465,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 3,
+    "score_damage_done": 104037,
+    "score_deaths": 5,
+    "score_healing_done": 83550,
+    "score_honorable_kills": 19,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29155465,
+   "datetime": "2026-09-08T16:30:09.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 214,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_wineos_underxminutes.png",
+    "name": "Шквал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788885423,
+   "datetime": "2026-09-08T13:37:03.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158454,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо господства гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T19:07:42.000000Z",
+   "guid": 1138299,
+   "id": 227238946,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-07 22:05:22",
+     "duration": 471,
+     "id": 29141305,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29141305,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 165053,
+    "score_deaths": 0,
+    "score_healing_done": 45387,
+    "score_honorable_kills": 43,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29141305,
+   "datetime": "2026-09-07T19:05:22.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 10,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-07 21:54:32",
+     "duration": 401,
+     "id": 29133917,
+     "name": "Храм Котмогу",
+     "objectives": [],
+     "type": 19,
+     "winner_faction": 0
+    },
+    "battleground_id": 29133917,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 118769,
+    "score_deaths": 0,
+    "score_healing_done": 54631,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29133917,
+   "datetime": "2026-09-07T18:54:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27817,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_bow_06.png",
+    "name": "Длинный лук Звездострела",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T18:31:59.000000Z",
+   "guid": 1138299,
+   "id": 227231854,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-06 18:00:28",
+     "duration": 455,
+     "id": 29121879,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29121879,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 89684,
+    "score_deaths": 2,
+    "score_healing_done": 61939,
+    "score_honorable_kills": 31,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29121879,
+   "datetime": "2026-09-06T15:00:28.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27507,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_crossbow_15.png",
+    "name": "Адамантиновый скорострельный арбалет",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-06T14:26:04.000000Z",
+   "guid": 1138299,
+   "id": 227030372,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27925,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_16.png",
+    "name": "Кольцо Когтеврана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-06T12:03:38.000000Z",
+   "guid": 1138299,
+   "id": 227010641,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158512,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-05T12:59:02.000000Z",
+   "guid": 1138299,
+   "id": 226832965,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9431251
+   },
+   "datetime": "2026-09-05T12:43:27.000000Z",
+   "guid": 1138299,
+   "id": 9431251,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9431210
+   },
+   "datetime": "2026-09-05T12:34:12.000000Z",
+   "guid": 1138299,
+   "id": 9431210,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9431192
+   },
+   "datetime": "2026-09-05T12:28:13.000000Z",
+   "guid": 1138299,
+   "id": 9431192,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9431155
+   },
+   "datetime": "2026-09-05T12:23:44.000000Z",
+   "guid": 1138299,
+   "id": 9431155,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9431121
+   },
+   "datetime": "2026-09-05T12:14:00.000000Z",
+   "guid": 1138299,
+   "id": 9431121,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9431095
+   },
+   "datetime": "2026-09-05T12:09:48.000000Z",
+   "guid": 1138299,
+   "id": 9431095,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42520,
+    "icon": "https://cdn3.scourge.tech/icons/inv_wand_27.png",
+    "name": "Пронзающее прикосновение гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-05T11:54:05.000000Z",
+   "guid": 1138299,
+   "id": 226821061,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42538,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_book_06.png",
+    "name": "Гримуар гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-05T11:53:54.000000Z",
+   "guid": 1138299,
+   "id": 226820998,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27764,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_19.png",
+    "name": "Краги Солнца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-04T18:14:08.000000Z",
+   "guid": 1138299,
+   "id": 226704251,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 618,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_leader_prophet_velen.png",
+    "name": "Гасите свет",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788547404,
+   "datetime": "2026-09-04T15:43:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 619,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bannerpvp_01.png",
+    "name": "За Орду!",
+    "points": 20,
+    "quality": ""
+   },
+   "date": 1788547404,
+   "datetime": "2026-09-04T15:43:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421143
+   },
+   "datetime": "2026-09-03T18:45:18.000000Z",
+   "guid": 1138299,
+   "id": 9421143,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421113
+   },
+   "datetime": "2026-09-03T18:42:47.000000Z",
+   "guid": 1138299,
+   "id": 9421113,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9420015
+   },
+   "datetime": "2026-09-03T18:30:31.000000Z",
+   "guid": 1138299,
+   "id": 9420015,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9419955
+   },
+   "datetime": "2026-09-03T18:23:14.000000Z",
+   "guid": 1138299,
+   "id": 9419955,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ticket_tarot_maelstrom_01.png",
+    "name": "Счастливая карта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-03T17:48:49.000000Z",
+   "guid": 1138299,
+   "id": 226543306,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44311,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_109.png",
+    "name": "Авулов меч Цинь",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-03T17:43:19.000000Z",
+   "guid": 1138299,
+   "id": 226542115,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419280
+   },
+   "datetime": "2026-09-03T16:59:04.000000Z",
+   "guid": 1138299,
+   "id": 9419280,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419187
+   },
+   "datetime": "2026-09-03T16:39:00.000000Z",
+   "guid": 1138299,
+   "id": 9419187,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419128
+   },
+   "datetime": "2026-09-03T16:28:47.000000Z",
+   "guid": 1138299,
+   "id": 9419128,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3841,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "1000 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788453539,
+   "datetime": "2026-09-03T13:38:59.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 21:06:57",
+     "duration": 812,
+     "id": 29021267,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 1
+    },
+    "battleground_id": 29021267,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 12,
+    "score_damage_done": 155133,
+    "score_deaths": 4,
+    "score_healing_done": 75979,
+    "score_honorable_kills": 18,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29021267,
+   "datetime": "2026-09-02T18:06:57.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:49:32",
+     "duration": 694,
+     "id": 29028647,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028647,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 54291,
+    "score_deaths": 2,
+    "score_healing_done": 38739,
+    "score_honorable_kills": 7,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028647,
+   "datetime": "2026-09-02T17:49:32.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:34:58",
+     "duration": 899,
+     "id": 29028442,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028442,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 125018,
+    "score_deaths": 7,
+    "score_healing_done": 108420,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028442,
+   "datetime": "2026-09-02T17:34:58.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:15:45",
+     "duration": 683,
+     "id": 29028303,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028303,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 48355,
+    "score_deaths": 3,
+    "score_healing_done": 37156,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028303,
+   "datetime": "2026-09-02T17:15:45.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 20:00:24",
+     "duration": 325,
+     "id": 29028219,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29028219,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 1,
+    "score_damage_done": 49001,
+    "score_deaths": 1,
+    "score_healing_done": 26539,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028219,
+   "datetime": "2026-09-02T17:00:24.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:51:55",
+     "duration": 568,
+     "id": 29028123,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028123,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 7502,
+    "score_deaths": 1,
+    "score_healing_done": 6787,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028123,
+   "datetime": "2026-09-02T16:51:55.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:48:11",
+     "duration": 774,
+     "id": 29028072,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028072,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 11,
+    "score_damage_done": 224698,
+    "score_deaths": 3,
+    "score_healing_done": 115524,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29028072,
+   "datetime": "2026-09-02T16:48:11.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-02 19:30:21",
+     "duration": 218,
+     "id": 29028012,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29028012,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 0,
+    "score_damage_done": 28161,
+    "score_deaths": 1,
+    "score_healing_done": 13885,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29028012,
+   "datetime": "2026-09-02T16:30:21.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 6480,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_note_01.png",
+    "name": "Подписано кровью",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788364928,
+   "datetime": "2026-09-02T13:02:08.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104237,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_01.png",
+    "name": "Корона святотатства",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T17:01:47.000000Z",
+   "guid": 1138299,
+   "id": 226258325,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27817,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_bow_06.png",
+    "name": "Длинный лук Звездострела",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T16:52:53.000000Z",
+   "guid": 1138299,
+   "id": 226256586,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 902,
+    "icon": "https://cdn3.scourge.tech/icons/inv_enchant_shardprismaticlarge.png",
+    "name": "Главный превозносительный директор",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788282099,
+   "datetime": "2026-09-01T14:01:39.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374770,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_robe_dungeonrobe_c_03.png",
+    "name": "Зачарованные боевые митенки",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-30T11:28:57.000000Z",
+   "guid": 1138299,
+   "id": 225881085,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49487,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_lifedrain.png",
+    "name": "Очищенный кровный талисман Ониксии",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-29T11:01:30.000000Z",
+   "guid": 1138299,
+   "id": 225675270,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9387606
+   },
+   "datetime": "2026-08-29T10:58:05.000000Z",
+   "guid": 1138299,
+   "id": 9387606,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9387587
+   },
+   "datetime": "2026-08-29T10:52:59.000000Z",
+   "guid": 1138299,
+   "id": 9387587,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9387580
+   },
+   "datetime": "2026-08-29T10:50:51.000000Z",
+   "guid": 1138299,
+   "id": 9387580,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9387574
+   },
+   "datetime": "2026-08-29T10:49:19.000000Z",
+   "guid": 1138299,
+   "id": 9387574,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9387566
+   },
+   "datetime": "2026-08-29T10:47:38.000000Z",
+   "guid": 1138299,
+   "id": 9387566,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9387556
+   },
+   "datetime": "2026-08-29T10:45:45.000000Z",
+   "guid": 1138299,
+   "id": 9387556,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3936,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pet_worm.png",
+    "name": "Два йормунгара по цене одного (рейд для 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788000291,
+   "datetime": "2026-08-29T07:44:51.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28610,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_04.png",
+    "name": "Тяжелые ботинки свирепости",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T19:43:31.000000Z",
+   "guid": 1138299,
+   "id": 225586425,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28603,
+    "icon": "https://cdn3.scourge.tech/icons/inv_offhand_outlandraid_01.png",
+    "name": "Талисман Ночной погибели",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T19:43:29.000000Z",
+   "guid": 1138299,
+   "id": 225586416,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9385368
+   },
+   "datetime": "2026-08-28T19:43:05.000000Z",
+   "guid": 1138299,
+   "id": 9385368,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9385283
+   },
+   "datetime": "2026-08-28T19:30:03.000000Z",
+   "guid": 1138299,
+   "id": 9385283,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9385182
+   },
+   "datetime": "2026-08-28T19:14:49.000000Z",
+   "guid": 1138299,
+   "id": 9385182,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9385111
+   },
+   "datetime": "2026-08-28T19:01:34.000000Z",
+   "guid": 1138299,
+   "id": 9385111,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9385038
+   },
+   "datetime": "2026-08-28T18:54:21.000000Z",
+   "guid": 1138299,
+   "id": 9385038,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9384926
+   },
+   "datetime": "2026-08-28T18:38:52.000000Z",
+   "guid": 1138299,
+   "id": 9384926,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27828,
+    "icon": "https://cdn3.scourge.tech/icons/inv_scarab_crystal.png",
+    "name": "Покореженная скарабеем брошь",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T17:30:06.000000Z",
+   "guid": 1138299,
+   "id": 225558522,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27821,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_12.png",
+    "name": "Экстравагантные сапоги Злобы",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T17:24:23.000000Z",
+   "guid": 1138299,
+   "id": 225557370,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 66379,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_10.png",
+    "name": "Браслеты Предела",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T17:19:38.000000Z",
+   "guid": 1138299,
+   "id": 225556360,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 10,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9378111
+   },
+   "datetime": "2026-08-27T21:18:59.000000Z",
+   "guid": 1138299,
+   "id": 9378111,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9377700
+   },
+   "datetime": "2026-08-27T19:22:00.000000Z",
+   "guid": 1138299,
+   "id": 9377700,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9377588
+   },
+   "datetime": "2026-08-27T19:03:42.000000Z",
+   "guid": 1138299,
+   "id": 9377588,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27848,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_06.png",
+    "name": "Вышитые сапоги огня",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:55:10.000000Z",
+   "guid": 1138299,
+   "id": 225403550,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104236,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_02.png",
+    "name": "Латы оскверненного новобранца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:47:57.000000Z",
+   "guid": 1138299,
+   "id": 225401790,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9371567
+   },
+   "datetime": "2026-08-26T19:15:00.000000Z",
+   "guid": 1138299,
+   "id": 9371567,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 13,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9371484
+   },
+   "datetime": "2026-08-26T19:02:16.000000Z",
+   "guid": 1138299,
+   "id": 9371484,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6085,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_princemalchezaar_02.png",
+    "name": "Никто не умрет",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787770936,
+   "datetime": "2026-08-26T16:02:16.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117284,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Клобук Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:54:28.000000Z",
+   "guid": 1138299,
+   "id": 225099245,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117283,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Нарамник Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:54:21.000000Z",
+   "guid": 1138299,
+   "id": 225099221,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117280,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:54:16.000000Z",
+   "guid": 1138299,
+   "id": 225099210,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117281,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Повязки Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:54:11.000000Z",
+   "guid": 1138299,
+   "id": 225099190,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117509,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Перчатки Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:42:52.000000Z",
+   "guid": 1138299,
+   "id": 225096809,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117505,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Ворот Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:42:45.000000Z",
+   "guid": 1138299,
+   "id": 225096776,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117508,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Наплечье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:42:38.000000Z",
+   "guid": 1138299,
+   "id": 225096745,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117288,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Наплечные пластины Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:42:32.000000Z",
+   "guid": 1138299,
+   "id": 225096718,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117506,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Одежды Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:42:26.000000Z",
+   "guid": 1138299,
+   "id": 225096700,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117280,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:04:27.000000Z",
+   "guid": 1138299,
+   "id": 225090125,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117282,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:03:48.000000Z",
+   "guid": 1138299,
+   "id": 225090091,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117281,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Повязки Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:03:45.000000Z",
+   "guid": 1138299,
+   "id": 225090089,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117283,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Нарамник Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T17:03:36.000000Z",
+   "guid": 1138299,
+   "id": 225090083,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117284,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Клобук Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T16:59:54.000000Z",
+   "guid": 1138299,
+   "id": 225090057,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27762,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_44.png",
+    "name": "Видавшее виды кольцо Болотного Лорда",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T16:17:02.000000Z",
+   "guid": 1138299,
+   "id": 225082839,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27495,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_39.png",
+    "name": "Собачья метка солдата",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T15:47:50.000000Z",
+   "guid": 1138299,
+   "id": 225077702,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27497,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_29.png",
+    "name": "Рукавицы Роковой Брони",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T15:47:40.000000Z",
+   "guid": 1138299,
+   "id": 225077668,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9356235
+   },
+   "datetime": "2026-08-24T19:20:42.000000Z",
+   "guid": 1138299,
+   "id": 9356235,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9356028
+   },
+   "datetime": "2026-08-24T18:52:24.000000Z",
+   "guid": 1138299,
+   "id": 9356028,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9355933
+   },
+   "datetime": "2026-08-24T18:43:02.000000Z",
+   "guid": 1138299,
+   "id": 9355933,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-24 20:12:36",
+     "duration": 190,
+     "id": 28788350,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 28788350,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 3,
+    "score_damage_done": 100782,
+    "score_deaths": 0,
+    "score_healing_done": 27815,
+    "score_honorable_kills": 8,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28788350,
+   "datetime": "2026-08-24T17:12:36.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 32769,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_19.png",
+    "name": "Пояс лорда-Ворона",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T17:01:51.000000Z",
+   "guid": 1138299,
+   "id": 224951520,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27772,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_34.png",
+    "name": "Щит обновления",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T16:25:35.000000Z",
+   "guid": 1138299,
+   "id": 224945802,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27748,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_59.png",
+    "name": "Ряса Верного",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T16:12:18.000000Z",
+   "guid": 1138299,
+   "id": 224943490,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29242,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_11.png",
+    "name": "Сапоги кощунства",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T16:02:21.000000Z",
+   "guid": 1138299,
+   "id": 224941720,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27673,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_27.png",
+    "name": "Фосфоресцирующий клинок",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-24T16:02:16.000000Z",
+   "guid": 1138299,
+   "id": 224941707,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6075,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sillhoof.png",
+    "name": "Жертвоприношение? Нет!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787596982,
+   "datetime": "2026-08-24T15:43:02.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158449,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_19.png",
+    "name": "Плащ влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:30:50.000000Z",
+   "guid": 1138299,
+   "id": 224803468,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158443,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_36.png",
+    "name": "Подвеска влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:30:44.000000Z",
+   "guid": 1138299,
+   "id": 224803457,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42071,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_19.png",
+    "name": "Плащ влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:29:25.000000Z",
+   "guid": 1138299,
+   "id": 224803237,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42037,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_36.png",
+    "name": "Подвеска влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:28:02.000000Z",
+   "guid": 1138299,
+   "id": 224802904,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-23T16:20:58.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 192734,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 192734,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1154,
+     "rating_change": -3,
+     "score_damage_done": 6054,
+     "score_deaths": 1,
+     "score_heal_done": 13574,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1154,
+   "rating_change": -3,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 2,
+   "datetime": "2026-08-23T16:17:01.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 192714,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 192714,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1100,
+     "rating_change": 30,
+     "score_damage_done": 30769,
+     "score_deaths": 0,
+     "score_heal_done": 12536,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 192637,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1072,
+     "rating_change": 36,
+     "score_damage_done": 27790,
+     "score_deaths": 0,
+     "score_heal_done": 20703,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1100,
+   "rating_change": 66,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-23T15:41:51.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 192528,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 192528,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1088,
+     "rating_change": -2,
+     "score_damage_done": 1255,
+     "score_deaths": 1,
+     "score_heal_done": 2494,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1088,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-23T15:33:26.000000Z",
+   "draws": 0,
+   "guid": 1138299,
+   "last_arena_id": 192483,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 192483,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1138299,
+      "level": 80,
+      "name": "Чертовколдун",
+      "race_icon": "/images/icons/race/taurenmale.webp",
+      "race_id": 6,
+      "race_name": "Таурен",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1138299,
+     "rating": 1054,
+     "rating_change": -2,
+     "score_damage_done": 5788,
+     "score_deaths": 1,
+     "score_heal_done": 4231,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1054,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-23 18:31:34",
+     "duration": 197,
+     "id": 28739670,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 28739670,
+    "deaths": null,
+    "guid": 1138299,
+    "score_bonus_honor": 2,
+    "score_damage_done": 83506,
+    "score_deaths": 0,
+    "score_healing_done": 12633,
+    "score_honorable_kills": 11,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28739670,
+   "datetime": "2026-08-23T15:31:34.000000Z",
+   "guid": 1138299,
+   "realm_id": 22,
+   "type": "bgmatch"
+  }
+ ],
+ "guid": 1138299,
+ "name": "Чертовколдун",
+ "ts": "2026-09-11T07-28Z"
+}

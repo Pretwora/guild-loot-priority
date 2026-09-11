@@ -1,0 +1,3914 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9464909
+   },
+   "datetime": "2026-09-10T19:36:52.000000Z",
+   "guid": 144959,
+   "id": 9464909,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9461731
+   },
+   "datetime": "2026-09-10T19:25:31.000000Z",
+   "guid": 144959,
+   "id": 9461731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9461647
+   },
+   "datetime": "2026-09-10T19:11:55.000000Z",
+   "guid": 144959,
+   "id": 9461647,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9461605
+   },
+   "datetime": "2026-09-10T19:02:18.000000Z",
+   "guid": 144959,
+   "id": 9461605,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9461420
+   },
+   "datetime": "2026-09-10T18:37:00.000000Z",
+   "guid": 144959,
+   "id": 9461420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9461199
+   },
+   "datetime": "2026-09-10T17:54:56.000000Z",
+   "guid": 144959,
+   "id": 9461199,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9461071
+   },
+   "datetime": "2026-09-10T17:35:51.000000Z",
+   "guid": 144959,
+   "id": 9461071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48048,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_138.png",
+    "name": "Косторез Отрекшихся",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-08T16:58:23.000000Z",
+   "guid": 144959,
+   "id": 227353926,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9455208
+   },
+   "datetime": "2026-09-08T16:52:47.000000Z",
+   "guid": 144959,
+   "id": 9455208,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9455183
+   },
+   "datetime": "2026-09-08T16:46:51.000000Z",
+   "guid": 144959,
+   "id": 9455183,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9455158
+   },
+   "datetime": "2026-09-08T16:42:02.000000Z",
+   "guid": 144959,
+   "id": 9455158,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_axe_09.png",
+    "name": "Сокрушительный смертоносец",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T16:33:46.000000Z",
+   "guid": 144959,
+   "id": 227207823,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9450344
+   },
+   "datetime": "2026-09-07T16:33:11.000000Z",
+   "guid": 144959,
+   "id": 9450344,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47907,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_crossbow_35.png",
+    "name": "Арбалет гиблопасти",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T16:25:50.000000Z",
+   "guid": 144959,
+   "id": 227206432,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9450310
+   },
+   "datetime": "2026-09-07T16:25:21.000000Z",
+   "guid": 144959,
+   "id": 9450310,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47883,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_rifle_36.png",
+    "name": "Широкостволое кремневое ружье",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T16:22:58.000000Z",
+   "guid": 144959,
+   "id": 227205996,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9450288
+   },
+   "datetime": "2026-09-07T16:21:57.000000Z",
+   "guid": 144959,
+   "id": 9450288,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9450275
+   },
+   "datetime": "2026-09-07T16:19:34.000000Z",
+   "guid": 144959,
+   "id": 9450275,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9450263
+   },
+   "datetime": "2026-09-07T16:17:38.000000Z",
+   "guid": 144959,
+   "id": 9450263,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47851,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_62.png",
+    "name": "Рукавицы растущей злости",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T16:16:48.000000Z",
+   "guid": 144959,
+   "id": 227204936,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47860,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_67.png",
+    "name": "Наплечье служителя духов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-07T16:16:48.000000Z",
+   "guid": 144959,
+   "id": 227204935,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9450249
+   },
+   "datetime": "2026-09-07T16:15:46.000000Z",
+   "guid": 144959,
+   "id": 9450249,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3798,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_arena_5v5_3.png",
+    "name": "Устойчивость решает! (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788797974,
+   "datetime": "2026-09-07T13:19:34.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9443955
+   },
+   "datetime": "2026-09-06T17:38:16.000000Z",
+   "guid": 144959,
+   "id": 9443955,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9443831
+   },
+   "datetime": "2026-09-06T17:06:19.000000Z",
+   "guid": 144959,
+   "id": 9443831,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9443789
+   },
+   "datetime": "2026-09-06T16:55:23.000000Z",
+   "guid": 144959,
+   "id": 9443789,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6126,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sorcwarlock.png",
+    "name": "Прошедший срок",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788716296,
+   "datetime": "2026-09-06T14:38:16.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154456,
+    "icon": "https://cdn3.scourge.tech/icons/dh_shattered_souls.png",
+    "name": "Последний вдох",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-06T12:18:18.000000Z",
+   "guid": 144959,
+   "id": 227013413,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9436514
+   },
+   "datetime": "2026-09-05T23:21:05.000000Z",
+   "guid": 144959,
+   "id": 9436514,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9436498
+   },
+   "datetime": "2026-09-05T23:05:57.000000Z",
+   "guid": 144959,
+   "id": 9436498,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9436475
+   },
+   "datetime": "2026-09-05T22:47:23.000000Z",
+   "guid": 144959,
+   "id": 9436475,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9436464
+   },
+   "datetime": "2026-09-05T22:36:34.000000Z",
+   "guid": 144959,
+   "id": 9436464,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9436433
+   },
+   "datetime": "2026-09-05T22:14:39.000000Z",
+   "guid": 144959,
+   "id": 9436433,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9436420
+   },
+   "datetime": "2026-09-05T22:00:53.000000Z",
+   "guid": 144959,
+   "id": 9436420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6078,
+    "icon": "https://cdn3.scourge.tech/icons/achi_snightbane.png",
+    "name": "Только не хвостом!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788650465,
+   "datetime": "2026-09-05T20:21:05.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6085,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_princemalchezaar_02.png",
+    "name": "Никто не умрет",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788649557,
+   "datetime": "2026-09-05T20:05:57.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 375257,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_leather_16.png",
+    "name": "Сапоги из кожи гидры",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-05T10:04:32.000000Z",
+   "guid": 144959,
+   "id": 226799708,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374939,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_97.png",
+    "name": "Кольцо вечного пламени",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T18:59:21.000000Z",
+   "guid": 144959,
+   "id": 226280521,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 2,
+    "run_id": 996965,
+    "score": 125.889,
+    "timer": 1852
+   },
+   "datetime": "2026-09-01T15:59:03.000000Z",
+   "guid": 144959,
+   "id": 996965,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "entry": 6485,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_markedfordeath.png",
+    "name": "Нарушитель спокойствия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788189142,
+   "datetime": "2026-08-31T12:12:22.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158139,
+    "icon": "https://cdn3.scourge.tech/icons/inv_knife_1h_draenorcrafted_d_01_a_horde.png",
+    "name": "Осколок Лонгиния",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-29T13:54:22.000000Z",
+   "guid": 144959,
+   "id": 225705737,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9388334
+   },
+   "datetime": "2026-08-29T13:51:10.000000Z",
+   "guid": 144959,
+   "id": 9388334,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9388273
+   },
+   "datetime": "2026-08-29T13:37:52.000000Z",
+   "guid": 144959,
+   "id": 9388273,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9388200
+   },
+   "datetime": "2026-08-29T13:20:32.000000Z",
+   "guid": 144959,
+   "id": 9388200,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6897,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Демон Скверны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788011470,
+   "datetime": "2026-08-29T10:51:10.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6903,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pet_voidhound.png",
+    "name": "Пожиратель",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788010672,
+   "datetime": "2026-08-29T10:37:52.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6900,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_heraldofnzoth.png",
+    "name": "Глашатай Йогг-Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788009632,
+   "datetime": "2026-08-29T10:20:32.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9375453
+   },
+   "datetime": "2026-08-27T16:42:19.000000Z",
+   "guid": 144959,
+   "id": 9375453,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9375279
+   },
+   "datetime": "2026-08-27T16:11:41.000000Z",
+   "guid": 144959,
+   "id": 9375279,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9375224
+   },
+   "datetime": "2026-08-27T15:59:21.000000Z",
+   "guid": 144959,
+   "id": 9375224,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9375193
+   },
+   "datetime": "2026-08-27T15:47:56.000000Z",
+   "guid": 144959,
+   "id": 9375193,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9375163
+   },
+   "datetime": "2026-08-27T15:43:00.000000Z",
+   "guid": 144959,
+   "id": 9375163,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9375084
+   },
+   "datetime": "2026-08-27T15:27:01.000000Z",
+   "guid": 144959,
+   "id": 9375084,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104526,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_01.png",
+    "name": "Сапоги скрытного следопыта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T15:02:06.000000Z",
+   "guid": 144959,
+   "id": 225368509,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9365259
+   },
+   "datetime": "2026-08-25T19:39:17.000000Z",
+   "guid": 144959,
+   "id": 9365259,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9365231
+   },
+   "datetime": "2026-08-25T19:35:26.000000Z",
+   "guid": 144959,
+   "id": 9365231,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9365170
+   },
+   "datetime": "2026-08-25T19:27:56.000000Z",
+   "guid": 144959,
+   "id": 9365170,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9365153
+   },
+   "datetime": "2026-08-25T19:23:36.000000Z",
+   "guid": 144959,
+   "id": 9365153,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9365125
+   },
+   "datetime": "2026-08-25T19:20:48.000000Z",
+   "guid": 144959,
+   "id": 9365125,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T12:17:41.000000Z",
+   "guid": 144959,
+   "id": 225051733,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9294524
+   },
+   "datetime": "2026-08-17T17:06:40.000000Z",
+   "guid": 144959,
+   "id": 9294524,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154456,
+    "icon": "https://cdn3.scourge.tech/icons/dh_shattered_souls.png",
+    "name": "Последний вдох",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-17T16:10:47.000000Z",
+   "guid": 144959,
+   "id": 223868945,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 16,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_38.png",
+    "name": "Подвеска мощи Расколотого Солнца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-02T18:31:25.000000Z",
+   "guid": 144959,
+   "id": 221480377,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41655,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_leather_27.png",
+    "name": "Кожаные набедренники гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:43:43.000000Z",
+   "guid": 144959,
+   "id": 221118246,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41650,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_16.png",
+    "name": "Кожаный мундир гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-31T19:40:45.000000Z",
+   "guid": 144959,
+   "id": 221117600,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Коралон Страж Огня",
+    "bossfight_id": 9139220
+   },
+   "datetime": "2026-07-28T20:13:56.000000Z",
+   "guid": 144959,
+   "id": 9139220,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Эмалон Страж Бури",
+    "bossfight_id": 9139201
+   },
+   "datetime": "2026-07-28T20:09:32.000000Z",
+   "guid": 144959,
+   "id": 9139201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Аркавон Страж Камня",
+    "bossfight_id": 9139183
+   },
+   "datetime": "2026-07-28T20:05:33.000000Z",
+   "guid": 144959,
+   "id": 9139183,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3837,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_totemofwrath.png",
+    "name": "Коралон Страж Огня (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785269636,
+   "datetime": "2026-07-28T17:13:56.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9122137
+   },
+   "datetime": "2026-07-26T18:53:38.000000Z",
+   "guid": 144959,
+   "id": 9122137,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9122073
+   },
+   "datetime": "2026-07-26T18:47:34.000000Z",
+   "guid": 144959,
+   "id": 9122073,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9122033
+   },
+   "datetime": "2026-07-26T18:43:18.000000Z",
+   "guid": 144959,
+   "id": 9122033,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9122000
+   },
+   "datetime": "2026-07-26T18:38:44.000000Z",
+   "guid": 144959,
+   "id": 9122000,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9121942
+   },
+   "datetime": "2026-07-26T18:35:07.000000Z",
+   "guid": 144959,
+   "id": 9121942,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3808,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_14.png",
+    "name": "Дань умению (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785092018,
+   "datetime": "2026-07-26T15:53:38.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3809,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785092018,
+   "datetime": "2026-07-26T15:53:38.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3918,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_argentchampion.png",
+    "name": "Призыв великого крестоносца (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785092018,
+   "datetime": "2026-07-26T15:53:38.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 651,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_nexus_prince_shaffar.png",
+    "name": "Гробницы Маны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785082614,
+   "datetime": "2026-07-26T13:16:54.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 671,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_nexus_prince_shaffar.png",
+    "name": "Гробницы маны (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785082614,
+   "datetime": "2026-07-26T13:16:54.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9118489
+   },
+   "datetime": "2026-07-26T12:55:34.000000Z",
+   "guid": 144959,
+   "id": 9118489,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9118410
+   },
+   "datetime": "2026-07-26T12:39:10.000000Z",
+   "guid": 144959,
+   "id": 9118410,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9118383
+   },
+   "datetime": "2026-07-26T12:28:52.000000Z",
+   "guid": 144959,
+   "id": 9118383,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117265,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_28.png",
+    "name": "Рукавицы Клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T12:06:56.000000Z",
+   "guid": 144959,
+   "id": 220193185,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9118267
+   },
+   "datetime": "2026-07-26T12:02:51.000000Z",
+   "guid": 144959,
+   "id": 9118267,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9117184
+   },
+   "datetime": "2026-07-26T11:48:08.000000Z",
+   "guid": 144959,
+   "id": 9117184,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9117112
+   },
+   "datetime": "2026-07-26T11:36:07.000000Z",
+   "guid": 144959,
+   "id": 9117112,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6073,
+    "icon": "https://cdn3.scourge.tech/icons/achi_snetherspite.png",
+    "name": "Дышите! А теперь не дышите!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785069550,
+   "datetime": "2026-07-26T09:39:10.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29282,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T17:32:10.000000Z",
+   "guid": 144959,
+   "id": 220066392,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8938406
+   },
+   "datetime": "2026-07-13T08:02:24.000000Z",
+   "guid": 144959,
+   "id": 8938406,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8938402
+   },
+   "datetime": "2026-07-13T07:59:51.000000Z",
+   "guid": 144959,
+   "id": 8938402,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8938399
+   },
+   "datetime": "2026-07-13T07:57:37.000000Z",
+   "guid": 144959,
+   "id": 8938399,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8938396
+   },
+   "datetime": "2026-07-13T07:55:09.000000Z",
+   "guid": 144959,
+   "id": 8938396,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8938393
+   },
+   "datetime": "2026-07-13T07:53:05.000000Z",
+   "guid": 144959,
+   "id": 8938393,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8788802
+   },
+   "datetime": "2026-06-22T19:37:41.000000Z",
+   "guid": 144959,
+   "id": 8788802,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47461,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_shortblade_94.png",
+    "name": "Парализующий удар холодного сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-22T19:24:02.000000Z",
+   "guid": 144959,
+   "id": 215081009,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8788751
+   },
+   "datetime": "2026-06-22T19:23:35.000000Z",
+   "guid": 144959,
+   "id": 8788751,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8788706
+   },
+   "datetime": "2026-06-22T19:14:11.000000Z",
+   "guid": 144959,
+   "id": 8788706,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8788636
+   },
+   "datetime": "2026-06-22T18:57:59.000000Z",
+   "guid": 144959,
+   "id": 8788636,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8788543
+   },
+   "datetime": "2026-06-22T18:27:49.000000Z",
+   "guid": 144959,
+   "id": 8788543,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "bracket_id": 6,
+   "count": 4,
+   "datetime": "2026-06-16T21:47:54.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1018456,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1018456,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 861,
+     "rating_change": -5,
+     "score_damage_done": 3250,
+     "score_deaths": 1,
+     "score_heal_done": 788,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018448,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 818,
+     "rating_change": 43,
+     "score_damage_done": 23713,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018442,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 778,
+     "rating_change": 40,
+     "score_damage_done": 24452,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018425,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 737,
+     "rating_change": 41,
+     "score_damage_done": 23244,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 861,
+   "rating_change": 119,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 6,
+   "count": 9,
+   "datetime": "2026-06-16T21:39:44.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1018385,
+   "loses": 7,
+   "matches": [
+    {
+     "arena_id": 1018385,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 739,
+     "rating_change": -2,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 11152,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018363,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 741,
+     "rating_change": -2,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 9617,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018350,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 697,
+     "rating_change": 44,
+     "score_damage_done": 23570,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018333,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 699,
+     "rating_change": -2,
+     "score_damage_done": 3532,
+     "score_deaths": 1,
+     "score_heal_done": 714,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018308,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 700,
+     "rating_change": -1,
+     "score_damage_done": 1663,
+     "score_deaths": 1,
+     "score_heal_done": 10259,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018301,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 701,
+     "rating_change": -1,
+     "score_damage_done": 11173,
+     "score_deaths": 1,
+     "score_heal_done": 2243,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018296,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 658,
+     "rating_change": 43,
+     "score_damage_done": 29762,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018283,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 658,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 902,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018263,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 659,
+     "rating_change": -1,
+     "score_damage_done": 41388,
+     "score_deaths": 1,
+     "score_heal_done": 1062,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 739,
+   "rating_change": 78,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 6,
+   "datetime": "2026-06-16T21:16:43.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1018207,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 1018207,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 660,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 7447,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018195,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 661,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 9726,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018191,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 616,
+     "rating_change": 45,
+     "score_damage_done": 23662,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018177,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 570,
+     "rating_change": 46,
+     "score_damage_done": 23937,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018151,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 571,
+     "rating_change": -1,
+     "score_damage_done": 18423,
+     "score_deaths": 1,
+     "score_heal_done": 1610,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018104,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 571,
+     "rating_change": 0,
+     "score_damage_done": 2751,
+     "score_deaths": 1,
+     "score_heal_done": 2457,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 660,
+   "rating_change": 88,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 8,
+   "datetime": "2026-06-16T20:58:38.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1018073,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 1018073,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 572,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 3157,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018066,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 525,
+     "rating_change": 47,
+     "score_damage_done": 38357,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018049,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 478,
+     "rating_change": 47,
+     "score_damage_done": 22313,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1018036,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 478,
+     "rating_change": 0,
+     "score_damage_done": 48274,
+     "score_deaths": 1,
+     "score_heal_done": 11689,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1018027,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 431,
+     "rating_change": 47,
+     "score_damage_done": 23224,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1017998,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 431,
+     "rating_change": 0,
+     "score_damage_done": 9548,
+     "score_deaths": 1,
+     "score_heal_done": 655,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017986,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 384,
+     "rating_change": 47,
+     "score_damage_done": 25494,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1017977,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 384,
+     "rating_change": 0,
+     "score_damage_done": 36859,
+     "score_deaths": 1,
+     "score_heal_done": 3263,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 572,
+   "rating_change": 187,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-06-16T20:38:21.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1017963,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1017963,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 384,
+     "rating_change": 0,
+     "score_damage_done": 18147,
+     "score_deaths": 1,
+     "score_heal_done": 3134,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017943,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 26493,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1017911,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 26309,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 384,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 4,
+   "datetime": "2026-06-16T20:14:50.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1017875,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 1017875,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 288,
+     "rating_change": 0,
+     "score_damage_done": 1755,
+     "score_deaths": 1,
+     "score_heal_done": 5470,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017854,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 288,
+     "rating_change": 0,
+     "score_damage_done": 19206,
+     "score_deaths": 1,
+     "score_heal_done": 320,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017830,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 288,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 2100,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017814,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 240,
+     "rating_change": 0,
+     "score_damage_done": 21206,
+     "score_deaths": 1,
+     "score_heal_done": 3103,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 288,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 2,
+   "datetime": "2026-06-16T19:55:59.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1017795,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 1017795,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 40550,
+     "score_deaths": 1,
+     "score_heal_done": 2243,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1017732,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 49347,
+     "score_deaths": 1,
+     "score_heal_done": 2496,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 192,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-06-16T19:32:45.000000Z",
+   "draws": 0,
+   "guid": 144959,
+   "last_arena_id": 1017691,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1017691,
+     "character": {
+      "class_icon": "/images/icons/classrogue.webp",
+      "class_id": 4,
+      "class_name": "Разбойник",
+      "faction": 2,
+      "gender": 1,
+      "guid": 144959,
+      "level": 80,
+      "name": "Retake",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 144959,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 6965,
+     "score_deaths": 1,
+     "score_heal_done": 4896,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 192,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8746717
+   },
+   "datetime": "2026-06-15T19:27:20.000000Z",
+   "guid": 144959,
+   "id": 8746717,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8746678
+   },
+   "datetime": "2026-06-15T19:07:39.000000Z",
+   "guid": 144959,
+   "id": 8746678,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8746640
+   },
+   "datetime": "2026-06-15T18:55:19.000000Z",
+   "guid": 144959,
+   "id": 8746640,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8746607
+   },
+   "datetime": "2026-06-15T18:43:58.000000Z",
+   "guid": 144959,
+   "id": 8746607,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8746568
+   },
+   "datetime": "2026-06-15T18:32:14.000000Z",
+   "guid": 144959,
+   "id": 8746568,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8746498
+   },
+   "datetime": "2026-06-15T18:03:57.000000Z",
+   "guid": 144959,
+   "id": 8746498,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8746451
+   },
+   "datetime": "2026-06-15T17:37:42.000000Z",
+   "guid": 144959,
+   "id": 8746451,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8746425
+   },
+   "datetime": "2026-06-15T17:23:18.000000Z",
+   "guid": 144959,
+   "id": 8746425,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3812,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_argentchampion.png",
+    "name": "Призыв великого крестоносца (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1781551640,
+   "datetime": "2026-06-15T16:27:20.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3817,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_14.png",
+    "name": "Дань умению (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1781551640,
+   "datetime": "2026-06-15T16:27:20.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1781551640,
+   "datetime": "2026-06-15T16:27:20.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3819,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_13.png",
+    "name": "Дань безумству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1781551640,
+   "datetime": "2026-06-15T16:27:20.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3937,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pet_worm.png",
+    "name": "Два йормунгара по цене одного (рейд для 25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1781548162,
+   "datetime": "2026-06-15T15:29:22.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_33.png",
+    "name": "Порок палача",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-14T20:44:13.000000Z",
+   "guid": 144959,
+   "id": 213911411,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8714036
+   },
+   "datetime": "2026-06-10T19:55:47.000000Z",
+   "guid": 144959,
+   "id": 8714036,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_33.png",
+    "name": "Порок палача",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-10T19:49:42.000000Z",
+   "guid": 144959,
+   "id": 213227088,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8714020
+   },
+   "datetime": "2026-06-10T19:49:29.000000Z",
+   "guid": 144959,
+   "id": 8714020,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8713983
+   },
+   "datetime": "2026-06-10T19:43:22.000000Z",
+   "guid": 144959,
+   "id": 8713983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8713966
+   },
+   "datetime": "2026-06-10T19:29:21.000000Z",
+   "guid": 144959,
+   "id": 8713966,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8713941
+   },
+   "datetime": "2026-06-10T19:23:45.000000Z",
+   "guid": 144959,
+   "id": 8713941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117268,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_29.png",
+    "name": "Оплечье клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-06-04T18:06:29.000000Z",
+   "guid": 144959,
+   "id": 212298105,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8662707
+   },
+   "datetime": "2026-06-04T18:01:27.000000Z",
+   "guid": 144959,
+   "id": 8662707,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8662501
+   },
+   "datetime": "2026-06-04T17:40:34.000000Z",
+   "guid": 144959,
+   "id": 8662501,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8662424
+   },
+   "datetime": "2026-06-04T17:32:34.000000Z",
+   "guid": 144959,
+   "id": 8662424,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8554953
+   },
+   "datetime": "2026-05-19T16:41:27.000000Z",
+   "guid": 144959,
+   "id": 8554953,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8531438
+   },
+   "datetime": "2026-05-17T07:31:20.000000Z",
+   "guid": 144959,
+   "id": 8531438,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8531962
+   },
+   "datetime": "2026-05-16T20:10:58.000000Z",
+   "guid": 144959,
+   "id": 8531962,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8531962
+   },
+   "datetime": "2026-05-16T20:10:58.000000Z",
+   "guid": 144959,
+   "id": 8531962,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8531962
+   },
+   "datetime": "2026-05-16T20:10:58.000000Z",
+   "guid": 144959,
+   "id": 8531962,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8531809
+   },
+   "datetime": "2026-05-16T19:44:09.000000Z",
+   "guid": 144959,
+   "id": 8531809,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8531809
+   },
+   "datetime": "2026-05-16T19:44:09.000000Z",
+   "guid": 144959,
+   "id": 8531809,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8531809
+   },
+   "datetime": "2026-05-16T19:44:09.000000Z",
+   "guid": 144959,
+   "id": 8531809,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 8531726
+   },
+   "datetime": "2026-05-16T19:31:02.000000Z",
+   "guid": 144959,
+   "id": 8531726,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 8531726
+   },
+   "datetime": "2026-05-16T19:31:02.000000Z",
+   "guid": 144959,
+   "id": 8531726,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 8531726
+   },
+   "datetime": "2026-05-16T19:31:02.000000Z",
+   "guid": 144959,
+   "id": 8531726,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8531573
+   },
+   "datetime": "2026-05-16T19:07:47.000000Z",
+   "guid": 144959,
+   "id": 8531573,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8531573
+   },
+   "datetime": "2026-05-16T19:07:47.000000Z",
+   "guid": 144959,
+   "id": 8531573,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8531573
+   },
+   "datetime": "2026-05-16T19:07:47.000000Z",
+   "guid": 144959,
+   "id": 8531573,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8531466
+   },
+   "datetime": "2026-05-16T18:52:19.000000Z",
+   "guid": 144959,
+   "id": 8531466,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8531466
+   },
+   "datetime": "2026-05-16T18:52:19.000000Z",
+   "guid": 144959,
+   "id": 8531466,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 8528216
+   },
+   "datetime": "2026-05-16T18:27:35.000000Z",
+   "guid": 144959,
+   "id": 8528216,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48245,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_145a.png",
+    "name": "Полный шлем завоеваний Гароны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-16T17:22:51.000000Z",
+   "guid": 144959,
+   "id": 208872188,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 48241,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_78a.png",
+    "name": "Рукавицы триумфа Гароны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-16T17:22:43.000000Z",
+   "guid": 144959,
+   "id": 208872163,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154455,
+    "icon": "https://cdn3.scourge.tech/icons/dh_shattered_souls.png",
+    "name": "Последний вдох",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-16T17:14:53.000000Z",
+   "guid": 144959,
+   "id": 208870599,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6082,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sbigbadwolf.png",
+    "name": "Беги, малышка, беги",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1778959862,
+   "datetime": "2026-05-16T16:31:02.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6062,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_charge.png",
+    "name": "Рывок, рывок, и еще один...",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1778956055,
+   "datetime": "2026-05-16T15:27:35.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6914,
+    "icon": "https://cdn3.scourge.tech/icons/inv_tradeskillitem_sorcerersearth_tong.png",
+    "name": "Низвержение скал",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1778951643,
+   "datetime": "2026-05-16T14:14:03.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6024,
+    "icon": "https://cdn3.scourge.tech/icons/custom_category_3.png",
+    "name": "3 Категория",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1778949308,
+   "datetime": "2026-05-16T13:35:08.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8516641
+   },
+   "datetime": "2026-05-15T13:16:34.000000Z",
+   "guid": 144959,
+   "id": 8516641,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8516623
+   },
+   "datetime": "2026-05-15T13:09:56.000000Z",
+   "guid": 144959,
+   "id": 8516623,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8516591
+   },
+   "datetime": "2026-05-15T13:02:36.000000Z",
+   "guid": 144959,
+   "id": 8516591,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8516554
+   },
+   "datetime": "2026-05-15T12:46:11.000000Z",
+   "guid": 144959,
+   "id": 8516554,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8516527
+   },
+   "datetime": "2026-05-15T12:41:00.000000Z",
+   "guid": 144959,
+   "id": 8516527,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117267,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate02.png",
+    "name": "Нагрудный доспех Клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-14T19:15:42.000000Z",
+   "guid": 144959,
+   "id": 208492118,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117266,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Поножи Клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-14T19:15:39.000000Z",
+   "guid": 144959,
+   "id": 208492100,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8505462
+   },
+   "datetime": "2026-05-14T19:14:33.000000Z",
+   "guid": 144959,
+   "id": 8505462,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117476,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate02.png",
+    "name": "Нагрудник Клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-14T19:03:55.000000Z",
+   "guid": 144959,
+   "id": 208488594,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117477,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Брюки Клинка Пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-05-14T19:03:49.000000Z",
+   "guid": 144959,
+   "id": 208488547,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8401253
+   },
+   "datetime": "2026-05-04T18:06:02.000000Z",
+   "guid": 144959,
+   "id": 8401253,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8401105
+   },
+   "datetime": "2026-05-04T17:38:15.000000Z",
+   "guid": 144959,
+   "id": 8401105,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8401028
+   },
+   "datetime": "2026-05-04T17:26:20.000000Z",
+   "guid": 144959,
+   "id": 8401028,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8382410
+   },
+   "datetime": "2026-05-01T20:00:08.000000Z",
+   "guid": 144959,
+   "id": 8382410,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8381219
+   },
+   "datetime": "2026-05-01T19:24:59.000000Z",
+   "guid": 144959,
+   "id": 8381219,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8381097
+   },
+   "datetime": "2026-05-01T19:11:32.000000Z",
+   "guid": 144959,
+   "id": 8381097,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8357740
+   },
+   "datetime": "2026-04-29T18:55:23.000000Z",
+   "guid": 144959,
+   "id": 8357740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Шахматы",
+    "bossfight_id": 8357651
+   },
+   "datetime": "2026-04-29T18:24:10.000000Z",
+   "guid": 144959,
+   "id": 8357651,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 8357600
+   },
+   "datetime": "2026-04-29T18:19:09.000000Z",
+   "guid": 144959,
+   "id": 8357600,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 8347956
+   },
+   "datetime": "2026-04-28T21:54:27.000000Z",
+   "guid": 144959,
+   "id": 8347956,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 8347951
+   },
+   "datetime": "2026-04-28T21:41:54.000000Z",
+   "guid": 144959,
+   "id": 8347951,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28649,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_47.png",
+    "name": "Перстень-печатка Гароны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-28T21:12:54.000000Z",
+   "guid": 144959,
+   "id": 205191001,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 8347932
+   },
+   "datetime": "2026-04-28T21:12:12.000000Z",
+   "guid": 144959,
+   "id": 8347932,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28601,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_06.png",
+    "name": "Нагрудный доспех Интригана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-28T20:55:20.000000Z",
+   "guid": 144959,
+   "id": 205188934,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 8347922
+   },
+   "datetime": "2026-04-28T20:55:00.000000Z",
+   "guid": 144959,
+   "id": 8347922,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 8347907
+   },
+   "datetime": "2026-04-28T20:39:14.000000Z",
+   "guid": 144959,
+   "id": 8347907,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 8347893
+   },
+   "datetime": "2026-04-28T20:25:38.000000Z",
+   "guid": 144959,
+   "id": 8347893,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 8347880
+   },
+   "datetime": "2026-04-28T20:10:57.000000Z",
+   "guid": 144959,
+   "id": 8347880,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 10,
+    "boss_name": "Мороуз",
+    "bossfight_id": 8347856
+   },
+   "datetime": "2026-04-28T19:58:08.000000Z",
+   "guid": 144959,
+   "id": 8347856,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29281,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-28T19:22:55.000000Z",
+   "guid": 144959,
+   "id": 205173397,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6070,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sarcaneblast.png",
+    "name": "Мощь тайной магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1777413267,
+   "datetime": "2026-04-28T18:54:27.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6079,
+    "icon": "https://cdn3.scourge.tech/icons/achi_scrone.png",
+    "name": "Страна Оз",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1777408754,
+   "datetime": "2026-04-28T17:39:14.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51560,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_74.png",
+    "name": "Руническое кольцо Кирин-Тора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-27T22:53:37.000000Z",
+   "guid": 144959,
+   "id": 205027916,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378498,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_153.png",
+    "name": "Наплеч ловчего ветра",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-24T21:16:02.000000Z",
+   "guid": 144959,
+   "id": 204319011,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 8266878
+   },
+   "datetime": "2026-04-18T22:23:49.000000Z",
+   "guid": 144959,
+   "id": 8266878,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29280,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-18T21:33:28.000000Z",
+   "guid": 144959,
+   "id": 203224661,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 690,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_princemalchezaar_02.png",
+    "name": "Каражан (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1776551028,
+   "datetime": "2026-04-18T19:23:48.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 30674,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_06.png",
+    "name": "Утраченные нити Зирхата",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-18T16:55:04.000000Z",
+   "guid": 144959,
+   "id": 203163158,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28504,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_crossbow_18.png",
+    "name": "Арбалет Стального ястреба",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-04-18T16:44:57.000000Z",
+   "guid": 144959,
+   "id": 203161118,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 8263226
+   },
+   "datetime": "2026-04-18T16:44:03.000000Z",
+   "guid": 144959,
+   "id": 8263226,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6064,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sparty.png",
+    "name": "Погостили... и хватит",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1776532642,
+   "datetime": "2026-04-18T14:17:22.000000Z",
+   "guid": 144959,
+   "realm_id": 22,
+   "type": "achievement"
+  }
+ ],
+ "guid": 144959,
+ "name": "Retake",
+ "ts": "2026-09-11T07-28Z"
+}
