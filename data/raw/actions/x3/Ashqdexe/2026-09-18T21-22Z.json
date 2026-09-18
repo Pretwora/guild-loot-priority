@@ -1,0 +1,6410 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 21,
+    "boss_name": "Лорд Ребрад",
+    "bossfight_id": 9518322
+   },
+   "datetime": "2026-09-18T19:13:40.000000Z",
+   "guid": 201965,
+   "id": 9518322,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50398,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_83.png",
+    "name": "Пепельное кольцо бесконечного разрушения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-18T13:35:03.000000Z",
+   "guid": 201965,
+   "id": 228942281,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44310,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_shortblade_63.png",
+    "name": "Лишний шип Намлака",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-18T13:12:21.000000Z",
+   "guid": 201965,
+   "id": 228939301,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 4598,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_talisman_08.png",
+    "name": "Пепельный союз",
+    "points": 15,
+    "quality": ""
+   },
+   "date": 1789738459,
+   "datetime": "2026-09-18T10:34:19.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50397,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_83.png",
+    "name": "Пепельное кольцо непревзойденного разрушения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-18T02:22:45.000000Z",
+   "guid": 201965,
+   "id": 228884625,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50384,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_83.png",
+    "name": "Пепельное кольцо великого разрушения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T22:46:53.000000Z",
+   "guid": 201965,
+   "id": 228876423,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50447,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_84.png",
+    "name": "Костяное кольцо провозвестника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T22:43:07.000000Z",
+   "guid": 201965,
+   "id": 228876072,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50377,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_83.png",
+    "name": "Пепельное кольцо разрушения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T20:58:28.000000Z",
+   "guid": 201965,
+   "id": 228864539,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9512091
+   },
+   "datetime": "2026-09-17T20:05:06.000000Z",
+   "guid": 201965,
+   "id": 9512091,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9510876
+   },
+   "datetime": "2026-09-17T19:51:34.000000Z",
+   "guid": 201965,
+   "id": 9510876,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9510730
+   },
+   "datetime": "2026-09-17T19:26:58.000000Z",
+   "guid": 201965,
+   "id": 9510730,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9510679
+   },
+   "datetime": "2026-09-17T19:19:32.000000Z",
+   "guid": 201965,
+   "id": 9510679,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9510600
+   },
+   "datetime": "2026-09-17T19:08:22.000000Z",
+   "guid": 201965,
+   "id": 9510600,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9510532
+   },
+   "datetime": "2026-09-17T19:01:05.000000Z",
+   "guid": 201965,
+   "id": 9510532,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100424,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_14.png",
+    "name": "Наплечные щитки Смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T18:47:13.000000Z",
+   "guid": 201965,
+   "id": 228839272,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9510357
+   },
+   "datetime": "2026-09-17T18:44:48.000000Z",
+   "guid": 201965,
+   "id": 9510357,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 9,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9510187
+   },
+   "datetime": "2026-09-17T18:18:30.000000Z",
+   "guid": 201965,
+   "id": 9510187,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9509810
+   },
+   "datetime": "2026-09-17T17:27:43.000000Z",
+   "guid": 201965,
+   "id": 9509810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9500667
+   },
+   "datetime": "2026-09-15T19:55:29.000000Z",
+   "guid": 201965,
+   "id": 9500667,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80779,
+    "icon": "https://cdn3.scourge.tech/icons/inv_inscription_pigment_bug07.png",
+    "name": "Эмблема зеркального долгонога",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:42:06.000000Z",
+   "guid": 201965,
+   "id": 228543398,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9500596
+   },
+   "datetime": "2026-09-15T19:40:45.000000Z",
+   "guid": 201965,
+   "id": 9500596,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9500528
+   },
+   "datetime": "2026-09-15T19:26:04.000000Z",
+   "guid": 201965,
+   "id": 9500528,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9500453
+   },
+   "datetime": "2026-09-15T19:15:10.000000Z",
+   "guid": 201965,
+   "id": 9500453,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9500261
+   },
+   "datetime": "2026-09-15T18:40:57.000000Z",
+   "guid": 201965,
+   "id": 9500261,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9500216
+   },
+   "datetime": "2026-09-15T18:29:40.000000Z",
+   "guid": 201965,
+   "id": 9500216,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9500180
+   },
+   "datetime": "2026-09-15T18:22:01.000000Z",
+   "guid": 201965,
+   "id": 9500180,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9500106
+   },
+   "datetime": "2026-09-15T18:12:24.000000Z",
+   "guid": 201965,
+   "id": 9500106,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9500033
+   },
+   "datetime": "2026-09-15T17:59:50.000000Z",
+   "guid": 201965,
+   "id": 9500033,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-15 19:20:08",
+     "duration": 772,
+     "id": 29314573,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 1
+    },
+    "battleground_id": 29314573,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 0,
+    "score_damage_done": 244660,
+    "score_deaths": 1,
+    "score_healing_done": 8174,
+    "score_honorable_kills": 12,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29314573,
+   "datetime": "2026-09-15T16:20:08.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789496980,
+   "datetime": "2026-09-15T15:29:40.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6449,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_halls of origination.png",
+    "name": "Победа в Храмовом городе Ала'ваште",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789489207,
+   "datetime": "2026-09-15T13:20:07.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-15 11:29:57",
+     "duration": 517,
+     "id": 29307652,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 29307652,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 16,
+    "score_damage_done": 201917,
+    "score_deaths": 3,
+    "score_healing_done": 20368,
+    "score_honorable_kills": 21,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29307652,
+   "datetime": "2026-09-15T08:29:57.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-15 11:18:00",
+     "duration": 860,
+     "id": 29307578,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 0
+    },
+    "battleground_id": 29307578,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 21,
+    "score_damage_done": 462058,
+    "score_deaths": 1,
+    "score_healing_done": 55036,
+    "score_honorable_kills": 60,
+    "score_killing_blows": 13,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29307578,
+   "datetime": "2026-09-15T08:18:00.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-15 10:24:14",
+     "duration": 1120,
+     "id": 29307344,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29307344,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 3,
+    "score_damage_done": 240883,
+    "score_deaths": 2,
+    "score_healing_done": 42990,
+    "score_honorable_kills": 30,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29307344,
+   "datetime": "2026-09-15T07:24:14.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-15 10:02:32",
+     "duration": 630,
+     "id": 29307295,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 29307295,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 1,
+    "score_damage_done": 184639,
+    "score_deaths": 3,
+    "score_healing_done": 42756,
+    "score_honorable_kills": 9,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29307295,
+   "datetime": "2026-09-15T07:02:32.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 4525,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_scourgelordtyrannus.png",
+    "name": "Носите каски",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789415985,
+   "datetime": "2026-09-14T16:59:45.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4524,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_forgemaster.png",
+    "name": "Не жди до одиннадцати!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789415776,
+   "datetime": "2026-09-14T16:56:16.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 08:19:44",
+     "duration": 289,
+     "id": 29285449,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29285449,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 1,
+    "score_damage_done": 142779,
+    "score_deaths": 0,
+    "score_healing_done": 0,
+    "score_honorable_kills": 10,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29285449,
+   "datetime": "2026-09-14T05:19:44.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 08:12:12",
+     "duration": 716,
+     "id": 29285434,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 29285434,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 26,
+    "score_damage_done": 394208,
+    "score_deaths": 1,
+    "score_healing_done": 30478,
+    "score_honorable_kills": 68,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29285434,
+   "datetime": "2026-09-14T05:12:12.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 07:56:44",
+     "duration": 495,
+     "id": 29285426,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 1
+    },
+    "battleground_id": 29285426,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 6,
+    "score_damage_done": 256149,
+    "score_deaths": 4,
+    "score_healing_done": 16063,
+    "score_honorable_kills": 12,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29285426,
+   "datetime": "2026-09-14T04:56:44.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 07:45:57",
+     "duration": 539,
+     "id": 29285420,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 29285420,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 3,
+    "score_damage_done": 210669,
+    "score_deaths": 9,
+    "score_healing_done": 33555,
+    "score_honorable_kills": 17,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29285420,
+   "datetime": "2026-09-14T04:45:57.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 1,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 07:34:37",
+     "duration": 226,
+     "id": 29285415,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 29285415,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 4,
+    "score_damage_done": 88818,
+    "score_deaths": 1,
+    "score_healing_done": 0,
+    "score_honorable_kills": 22,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29285415,
+   "datetime": "2026-09-14T04:34:37.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 255,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 07:28:05",
+     "duration": 339,
+     "id": 29285406,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29285406,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 2,
+    "score_damage_done": 47618,
+    "score_deaths": 0,
+    "score_healing_done": 51875,
+    "score_honorable_kills": 8,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29285406,
+   "datetime": "2026-09-14T04:28:05.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 07:18:58",
+     "duration": 407,
+     "id": 29285396,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29285396,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 0,
+    "score_damage_done": 0,
+    "score_deaths": 0,
+    "score_healing_done": 0,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29285396,
+   "datetime": "2026-09-14T04:18:58.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 214,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_wineos_underxminutes.png",
+    "name": "Шквал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789360476,
+   "datetime": "2026-09-14T01:34:36.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41028,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_20.png",
+    "name": "Кольчатые поножи неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T20:17:10.000000Z",
+   "guid": 201965,
+   "id": 228252714,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40994,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_mail_02.png",
+    "name": "Кольчатый доспех неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T20:17:05.000000Z",
+   "guid": 201965,
+   "id": 228252695,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41014,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_121.png",
+    "name": "Кольчатый шлем неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T20:17:00.000000Z",
+   "guid": 201965,
+   "id": 228252684,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-13T19:38:37.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 347295,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 347295,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1595,
+     "rating_change": -6,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347282,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1604,
+     "rating_change": -9,
+     "score_damage_done": 1730,
+     "score_deaths": 1,
+     "score_heal_done": 89149,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347266,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1583,
+     "rating_change": 21,
+     "score_damage_done": 5577,
+     "score_deaths": 0,
+     "score_heal_done": 135348,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347254,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1589,
+     "rating_change": -6,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 9741,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347233,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1573,
+     "rating_change": 16,
+     "score_damage_done": 11770,
+     "score_deaths": 0,
+     "score_heal_done": 135960,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347214,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1556,
+     "rating_change": 17,
+     "score_damage_done": 5203,
+     "score_deaths": 0,
+     "score_heal_done": 56488,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 347201,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1540,
+     "rating_change": 16,
+     "score_damage_done": 23618,
+     "score_deaths": 0,
+     "score_heal_done": 543829,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1595,
+   "rating_change": 49,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "bracket_id": 2,
+   "count": 2,
+   "datetime": "2026-09-13T19:14:39.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 347136,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 347136,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1523,
+     "rating_change": 17,
+     "score_damage_done": 10853,
+     "score_deaths": 0,
+     "score_heal_done": 153499,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 347108,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1507,
+     "rating_change": 16,
+     "score_damage_done": 17749,
+     "score_deaths": 0,
+     "score_heal_done": 143900,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1523,
+   "rating_change": 33,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-13T19:01:18.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 347058,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 347058,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 932,
+     "rating_change": -3,
+     "score_damage_done": 292,
+     "score_deaths": 1,
+     "score_heal_done": 100303,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 932,
+   "rating_change": -3,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-09-13T18:56:03.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 347024,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 347024,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 892,
+     "rating_change": -2,
+     "score_damage_done": 2108,
+     "score_deaths": 1,
+     "score_heal_done": 92643,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 347008,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 848,
+     "rating_change": 44,
+     "score_damage_done": 4520,
+     "score_deaths": 0,
+     "score_heal_done": 208408,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346967,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 711,
+     "rating_change": 46,
+     "score_damage_done": 12001,
+     "score_deaths": 0,
+     "score_heal_done": 281896,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 892,
+   "rating_change": 88,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 6,
+   "datetime": "2026-09-13T18:34:47.000000Z",
+   "draws": 1,
+   "guid": 201965,
+   "last_arena_id": 346909,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 346909,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 574,
+     "rating_change": 46,
+     "score_damage_done": 6293,
+     "score_deaths": 0,
+     "score_heal_done": 102759,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 346889,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 527,
+     "rating_change": 47,
+     "score_damage_done": 9214,
+     "score_deaths": 0,
+     "score_heal_done": 91179,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 346864,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 48,
+     "score_damage_done": 3315,
+     "score_deaths": 0,
+     "score_heal_done": 12283,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346857,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346838,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 18682,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346828,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 0,
+     "score_damage_done": 7281,
+     "score_deaths": 1,
+     "score_heal_done": 215570,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 574,
+   "rating_change": 141,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 1,
+   "count": 4,
+   "datetime": "2026-09-13T18:18:00.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 346816,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 346816,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 384,
+     "rating_change": 48,
+     "score_damage_done": 4827,
+     "score_deaths": 0,
+     "score_heal_done": 120279,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346769,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 2546,
+     "score_deaths": 0,
+     "score_heal_done": 76253,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346752,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 2659,
+     "score_deaths": 0,
+     "score_heal_done": 113289,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 346735,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 11219,
+     "score_deaths": 0,
+     "score_heal_done": 496472,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 384,
+   "rating_change": 192,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100157,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:20:38.000000Z",
+   "guid": 201965,
+   "id": 228202746,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42118,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:20:22.000000Z",
+   "guid": 201965,
+   "id": 228202702,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104542,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_78.png",
+    "name": "Кольцо приливной мощи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:19:03.000000Z",
+   "guid": 201965,
+   "id": 228202423,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51378,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:17:47.000000Z",
+   "guid": 201965,
+   "id": 228202197,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 103403,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_heal.png",
+    "name": "Касание А'дала разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:17:44.000000Z",
+   "guid": 201965,
+   "id": 228202184,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51372,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_07.png",
+    "name": "Башмаки спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:17:35.000000Z",
+   "guid": 201965,
+   "id": 228202164,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51371,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_46.png",
+    "name": "Воинский пояс спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:17:30.000000Z",
+   "guid": 201965,
+   "id": 228202136,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 51373,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_32b.png",
+    "name": "Накулачники спасения разгневанного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T16:17:26.000000Z",
+   "guid": 201965,
+   "id": 228202106,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 2,
+   "datetime": "2026-09-13T16:05:29.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 345971,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 345971,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1490,
+     "rating_change": 17,
+     "score_damage_done": 11765,
+     "score_deaths": 0,
+     "score_heal_done": 339744,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345943,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1471,
+     "rating_change": 19,
+     "score_damage_done": 3696,
+     "score_deaths": 0,
+     "score_heal_done": 39917,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1490,
+   "rating_change": 36,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-09-13T15:57:20.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 345930,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 345930,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1456,
+     "rating_change": 15,
+     "score_damage_done": 11112,
+     "score_deaths": 0,
+     "score_heal_done": 74625,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345913,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1439,
+     "rating_change": 17,
+     "score_damage_done": 12377,
+     "score_deaths": 0,
+     "score_heal_done": 115457,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345891,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1423,
+     "rating_change": 16,
+     "score_damage_done": 4499,
+     "score_deaths": 0,
+     "score_heal_done": 91842,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345861,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1407,
+     "rating_change": 16,
+     "score_damage_done": 7013,
+     "score_deaths": 0,
+     "score_heal_done": 53976,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345849,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1386,
+     "rating_change": 21,
+     "score_damage_done": 5664,
+     "score_deaths": 0,
+     "score_heal_done": 66403,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 345816,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1366,
+     "rating_change": 20,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 112351,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1456,
+   "rating_change": 105,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-09-13T15:38:56.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 345792,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 345792,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1369,
+     "rating_change": -3,
+     "score_damage_done": 4454,
+     "score_deaths": 1,
+     "score_heal_done": 236799,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345766,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1352,
+     "rating_change": 17,
+     "score_damage_done": 12498,
+     "score_deaths": 0,
+     "score_heal_done": 53980,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 345745,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1331,
+     "rating_change": 21,
+     "score_damage_done": 3426,
+     "score_deaths": 0,
+     "score_heal_done": 302302,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345691,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1334,
+     "rating_change": -3,
+     "score_damage_done": 3008,
+     "score_deaths": 1,
+     "score_heal_done": 121862,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345667,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1337,
+     "rating_change": -3,
+     "score_damage_done": 1152,
+     "score_deaths": 1,
+     "score_heal_done": 242988,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345640,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1319,
+     "rating_change": 18,
+     "score_damage_done": 6252,
+     "score_deaths": 0,
+     "score_heal_done": 110331,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1369,
+   "rating_change": 47,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "entry": 875,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_featsofstrength_gladiator_02.png",
+    "name": "Мстительность гладиатора",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789324300,
+   "datetime": "2026-09-13T15:31:40.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 2,
+   "count": 3,
+   "datetime": "2026-09-13T15:16:35.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 345614,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 345614,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1324,
+     "rating_change": -5,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 53635,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345601,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1327,
+     "rating_change": -3,
+     "score_damage_done": 935,
+     "score_deaths": 1,
+     "score_heal_done": 93369,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 345583,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1310,
+     "rating_change": 17,
+     "score_damage_done": 11183,
+     "score_deaths": 0,
+     "score_heal_done": 25683,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1324,
+   "rating_change": 9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "entry": 408,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_fire.png",
+    "name": "Полоса везения",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789322767,
+   "datetime": "2026-09-13T15:06:07.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158360,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_140.png",
+    "name": "Кольчатый шлем гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T21:13:35.000000Z",
+   "guid": 201965,
+   "id": 228072580,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42599,
+    "icon": "https://cdn3.scourge.tech/icons/spell_frost_summonwaterelemental.png",
+    "name": "Тотем третьего ветра неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T21:12:50.000000Z",
+   "guid": 201965,
+   "id": 228072471,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158496,
+    "icon": "https://cdn3.scourge.tech/icons/spell_frost_summonwaterelemental.png",
+    "name": "Тотем третьего ветра гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T21:12:46.000000Z",
+   "guid": 201965,
+   "id": 228072458,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42044,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_36.png",
+    "name": "Подвеска влияния неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T21:12:13.000000Z",
+   "guid": 201965,
+   "id": 228072383,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 5,
+   "datetime": "2026-09-12T21:10:16.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 340525,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 340525,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1288,
+     "rating_change": 22,
+     "score_damage_done": 6575,
+     "score_deaths": 0,
+     "score_heal_done": 21755,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 340516,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1293,
+     "rating_change": -5,
+     "score_damage_done": 1468,
+     "score_deaths": 1,
+     "score_heal_done": 21331,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340505,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1274,
+     "rating_change": 19,
+     "score_damage_done": 4636,
+     "score_deaths": 0,
+     "score_heal_done": 58338,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340489,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1279,
+     "rating_change": -5,
+     "score_damage_done": 2680,
+     "score_deaths": 1,
+     "score_heal_done": 10152,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340481,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1258,
+     "rating_change": 21,
+     "score_damage_done": 1659,
+     "score_deaths": 0,
+     "score_heal_done": 52034,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1288,
+   "rating_change": 52,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T20:58:56.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 340471,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 340471,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1236,
+     "rating_change": 22,
+     "score_damage_done": 10375,
+     "score_deaths": 0,
+     "score_heal_done": 83161,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340453,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1211,
+     "rating_change": 25,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 94240,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340440,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1213,
+     "rating_change": -2,
+     "score_damage_done": 1121,
+     "score_deaths": 1,
+     "score_heal_done": 190112,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340428,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1215,
+     "rating_change": -2,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 122698,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340388,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1217,
+     "rating_change": -2,
+     "score_damage_done": 1435,
+     "score_deaths": 1,
+     "score_heal_done": 32903,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340377,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1221,
+     "rating_change": -4,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 51733,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340367,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1195,
+     "rating_change": 26,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 48038,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1236,
+   "rating_change": 63,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 5,
+   "datetime": "2026-09-12T20:39:55.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 340356,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 340356,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1197,
+     "rating_change": -2,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 91176,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340349,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1201,
+     "rating_change": -4,
+     "score_damage_done": 1435,
+     "score_deaths": 1,
+     "score_heal_done": 28870,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340307,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1172,
+     "rating_change": 29,
+     "score_damage_done": 12855,
+     "score_deaths": 0,
+     "score_heal_done": 84288,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 340291,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1141,
+     "rating_change": 31,
+     "score_damage_done": 15389,
+     "score_deaths": 0,
+     "score_heal_done": 202175,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 340261,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1107,
+     "rating_change": 34,
+     "score_damage_done": 5023,
+     "score_deaths": 0,
+     "score_heal_done": 210973,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1197,
+   "rating_change": 88,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158364,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_82.png",
+    "name": "Кольчатый наплеч гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T20:30:43.000000Z",
+   "guid": 201965,
+   "id": 228065487,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158358,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_71.png",
+    "name": "Кольчатые рукавицы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-12T20:30:39.000000Z",
+   "guid": 201965,
+   "id": 228065474,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T20:18:29.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 340241,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 340241,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1070,
+     "rating_change": 37,
+     "score_damage_done": 6515,
+     "score_deaths": 0,
+     "score_heal_done": 41942,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340227,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1071,
+     "rating_change": -1,
+     "score_damage_done": 3283,
+     "score_deaths": 1,
+     "score_heal_done": 51503,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340206,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1030,
+     "rating_change": 41,
+     "score_damage_done": 7053,
+     "score_deaths": 0,
+     "score_heal_done": 57630,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340196,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 1031,
+     "rating_change": -1,
+     "score_damage_done": 6745,
+     "score_deaths": 1,
+     "score_heal_done": 121945,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340173,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 984,
+     "rating_change": 47,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 31551,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340156,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 984,
+     "rating_change": 0,
+     "score_damage_done": 7792,
+     "score_deaths": 1,
+     "score_heal_done": 68322,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340129,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 985,
+     "rating_change": -1,
+     "score_damage_done": 6378,
+     "score_deaths": 1,
+     "score_heal_done": 128837,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1070,
+   "rating_change": 122,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 9,
+   "datetime": "2026-09-12T19:56:48.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 340107,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 340107,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 940,
+     "rating_change": 45,
+     "score_damage_done": 4877,
+     "score_deaths": 0,
+     "score_heal_done": 95644,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340092,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 897,
+     "rating_change": 43,
+     "score_damage_done": 3120,
+     "score_deaths": 0,
+     "score_heal_done": 158821,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340070,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 852,
+     "rating_change": 45,
+     "score_damage_done": 4830,
+     "score_deaths": 0,
+     "score_heal_done": 82828,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340061,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 853,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 9378,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340053,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 808,
+     "rating_change": 45,
+     "score_damage_done": 3549,
+     "score_deaths": 0,
+     "score_heal_done": 3090,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 340047,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 763,
+     "rating_change": 45,
+     "score_damage_done": 5180,
+     "score_deaths": 0,
+     "score_heal_done": 45530,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340034,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 763,
+     "rating_change": 0,
+     "score_damage_done": 2554,
+     "score_deaths": 1,
+     "score_heal_done": 154068,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340019,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 716,
+     "rating_change": 47,
+     "score_damage_done": 2715,
+     "score_deaths": 0,
+     "score_heal_done": 48016,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340007,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 716,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 25446,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 940,
+   "rating_change": 269,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T19:38:32.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 339997,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 339997,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 669,
+     "rating_change": 47,
+     "score_damage_done": 3163,
+     "score_deaths": 0,
+     "score_heal_done": 208735,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 339974,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 622,
+     "rating_change": 47,
+     "score_damage_done": 7547,
+     "score_deaths": 0,
+     "score_heal_done": 38729,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339964,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 574,
+     "rating_change": 48,
+     "score_damage_done": 4641,
+     "score_deaths": 0,
+     "score_heal_done": 48122,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 339942,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 527,
+     "rating_change": 47,
+     "score_damage_done": 0,
+     "score_deaths": 0,
+     "score_heal_done": 55300,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339927,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 480,
+     "rating_change": 47,
+     "score_damage_done": 8162,
+     "score_deaths": 0,
+     "score_heal_done": 41878,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339906,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 48,
+     "score_damage_done": 12480,
+     "score_deaths": 0,
+     "score_heal_done": 123194,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 339886,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 432,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 13382,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 669,
+   "rating_change": 284,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T19:17:28.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 339867,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 339867,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 384,
+     "rating_change": 48,
+     "score_damage_done": 17091,
+     "score_deaths": 0,
+     "score_heal_done": 82563,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339845,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 4077,
+     "score_deaths": 0,
+     "score_heal_done": 126189,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339830,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 6493,
+     "score_deaths": 0,
+     "score_heal_done": 57425,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339820,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 6836,
+     "score_deaths": 0,
+     "score_heal_done": 267247,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 339803,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 192,
+     "rating_change": 48,
+     "score_damage_done": 8998,
+     "score_deaths": 0,
+     "score_heal_done": 109593,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339792,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 10792,
+     "score_deaths": 0,
+     "score_heal_done": 89401,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 339785,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 5604,
+     "score_deaths": 0,
+     "score_heal_done": 41222,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 384,
+   "rating_change": 336,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 7
+  },
+  {
+   "bracket_id": 2,
+   "count": 3,
+   "datetime": "2026-09-12T18:56:50.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 339771,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 339771,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 4908,
+     "score_deaths": 0,
+     "score_heal_done": 74866,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339755,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 10415,
+     "score_deaths": 0,
+     "score_heal_done": 155620,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339741,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 11002,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 48,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9465147
+   },
+   "datetime": "2026-09-10T20:33:00.000000Z",
+   "guid": 201965,
+   "id": 9465147,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9465087
+   },
+   "datetime": "2026-09-10T20:23:10.000000Z",
+   "guid": 201965,
+   "id": 9465087,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9464909
+   },
+   "datetime": "2026-09-10T19:36:52.000000Z",
+   "guid": 201965,
+   "id": 9464909,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9461731
+   },
+   "datetime": "2026-09-10T19:25:31.000000Z",
+   "guid": 201965,
+   "id": 9461731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9461647
+   },
+   "datetime": "2026-09-10T19:11:55.000000Z",
+   "guid": 201965,
+   "id": 9461647,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9461605
+   },
+   "datetime": "2026-09-10T19:02:18.000000Z",
+   "guid": 201965,
+   "id": 9461605,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9461420
+   },
+   "datetime": "2026-09-10T18:37:00.000000Z",
+   "guid": 201965,
+   "id": 9461420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9461199
+   },
+   "datetime": "2026-09-10T17:54:56.000000Z",
+   "guid": 201965,
+   "id": 9461199,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9461071
+   },
+   "datetime": "2026-09-10T17:35:51.000000Z",
+   "guid": 201965,
+   "id": 9461071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50260,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_empyreansapphire_01.png",
+    "name": "Эфемерная снежинка",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-10T13:40:08.000000Z",
+   "guid": 201965,
+   "id": 227619639,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50270,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_69.png",
+    "name": "Пояс из подгнивших ногтей",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-10T13:31:09.000000Z",
+   "guid": 201965,
+   "id": 227618049,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50315,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_hand_04.png",
+    "name": "Семипалые когти",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-10T13:27:29.000000Z",
+   "guid": 201965,
+   "id": 227617423,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 4518,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789048020,
+   "datetime": "2026-09-10T10:47:00.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4521,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789048020,
+   "datetime": "2026-09-10T10:47:00.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4526,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_lichking.png",
+    "name": "Мы не отступаем, мы идем другим путем",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789048020,
+   "datetime": "2026-09-10T10:47:00.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4517,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789047040,
+   "datetime": "2026-09-10T10:30:40.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4520,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789047040,
+   "datetime": "2026-09-10T10:30:40.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4516,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789046328,
+   "datetime": "2026-09-10T10:18:48.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4519,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789046328,
+   "datetime": "2026-09-10T10:18:48.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 84263,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_pandariaquest_b_03.png",
+    "name": "Защитник заклинателя духов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T19:51:43.000000Z",
+   "guid": 201965,
+   "id": 227520908,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9448437
+   },
+   "datetime": "2026-09-09T19:51:09.000000Z",
+   "guid": 201965,
+   "id": 9448437,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9448407
+   },
+   "datetime": "2026-09-09T19:37:14.000000Z",
+   "guid": 201965,
+   "id": 9448407,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9448358
+   },
+   "datetime": "2026-09-09T19:10:32.000000Z",
+   "guid": 201965,
+   "id": 9448358,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378148,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_mail_dungeonmail_c_03.png",
+    "name": "Боевой шлем служителя земли",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T19:05:07.000000Z",
+   "guid": 201965,
+   "id": 227513011,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9448320
+   },
+   "datetime": "2026-09-09T18:59:08.000000Z",
+   "guid": 201965,
+   "id": 9448320,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9448279
+   },
+   "datetime": "2026-09-09T18:34:46.000000Z",
+   "guid": 201965,
+   "id": 9448279,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9427531
+   },
+   "datetime": "2026-09-04T18:07:22.000000Z",
+   "guid": 201965,
+   "id": 9427531,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 2,
+    "attr_3": 1,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 253,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-04 05:41:41",
+     "duration": 812,
+     "id": 29044764,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 29044764,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 6,
+    "score_damage_done": 126490,
+    "score_deaths": 5,
+    "score_healing_done": 16013,
+    "score_honorable_kills": 24,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29044764,
+   "datetime": "2026-09-04T02:41:41.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 253,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-04 05:22:42",
+     "duration": 568,
+     "id": 29044756,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 1
+    },
+    "battleground_id": 29044756,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 7,
+    "score_damage_done": 107315,
+    "score_deaths": 7,
+    "score_healing_done": 5454,
+    "score_honorable_kills": 27,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29044756,
+   "datetime": "2026-09-04T02:22:42.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 201965,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 201965,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 201965,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 201965,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 201965,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419941
+   },
+   "datetime": "2026-09-03T18:30:45.000000Z",
+   "guid": 201965,
+   "id": 9419941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419775
+   },
+   "datetime": "2026-09-03T18:04:41.000000Z",
+   "guid": 201965,
+   "id": 9419775,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419576
+   },
+   "datetime": "2026-09-03T17:46:30.000000Z",
+   "guid": 201965,
+   "id": 9419576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9415071
+   },
+   "datetime": "2026-09-03T10:27:08.000000Z",
+   "guid": 201965,
+   "id": 9415071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9415036
+   },
+   "datetime": "2026-09-03T10:18:36.000000Z",
+   "guid": 201965,
+   "id": 9415036,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9415030
+   },
+   "datetime": "2026-09-03T10:16:39.000000Z",
+   "guid": 201965,
+   "id": 9415030,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9415023
+   },
+   "datetime": "2026-09-03T10:15:38.000000Z",
+   "guid": 201965,
+   "id": 9415023,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9415018
+   },
+   "datetime": "2026-09-03T10:14:26.000000Z",
+   "guid": 201965,
+   "id": 9415018,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9414996
+   },
+   "datetime": "2026-09-03T10:13:06.000000Z",
+   "guid": 201965,
+   "id": 9414996,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-03 13:04:08",
+     "duration": 696,
+     "id": 29031711,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 29031711,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 29,
+    "score_damage_done": 384657,
+    "score_deaths": 5,
+    "score_healing_done": 8062,
+    "score_honorable_kills": 31,
+    "score_killing_blows": 11,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29031711,
+   "datetime": "2026-09-03T10:04:08.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 240,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-03 12:32:20",
+     "duration": 187,
+     "id": 29031595,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29031595,
+    "deaths": null,
+    "guid": 201965,
+    "score_bonus_honor": 0,
+    "score_damage_done": 44131,
+    "score_deaths": 2,
+    "score_healing_done": 0,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29031595,
+   "datetime": "2026-09-03T09:32:20.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 892,
+    "icon": "https://cdn3.scourge.tech/icons/ability_mount_wyvern_01.png",
+    "name": "Вас не догонят",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788426420,
+   "datetime": "2026-09-03T06:07:00.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9414167
+   },
+   "datetime": "2026-09-02T20:47:59.000000Z",
+   "guid": 201965,
+   "id": 9414167,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47432,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_ulduar77_25man.png",
+    "name": "Утешение павших",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T19:03:48.000000Z",
+   "guid": 201965,
+   "id": 226281350,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9411495
+   },
+   "datetime": "2026-09-01T18:55:09.000000Z",
+   "guid": 201965,
+   "id": 9411495,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9411379
+   },
+   "datetime": "2026-09-01T18:41:50.000000Z",
+   "guid": 201965,
+   "id": 9411379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9410983
+   },
+   "datetime": "2026-09-01T17:51:04.000000Z",
+   "guid": 201965,
+   "id": 9410983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9410922
+   },
+   "datetime": "2026-09-01T17:37:20.000000Z",
+   "guid": 201965,
+   "id": 9410922,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9410859
+   },
+   "datetime": "2026-09-01T17:27:41.000000Z",
+   "guid": 201965,
+   "id": 9410859,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 687,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_cthun.png",
+    "name": "Храм Ан'Киража",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788264501,
+   "datetime": "2026-09-01T09:08:21.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 856,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_silithus_01.png",
+    "name": "Силитус",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788263000,
+   "datetime": "2026-09-01T08:43:20.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 201965,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 201965,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 140195,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boot_mail_draenorcrafted_d_01_alliance.png",
+    "name": "Окольцованные ботинки внезапной бури",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:32:53.000000Z",
+   "guid": 201965,
+   "id": 226148875,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 201965,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100422,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_15.png",
+    "name": "Большой шлем смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:23:50.000000Z",
+   "guid": 201965,
+   "id": 226147399,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 55313,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_cataclysm_melee_b_01.png",
+    "name": "Плащ Мерельдара",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T20:20:16.000000Z",
+   "guid": 201965,
+   "id": 226146830,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 201965,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 201965,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 201965,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9405336
+   },
+   "datetime": "2026-08-31T18:54:00.000000Z",
+   "guid": 201965,
+   "id": 9405336,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9405280
+   },
+   "datetime": "2026-08-31T18:38:53.000000Z",
+   "guid": 201965,
+   "id": 9405280,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9405246
+   },
+   "datetime": "2026-08-31T18:24:10.000000Z",
+   "guid": 201965,
+   "id": 9405246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9405225
+   },
+   "datetime": "2026-08-31T18:15:09.000000Z",
+   "guid": 201965,
+   "id": 9405225,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9405201
+   },
+   "datetime": "2026-08-31T18:07:20.000000Z",
+   "guid": 201965,
+   "id": 9405201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9405175
+   },
+   "datetime": "2026-08-31T17:59:35.000000Z",
+   "guid": 201965,
+   "id": 9405175,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6896,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_fireandbrimstonegreen.png",
+    "name": "Быстрая расправа",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788209429,
+   "datetime": "2026-08-31T17:50:29.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9405142
+   },
+   "datetime": "2026-08-31T17:46:55.000000Z",
+   "guid": 201965,
+   "id": 9405142,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6061,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_princemalchezaar_02.png",
+    "name": "Каражан (героич., 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788207532,
+   "datetime": "2026-08-31T17:18:52.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376146,
+    "icon": "https://cdn3.scourge.tech/icons/inv_axe_1h_bwdraid_d_01.png",
+    "name": "Клык горного тролля",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-29T18:49:41.000000Z",
+   "guid": 201965,
+   "id": 225766827,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": false,
+    "level": 17,
+    "reward_level": 0,
+    "run_id": 989920,
+    "score": 0,
+    "timer": 7500
+   },
+   "datetime": "2026-08-29T17:56:20.000000Z",
+   "guid": 201965,
+   "id": 989920,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": true,
+    "level": 15,
+    "reward_level": 2,
+    "run_id": 989861,
+    "score": 183.812,
+    "timer": 1673
+   },
+   "datetime": "2026-08-29T15:49:27.000000Z",
+   "guid": 201965,
+   "id": 989861,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": true,
+    "level": 14,
+    "reward_level": 1,
+    "run_id": 985011,
+    "score": 172.646,
+    "timer": 2679
+   },
+   "datetime": "2026-08-29T14:38:10.000000Z",
+   "guid": 201965,
+   "id": 985011,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "entry": 7393,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_challengemode_platinum.png",
+    "name": "Мастер ключей",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1788025090,
+   "datetime": "2026-08-29T14:38:10.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9388170
+   },
+   "datetime": "2026-08-29T13:11:39.000000Z",
+   "guid": 201965,
+   "id": 9388170,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9388149
+   },
+   "datetime": "2026-08-29T13:02:57.000000Z",
+   "guid": 201965,
+   "id": 9388149,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9388117
+   },
+   "datetime": "2026-08-29T12:54:50.000000Z",
+   "guid": 201965,
+   "id": 9388117,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9388084
+   },
+   "datetime": "2026-08-29T12:49:15.000000Z",
+   "guid": 201965,
+   "id": 9388084,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9388041
+   },
+   "datetime": "2026-08-29T12:38:21.000000Z",
+   "guid": 201965,
+   "id": 9388041,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117474,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_14.png",
+    "name": "Латные наплечники Смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-28T21:04:47.000000Z",
+   "guid": 201965,
+   "id": 225596147,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9385479
+   },
+   "datetime": "2026-08-28T20:47:54.000000Z",
+   "guid": 201965,
+   "id": 9385479,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9385301
+   },
+   "datetime": "2026-08-28T19:32:23.000000Z",
+   "guid": 201965,
+   "id": 9385301,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9385241
+   },
+   "datetime": "2026-08-28T19:24:17.000000Z",
+   "guid": 201965,
+   "id": 9385241,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100423,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_mail_15.png",
+    "name": "Набедренники Смерча",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:41:48.000000Z",
+   "guid": 201965,
+   "id": 225430272,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104504,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_05.png",
+    "name": "Наручи с обсидиановым покрытием",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:36:53.000000Z",
+   "guid": 201965,
+   "id": 225429049,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82024,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_panda_b_02.png",
+    "name": "Степные наголенники",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:22:36.000000Z",
+   "guid": 201965,
+   "id": 225425585,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104226,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_cataclysm_b_02.png",
+    "name": "Щит кровавого шамана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T19:21:05.000000Z",
+   "guid": 201965,
+   "id": 225425125,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9376595
+   },
+   "datetime": "2026-08-27T19:17:57.000000Z",
+   "guid": 201965,
+   "id": 9376595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9376264
+   },
+   "datetime": "2026-08-27T18:37:43.000000Z",
+   "guid": 201965,
+   "id": 9376264,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 201965,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787858277,
+   "datetime": "2026-08-27T16:17:57.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787858277,
+   "datetime": "2026-08-27T16:17:57.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 1,
+   "count": 3,
+   "datetime": "2026-08-26T22:45:30.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 218206,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 218206,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 950,
+     "score_deaths": 0,
+     "score_heal_done": 107483,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218197,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 2875,
+     "score_deaths": 0,
+     "score_heal_done": 56251,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218190,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 96,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 38168,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 144,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-08-26T22:39:44.000000Z",
+   "draws": 0,
+   "guid": 201965,
+   "last_arena_id": 218180,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 218180,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 96,
+     "rating_change": 0,
+     "score_damage_done": 9524,
+     "score_deaths": 1,
+     "score_heal_done": 299101,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218156,
+     "character": {
+      "class_icon": "/images/icons/classshaman.webp",
+      "class_id": 7,
+      "class_name": "Шаман",
+      "faction": 2,
+      "gender": 1,
+      "guid": 201965,
+      "level": 80,
+      "name": "Ashqdexe",
+      "race_icon": "/images/icons/race/voidelffemale.webp",
+      "race_id": 18,
+      "race_name": "Эльф бездны",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 201965,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 6819,
+     "score_deaths": 0,
+     "score_heal_done": 116630,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 96,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41061,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_32b.png",
+    "name": "Накулачники спасения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:21:15.000000Z",
+   "guid": 201965,
+   "id": 225275061,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100160,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:21:11.000000Z",
+   "guid": 201965,
+   "id": 225275054,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 103402,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_heal.png",
+    "name": "Касание А'дала неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:21:07.000000Z",
+   "guid": 201965,
+   "id": 225275047,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117176,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо спасения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:21:03.000000Z",
+   "guid": 201965,
+   "id": 225275038,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41056,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_chain_07.png",
+    "name": "Башмаки спасения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:20:57.000000Z",
+   "guid": 201965,
+   "id": 225275028,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 41052,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_46.png",
+    "name": "Воинский пояс спасения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:20:52.000000Z",
+   "guid": 201965,
+   "id": 225275013,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42078,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_06.png",
+    "name": "Плащ влияния неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-26T21:20:47.000000Z",
+   "guid": 201965,
+   "id": 225275001,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6345,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_crystalspec1.png",
+    "name": "Лаборант консорциума",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1787783118,
+   "datetime": "2026-08-26T19:25:18.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 659,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_warpsplinter.png",
+    "name": "Ботаника",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787782743,
+   "datetime": "2026-08-26T19:19:03.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 660,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_harbinger_skyriss.png",
+    "name": "Аркатрац",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787782029,
+   "datetime": "2026-08-26T19:07:09.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 658,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_pathaleonthecalculator.png",
+    "name": "Механар",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787781437,
+   "datetime": "2026-08-26T18:57:17.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6521,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_coin_roulette_05.png",
+    "name": "Безграничная Удача",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787777964,
+   "datetime": "2026-08-26T17:59:24.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 2143,
+    "icon": "https://cdn3.scourge.tech/icons/ability_mount_mammoth_black.png",
+    "name": "Командир кавалерии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787776945,
+   "datetime": "2026-08-26T17:42:25.000000Z",
+   "guid": 201965,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9370352
+   },
+   "datetime": "2026-08-26T14:39:46.000000Z",
+   "guid": 201965,
+   "id": 9370352,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9370308
+   },
+   "datetime": "2026-08-26T14:29:46.000000Z",
+   "guid": 201965,
+   "id": 9370308,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9370300
+   },
+   "datetime": "2026-08-26T14:26:21.000000Z",
+   "guid": 201965,
+   "id": 9370300,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9370294
+   },
+   "datetime": "2026-08-26T14:23:57.000000Z",
+   "guid": 201965,
+   "id": 9370294,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9370286
+   },
+   "datetime": "2026-08-26T14:21:30.000000Z",
+   "guid": 201965,
+   "id": 9370286,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9370272
+   },
+   "datetime": "2026-08-26T14:19:28.000000Z",
+   "guid": 201965,
+   "id": 9370272,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9370177
+   },
+   "datetime": "2026-08-26T13:49:57.000000Z",
+   "guid": 201965,
+   "id": 9370177,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 201965,
+ "name": "Ashqdexe",
+ "ts": "2026-09-18T21-22Z"
+}
