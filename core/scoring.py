@@ -90,7 +90,9 @@ def _team_activity(window, roster, pres_by_night, cfg):
 
 
 def attendance_scores(nights, roster, cfg, now, first_seen=None):
-    manual = load_yaml(os.path.join(cfg.paths["manual"], "attendance.yml")) or {}
+    # ключи-даты приводим к строке: YAML без кавычек парсит 2026-09-18 как date-объект,
+    # а ni.date — строка, и .get(date) не находил бы вечер.
+    manual = {str(k)[:10]: v for k, v in (load_yaml(os.path.join(cfg.paths["manual"], "attendance.yml")) or {}).items()}
     first_seen = first_seen or {}
     exclude_before_join = cfg.raw.get("attendance", {}).get("exclude_before_join", False)
     window = select_window_nights(nights, cfg, now)
@@ -275,6 +277,24 @@ def performance_scores(kills, roster, cfg, combat=None):
                 "consumable": (cm["has_consumable"] if cm else None),
             }))
 
+    # Ручной перф-кредит (attendance.yml → perf по вечерам): игрок ушёл по болезни/техпроблеме —
+    # совет засчитывает справедливый перф вместо отсутствия данных. Точка помечается manual и
+    # идёт в медиану наравне с реальными парсами (учитывается независимо от роли кила).
+    from datetime import datetime as _datetime
+    manual_att = load_yaml(os.path.join(cfg.paths["manual"], "attendance.yml")) or {}
+    for _date, _day in manual_att.items():
+        for _pid, _val in ((_day or {}).get("perf") or {}).items():
+            try:
+                _dt = _datetime.strptime(str(_date)[:10], "%Y-%m-%d")
+                _v = clip(float(_val), 0.0, 1.0)
+            except (ValueError, TypeError):
+                continue
+            per_player_points[_pid].append((_dt, _v, {
+                "boss": "ручной кредит (совет)", "role": "manual", "p": round(_v, 3), "n": None,
+                "base": round(_v, 3), "metric": None, "taken_ps": None, "utility": 0,
+                "deaths": 0, "util_bonus": 0.0, "consumable": None, "manual": True,
+            }))
+
     measured_roles = set(cfg.w("performance", "measured_roles"))
     out = {}
     for pid in roster.players:
@@ -292,7 +312,7 @@ def performance_scores(kills, roster, cfg, combat=None):
         measured = main_role in measured_roles
         # перф считаем ТОЛЬКО по килам ОСНОВНОЙ роли: оффспек-килы (танк у ДД-мейна) — это служба,
         # а не парс. Они не тянут вниз плохим уроном и не идут в зачёт. Танкование нейтрально к рейтингу.
-        role_last = [(t, p, m) for t, p, m in pts if m["role"] == main_role][-window_kills:]
+        role_last = [(t, p, m) for t, p, m in pts if m["role"] == main_role or m.get("manual")][-window_kills:]
 
         row = {
             "role": main_role, "measured": measured,
