@@ -9,6 +9,7 @@ from __future__ import annotations
 import datetime as _dt
 import glob
 import os
+from collections import Counter
 from dataclasses import dataclass, field
 
 from core.common import Config, parse_server_time
@@ -270,21 +271,35 @@ def augment_roster_with_parses(roster: Roster, kills: list[Kill], cfg: Config) -
     состав = все, кто реально рейдил (сирус знает их по логам). Возвращает id добавленных.
     """
     our = cfg.raw.get("guild_name_api", "")
-    added = []
+    # Основной спек авто-игрока = САМЫЙ ЧАСТЫЙ в логах, а НЕ из первого кила. Иначе игрок,
+    # начавший тир в оффспеке (напр. Frost-ДД, первый кил станцевал в Крови-танке), навсегда
+    # помечается танком — и вся ролевая логика (перф по основному спеку) считает его неверно.
+    order = []  # порядок первого появления — для стабильных id
+    specs = {}  # name -> Counter((class_id, spec))
+    role_of = {}  # name -> {(class_id, spec): role}
     for k in sorted(kills, key=lambda x: x.killed_at or _dt.datetime.min):
         for p in k.players:
             if p.guild_name != our or p.name in roster.char_to_player:
                 continue
-            pid = _slug(p.name)
-            while pid in roster.players:
-                pid += "x"
-            roster.players[pid] = {
-                "id": pid, "display": p.name, "rank": "member", "auto": True,
-                "characters": [{"name": p.name, "class_id": p.class_id, "spec": p.spec,
-                                "role": p.role, "main": True}],
-            }
-            roster.char_to_player[p.name] = pid
-            added.append(pid)
+            if p.name not in specs:
+                specs[p.name] = Counter()
+                role_of[p.name] = {}
+                order.append(p.name)
+            specs[p.name][(p.class_id, p.spec)] += 1
+            role_of[p.name][(p.class_id, p.spec)] = p.role
+    added = []
+    for name in order:
+        pid = _slug(name)
+        while pid in roster.players:
+            pid += "x"
+        (cid, spec), _ = specs[name].most_common(1)[0]  # ничьи — по порядку появления (детерминированно)
+        roster.players[pid] = {
+            "id": pid, "display": name, "rank": "member", "auto": True,
+            "characters": [{"name": name, "class_id": cid, "spec": spec,
+                            "role": role_of[name][(cid, spec)], "main": True}],
+        }
+        roster.char_to_player[name] = pid
+        added.append(pid)
     return added
 
 
