@@ -4,19 +4,209 @@
 # player   — id из roster.yml
 # date     — когда применена (YYYY-MM-DD)
 # type     — boost | penalty | freeze
-#            boost/penalty — аддитивная поправка к нормированному вкладу (value в 0..1 шкале
-#                            слагаемого посещаемость+перформанс, до множителя лута и rank_gate);
-#            freeze        — заморозить рейтинг игрока (value игнорируется).
 # value    — величина поправки (для boost/penalty)
 # expires  — дата окончания действия (после неё поправка не применяется)
 # reason   — человекочитаемое обоснование (обязательно)
-#
-# Пример:
-# - player: dorn
-#   date: 2026-08-25
-#   type: boost
-#   value: 0.15
-#   expires: 2026-09-25
-#   reason: "Фарм расходников на всю гильдию весь тир"
 
-adjustments: []
+adjustments:
+  # + записался и пришёл на РТ 18.09
+  - player: alenaballast
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: ashqdexe
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: bloodycat
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: carti
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: deefa
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: fexler
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: garoshik
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: hasbullaa
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: horikuz
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: kriptid
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: lonelerey
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: murkadin
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: palotence
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: probol
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: sayashiro
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: serezhka
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: sonechko
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: turmion
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: urshifu
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: whitenoiseqx
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: zadengida
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  - player: zhestkanehilyu
+    date: "2026-09-18"
+    type: boost
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper и пришёл на РТ 18.09"
+  # - записался, но не пришёл (кроме Мозола)
+  - player: sejuani
+    date: "2026-09-18"
+    type: penalty
+    value: 0.03
+    expires: "2026-10-18"
+    reason: "Записался в raid-helper, но не пришёл на РТ 18.09"
+  # - символические штрафы РЛ за поведение на РТ 18.09
+  - player: serezhka
+    date: "2026-09-18"
+    type: penalty
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Штраф РЛ ×2 за поведение на РТ 18.09"
+  - player: fexler
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: hasbullaa
+    date: "2026-09-18"
+    type: penalty
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Штраф РЛ ×2 за поведение на РТ 18.09"
+  - player: cnz
+    date: "2026-09-18"
+    type: penalty
+    value: 0.02
+    expires: "2026-10-18"
+    reason: "Штраф РЛ + вышел посреди РТ 18.09"
+  - player: horikuz
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: garoshik
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: lonelerey
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: ashqdexe
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: murkadin
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"
+  - player: moornight
+    date: "2026-09-18"
+    type: penalty
+    value: 0.01
+    expires: "2026-10-18"
+    reason: "Штраф РЛ за поведение на РТ 18.09"

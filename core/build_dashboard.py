@@ -171,7 +171,7 @@ def build(config_path="config/config.json"):
     out_path = os.path.join(_repo(), cfg.paths["dashboard"])
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(dash, f, ensure_ascii=False, indent=1)
+        json.dump(dash, f, ensure_ascii=False, indent=1, default=str)  # date/datetime из adjustments.yml → строка
     return dash, out_path
 
 
