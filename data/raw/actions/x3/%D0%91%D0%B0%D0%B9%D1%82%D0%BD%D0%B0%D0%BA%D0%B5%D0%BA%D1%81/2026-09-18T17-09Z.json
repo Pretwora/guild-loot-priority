@@ -1,0 +1,4392 @@
+{
+ "events": [
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9504472
+   },
+   "datetime": "2026-09-16T17:55:41.000000Z",
+   "guid": 1495434,
+   "id": 9504472,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82096,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_leather_panda_b_02_brown.png",
+    "name": "Капюшон из шкуры мушана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:59:10.000000Z",
+   "guid": 1495434,
+   "id": 228546394,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9500667
+   },
+   "datetime": "2026-09-15T19:55:29.000000Z",
+   "guid": 1495434,
+   "id": 9500667,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 30674,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_06.png",
+    "name": "Утраченные нити Зирхата",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:43:48.000000Z",
+   "guid": 1495434,
+   "id": 228543640,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9500596
+   },
+   "datetime": "2026-09-15T19:40:45.000000Z",
+   "guid": 1495434,
+   "id": 9500596,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80728,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_mail_panda_b_02blue.png",
+    "name": "Башмаки Лисьей рощи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:26:48.000000Z",
+   "guid": 1495434,
+   "id": 228540446,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80760,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_63.png",
+    "name": "Подвеска долинной песни",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:26:36.000000Z",
+   "guid": 1495434,
+   "id": 228540402,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9500528
+   },
+   "datetime": "2026-09-15T19:26:04.000000Z",
+   "guid": 1495434,
+   "id": 9500528,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 85848,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_mail_panda_b_01green.png",
+    "name": "Наплечники из гремучей чешуи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T19:15:48.000000Z",
+   "guid": 1495434,
+   "id": 228538403,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9500453
+   },
+   "datetime": "2026-09-15T19:15:10.000000Z",
+   "guid": 1495434,
+   "id": 9500453,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82097,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_panda_b_02_brown.png",
+    "name": "Жакет из шкуры мушана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:41:29.000000Z",
+   "guid": 1495434,
+   "id": 228532252,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82129,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_cataclysm_b_01.png",
+    "name": "Щит горняка",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:41:26.000000Z",
+   "guid": 1495434,
+   "id": 228532245,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9500261
+   },
+   "datetime": "2026-09-15T18:40:57.000000Z",
+   "guid": 1495434,
+   "id": 9500261,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82088,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_panda_b_02_white.png",
+    "name": "Растущее одеяние",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:30:10.000000Z",
+   "guid": 1495434,
+   "id": 228530165,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82397,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_cloth_panda_b_01_green.png",
+    "name": "Капюшон из ветрошерсти",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:30:03.000000Z",
+   "guid": 1495434,
+   "id": 228530157,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9500216
+   },
+   "datetime": "2026-09-15T18:29:40.000000Z",
+   "guid": 1495434,
+   "id": 9500216,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 82403,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_panda_b_01_green.png",
+    "name": "Сапоги из ветрошерсти",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:22:27.000000Z",
+   "guid": 1495434,
+   "id": 228528828,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 55821,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_book_17.png",
+    "name": "Книга Мрачных Пророчеств",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:22:20.000000Z",
+   "guid": 1495434,
+   "id": 228528800,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9500180
+   },
+   "datetime": "2026-09-15T18:22:01.000000Z",
+   "guid": 1495434,
+   "id": 9500180,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80737,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_mail_panda_b_02blue.png",
+    "name": "Пояс Лисьей рощи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:12:52.000000Z",
+   "guid": 1495434,
+   "id": 228527147,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 83794,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_109.png",
+    "name": "Ожерелье темного пламени",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:12:39.000000Z",
+   "guid": 1495434,
+   "id": 228527095,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9500106
+   },
+   "datetime": "2026-09-15T18:12:24.000000Z",
+   "guid": 1495434,
+   "id": 9500106,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 30667,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_51naxxramas.png",
+    "name": "Кольцо неумолимых бурь",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-15T18:04:45.000000Z",
+   "guid": 1495434,
+   "id": 228525823,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9500033
+   },
+   "datetime": "2026-09-15T17:59:50.000000Z",
+   "guid": 1495434,
+   "id": 9500033,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6317,
+    "icon": "https://cdn3.scourge.tech/icons/spell_mage_overpowered.png",
+    "name": "Венец магии",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789500364,
+   "datetime": "2026-09-15T16:26:04.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6311,
+    "icon": "https://cdn3.scourge.tech/icons/ability_socererking_arcanemines.png",
+    "name": "Тайное остается тайным",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789499710,
+   "datetime": "2026-09-15T16:15:10.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7003,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helm_cloth_witchhat_b_01.png",
+    "name": "Прекрасная трагедия",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789496980,
+   "datetime": "2026-09-15T15:29:40.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 7004,
+    "icon": "https://cdn3.scourge.tech/icons/ability_druid_galewinds.png",
+    "name": "Летная погода",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789496980,
+   "datetime": "2026-09-15T15:29:40.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6308,
+    "icon": "https://cdn3.scourge.tech/icons/ability_paladin_handoflight.png",
+    "name": "Заземление",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789496521,
+   "datetime": "2026-09-15T15:22:01.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6309,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_prayerofhealing.png",
+    "name": "Ложное раскаяние",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789496521,
+   "datetime": "2026-09-15T15:22:01.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6064,
+    "icon": "https://cdn3.scourge.tech/icons/achi_sparty.png",
+    "name": "Погостили... и хватит",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789495670,
+   "datetime": "2026-09-15T15:07:50.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6304,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_feigndeath.png",
+    "name": "Незримое присутствие",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789495190,
+   "datetime": "2026-09-15T14:59:50.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6521,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_coin_roulette_05.png",
+    "name": "Безграничная Удача",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787677752,
+   "datetime": "2026-08-25T14:09:12.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 2090,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_featsofstrength_gladiator_04.png",
+    "name": "Претендент",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786568859,
+   "datetime": "2026-08-12T18:07:39.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-27 15:19:33",
+     "duration": 899,
+     "id": 27887849,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 27887849,
+    "deaths": null,
+    "guid": 1495434,
+    "score_bonus_honor": 5,
+    "score_damage_done": 376950,
+    "score_deaths": 3,
+    "score_healing_done": 98276,
+    "score_honorable_kills": 23,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27887849,
+   "datetime": "2026-07-27T12:19:33.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-27 14:49:33",
+     "duration": 678,
+     "id": 27887544,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 1
+    },
+    "battleground_id": 27887544,
+    "deaths": null,
+    "guid": 1495434,
+    "score_bonus_honor": 0,
+    "score_damage_done": 172095,
+    "score_deaths": 1,
+    "score_healing_done": 78542,
+    "score_honorable_kills": 51,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27887544,
+   "datetime": "2026-07-27T11:49:33.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 244,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-27 14:35:01",
+     "duration": 517,
+     "id": 27887415,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 27887415,
+    "deaths": null,
+    "guid": 1495434,
+    "score_bonus_honor": 1,
+    "score_damage_done": 308252,
+    "score_deaths": 1,
+    "score_healing_done": 91186,
+    "score_honorable_kills": 4,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 27887415,
+   "datetime": "2026-07-27T11:35:01.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 1248,
+    "icon": "https://cdn3.scourge.tech/icons/inv_box_petcarrier_01.png",
+    "name": "Море друзей",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1785146921,
+   "datetime": "2026-07-27T07:08:41.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158432,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_28.png",
+    "name": "Шелковые брюки гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:38:42.000000Z",
+   "guid": 1495434,
+   "id": 220147109,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158433,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_49.png",
+    "name": "Шелковый нарамник гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:38:38.000000Z",
+   "guid": 1495434,
+   "id": 220147088,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158430,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_86.png",
+    "name": "Шелковый клобук гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:38:32.000000Z",
+   "guid": 1495434,
+   "id": 220147065,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42520,
+    "icon": "https://cdn3.scourge.tech/icons/inv_wand_27.png",
+    "name": "Пронзающее прикосновение гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:38:09.000000Z",
+   "guid": 1495434,
+   "id": 220146998,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42538,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_book_06.png",
+    "name": "Гримуар гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:37:51.000000Z",
+   "guid": 1495434,
+   "id": 220146967,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117280,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:18:10.000000Z",
+   "guid": 1495434,
+   "id": 220144773,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117284,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Клобук Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:18:09.000000Z",
+   "guid": 1495434,
+   "id": 220144765,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117282,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:18:07.000000Z",
+   "guid": 1495434,
+   "id": 220144760,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117281,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Повязки Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-26T07:18:04.000000Z",
+   "guid": 1495434,
+   "id": 220144756,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117285,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Нагрудник Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:32.000000Z",
+   "guid": 1495434,
+   "id": 220037120,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117287,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Набедренники Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:22.000000Z",
+   "guid": 1495434,
+   "id": 220037098,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117280,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:20.000000Z",
+   "guid": 1495434,
+   "id": 220037092,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117285,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Нагрудник Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:15.000000Z",
+   "guid": 1495434,
+   "id": 220037081,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117289,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Капюшон Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:13.000000Z",
+   "guid": 1495434,
+   "id": 220037075,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117286,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Рукавицы Алдоров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T14:40:10.000000Z",
+   "guid": 1495434,
+   "id": 220037061,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 4,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 246,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-07-25 15:39:05",
+     "duration": 436,
+     "id": 27809991,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 27809991,
+    "deaths": null,
+    "guid": 1495434,
+    "score_bonus_honor": 10,
+    "score_damage_done": 359227,
+    "score_deaths": 3,
+    "score_healing_done": 22062,
+    "score_honorable_kills": 39,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 27809991,
+   "datetime": "2026-07-25T12:39:05.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158431,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_61.png",
+    "name": "Шелковое облачение гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-25T12:27:47.000000Z",
+   "guid": 1495434,
+   "id": 220015080,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9110408
+   },
+   "datetime": "2026-07-25T12:16:22.000000Z",
+   "guid": 1495434,
+   "id": 9110408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9110356
+   },
+   "datetime": "2026-07-25T12:07:05.000000Z",
+   "guid": 1495434,
+   "id": 9110356,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9110348
+   },
+   "datetime": "2026-07-25T12:05:03.000000Z",
+   "guid": 1495434,
+   "id": 9110348,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9110341
+   },
+   "datetime": "2026-07-25T12:03:46.000000Z",
+   "guid": 1495434,
+   "id": 9110341,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9110336
+   },
+   "datetime": "2026-07-25T12:02:12.000000Z",
+   "guid": 1495434,
+   "id": 9110336,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9110319
+   },
+   "datetime": "2026-07-25T12:00:41.000000Z",
+   "guid": 1495434,
+   "id": 9110319,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6838,
+    "icon": "https://cdn3.scourge.tech/icons/inv_radientazeritematrix.png",
+    "name": "Хрупкий пол II",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784985079,
+   "datetime": "2026-07-25T10:11:19.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6843,
+    "icon": "https://cdn3.scourge.tech/icons/spell_misc_emotionhappy.png",
+    "name": "Бегущий по гексам",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784983915,
+   "datetime": "2026-07-25T09:51:55.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3798,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_arena_5v5_3.png",
+    "name": "Устойчивость решает! (10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784981026,
+   "datetime": "2026-07-25T09:03:46.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3936,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pet_worm.png",
+    "name": "Два йормунгара по цене одного (рейд для 10 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784980782,
+   "datetime": "2026-07-25T08:59:42.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9103571
+   },
+   "datetime": "2026-07-24T15:13:31.000000Z",
+   "guid": 1495434,
+   "id": 9103571,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9103523
+   },
+   "datetime": "2026-07-24T15:05:02.000000Z",
+   "guid": 1495434,
+   "id": 9103523,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 376372,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_robe_dungeonrobe_c_03.png",
+    "name": "Капюшон туманной искры",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-24T14:51:52.000000Z",
+   "guid": 1495434,
+   "id": 219856137,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9103429
+   },
+   "datetime": "2026-07-24T14:48:04.000000Z",
+   "guid": 1495434,
+   "id": 9103429,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 618,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_leader_prophet_velen.png",
+    "name": "Гасите свет",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784887445,
+   "datetime": "2026-07-24T07:04:05.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104552,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_05.png",
+    "name": "Belt of the Last Word",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T14:54:21.000000Z",
+   "guid": 1495434,
+   "id": 219668314,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44312,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_98.png",
+    "name": "Wapach's Spaulders of Solidarity",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:45:42.000000Z",
+   "guid": 1495434,
+   "id": 219615336,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39491,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Heroes' Frostfire Circlet",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:37:22.000000Z",
+   "guid": 1495434,
+   "id": 219614390,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39423,
+    "icon": "https://cdn3.scourge.tech/icons/inv_mace_27.png",
+    "name": "Hammer of the Astral Plane",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:32:08.000000Z",
+   "guid": 1495434,
+   "id": 219613635,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39419,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_rifle_21.png",
+    "name": "Nerubian Conquerer",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:32:05.000000Z",
+   "guid": 1495434,
+   "id": 219613630,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Кел'Тузад",
+    "bossfight_id": 9088584
+   },
+   "datetime": "2026-07-23T09:31:48.000000Z",
+   "guid": 1495434,
+   "id": 9088584,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39403,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_110.png",
+    "name": "Helm of the Unsubmissive",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:25:37.000000Z",
+   "guid": 1495434,
+   "id": 219612858,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39415,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_naxxramas_01.png",
+    "name": "Shroud of the Citadel",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:25:34.000000Z",
+   "guid": 1495434,
+   "id": 219612852,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Сапфирон",
+    "bossfight_id": 9088577
+   },
+   "datetime": "2026-07-23T09:25:26.000000Z",
+   "guid": 1495434,
+   "id": 9088577,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39396,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_49.png",
+    "name": "Gown of Blaumeux",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:23:41.000000Z",
+   "guid": 1495434,
+   "id": 219612644,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 9088571
+   },
+   "datetime": "2026-07-23T09:23:32.000000Z",
+   "guid": 1495434,
+   "id": 9088571,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39345,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_15.png",
+    "name": "Girdle of the Ascended Phantom",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:19:14.000000Z",
+   "guid": 1495434,
+   "id": 219612119,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39389,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_52naxxramas.png",
+    "name": "Signet of the Malevolent",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:19:11.000000Z",
+   "guid": 1495434,
+   "id": 219612106,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 9088542
+   },
+   "datetime": "2026-07-23T09:19:05.000000Z",
+   "guid": 1495434,
+   "id": 9088542,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39307,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_07.png",
+    "name": "Iron Rings of Endurance",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:12:35.000000Z",
+   "guid": 1495434,
+   "id": 219611366,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39309,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_14.png",
+    "name": "Leggings of the Instructor",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:12:32.000000Z",
+   "guid": 1495434,
+   "id": 219611361,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Инструктор Разувий",
+    "bossfight_id": 9088537
+   },
+   "datetime": "2026-07-23T09:12:26.000000Z",
+   "guid": 1495434,
+   "id": 9088537,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39256,
+    "icon": "https://cdn3.scourge.tech/icons/inv_staff_34.png",
+    "name": "Sulfur Stave",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:10:09.000000Z",
+   "guid": 1495434,
+   "id": 219611070,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лотхиб",
+    "bossfight_id": 9088529
+   },
+   "datetime": "2026-07-23T09:10:00.000000Z",
+   "guid": 1495434,
+   "id": 9088529,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39252,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_17.png",
+    "name": "Preceptor's Bindings",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:07:10.000000Z",
+   "guid": 1495434,
+   "id": 219610674,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39250,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_50naxxramas.png",
+    "name": "Ring of Holy Cleansing",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:07:08.000000Z",
+   "guid": 1495434,
+   "id": 219610667,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Хейган Нечестивый",
+    "bossfight_id": 9088518
+   },
+   "datetime": "2026-07-23T09:07:00.000000Z",
+   "guid": 1495434,
+   "id": 9088518,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39243,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_27.png",
+    "name": "Handgrips of the Foredoomed",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:04:25.000000Z",
+   "guid": 1495434,
+   "id": 219610241,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39237,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_67.png",
+    "name": "Spaulders of Resumed Battle",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:04:21.000000Z",
+   "guid": 1495434,
+   "id": 219610231,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Нот Чумной",
+    "bossfight_id": 9088515
+   },
+   "datetime": "2026-07-23T09:04:15.000000Z",
+   "guid": 1495434,
+   "id": 9088515,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39229,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas04.png",
+    "name": "Embrace of the Spider",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:02:04.000000Z",
+   "guid": 1495434,
+   "id": 219609799,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39232,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_29naxxramas.png",
+    "name": "Pendant of Lost Vocations",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T09:02:01.000000Z",
+   "guid": 1495434,
+   "id": 219609792,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 9088507
+   },
+   "datetime": "2026-07-23T09:01:58.000000Z",
+   "guid": 1495434,
+   "id": 9088507,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39198,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_75.png",
+    "name": "Frostblight Pauldrons",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:59:16.000000Z",
+   "guid": 1495434,
+   "id": 219609505,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39195,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_15.png",
+    "name": "Bracers of Lost Sentiments",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:59:14.000000Z",
+   "guid": 1495434,
+   "id": 219609503,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 9088496
+   },
+   "datetime": "2026-07-23T08:59:07.000000Z",
+   "guid": 1495434,
+   "id": 9088496,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39467,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_07.png",
+    "name": "Minion Bracers",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:58:48.000000Z",
+   "guid": 1495434,
+   "id": 219609473,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39470,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_28naxxramas.png",
+    "name": "Medallion of the Disgraced",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:58:34.000000Z",
+   "guid": 1495434,
+   "id": 219609459,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39141,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_53naxxramas.png",
+    "name": "Deflection Band",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:56:59.000000Z",
+   "guid": 1495434,
+   "id": 219609271,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39146,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_27naxxramas.png",
+    "name": "Collar of Dissolution",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:56:57.000000Z",
+   "guid": 1495434,
+   "id": 219609269,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'Рекан",
+    "bossfight_id": 9088491
+   },
+   "datetime": "2026-07-23T08:56:53.000000Z",
+   "guid": 1495434,
+   "id": 9088491,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39291,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_60.png",
+    "name": "Torment of the Banished",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:55:32.000000Z",
+   "guid": 1495434,
+   "id": 219609132,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Таддиус",
+    "bossfight_id": 9088482
+   },
+   "datetime": "2026-07-23T08:55:26.000000Z",
+   "guid": 1495434,
+   "id": 9088482,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39192,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_64.png",
+    "name": "Gloves of Dark Gestures",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:52:47.000000Z",
+   "guid": 1495434,
+   "id": 219608906,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 9088477
+   },
+   "datetime": "2026-07-23T08:52:38.000000Z",
+   "guid": 1495434,
+   "id": 9088477,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39284,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_72.png",
+    "name": "Miasma Mantle",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:50:58.000000Z",
+   "guid": 1495434,
+   "id": 219608777,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39279,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_21.png",
+    "name": "Blistered Belt of Decay",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:50:56.000000Z",
+   "guid": 1495434,
+   "id": 219608775,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 9088469
+   },
+   "datetime": "2026-07-23T08:50:49.000000Z",
+   "guid": 1495434,
+   "id": 9088469,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39270,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_61.png",
+    "name": "Hatestrike",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:48:42.000000Z",
+   "guid": 1495434,
+   "id": 219608593,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39261,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_12.png",
+    "name": "Tainted Girdle of Mending",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-23T08:48:39.000000Z",
+   "guid": 1495434,
+   "id": 219608588,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 9088462
+   },
+   "datetime": "2026-07-23T08:48:33.000000Z",
+   "guid": 1495434,
+   "id": 9088462,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8975821
+   },
+   "datetime": "2026-07-19T19:17:19.000000Z",
+   "guid": 1495434,
+   "id": 8975821,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47478,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_02.png",
+    "name": "Брюки разрастающейся бездны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-19T19:06:52.000000Z",
+   "guid": 1495434,
+   "id": 219177927,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8975754
+   },
+   "datetime": "2026-07-19T19:05:25.000000Z",
+   "guid": 1495434,
+   "id": 8975754,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8975731
+   },
+   "datetime": "2026-07-19T18:52:46.000000Z",
+   "guid": 1495434,
+   "id": 8975731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8975692
+   },
+   "datetime": "2026-07-19T18:42:00.000000Z",
+   "guid": 1495434,
+   "id": 8975692,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8975647
+   },
+   "datetime": "2026-07-19T18:33:16.000000Z",
+   "guid": 1495434,
+   "id": 8975647,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8975605
+   },
+   "datetime": "2026-07-19T18:21:18.000000Z",
+   "guid": 1495434,
+   "id": 8975605,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8975534
+   },
+   "datetime": "2026-07-19T18:01:57.000000Z",
+   "guid": 1495434,
+   "id": 8975534,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8975450
+   },
+   "datetime": "2026-07-19T17:32:22.000000Z",
+   "guid": 1495434,
+   "id": 8975450,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 16,
+    "reward_level": 0,
+    "run_id": 810238,
+    "score": 183.458,
+    "timer": 2991
+   },
+   "datetime": "2026-07-19T17:26:08.000000Z",
+   "guid": 1495434,
+   "id": 810238,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8975423
+   },
+   "datetime": "2026-07-19T17:21:47.000000Z",
+   "guid": 1495434,
+   "id": 8975423,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3819,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_13.png",
+    "name": "Дань безумству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784487925,
+   "datetime": "2026-07-19T16:05:25.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-07-18T19:47:14.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1216785,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1216785,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1599,
+     "rating_change": 12,
+     "score_damage_done": 27054,
+     "score_deaths": 0,
+     "score_heal_done": 1989,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1216775,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1586,
+     "rating_change": 13,
+     "score_damage_done": 30816,
+     "score_deaths": 0,
+     "score_heal_done": 1954,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216756,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1569,
+     "rating_change": 17,
+     "score_damage_done": 22799,
+     "score_deaths": 0,
+     "score_heal_done": 9795,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216741,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1575,
+     "rating_change": -6,
+     "score_damage_done": 49290,
+     "score_deaths": 1,
+     "score_heal_done": 11539,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216719,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1587,
+     "rating_change": -12,
+     "score_damage_done": 25924,
+     "score_deaths": 1,
+     "score_heal_done": 4446,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216710,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1595,
+     "rating_change": -8,
+     "score_damage_done": 4786,
+     "score_deaths": 1,
+     "score_heal_done": 11405,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1599,
+   "rating_change": 16,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 12,
+   "datetime": "2026-07-18T19:39:09.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1216697,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1216697,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1582,
+     "rating_change": 13,
+     "score_damage_done": 38934,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1216675,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1570,
+     "rating_change": 12,
+     "score_damage_done": 20245,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216663,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1582,
+     "rating_change": -12,
+     "score_damage_done": 16354,
+     "score_deaths": 1,
+     "score_heal_done": 3695,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216644,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1593,
+     "rating_change": -11,
+     "score_damage_done": 22701,
+     "score_deaths": 1,
+     "score_heal_done": 3695,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216630,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1599,
+     "rating_change": -6,
+     "score_damage_done": 9289,
+     "score_deaths": 1,
+     "score_heal_done": 3695,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1216620,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1587,
+     "rating_change": 12,
+     "score_damage_done": 40237,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216595,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1573,
+     "rating_change": 14,
+     "score_damage_done": 29803,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216588,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1560,
+     "rating_change": 13,
+     "score_damage_done": 20792,
+     "score_deaths": 0,
+     "score_heal_done": 10721,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1216576,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1548,
+     "rating_change": 12,
+     "score_damage_done": 20154,
+     "score_deaths": 0,
+     "score_heal_done": 499,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216568,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1530,
+     "rating_change": 18,
+     "score_damage_done": 65924,
+     "score_deaths": 0,
+     "score_heal_done": 10225,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1216528,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1514,
+     "rating_change": 16,
+     "score_damage_done": 42569,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1216512,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1496,
+     "rating_change": 18,
+     "score_damage_done": 30538,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1582,
+   "rating_change": 99,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 9
+  },
+  {
+   "bracket_id": 2,
+   "count": 1,
+   "datetime": "2026-07-18T19:19:02.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1216496,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 1216496,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1482,
+     "rating_change": 14,
+     "score_damage_done": 22618,
+     "score_deaths": 0,
+     "score_heal_done": 492,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1482,
+   "rating_change": 14,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49183,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_23.png",
+    "name": "Ботфорты рвения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:59:19.000000Z",
+   "guid": 1495434,
+   "id": 219008870,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158510,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_12.png",
+    "name": "Туфли рвения гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:59:16.000000Z",
+   "guid": 1495434,
+   "id": 219008862,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42118,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:58:51.000000Z",
+   "guid": 1495434,
+   "id": 219008758,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100106,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Чародейство неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:58:44.000000Z",
+   "guid": 1495434,
+   "id": 219008740,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100160,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:58:40.000000Z",
+   "guid": 1495434,
+   "id": 219008730,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49181,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_33.png",
+    "name": "Манжеты рвения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:58:36.000000Z",
+   "guid": 1495434,
+   "id": 219008717,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 49179,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_39c.png",
+    "name": "Шнурованный ремень рвения неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T18:58:15.000000Z",
+   "guid": 1495434,
+   "id": 219008650,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 399,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_arena_2v2_1.png",
+    "name": "Только ты и я: 1550",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784402850,
+   "datetime": "2026-07-18T16:27:30.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 2,
+   "count": 1,
+   "datetime": "2026-07-18T10:20:34.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1212830,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1212830,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1457,
+     "rating_change": -9,
+     "score_damage_done": 41728,
+     "score_deaths": 1,
+     "score_heal_done": 3976,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1457,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 10,
+   "datetime": "2026-07-18T10:18:56.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1212809,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 1212809,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1441,
+     "rating_change": 16,
+     "score_damage_done": 47100,
+     "score_deaths": 0,
+     "score_heal_done": 37360,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212784,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1450,
+     "rating_change": -9,
+     "score_damage_done": 80509,
+     "score_deaths": 1,
+     "score_heal_done": 17715,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212751,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1434,
+     "rating_change": 16,
+     "score_damage_done": 52617,
+     "score_deaths": 0,
+     "score_heal_done": 14781,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212737,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1440,
+     "rating_change": -6,
+     "score_damage_done": 35081,
+     "score_deaths": 1,
+     "score_heal_done": 6820,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212689,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1425,
+     "rating_change": 15,
+     "score_damage_done": 33536,
+     "score_deaths": 1,
+     "score_heal_done": 3860,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212677,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1433,
+     "rating_change": -8,
+     "score_damage_done": 14074,
+     "score_deaths": 1,
+     "score_heal_done": 12067,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212664,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1417,
+     "rating_change": 16,
+     "score_damage_done": 37800,
+     "score_deaths": 0,
+     "score_heal_done": 3650,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212649,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1400,
+     "rating_change": 17,
+     "score_damage_done": 12348,
+     "score_deaths": 0,
+     "score_heal_done": 3650,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212639,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1382,
+     "rating_change": 18,
+     "score_damage_done": 22299,
+     "score_deaths": 0,
+     "score_heal_done": 3650,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212619,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1367,
+     "rating_change": 15,
+     "score_damage_done": 18223,
+     "score_deaths": 0,
+     "score_heal_done": 18402,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1441,
+   "rating_change": 90,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 7
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-07-18T09:59:06.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1212611,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 1212611,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1375,
+     "rating_change": -8,
+     "score_damage_done": 10860,
+     "score_deaths": 1,
+     "score_heal_done": 3650,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212600,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1355,
+     "rating_change": 20,
+     "score_damage_done": 30301,
+     "score_deaths": 0,
+     "score_heal_done": 3650,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212586,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1338,
+     "rating_change": 17,
+     "score_damage_done": 33276,
+     "score_deaths": 0,
+     "score_heal_done": 16240,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212577,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1318,
+     "rating_change": 20,
+     "score_damage_done": 84597,
+     "score_deaths": 0,
+     "score_heal_done": 27069,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212520,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1301,
+     "rating_change": 17,
+     "score_damage_done": 42931,
+     "score_deaths": 0,
+     "score_heal_done": 3650,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212501,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1281,
+     "rating_change": 20,
+     "score_damage_done": 25218,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 1212485,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1263,
+     "rating_change": 18,
+     "score_damage_done": 29729,
+     "score_deaths": 0,
+     "score_heal_done": 14044,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1375,
+   "rating_change": 104,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158457,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:45:09.000000Z",
+   "guid": 1495434,
+   "id": 218928738,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158511,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_02.png",
+    "name": "Манжеты рвения гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:44:51.000000Z",
+   "guid": 1495434,
+   "id": 218928654,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158506,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Чародейство гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:44:48.000000Z",
+   "guid": 1495434,
+   "id": 218928638,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158512,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:44:43.000000Z",
+   "guid": 1495434,
+   "id": 218928616,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158509,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_13.png",
+    "name": "Шнурованый ремень рвения гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:44:38.000000Z",
+   "guid": 1495434,
+   "id": 218928602,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-07-18T09:39:48.000000Z",
+   "draws": 0,
+   "guid": 1495434,
+   "last_arena_id": 1212468,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 1212468,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1243,
+     "rating_change": 20,
+     "score_damage_done": 28403,
+     "score_deaths": 0,
+     "score_heal_done": 3638,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212463,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1219,
+     "rating_change": 24,
+     "score_damage_done": 21742,
+     "score_deaths": 0,
+     "score_heal_done": 16314,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212448,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1195,
+     "rating_change": 24,
+     "score_damage_done": 29053,
+     "score_deaths": 0,
+     "score_heal_done": 3886,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212438,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1200,
+     "rating_change": -5,
+     "score_damage_done": 10745,
+     "score_deaths": 1,
+     "score_heal_done": 3638,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 1212404,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1174,
+     "rating_change": 26,
+     "score_damage_done": 33543,
+     "score_deaths": 0,
+     "score_heal_done": 3614,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 1212397,
+     "character": {
+      "class_icon": "/images/icons/classmage.webp",
+      "class_id": 8,
+      "class_name": "Маг",
+      "faction": 2,
+      "gender": 1,
+      "guid": 1495434,
+      "level": 80,
+      "name": "Байтнакекс",
+      "race_icon": "/images/icons/race/nightelffemale.webp",
+      "race_id": 4,
+      "race_name": "Ночной эльф",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1495434,
+     "rating": 1179,
+     "rating_change": -5,
+     "score_damage_done": 15686,
+     "score_deaths": 1,
+     "score_heal_done": 3614,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1243,
+   "rating_change": 84,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42126,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:30:38.000000Z",
+   "guid": 1495434,
+   "id": 218926606,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100150,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо влияния гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T09:23:43.000000Z",
+   "guid": 1495434,
+   "id": 218925662,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Острокрылая",
+    "bossfight_id": 8963190
+   },
+   "datetime": "2026-07-18T07:53:30.000000Z",
+   "guid": 1495434,
+   "id": 8963190,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Огненный Левиафан",
+    "bossfight_id": 8963187
+   },
+   "datetime": "2026-07-18T07:50:29.000000Z",
+   "guid": 1495434,
+   "id": 8963187,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153676,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_diamondring1.png",
+    "name": "Символ мудреца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-18T07:33:26.000000Z",
+   "guid": 1495434,
+   "id": 218912840,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 976,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_quests_completed_daily_04.png",
+    "name": "500 ежедневных заданий",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784359939,
+   "datetime": "2026-07-18T04:32:19.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 1795,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_food_66.png",
+    "name": "Буфетчик",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1784182891,
+   "datetime": "2026-07-16T03:21:31.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 44308,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_76.png",
+    "name": "Перстень Эдварда Странного",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-13T17:23:52.000000Z",
+   "guid": 1495434,
+   "id": 218280735,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 8935894
+   },
+   "datetime": "2026-07-12T20:14:41.000000Z",
+   "guid": 1495434,
+   "id": 8935894,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 8935762
+   },
+   "datetime": "2026-07-12T19:59:11.000000Z",
+   "guid": 1495434,
+   "id": 8935762,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 8931790
+   },
+   "datetime": "2026-07-12T19:35:57.000000Z",
+   "guid": 1495434,
+   "id": 8931790,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 8931660
+   },
+   "datetime": "2026-07-12T19:15:56.000000Z",
+   "guid": 1495434,
+   "id": 8931660,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 8931601
+   },
+   "datetime": "2026-07-12T19:05:31.000000Z",
+   "guid": 1495434,
+   "id": 8931601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 8931523
+   },
+   "datetime": "2026-07-12T18:55:25.000000Z",
+   "guid": 1495434,
+   "id": 8931523,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39491,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_01.png",
+    "name": "Героический венец ледяного огня",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T18:11:26.000000Z",
+   "guid": 1495434,
+   "id": 218146648,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39493,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Героические поножи ледяного огня",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T18:11:22.000000Z",
+   "guid": 1495434,
+   "id": 218146614,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 8931191
+   },
+   "datetime": "2026-07-12T18:05:25.000000Z",
+   "guid": 1495434,
+   "id": 8931191,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 8929949
+   },
+   "datetime": "2026-07-12T17:41:16.000000Z",
+   "guid": 1495434,
+   "id": 8929949,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 8929861
+   },
+   "datetime": "2026-07-12T17:26:33.000000Z",
+   "guid": 1495434,
+   "id": 8929861,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 3842,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "2500 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783887281,
+   "datetime": "2026-07-12T17:14:41.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3818,
+    "icon": "https://cdn3.scourge.tech/icons/inv_crown_15.png",
+    "name": "Дань искусству (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783886351,
+   "datetime": "2026-07-12T16:59:11.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 897,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_48.png",
+    "name": "Солнечный удар",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783869346,
+   "datetime": "2026-07-12T12:15:46.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6813,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_vendetta.png",
+    "name": "Очередной день на Тол'Гароде",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1783868213,
+   "datetime": "2026-07-12T11:56:53.000000Z",
+   "guid": 1495434,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 8925903
+   },
+   "datetime": "2026-07-12T09:48:14.000000Z",
+   "guid": 1495434,
+   "id": 8925903,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39426,
+    "icon": "https://cdn3.scourge.tech/icons/inv_wand_1h_stratholme_d_02.png",
+    "name": "Жезл верховного лича",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:36:24.000000Z",
+   "guid": 1495434,
+   "id": 218039082,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39420,
+    "icon": "https://cdn3.scourge.tech/icons/inv_weapon_shortblade_37.png",
+    "name": "Безвластие",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:36:22.000000Z",
+   "guid": 1495434,
+   "id": 218039078,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39405,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_107.png",
+    "name": "Шлем внутреннего святилища",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:29:16.000000Z",
+   "guid": 1495434,
+   "id": 218038263,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39401,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_51naxxramas.png",
+    "name": "Обруч Смерти",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:29:14.000000Z",
+   "guid": 1495434,
+   "id": 218038258,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39395,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_110.png",
+    "name": "Нечищенный великий шлем тана",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:25:37.000000Z",
+   "guid": 1495434,
+   "id": 218037808,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39386,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_leather_05.png",
+    "name": "Мундир Недоразумения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:12:04.000000Z",
+   "guid": 1495434,
+   "id": 218036537,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39390,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_08.png",
+    "name": "Наручники Возрождающихся призраков",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:12:02.000000Z",
+   "guid": 1495434,
+   "id": 218036533,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 8925897
+   },
+   "datetime": "2026-07-12T08:11:56.000000Z",
+   "guid": 1495434,
+   "id": 8925897,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39298,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_12.png",
+    "name": "Воинский пояс Наставника",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:05:01.000000Z",
+   "guid": 1495434,
+   "id": 218035550,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39310,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_72.png",
+    "name": "Оплечье всеобъемлющего разума",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:04:58.000000Z",
+   "guid": 1495434,
+   "id": 218035541,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Инструктор Разувий",
+    "bossfight_id": 8925891
+   },
+   "datetime": "2026-07-12T08:04:52.000000Z",
+   "guid": 1495434,
+   "id": 8925891,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39292,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas05.png",
+    "name": "Опровергатель",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T08:00:59.000000Z",
+   "guid": 1495434,
+   "id": 218035099,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Таддиус",
+    "bossfight_id": 8925885
+   },
+   "datetime": "2026-07-12T08:00:53.000000Z",
+   "guid": 1495434,
+   "id": 8925885,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39215,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_08.png",
+    "name": "Сапоги последователя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:57:18.000000Z",
+   "guid": 1495434,
+   "id": 218034742,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 8925881
+   },
+   "datetime": "2026-07-12T07:57:14.000000Z",
+   "guid": 1495434,
+   "id": 8925881,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39278,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_02.png",
+    "name": "Поручи тревоги",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:54:37.000000Z",
+   "guid": 1495434,
+   "id": 218034223,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39279,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_21.png",
+    "name": "Пузырящийся пояс разложения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:54:33.000000Z",
+   "guid": 1495434,
+   "id": 218034217,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 8925872
+   },
+   "datetime": "2026-07-12T07:54:23.000000Z",
+   "guid": 1495434,
+   "id": 8925872,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39261,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_12.png",
+    "name": "Запятнанный ремень лечения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:51:07.000000Z",
+   "guid": 1495434,
+   "id": 218033776,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39267,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_75.png",
+    "name": "Наплечные лезвия поганища",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:51:05.000000Z",
+   "guid": 1495434,
+   "id": 218033770,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 8925869
+   },
+   "datetime": "2026-07-12T07:50:58.000000Z",
+   "guid": 1495434,
+   "id": 8925869,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39233,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_28.png",
+    "name": "Эгида проклятия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:46:44.000000Z",
+   "guid": 1495434,
+   "id": 218033203,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39228,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_52.png",
+    "name": "Обвитые паутиной захваты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:46:42.000000Z",
+   "guid": 1495434,
+   "id": 218033198,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 8925863
+   },
+   "datetime": "2026-07-12T07:46:38.000000Z",
+   "guid": 1495434,
+   "id": 8925863,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39197,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_62.png",
+    "name": "Рукавицы Мастера",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:43:33.000000Z",
+   "guid": 1495434,
+   "id": 218032829,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39196,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_cloth_05.png",
+    "name": "Сапоги верующего",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:43:30.000000Z",
+   "guid": 1495434,
+   "id": 218032821,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 8925858
+   },
+   "datetime": "2026-07-12T07:43:21.000000Z",
+   "guid": 1495434,
+   "id": 8925858,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 39192,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_64.png",
+    "name": "Перчатки темных жестов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-07-12T07:41:18.000000Z",
+   "guid": 1495434,
+   "id": 218032579,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 1495434,
+ "name": "Байтнакекс",
+ "ts": "2026-09-18T17-09Z"
+}

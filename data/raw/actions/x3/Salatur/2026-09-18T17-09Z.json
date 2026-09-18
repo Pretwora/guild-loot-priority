@@ -1,0 +1,6987 @@
+{
+ "events": [
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 19:38:21",
+     "duration": 859,
+     "id": 29341845,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 29341845,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 12,
+    "score_damage_done": 501431,
+    "score_deaths": 9,
+    "score_healing_done": 289796,
+    "score_honorable_kills": 27,
+    "score_killing_blows": 10,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29341845,
+   "datetime": "2026-09-17T16:38:21.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 4,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 237,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 19:20:38",
+     "duration": 399,
+     "id": 29341801,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 1
+    },
+    "battleground_id": 29341801,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 252081,
+    "score_deaths": 4,
+    "score_healing_done": 105322,
+    "score_honorable_kills": 18,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29341801,
+   "datetime": "2026-09-17T16:20:38.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 19:10:23",
+     "duration": 506,
+     "id": 29341736,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 1
+    },
+    "battleground_id": 29341736,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 2,
+    "score_damage_done": 296635,
+    "score_deaths": 4,
+    "score_healing_done": 121872,
+    "score_honorable_kills": 25,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29341736,
+   "datetime": "2026-09-17T16:10:23.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 18:53:43",
+     "duration": 300,
+     "id": 29341678,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 1
+    },
+    "battleground_id": 29341678,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 4,
+    "score_damage_done": 142609,
+    "score_deaths": 2,
+    "score_healing_done": 74158,
+    "score_honorable_kills": 13,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29341678,
+   "datetime": "2026-09-17T15:53:43.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 18:46:16",
+     "duration": 794,
+     "id": 29341610,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 0
+    },
+    "battleground_id": 29341610,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 14,
+    "score_damage_done": 258310,
+    "score_deaths": 10,
+    "score_healing_done": 133241,
+    "score_honorable_kills": 17,
+    "score_killing_blows": 7,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29341610,
+   "datetime": "2026-09-17T15:46:16.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158437,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_24.png",
+    "name": "Брюки гневного гладиатора из ткани Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T15:24:37.000000Z",
+   "guid": 1581730,
+   "id": 228796283,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154426,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_bag_10_black.png",
+    "name": "Полевой мешочек тауматурга",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T15:21:42.000000Z",
+   "guid": 1581730,
+   "id": 228795739,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6277,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_pvp_h_06.png",
+    "name": "Каменный страж",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789663101,
+   "datetime": "2026-09-17T13:38:21.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9504595
+   },
+   "datetime": "2026-09-16T18:21:38.000000Z",
+   "guid": 1581730,
+   "id": 9504595,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9504528
+   },
+   "datetime": "2026-09-16T18:09:51.000000Z",
+   "guid": 1581730,
+   "id": 9504528,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9504474
+   },
+   "datetime": "2026-09-16T17:59:42.000000Z",
+   "guid": 1581730,
+   "id": 9504474,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9504410
+   },
+   "datetime": "2026-09-16T17:47:25.000000Z",
+   "guid": 1581730,
+   "id": 9504410,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9504323
+   },
+   "datetime": "2026-09-16T17:35:13.000000Z",
+   "guid": 1581730,
+   "id": 9504323,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9504271
+   },
+   "datetime": "2026-09-16T17:22:08.000000Z",
+   "guid": 1581730,
+   "id": 9504271,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6022,
+    "icon": "https://cdn3.scourge.tech/icons/custom_category_5.png",
+    "name": "5 Категория",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1789577923,
+   "datetime": "2026-09-16T13:58:43.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 6,
+   "count": 7,
+   "datetime": "2026-09-14T16:57:41.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 353099,
+   "loses": 5,
+   "matches": [
+    {
+     "arena_id": 353099,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1101,
+     "rating_change": 33,
+     "score_damage_done": 31774,
+     "score_deaths": 0,
+     "score_heal_done": 17821,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 353091,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1105,
+     "rating_change": -4,
+     "score_damage_done": 34225,
+     "score_deaths": 1,
+     "score_heal_done": 16908,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 353081,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1109,
+     "rating_change": -4,
+     "score_damage_done": 8206,
+     "score_deaths": 1,
+     "score_heal_done": 15159,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 353072,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1114,
+     "rating_change": -5,
+     "score_damage_done": 30862,
+     "score_deaths": 1,
+     "score_heal_done": 25546,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 353062,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1119,
+     "rating_change": -5,
+     "score_damage_done": 19287,
+     "score_deaths": 1,
+     "score_heal_done": 12943,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 353054,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1124,
+     "rating_change": -5,
+     "score_damage_done": 6925,
+     "score_deaths": 1,
+     "score_heal_done": 11676,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 353048,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1100,
+     "rating_change": 24,
+     "score_damage_done": 27697,
+     "score_deaths": 0,
+     "score_heal_done": 17281,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1101,
+   "rating_change": 34,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 19:49:30",
+     "duration": 571,
+     "id": 29299647,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 1
+    },
+    "battleground_id": 29299647,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 2,
+    "score_damage_done": 189898,
+    "score_deaths": 7,
+    "score_healing_done": 132814,
+    "score_honorable_kills": 22,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29299647,
+   "datetime": "2026-09-14T16:49:30.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 6,
+   "count": 2,
+   "datetime": "2026-09-14T16:38:56.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 352942,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 352942,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1106,
+     "rating_change": -6,
+     "score_damage_done": 22204,
+     "score_deaths": 1,
+     "score_heal_done": 10676,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 352888,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1071,
+     "rating_change": 35,
+     "score_damage_done": 26481,
+     "score_deaths": 0,
+     "score_heal_done": 16877,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1106,
+   "rating_change": 29,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-14T16:36:19.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 352922,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 352922,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 17007,
+     "score_deaths": 1,
+     "score_heal_done": 2452,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 192,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 19:29:07",
+     "duration": 789,
+     "id": 29299459,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 29299459,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 21,
+    "score_damage_done": 518719,
+    "score_deaths": 1,
+    "score_healing_done": 281968,
+    "score_honorable_kills": 55,
+    "score_killing_blows": 9,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29299459,
+   "datetime": "2026-09-14T16:29:07.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 19:12:47",
+     "duration": 967,
+     "id": 29299231,
+     "name": "Остров Завоеваний",
+     "objectives": [],
+     "type": 30,
+     "winner_faction": 0
+    },
+    "battleground_id": 29299231,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 6,
+    "score_damage_done": 459202,
+    "score_deaths": 3,
+    "score_healing_done": 243200,
+    "score_honorable_kills": 29,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29299231,
+   "datetime": "2026-09-14T16:12:47.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 18:53:40",
+     "duration": 549,
+     "id": 29299075,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29299075,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 4,
+    "score_damage_done": 332354,
+    "score_deaths": 2,
+    "score_healing_done": 154335,
+    "score_honorable_kills": 18,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29299075,
+   "datetime": "2026-09-14T15:53:40.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 235,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-14 18:45:55",
+     "duration": 93,
+     "id": 29299074,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29299074,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 0,
+    "score_damage_done": 8864,
+    "score_deaths": 0,
+    "score_healing_done": 26249,
+    "score_honorable_kills": 1,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29299074,
+   "datetime": "2026-09-14T15:45:55.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 3776,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_61.png",
+    "name": "Победа на Острове Завоеваний",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789402367,
+   "datetime": "2026-09-14T13:12:47.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158436,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_63.png",
+    "name": "Облачение гневного гладиатора из ткани Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-13T18:25:02.000000Z",
+   "guid": 1581730,
+   "id": 228230398,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 3,
+    "attr_3": 2,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 235,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 21:23:07",
+     "duration": 331,
+     "id": 29292578,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 29292578,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 31229,
+    "score_deaths": 0,
+    "score_healing_done": 43381,
+    "score_honorable_kills": 19,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29292578,
+   "datetime": "2026-09-13T18:23:07.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 21:15:22",
+     "duration": 852,
+     "id": 29279660,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29279660,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 7,
+    "score_damage_done": 535610,
+    "score_deaths": 3,
+    "score_healing_done": 185779,
+    "score_honorable_kills": 36,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29279660,
+   "datetime": "2026-09-13T18:15:22.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 7,
+    "attr_3": 7,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 235,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 20:06:36",
+     "duration": 1132,
+     "id": 29279341,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 29279341,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 13,
+    "score_damage_done": 645294,
+    "score_deaths": 5,
+    "score_healing_done": 238385,
+    "score_honorable_kills": 35,
+    "score_killing_blows": 10,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29279341,
+   "datetime": "2026-09-13T17:06:36.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 19:40:46",
+     "duration": 586,
+     "id": 29279253,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29279253,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 16,
+    "score_damage_done": 359126,
+    "score_deaths": 2,
+    "score_healing_done": 164080,
+    "score_honorable_kills": 43,
+    "score_killing_blows": 11,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29279253,
+   "datetime": "2026-09-13T16:40:46.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 214,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_wineos_underxminutes.png",
+    "name": "Шквал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789323787,
+   "datetime": "2026-09-13T15:23:07.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6048,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_topdps.png",
+    "name": "Контроль над повреждениями",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789319152,
+   "datetime": "2026-09-13T14:05:52.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 233,
+    "icon": "https://cdn3.scourge.tech/icons/spell_nature_bloodlust.png",
+    "name": "Кровожадный берсерк",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789318937,
+   "datetime": "2026-09-13T14:02:17.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 166,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_winwsg.png",
+    "name": "Победа в Ущелье Песни Войны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789317646,
+   "datetime": "2026-09-13T13:40:46.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 168,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_winwsg_3-0.png",
+    "name": "Победить всухую в Ущелье",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789317646,
+   "datetime": "2026-09-13T13:40:46.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 1,
+   "count": 2,
+   "datetime": "2026-09-13T08:35:23.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 342661,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 342661,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 77317,
+     "score_deaths": 0,
+     "score_heal_done": 18477,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 342610,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 144,
+     "rating_change": 0,
+     "score_damage_done": 45101,
+     "score_deaths": 1,
+     "score_heal_done": 43674,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 144,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-09-13T08:32:56.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 342645,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 342645,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1074,
+     "rating_change": -3,
+     "score_damage_done": 33875,
+     "score_deaths": 1,
+     "score_heal_done": 39666,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 342634,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1077,
+     "rating_change": -3,
+     "score_damage_done": 45020,
+     "score_deaths": 1,
+     "score_heal_done": 24344,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 342622,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1080,
+     "rating_change": -3,
+     "score_damage_done": 44336,
+     "score_deaths": 1,
+     "score_heal_done": 27614,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1074,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 11:15:33",
+     "duration": 530,
+     "id": 29260048,
+     "name": "Долина Узников",
+     "objectives": [],
+     "type": 31,
+     "winner_faction": 0
+    },
+    "battleground_id": 29260048,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 2,
+    "score_damage_done": 170643,
+    "score_deaths": 0,
+    "score_healing_done": 122579,
+    "score_honorable_kills": 29,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29260048,
+   "datetime": "2026-09-13T08:15:33.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 11:04:08",
+     "duration": 1176,
+     "id": 29259916,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 1
+    },
+    "battleground_id": 29259916,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 10,
+    "score_damage_done": 509998,
+    "score_deaths": 10,
+    "score_healing_done": 254419,
+    "score_honorable_kills": 57,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29259916,
+   "datetime": "2026-09-13T08:04:08.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 4,
+    "attr_3": 2,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 236,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 10:41:46",
+     "duration": 1103,
+     "id": 29259805,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 29259805,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 386962,
+    "score_deaths": 12,
+    "score_healing_done": 183188,
+    "score_honorable_kills": 16,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29259805,
+   "datetime": "2026-09-13T07:41:46.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 235,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-13 10:18:42",
+     "duration": 918,
+     "id": 29259725,
+     "name": "Два Пика",
+     "objectives": [],
+     "type": 57,
+     "winner_faction": 0
+    },
+    "battleground_id": 29259725,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 318783,
+    "score_deaths": 6,
+    "score_healing_done": 165670,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 6,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29259725,
+   "datetime": "2026-09-13T07:18:42.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 2,
+   "count": 3,
+   "datetime": "2026-09-12T20:29:26.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 340308,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 340308,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 837,
+     "rating_change": 45,
+     "score_damage_done": 87435,
+     "score_deaths": 0,
+     "score_heal_done": 16193,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340284,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 838,
+     "rating_change": -1,
+     "score_damage_done": 138630,
+     "score_deaths": 1,
+     "score_heal_done": 14508,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340256,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 839,
+     "rating_change": -1,
+     "score_damage_done": 44033,
+     "score_deaths": 1,
+     "score_heal_done": 13123,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 837,
+   "rating_change": 43,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-09-12T20:18:29.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 340241,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 340241,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 840,
+     "rating_change": -1,
+     "score_damage_done": 48866,
+     "score_deaths": 1,
+     "score_heal_done": 7549,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340222,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 842,
+     "rating_change": -2,
+     "score_damage_done": 83412,
+     "score_deaths": 1,
+     "score_heal_done": 18808,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340198,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 797,
+     "rating_change": 45,
+     "score_damage_done": 116840,
+     "score_deaths": 0,
+     "score_heal_done": 24794,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340177,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 798,
+     "rating_change": -1,
+     "score_damage_done": 120138,
+     "score_deaths": 1,
+     "score_heal_done": 8365,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340159,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 755,
+     "rating_change": 43,
+     "score_damage_done": 108815,
+     "score_deaths": 0,
+     "score_heal_done": 6393,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340137,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 755,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 3584,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 840,
+   "rating_change": 84,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T19:59:21.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 340124,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 340124,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 710,
+     "rating_change": 45,
+     "score_damage_done": 154871,
+     "score_deaths": 0,
+     "score_heal_done": 19926,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340105,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 710,
+     "rating_change": 0,
+     "score_damage_done": 37177,
+     "score_deaths": 1,
+     "score_heal_done": 13485,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340079,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 664,
+     "rating_change": 46,
+     "score_damage_done": 74665,
+     "score_deaths": 0,
+     "score_heal_done": 11123,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340067,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 619,
+     "rating_change": 45,
+     "score_damage_done": 84552,
+     "score_deaths": 0,
+     "score_heal_done": 13334,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 340053,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 619,
+     "rating_change": 0,
+     "score_damage_done": 2922,
+     "score_deaths": 1,
+     "score_heal_done": 5434,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340049,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 619,
+     "rating_change": 0,
+     "score_damage_done": 64236,
+     "score_deaths": 1,
+     "score_heal_done": 7755,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 340030,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 619,
+     "rating_change": 0,
+     "score_damage_done": 128489,
+     "score_deaths": 1,
+     "score_heal_done": 32737,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 710,
+   "rating_change": 136,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 4,
+   "datetime": "2026-09-12T19:34:52.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339974,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 339974,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 619,
+     "rating_change": 0,
+     "score_damage_done": 53600,
+     "score_deaths": 1,
+     "score_heal_done": 9227,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339955,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 572,
+     "rating_change": 47,
+     "score_damage_done": 145069,
+     "score_deaths": 0,
+     "score_heal_done": 11856,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339913,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 572,
+     "rating_change": 0,
+     "score_damage_done": 20788,
+     "score_deaths": 1,
+     "score_heal_done": 14425,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339892,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 526,
+     "rating_change": 46,
+     "score_damage_done": 82409,
+     "score_deaths": 0,
+     "score_heal_done": 7629,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 619,
+   "rating_change": 93,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-09-12T19:17:24.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339866,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 339866,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 526,
+     "rating_change": 0,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 637,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339860,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 526,
+     "rating_change": 0,
+     "score_damage_done": 47760,
+     "score_deaths": 1,
+     "score_heal_done": 5744,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339829,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 526,
+     "rating_change": 0,
+     "score_damage_done": 23043,
+     "score_deaths": 1,
+     "score_heal_done": 14744,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339815,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 526,
+     "rating_change": 0,
+     "score_damage_done": 30795,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339804,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 479,
+     "rating_change": 47,
+     "score_damage_done": 106778,
+     "score_deaths": 0,
+     "score_heal_done": 4681,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339796,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 431,
+     "rating_change": 48,
+     "score_damage_done": 118990,
+     "score_deaths": 0,
+     "score_heal_done": 27156,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 526,
+   "rating_change": 95,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 5,
+   "datetime": "2026-09-12T18:58:27.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339778,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 339778,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 431,
+     "rating_change": 0,
+     "score_damage_done": 20943,
+     "score_deaths": 1,
+     "score_heal_done": 4109,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339768,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 384,
+     "rating_change": 47,
+     "score_damage_done": 81633,
+     "score_deaths": 0,
+     "score_heal_done": 2734,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339761,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 384,
+     "rating_change": 0,
+     "score_damage_done": 14045,
+     "score_deaths": 1,
+     "score_heal_done": 3136,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339737,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 87282,
+     "score_deaths": 0,
+     "score_heal_done": 22569,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339715,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 126702,
+     "score_deaths": 0,
+     "score_heal_done": 34573,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 431,
+   "rating_change": 143,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "bracket_id": 2,
+   "count": 7,
+   "datetime": "2026-09-12T18:39:21.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339700,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 339700,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 288,
+     "rating_change": 0,
+     "score_damage_done": 14356,
+     "score_deaths": 1,
+     "score_heal_done": 5737,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339681,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 67888,
+     "score_deaths": 0,
+     "score_heal_done": 12110,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339670,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 240,
+     "rating_change": 0,
+     "score_damage_done": 25197,
+     "score_deaths": 1,
+     "score_heal_done": 3278,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339658,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 192,
+     "rating_change": 48,
+     "score_damage_done": 60591,
+     "score_deaths": 0,
+     "score_heal_done": 5915,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339644,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 108074,
+     "score_deaths": 0,
+     "score_heal_done": 24190,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339632,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 84563,
+     "score_deaths": 0,
+     "score_heal_done": 7174,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339617,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 96,
+     "rating_change": 0,
+     "score_damage_done": 175147,
+     "score_deaths": 1,
+     "score_heal_done": 45046,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 288,
+   "rating_change": 192,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "bracket_id": 2,
+   "count": 6,
+   "datetime": "2026-09-12T18:16:29.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339588,
+   "loses": 4,
+   "matches": [
+    {
+     "arena_id": 339588,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 48,
+     "rating_change": 48,
+     "score_damage_done": 90533,
+     "score_deaths": 0,
+     "score_heal_done": 4573,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339575,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 15352,
+     "score_deaths": 1,
+     "score_heal_done": 7310,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339561,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 138607,
+     "score_deaths": 0,
+     "score_heal_done": 39392,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 339544,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 27360,
+     "score_deaths": 1,
+     "score_heal_done": 8794,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339535,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 49186,
+     "score_deaths": 1,
+     "score_heal_done": 7785,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 339520,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 33401,
+     "score_deaths": 1,
+     "score_heal_done": 17706,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 48,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-09-12T17:51:18.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 339454,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 339454,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1084,
+     "rating_change": -4,
+     "score_damage_done": 76946,
+     "score_deaths": 1,
+     "score_heal_done": 18370,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1084,
+   "rating_change": -4,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "entry": 1157,
+    "icon": "https://cdn3.scourge.tech/icons/ability_dualwieldspecialization.png",
+    "name": "Победа в дуэли",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789245779,
+   "datetime": "2026-09-12T17:42:59.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9479566
+   },
+   "datetime": "2026-09-12T12:06:58.000000Z",
+   "guid": 1581730,
+   "id": 9479566,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9479526
+   },
+   "datetime": "2026-09-12T11:58:26.000000Z",
+   "guid": 1581730,
+   "id": 9479526,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9479508
+   },
+   "datetime": "2026-09-12T11:53:06.000000Z",
+   "guid": 1581730,
+   "id": 9479508,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9479491
+   },
+   "datetime": "2026-09-12T11:48:55.000000Z",
+   "guid": 1581730,
+   "id": 9479491,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9479477
+   },
+   "datetime": "2026-09-12T11:41:20.000000Z",
+   "guid": 1581730,
+   "id": 9479477,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9479454
+   },
+   "datetime": "2026-09-12T11:38:20.000000Z",
+   "guid": 1581730,
+   "id": 9479454,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6519,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_coin_roulette_03.png",
+    "name": "Головокружительное везение",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789223384,
+   "datetime": "2026-09-12T11:29:44.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 975,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_quests_completed_daily_03.png",
+    "name": "200 ежедневных заданий",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789223350,
+   "datetime": "2026-09-12T11:29:10.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6480,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_note_01.png",
+    "name": "Подписано кровью",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789219890,
+   "datetime": "2026-09-12T10:31:30.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4525,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_scourgelordtyrannus.png",
+    "name": "Носите каски",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789218856,
+   "datetime": "2026-09-12T10:14:16.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4524,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_forgemaster.png",
+    "name": "Не жди до одиннадцати!",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789218520,
+   "datetime": "2026-09-12T10:08:40.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4397,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_onyxia.png",
+    "name": "Логово Ониксии (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789214818,
+   "datetime": "2026-09-12T09:06:58.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4405,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_generaldrakkisath.png",
+    "name": "Больше DOT'ов! (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789214818,
+   "datetime": "2026-09-12T09:06:58.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4407,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_burnout.png",
+    "name": "Второе дыхание (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789214818,
+   "datetime": "2026-09-12T09:06:58.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3916,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_argentchampion.png",
+    "name": "Призыв Авангарда (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789214306,
+   "datetime": "2026-09-12T08:58:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3815,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_svalasorrowgrave.png",
+    "name": "День и ночь (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789213986,
+   "datetime": "2026-09-12T08:53:06.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 3839,
+    "icon": "https://cdn3.scourge.tech/icons/spell_holy_empowerchampion.png",
+    "name": "250 эмблем подземелий и рейдов",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789213099,
+   "datetime": "2026-09-12T08:38:19.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_ticket_tarot_maelstrom_01.png",
+    "name": "Счастливая карта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-11T14:04:43.000000Z",
+   "guid": 1581730,
+   "id": 227800846,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6439,
+    "icon": "https://cdn3.scourge.tech/icons/ability_blackhand_marked4death.png",
+    "name": "Ликвидация",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789136220,
+   "datetime": "2026-09-11T11:17:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4518,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789131021,
+   "datetime": "2026-09-11T09:50:21.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4521,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_hallsofreflection.png",
+    "name": "Залы Отражений (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789131021,
+   "datetime": "2026-09-11T09:50:21.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4526,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_lichking.png",
+    "name": "Мы не отступаем, мы идем другим путем",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789131021,
+   "datetime": "2026-09-11T09:50:21.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4517,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789129740,
+   "datetime": "2026-09-11T09:29:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4520,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_pitofsaron.png",
+    "name": "Яма Сарона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789129740,
+   "datetime": "2026-09-11T09:29:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4516,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789128483,
+   "datetime": "2026-09-11T09:08:03.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4519,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_forgeofsouls.png",
+    "name": "Кузня Душ (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789128483,
+   "datetime": "2026-09-11T09:08:03.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9461420
+   },
+   "datetime": "2026-09-10T18:37:00.000000Z",
+   "guid": 1581730,
+   "id": 9461420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 90340,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_146.png",
+    "name": "Шелковый клобук нарушителя спокойствия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-10T17:59:46.000000Z",
+   "guid": 1581730,
+   "id": 227674780,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9461199
+   },
+   "datetime": "2026-09-10T17:54:56.000000Z",
+   "guid": 1581730,
+   "id": 9461199,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9461071
+   },
+   "datetime": "2026-09-10T17:35:51.000000Z",
+   "guid": 1581730,
+   "id": 9461071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6133,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_magtheridon.png",
+    "name": "Логово Магтеридона (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6329,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warlock_improveddemonictactics.png",
+    "name": "Гроза Легиона",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789065420,
+   "datetime": "2026-09-10T15:37:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6132,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_gruulthedragonkiller.png",
+    "name": "Логово Груула (героич.)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6336,
+    "icon": "https://cdn3.scourge.tech/icons/warrior_talent_icon_innerrage.png",
+    "name": "Контролируемая ярость",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789062896,
+   "datetime": "2026-09-10T14:54:56.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9375808
+   },
+   "datetime": "2026-08-27T17:44:58.000000Z",
+   "guid": 1581730,
+   "id": 9375808,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117293,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Наплечные пластины Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:12:06.000000Z",
+   "guid": 1581730,
+   "id": 225393760,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117290,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Платье Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:12:01.000000Z",
+   "guid": 1581730,
+   "id": 225393735,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117292,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Бриджи Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:11:57.000000Z",
+   "guid": 1581730,
+   "id": 225393711,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117291,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Рукавицы Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T17:11:52.000000Z",
+   "guid": 1581730,
+   "id": 225393685,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 6,
+   "count": 5,
+   "datetime": "2026-08-27T15:06:50.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 222271,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 222271,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1052,
+     "rating_change": 32,
+     "score_damage_done": 33023,
+     "score_deaths": 0,
+     "score_heal_done": 30779,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 222264,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1058,
+     "rating_change": -6,
+     "score_damage_done": 20668,
+     "score_deaths": 1,
+     "score_heal_done": 18216,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 222251,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1063,
+     "rating_change": -5,
+     "score_damage_done": 56951,
+     "score_deaths": 1,
+     "score_heal_done": 53039,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 222232,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1065,
+     "rating_change": -2,
+     "score_damage_done": 4445,
+     "score_deaths": 1,
+     "score_heal_done": 11822,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 222217,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 1026,
+     "rating_change": 39,
+     "score_damage_done": 52758,
+     "score_deaths": 0,
+     "score_heal_done": 30366,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 1052,
+   "rating_change": 58,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 234,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-27 17:55:06",
+     "duration": 876,
+     "id": 28856241,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28856241,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 4,
+    "score_damage_done": 204504,
+    "score_deaths": 5,
+    "score_healing_done": 122627,
+    "score_honorable_kills": 23,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28856241,
+   "datetime": "2026-08-27T14:55:06.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 6333,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_ritualofsacrifice.png",
+    "name": "Сорванный ритуал",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787852698,
+   "datetime": "2026-08-27T14:44:58.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 6,
+   "count": 4,
+   "datetime": "2026-08-27T14:36:39.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 222005,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 222005,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 985,
+     "rating_change": 41,
+     "score_damage_done": 35781,
+     "score_deaths": 0,
+     "score_heal_done": 11757,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 221993,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 947,
+     "rating_change": 38,
+     "score_damage_done": 30398,
+     "score_deaths": 0,
+     "score_heal_done": 28228,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 221973,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 910,
+     "rating_change": 37,
+     "score_damage_done": 29202,
+     "score_deaths": 0,
+     "score_heal_done": 3788,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 221954,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 911,
+     "rating_change": -1,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 4123,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 985,
+   "rating_change": 115,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 3
+  },
+  {
+   "action": {
+    "entry": 6618,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_featsofstrength_gladiator_06.png",
+    "name": "План - капкан",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787841160,
+   "datetime": "2026-08-27T11:32:40.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 137022,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Молниеносное чародейство гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T05:24:19.000000Z",
+   "guid": 1581730,
+   "id": 225298364,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 234,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-27 08:19:15",
+     "duration": 574,
+     "id": 28841712,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28841712,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 9,
+    "score_damage_done": 391848,
+    "score_deaths": 0,
+    "score_healing_done": 82718,
+    "score_honorable_kills": 37,
+    "score_killing_blows": 5,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28841712,
+   "datetime": "2026-08-27T05:19:15.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 1,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 234,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-27 08:06:47",
+     "duration": 714,
+     "id": 28841699,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 1
+    },
+    "battleground_id": 28841699,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 0,
+    "score_damage_done": 60492,
+    "score_deaths": 3,
+    "score_healing_done": 26793,
+    "score_honorable_kills": 10,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28841699,
+   "datetime": "2026-08-27T05:06:47.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-27T05:03:32.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 218666,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 218666,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 144,
+     "rating_change": 0,
+     "score_damage_done": 14603,
+     "score_deaths": 1,
+     "score_heal_done": 10481,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 144,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-27T05:00:55.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 218664,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 218664,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 913,
+     "rating_change": -2,
+     "score_damage_done": 22631,
+     "score_deaths": 1,
+     "score_heal_done": 7126,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 913,
+   "rating_change": -2,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 5,
+   "datetime": "2026-08-27T04:57:51.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 218661,
+   "loses": 5,
+   "matches": [
+    {
+     "arena_id": 218661,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 915,
+     "rating_change": -2,
+     "score_damage_done": 0,
+     "score_deaths": 1,
+     "score_heal_done": 0,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218660,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 916,
+     "rating_change": -1,
+     "score_damage_done": 4967,
+     "score_deaths": 1,
+     "score_heal_done": 25337,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218659,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 918,
+     "rating_change": -2,
+     "score_damage_done": 19719,
+     "score_deaths": 1,
+     "score_heal_done": 6406,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218657,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 920,
+     "rating_change": -2,
+     "score_damage_done": 37772,
+     "score_deaths": 1,
+     "score_heal_done": 17851,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 218649,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 922,
+     "rating_change": -2,
+     "score_damage_done": 35489,
+     "score_deaths": 1,
+     "score_heal_done": 33080,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 915,
+   "rating_change": -9,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 232,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-27 07:49:32",
+     "duration": 817,
+     "id": 28841685,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 1
+    },
+    "battleground_id": 28841685,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 0,
+    "score_damage_done": 134858,
+    "score_deaths": 1,
+    "score_healing_done": 33997,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28841685,
+   "datetime": "2026-08-27T04:49:32.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154466,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelcrafting_starofelune_01.png",
+    "name": "Кристаллизованная слеза",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-27T03:30:37.000000Z",
+   "guid": 1581730,
+   "id": 225292576,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 516,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_pvp_p_04.png",
+    "name": "1000 почетных побед в PvP",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1787807888,
+   "datetime": "2026-08-27T02:18:08.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104206,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_06.png",
+    "name": "Покров обманщика",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T17:29:02.000000Z",
+   "guid": 1581730,
+   "id": 224814982,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9347831
+   },
+   "datetime": "2026-08-23T17:26:19.000000Z",
+   "guid": 1581730,
+   "id": 9347831,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Шахматы",
+    "bossfight_id": 9347792
+   },
+   "datetime": "2026-08-23T17:15:51.000000Z",
+   "guid": 1581730,
+   "id": 9347792,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9347747
+   },
+   "datetime": "2026-08-23T17:03:23.000000Z",
+   "guid": 1581730,
+   "id": 9347747,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9347714
+   },
+   "datetime": "2026-08-23T16:53:51.000000Z",
+   "guid": 1581730,
+   "id": 9347714,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9347697
+   },
+   "datetime": "2026-08-23T16:49:38.000000Z",
+   "guid": 1581730,
+   "id": 9347697,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9347662
+   },
+   "datetime": "2026-08-23T16:39:18.000000Z",
+   "guid": 1581730,
+   "id": 9347662,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117447,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Поножи Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:15:30.000000Z",
+   "guid": 1581730,
+   "id": 224800506,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Одеяние Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:15:27.000000Z",
+   "guid": 1581730,
+   "id": 224800497,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117448,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Мантия Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:15:24.000000Z",
+   "guid": 1581730,
+   "id": 224800489,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117449,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Перчатки Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:15:21.000000Z",
+   "guid": 1581730,
+   "id": 224800474,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 27512,
+    "icon": "https://cdn3.scourge.tech/icons/inv_sword_01.png",
+    "name": "Сокрушитель Воли",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-23T16:10:54.000000Z",
+   "guid": 1581730,
+   "id": 224799737,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:32:05.000000Z",
+   "guid": 1581730,
+   "id": 223742074,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117295,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Нагрудник Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:32:02.000000Z",
+   "guid": 1581730,
+   "id": 223742069,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117298,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Оплечье Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:31:59.000000Z",
+   "guid": 1581730,
+   "id": 223742054,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117296,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Повязки Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:31:57.000000Z",
+   "guid": 1581730,
+   "id": 223742045,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Одеяние Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:28:26.000000Z",
+   "guid": 1581730,
+   "id": 223741299,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117448,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Мантия Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:28:23.000000Z",
+   "guid": 1581730,
+   "id": 223741284,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117447,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Поножи Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:28:19.000000Z",
+   "guid": 1581730,
+   "id": 223741259,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117449,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Перчатки Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:28:16.000000Z",
+   "guid": 1581730,
+   "id": 223741250,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117295,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Нагрудник Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:21:17.000000Z",
+   "guid": 1581730,
+   "id": 223739860,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117298,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Оплечье Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:21:12.000000Z",
+   "guid": 1581730,
+   "id": 223739841,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:21:09.000000Z",
+   "guid": 1581730,
+   "id": 223739822,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117296,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Повязки Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:21:05.000000Z",
+   "guid": 1581730,
+   "id": 223739802,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29285,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:05:01.000000Z",
+   "guid": 1581730,
+   "id": 223736359,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 29284,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_62.png",
+    "name": "Фиалковый перстень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-16T17:04:52.000000Z",
+   "guid": 1581730,
+   "id": 223736319,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117448,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_25.png",
+    "name": "Мантия Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T16:29:10.000000Z",
+   "guid": 1581730,
+   "id": 223203901,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117449,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_17.png",
+    "name": "Перчатки Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T16:17:44.000000Z",
+   "guid": 1581730,
+   "id": 223201422,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 28785,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas06.png",
+    "name": "Конденсатор молний",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-13T15:56:21.000000Z",
+   "guid": 1581730,
+   "id": 223196649,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9264390
+   },
+   "datetime": "2026-08-13T15:12:28.000000Z",
+   "guid": 1581730,
+   "id": 9264390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9264304
+   },
+   "datetime": "2026-08-13T14:52:11.000000Z",
+   "guid": 1581730,
+   "id": 9264304,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9264172
+   },
+   "datetime": "2026-08-13T14:29:56.000000Z",
+   "guid": 1581730,
+   "id": 9264172,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9264092
+   },
+   "datetime": "2026-08-13T14:12:26.000000Z",
+   "guid": 1581730,
+   "id": 9264092,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 11,
+    "dungeon_name": "Аукиндон: Гробницы Маны",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 911778,
+    "score": 67.5,
+    "timer": 1416
+   },
+   "datetime": "2026-08-11T14:46:54.000000Z",
+   "guid": 1581730,
+   "id": 911778,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-08-10T19:18:03.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 101238,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 101238,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 76380,
+     "score_deaths": 0,
+     "score_heal_done": 17583,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 96,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-08-10T19:14:49.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 101223,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 101223,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 617,
+     "rating_change": 46,
+     "score_damage_done": 56025,
+     "score_deaths": 0,
+     "score_heal_done": 35975,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 101206,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 617,
+     "rating_change": 0,
+     "score_damage_done": 25706,
+     "score_deaths": 1,
+     "score_heal_done": 27368,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 101156,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 572,
+     "rating_change": 45,
+     "score_damage_done": 28083,
+     "score_deaths": 0,
+     "score_heal_done": 8425,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 617,
+   "rating_change": 91,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158435,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_137.png",
+    "name": "Клобук гневного гладиатора из ткани Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T19:03:12.000000Z",
+   "guid": 1581730,
+   "id": 222782679,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47692,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_139.png",
+    "name": "Капюшон дымящегося огненного шлейфа",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T18:41:24.000000Z",
+   "guid": 1581730,
+   "id": 222778310,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 699,
+    "icon": "https://cdn3.scourge.tech/icons/ability_hunter_pathfinding.png",
+    "name": "Чемпион войны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786390093,
+   "datetime": "2026-08-10T16:28:13.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 378450,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_robe_dungeonrobe_c_03.png",
+    "name": "Наплеч пронзающих чар",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T11:59:05.000000Z",
+   "guid": 1581730,
+   "id": 222712646,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Одеяние Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T11:33:22.000000Z",
+   "guid": 1581730,
+   "id": 222708916,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117447,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Поножи Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T11:33:15.000000Z",
+   "guid": 1581730,
+   "id": 222708911,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 374601,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_cape_cataclysm_caster_c_01.png",
+    "name": "Плащ шепчущих ветров",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T11:32:19.000000Z",
+   "guid": 1581730,
+   "id": 222708834,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117295,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Нагрудник Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T10:14:13.000000Z",
+   "guid": 1581730,
+   "id": 222698901,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117297,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Кюлоты Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-10T10:14:05.000000Z",
+   "guid": 1581730,
+   "id": 222698883,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "challenge": 10,
+    "dungeon_name": "Цитадель Адского Пламени: Кузня Крови",
+    "has_run_log": false,
+    "level": 8,
+    "reward_level": 0,
+    "run_id": 907679,
+    "score": 116,
+    "timer": 2988
+   },
+   "datetime": "2026-08-10T09:48:14.000000Z",
+   "guid": 1581730,
+   "id": 907679,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "entry": 7392,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_challengemode_silver.png",
+    "name": "Ключник-завоеватель",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786366094,
+   "datetime": "2026-08-10T09:48:14.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-10T09:45:50.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 97552,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 97552,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 478,
+     "rating_change": 47,
+     "score_damage_done": 50057,
+     "score_deaths": 0,
+     "score_heal_done": 35710,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 478,
+   "rating_change": 47,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "challenge": 5,
+    "dungeon_name": "Цитадель Адского Пламени: Бастионы",
+    "has_run_log": false,
+    "level": 5,
+    "reward_level": 3,
+    "run_id": 907643,
+    "score": 97.5,
+    "timer": 1219
+   },
+   "datetime": "2026-08-10T08:58:48.000000Z",
+   "guid": 1581730,
+   "id": 907643,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "challenge": 4,
+    "dungeon_name": "Крепость Утгард",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 907624,
+    "score": 67.5,
+    "timer": 1202
+   },
+   "datetime": "2026-08-10T08:32:02.000000Z",
+   "guid": 1581730,
+   "id": 907624,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 232,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 23:04:50",
+     "duration": 311,
+     "id": 28315689,
+     "name": "Искаженная гравитация",
+     "objectives": [],
+     "type": 62,
+     "winner_faction": 0
+    },
+    "battleground_id": 28315689,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 0,
+    "score_damage_done": 49758,
+    "score_deaths": 2,
+    "score_healing_done": 43120,
+    "score_honorable_kills": 2,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28315689,
+   "datetime": "2026-08-09T20:04:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:58:58",
+     "duration": 489,
+     "id": 28315632,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 28315632,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 2,
+    "score_damage_done": 215069,
+    "score_deaths": 2,
+    "score_healing_done": 101572,
+    "score_honorable_kills": 9,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28315632,
+   "datetime": "2026-08-09T19:58:58.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100147,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_13.png",
+    "name": "Шнурованый ремень рвения гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:33:36.000000Z",
+   "guid": 1581730,
+   "id": 222635987,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42116,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_60.png",
+    "name": "Кольцо господства гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:23:38.000000Z",
+   "guid": 1581730,
+   "id": 222634034,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42038,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_necklace_36.png",
+    "name": "Подвеска порабощения гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:21:52.000000Z",
+   "guid": 1581730,
+   "id": 222633706,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 6,
+   "count": 1,
+   "datetime": "2026-08-09T19:21:09.000000Z",
+   "draws": 0,
+   "guid": 1581730,
+   "last_arena_id": 94986,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 94986,
+     "character": {
+      "class_icon": "/images/icons/classwarlock.webp",
+      "class_id": 9,
+      "class_name": "Чернокнижник",
+      "faction": 2,
+      "gender": 0,
+      "guid": 1581730,
+      "level": 80,
+      "name": "Salatur",
+      "race_icon": "/images/icons/race/worgenmale.webp",
+      "race_id": 12,
+      "race_name": "Ворген",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 1581730,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 36308,
+     "score_deaths": 0,
+     "score_heal_done": 15184,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 240,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42520,
+    "icon": "https://cdn3.scourge.tech/icons/inv_wand_27.png",
+    "name": "Пронзающее прикосновение гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:16:13.000000Z",
+   "guid": 1581730,
+   "id": 222632692,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42017,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_72.png",
+    "name": "Боевые рукавицы гневного гладиатора из ткани Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:15:36.000000Z",
+   "guid": 1581730,
+   "id": 222632597,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42011,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_101.png",
+    "name": "Нарамник гневного гладиатора из ткани Скверны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-09T19:15:08.000000Z",
+   "guid": 1581730,
+   "id": 222632520,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 1,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:13:51",
+     "duration": 627,
+     "id": 28315347,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28315347,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 0,
+    "score_damage_done": 163274,
+    "score_deaths": 1,
+    "score_healing_done": 45640,
+    "score_honorable_kills": 44,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28315347,
+   "datetime": "2026-08-09T19:13:51.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 22:01:50",
+     "duration": 523,
+     "id": 28334173,
+     "name": "Сверкающие копи",
+     "objectives": [],
+     "type": 12,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334173,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 390661,
+    "score_deaths": 4,
+    "score_healing_done": 153071,
+    "score_honorable_kills": 46,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28334173,
+   "datetime": "2026-08-09T19:01:50.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:50:00",
+     "duration": 846,
+     "id": 28334064,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28334064,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 3,
+    "score_damage_done": 422723,
+    "score_deaths": 8,
+    "score_healing_done": 173641,
+    "score_honorable_kills": 40,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28334064,
+   "datetime": "2026-08-09T18:50:00.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:32:41",
+     "duration": 652,
+     "id": 28333978,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333978,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 189997,
+    "score_deaths": 3,
+    "score_healing_done": 91972,
+    "score_honorable_kills": 34,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28333978,
+   "datetime": "2026-08-09T18:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 2,
+    "attr_2": 2,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 21:17:26",
+     "duration": 840,
+     "id": 28333877,
+     "name": "Храмовый город Ала'ваште",
+     "objectives": [],
+     "type": 20,
+     "winner_faction": 0
+    },
+    "battleground_id": 28333877,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 1,
+    "score_damage_done": 131909,
+    "score_deaths": 4,
+    "score_healing_done": 66495,
+    "score_honorable_kills": 20,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28333877,
+   "datetime": "2026-08-09T18:17:26.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 6453,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_lostcity of tolvir_highprophetbarim.png",
+    "name": "Убийца в храме",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786302735,
+   "datetime": "2026-08-09T16:12:15.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6346,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_win_gilneas.png",
+    "name": "Победа в Битве за Гилнеас",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786300361,
+   "datetime": "2026-08-09T15:32:41.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 7,
+    "attr_3": 4,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 14:51:57",
+     "duration": 1195,
+     "id": 28303796,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 28303796,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 380658,
+    "score_deaths": 11,
+    "score_healing_done": 128470,
+    "score_honorable_kills": 54,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28303796,
+   "datetime": "2026-08-09T11:51:57.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 13:39:56",
+     "duration": 899,
+     "id": 28299595,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 28299595,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 8,
+    "score_damage_done": 372852,
+    "score_deaths": 7,
+    "score_healing_done": 112920,
+    "score_honorable_kills": 38,
+    "score_killing_blows": 7,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 28299595,
+   "datetime": "2026-08-09T10:39:56.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 1,
+    "attr_2": 12,
+    "attr_3": 7,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-09 13:20:19",
+     "duration": 859,
+     "id": 28299351,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 0
+    },
+    "battleground_id": 28299351,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 10,
+    "score_damage_done": 145011,
+    "score_deaths": 2,
+    "score_healing_done": 78873,
+    "score_honorable_kills": 35,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28299351,
+   "datetime": "2026-08-09T10:20:19.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 6276,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_pvp_h_05.png",
+    "name": "Старшина",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1786270819,
+   "datetime": "2026-08-09T07:20:19.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 2,
+    "attr_3": 3,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 230,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-08-08 23:25:54",
+     "duration": 949,
+     "id": 28278591,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 28278591,
+    "deaths": null,
+    "guid": 1581730,
+    "score_bonus_honor": 6,
+    "score_damage_done": 317336,
+    "score_deaths": 4,
+    "score_healing_done": 109556,
+    "score_honorable_kills": 24,
+    "score_killing_blows": 6,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 28278591,
+   "datetime": "2026-08-08T20:25:54.000000Z",
+   "guid": 1581730,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117447,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_cloth_05.png",
+    "name": "Поножи Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-08T17:03:07.000000Z",
+   "guid": 1581730,
+   "id": 222421915,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117446,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_cloth_43.png",
+    "name": "Одеяние Пустого сердца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-08T17:02:51.000000Z",
+   "guid": 1581730,
+   "id": 222421875,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  }
+ ],
+ "guid": 1581730,
+ "name": "Salatur",
+ "ts": "2026-09-18T17-09Z"
+}
