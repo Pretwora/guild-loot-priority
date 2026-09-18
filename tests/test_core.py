@@ -106,11 +106,24 @@ class TestPerformance(unittest.TestCase):
     def test_tank_not_measured(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
         players = [line(f"P{i}", role="dps", dps=1000 * (i + 1)) for i in range(5)]
-        players.append(line("P5", role="tank", dps=50))
+        players.append(line("P5", cls=1, spec=2, role="tank", dps=50))  # Воин/Защита — танк-спек
         perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg)
         self.assertFalse(perf["p5"]["measured"])  # танк не меряется
         self.assertIsNone(perf["p5"]["P"])
         self.assertTrue(perf["p0"]["measured"])   # ДД меряется
+
+    def test_offspec_tank_judged_as_dps(self):
+        # ДД-мейн, которого попросили потанковать: судится КАК ДД по своим ДД-килам,
+        # танко-кил в перф НЕ идёт (не тянет вниз и не даёт «судить по посещаемости»).
+        base = dt.datetime(2026, 8, 30, 20, 0, 0)
+        dps_pool = [line(f"P{i}", cls=3, spec=1, role="dps", dps=1000 * (i + 1)) for i in range(5)]
+        k1 = kill(1, base, dps_pool)
+        # тот же P0 в другом бою — оффспек-танк (роль tank, но спек прежний, dps)
+        k2 = kill(2, base + dt.timedelta(hours=1), [line("P0", cls=3, spec=1, role="tank", dps=1)])
+        perf = SC.performance_scores([k1, k2], self.roster, self.cfg)
+        self.assertTrue(perf["p0"]["measured"])       # остаётся ДД, а не становится танком
+        self.assertEqual(perf["p0"]["role"], "dps")
+        self.assertEqual(perf["p0"]["kills_counted"], 1)  # только ДД-кил, танко-кил исключён
 
     def test_percentile_orders(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
@@ -172,7 +185,7 @@ class TestCombatPerformance(unittest.TestCase):
 
     def test_tank_not_measured(self):
         base = dt.datetime(2026, 8, 30, 20, 0, 0)
-        players = [line(f"T{i}", role="tank", guid=i) for i in range(6)]
+        players = [line(f"T{i}", cls=1, spec=2, role="tank", guid=i) for i in range(6)]  # танк-спек
         combat = StubCombat({1: {i: self._cm(taken_ps=1000 * (i + 1)) for i in range(6)}})
         perf = SC.performance_scores([kill(1, base, players)], self.roster, self.cfg, combat)
         # танк не меряется — перформанс к нему не применяется

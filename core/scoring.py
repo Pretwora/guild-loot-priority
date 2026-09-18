@@ -279,23 +279,28 @@ def performance_scores(kills, roster, cfg, combat=None):
     out = {}
     for pid in roster.players:
         pts = sorted(per_player_points.get(pid, []), key=lambda x: x[0])
-        last = pts[-window_kills:]
-        roles = [m["role"] for _, _, m in last]
-        if roles:
-            dominant = max(set(roles), key=roles.count)
-        else:
-            cid, spec = player_main_spec(roster, kills, pid)
-            info = cfg.spec_info(cid, spec) if cid is not None else None
-            dominant = (info or {}).get("role", "dps")
-        measured = dominant in measured_roles
+        # РОЛЬ — по ОСНОВНОМУ спеку игрока (ростер main / самый частый в логах), а НЕ по тому,
+        # кем он был в последних килах. Иначе ДД, которого попросили оффспечить в танка, становится
+        # «танком» и по формуле 1.0·посещаемость обходит чистых ДД в ДД-луте (за который те и борются).
+        # Оффспек-танк остаётся ДД и судится как ДД.
+        cid, spec = player_main_spec(roster, kills, pid)
+        info = cfg.spec_info(cid, spec) if cid is not None else None
+        main_role = (info or {}).get("role") if info else None
+        if main_role is None:  # спек неизвестен — падаем на доминирующую роль по факту
+            rr = [m["role"] for _, _, m in pts[-window_kills:]]
+            main_role = max(set(rr), key=rr.count) if rr else "dps"
+        measured = main_role in measured_roles
+        # перф считаем ТОЛЬКО по килам ОСНОВНОЙ роли: оффспек-килы (танк у ДД-мейна) — это служба,
+        # а не парс. Они не тянут вниз плохим уроном и не идут в зачёт. Танкование нейтрально к рейтингу.
+        role_last = [(t, p, m) for t, p, m in pts if m["role"] == main_role][-window_kills:]
 
         row = {
-            "role": dominant, "measured": measured,
-            "kills_counted": len(last), "combat_available": bool(combat),
-            "recent": [m for _, _, m in last],
+            "role": main_role, "measured": measured,
+            "kills_counted": len(role_last), "combat_available": bool(combat),
+            "recent": [m for _, _, m in role_last],
         }
         if measured:
-            P = median([p for _, p, _ in last])
+            P = median([p for _, p, _ in role_last]) if role_last else None
             row["P"] = round(P, 4) if P is not None else neutral
             row["neutral_fallback"] = P is None
         else:
