@@ -426,3 +426,14 @@ players:
         spec: 2
         role: dps
         main: true
+
+  - id: edaliel
+    display: Эдалиэль
+    rank: member
+    team: null
+    characters:
+      - name: Эдалиэль   # Жрец-хил (роль со слов РЛ). Всегда сидит на замене — парсов в 25-логах нет,
+        class_id: 5      # присутствие проставляется вручную (attendance.yml bench).
+        spec: 0
+        role: heal
+        main: true

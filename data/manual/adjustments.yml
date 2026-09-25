@@ -349,3 +349,47 @@ adjustments:
     value: 0.02
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  # ── РТ 21.09: Эдалиэль (добавлена на сайт) — записалась и пришла ──
+  - player: edaliel
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  # ── РТ 21.09: отметились заранее (может быть/не приду) — РЛ мог планировать (+0.5 балла) ──
+  - player: deefa
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
+  - player: bloodycat
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
+  - player: hasbullaa
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
+  - player: zhestkanehilyu
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
+  - player: umenyazhelapki
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
+  - player: moornight
+    date: "2026-09-21"
+    type: boost
+    value: 0.005
+    expires: "2026-10-21"
+    reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
