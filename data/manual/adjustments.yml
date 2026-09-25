@@ -210,3 +210,142 @@ adjustments:
     value: 0.01
     expires: "2026-10-18"
     reason: "Штраф РЛ за поведение на РТ 18.09"
+  # ── РТ 21.09: + записался и пришёл (штрафов нет — все записавшиеся пришли) ──
+  - player: arkeli
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: ashqdexe
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: carti
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: fexler
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: horikuz
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: killhord
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: kriptid
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: lonelerey
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: murkadin
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: palotence
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: pertduchchi
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: probol
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: sayashiro
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: sejuani
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: serezhka
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: sonechko
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: trusynapravo
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: turmion
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: urshifu
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: whitenoiseqx
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: zadengida
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: bloodkiss
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
+  - player: anastereya
+    date: "2026-09-21"
+    type: boost
+    value: 0.02
+    expires: "2026-10-21"
+    reason: "Записался в raid-helper и пришёл на РТ 21.09"
