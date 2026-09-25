@@ -1,0 +1,4860 @@
+{
+ "events": [
+  {
+   "action": {
+    "entry": 7427,
+    "icon": "https://cdn3.scourge.tech/icons/spell_ice_lament.png",
+    "name": "Жнец зимней Арати",
+    "points": 0,
+    "quality": ""
+   },
+   "date": 1790331198,
+   "datetime": "2026-09-25T07:13:18.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-25 00:37:43",
+     "duration": 508,
+     "id": 29594748,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 1
+    },
+    "battleground_id": 29594748,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 10,
+    "score_damage_done": 225231,
+    "score_deaths": 3,
+    "score_healing_done": 31597,
+    "score_honorable_kills": 19,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29594748,
+   "datetime": "2026-09-24T21:37:43.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158333,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_72.png",
+    "name": "Латные рукавицы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T21:29:18.000000Z",
+   "guid": 411958,
+   "id": 230186501,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40884,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_08.png",
+    "name": "Наголенники триумфа неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T21:28:43.000000Z",
+   "guid": 411958,
+   "id": 230186327,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40890,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_17.png",
+    "name": "Наручи триумфа неумолимого гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T21:28:11.000000Z",
+   "guid": 411958,
+   "id": 230186219,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 252,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-25 00:26:26",
+     "duration": 417,
+     "id": 29594719,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29594719,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 3,
+    "score_damage_done": 67061,
+    "score_deaths": 4,
+    "score_healing_done": 21011,
+    "score_honorable_kills": 5,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29594719,
+   "datetime": "2026-09-24T21:26:26.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158339,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_27.png",
+    "name": "Латные набедренники гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T21:22:22.000000Z",
+   "guid": 411958,
+   "id": 230185116,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-25 00:20:11",
+     "duration": 593,
+     "id": 29594680,
+     "name": "Битва за Гилнеас",
+     "objectives": [],
+     "type": 18,
+     "winner_faction": 0
+    },
+    "battleground_id": 29594680,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 14,
+    "score_damage_done": 298971,
+    "score_deaths": 6,
+    "score_healing_done": 44188,
+    "score_honorable_kills": 13,
+    "score_killing_blows": 3,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29594680,
+   "datetime": "2026-09-24T21:20:11.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50002,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_42.png",
+    "name": "Наручи из когтей северного медведя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T19:51:25.000000Z",
+   "guid": 411958,
+   "id": 230160556,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Саурфанг Смертоносный",
+    "bossfight_id": 9569509
+   },
+   "datetime": "2026-09-24T19:44:14.000000Z",
+   "guid": 411958,
+   "id": 9569509,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Боевой корабль Ледяной Короны",
+    "bossfight_id": 9569339
+   },
+   "datetime": "2026-09-24T19:19:53.000000Z",
+   "guid": 411958,
+   "id": 9569339,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Леди Смертный Шепот",
+    "bossfight_id": 9569228
+   },
+   "datetime": "2026-09-24T19:05:40.000000Z",
+   "guid": 411958,
+   "id": 9569228,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Ребрад",
+    "bossfight_id": 9567903
+   },
+   "datetime": "2026-09-24T18:51:15.000000Z",
+   "guid": 411958,
+   "id": 9567903,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9567660
+   },
+   "datetime": "2026-09-24T18:17:10.000000Z",
+   "guid": 411958,
+   "id": 9567660,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 90337,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shield_71.png",
+    "name": "Абордажная доска моряка",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T17:44:50.000000Z",
+   "guid": 411958,
+   "id": 230116983,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9567517
+   },
+   "datetime": "2026-09-24T17:43:06.000000Z",
+   "guid": 411958,
+   "id": 9567517,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9567407
+   },
+   "datetime": "2026-09-24T17:21:10.000000Z",
+   "guid": 411958,
+   "id": 9567407,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 4604,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_dungeon_icecrown_icecrownentrance.png",
+    "name": "Штурм Цитадели (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1790279054,
+   "datetime": "2026-09-24T16:44:14.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 4613,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_boss_saurfang.png",
+    "name": "Я взял и все испортил (25 игроков)",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1790279054,
+   "datetime": "2026-09-24T16:44:14.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153730,
+    "icon": "https://cdn3.scourge.tech/icons/inv_summerfest_firespirit.png",
+    "name": "Вечное пламя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T14:42:15.000000Z",
+   "guid": 411958,
+   "id": 230047852,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 153683,
+    "icon": "https://cdn3.scourge.tech/icons/inv_misc_pearlring1.png",
+    "name": "Символ хитреца",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-24T14:42:07.000000Z",
+   "guid": 411958,
+   "id": 230047824,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50402,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_81.png",
+    "name": "Пепельное кольцо бесконечного отмщения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-23T21:48:48.000000Z",
+   "guid": 411958,
+   "id": 229865249,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50453,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_81.png",
+    "name": "Кольцо из гниющих сухожилий",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-23T19:08:31.000000Z",
+   "guid": 411958,
+   "id": 229843778,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 4598,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_talisman_08.png",
+    "name": "Пепельный союз",
+    "points": 15,
+    "quality": ""
+   },
+   "date": 1790199627,
+   "datetime": "2026-09-23T18:40:27.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100412,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_58.png",
+    "name": "Боевой шлем вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T21:19:37.000000Z",
+   "guid": 411958,
+   "id": 229716638,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100414,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_29.png",
+    "name": "Латные наплечники вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T21:19:34.000000Z",
+   "guid": 411958,
+   "id": 229716631,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100410,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate02.png",
+    "name": "Кираса вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T21:19:31.000000Z",
+   "guid": 411958,
+   "id": 229716624,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100413,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Наголенники вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T21:19:26.000000Z",
+   "guid": 411958,
+   "id": 229716610,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50401,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_81.png",
+    "name": "Пепельное кольцо непревзойденного отмщения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T20:59:55.000000Z",
+   "guid": 411958,
+   "id": 229714616,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9552924
+   },
+   "datetime": "2026-09-22T19:56:44.000000Z",
+   "guid": 411958,
+   "id": 9552924,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9552764
+   },
+   "datetime": "2026-09-22T19:29:07.000000Z",
+   "guid": 411958,
+   "id": 9552764,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9552671
+   },
+   "datetime": "2026-09-22T19:14:39.000000Z",
+   "guid": 411958,
+   "id": 9552671,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9552629
+   },
+   "datetime": "2026-09-22T19:06:09.000000Z",
+   "guid": 411958,
+   "id": 9552629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9552525
+   },
+   "datetime": "2026-09-22T18:55:53.000000Z",
+   "guid": 411958,
+   "id": 9552525,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9552420
+   },
+   "datetime": "2026-09-22T18:40:01.000000Z",
+   "guid": 411958,
+   "id": 9552420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9552372
+   },
+   "datetime": "2026-09-22T18:32:05.000000Z",
+   "guid": 411958,
+   "id": 9552372,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9552235
+   },
+   "datetime": "2026-09-22T18:15:50.000000Z",
+   "guid": 411958,
+   "id": 9552235,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9552148
+   },
+   "datetime": "2026-09-22T18:04:15.000000Z",
+   "guid": 411958,
+   "id": 9552148,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9552085
+   },
+   "datetime": "2026-09-22T17:51:27.000000Z",
+   "guid": 411958,
+   "id": 9552085,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6323,
+    "icon": "https://cdn3.scourge.tech/icons/spell_priest_void-flay.png",
+    "name": "Взгляд в бездну",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1790105347,
+   "datetime": "2026-09-22T16:29:07.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40431,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_rainoffire.png",
+    "name": "Неистовство Пяти полетов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T16:19:53.000000Z",
+   "guid": 411958,
+   "id": 229663915,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40371,
+    "icon": "https://cdn3.scourge.tech/icons/inv_trinket_naxxramas03.png",
+    "name": "Знак отличия Бандита",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T16:19:18.000000Z",
+   "guid": 411958,
+   "id": 229663834,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40431,
+    "icon": "https://cdn3.scourge.tech/icons/spell_shadow_rainoffire.png",
+    "name": "Неистовство Пяти полетов",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T16:18:51.000000Z",
+   "guid": 411958,
+   "id": 229663775,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154461,
+    "icon": "https://cdn3.scourge.tech/icons/inv_ragnaros_heart.png",
+    "name": "Сердце хранителя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T16:04:54.000000Z",
+   "guid": 411958,
+   "id": 229661341,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "entry": 6327,
+    "icon": "https://cdn3.scourge.tech/icons/spell_fire_rune.png",
+    "name": "Пироманьяк",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1790102401,
+   "datetime": "2026-09-22T15:40:01.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117317,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate02.png",
+    "name": "Бригантина вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T15:15:01.000000Z",
+   "guid": 411958,
+   "id": 229653233,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117318,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_29.png",
+    "name": "Оплечье вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T15:14:56.000000Z",
+   "guid": 411958,
+   "id": 229653220,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117316,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_58.png",
+    "name": "Наголовник вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T15:14:53.000000Z",
+   "guid": 411958,
+   "id": 229653206,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 117319,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Поножи вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-22T15:14:50.000000Z",
+   "guid": 411958,
+   "id": 229653199,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 100,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-22 00:59:05",
+     "duration": 967,
+     "id": 29455450,
+     "name": "Храм Котмогу",
+     "objectives": [],
+     "type": 19,
+     "winner_faction": 1
+    },
+    "battleground_id": 29455450,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 25,
+    "score_damage_done": 625797,
+    "score_deaths": 8,
+    "score_healing_done": 92271,
+    "score_honorable_kills": 32,
+    "score_killing_blows": 10,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29455450,
+   "datetime": "2026-09-21T21:59:05.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-22 00:17:01",
+     "duration": 2168,
+     "id": 29455275,
+     "name": "Альтеракская долина",
+     "objectives": [],
+     "type": 1,
+     "winner_faction": 1
+    },
+    "battleground_id": 29455275,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 28,
+    "score_damage_done": 493668,
+    "score_deaths": 13,
+    "score_healing_done": 53828,
+    "score_honorable_kills": 110,
+    "score_killing_blows": 8,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29455275,
+   "datetime": "2026-09-21T21:17:01.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-21 23:58:21",
+     "duration": 899,
+     "id": 29455295,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 1
+    },
+    "battleground_id": 29455295,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 0,
+    "score_damage_done": 3090,
+    "score_deaths": 1,
+    "score_healing_done": 2011,
+    "score_honorable_kills": 2,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29455295,
+   "datetime": "2026-09-21T20:58:21.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 9,
+    "boss_name": "Леди Смертный Шепот",
+    "bossfight_id": 9542352
+   },
+   "datetime": "2026-09-21T17:36:05.000000Z",
+   "guid": 411958,
+   "id": 9542352,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 3,
+    "attr_3": 1,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-21 00:56:16",
+     "duration": 987,
+     "id": 29447218,
+     "name": "Око Бури",
+     "objectives": [],
+     "type": 7,
+     "winner_faction": 1
+    },
+    "battleground_id": 29447218,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 39,
+    "score_damage_done": 566986,
+    "score_deaths": 12,
+    "score_healing_done": 80406,
+    "score_honorable_kills": 47,
+    "score_killing_blows": 12,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29447218,
+   "datetime": "2026-09-20T21:56:16.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-20T21:38:06.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 391579,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 391579,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 74993,
+     "score_deaths": 1,
+     "score_heal_done": 12628,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 48,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 249,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-21 00:14:29",
+     "duration": 64,
+     "id": 29438731,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29438731,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 3,
+    "score_damage_done": 25611,
+    "score_deaths": 0,
+    "score_healing_done": 0,
+    "score_honorable_kills": 1,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29438731,
+   "datetime": "2026-09-20T21:14:29.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-21 00:10:12",
+     "duration": 546,
+     "id": 29438659,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 1
+    },
+    "battleground_id": 29438659,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 8,
+    "score_damage_done": 295467,
+    "score_deaths": 6,
+    "score_healing_done": 29992,
+    "score_honorable_kills": 8,
+    "score_killing_blows": 4,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29438659,
+   "datetime": "2026-09-20T21:10:12.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-20 23:58:19",
+     "duration": 899,
+     "id": 29438573,
+     "name": "Ущелье Песни Войны",
+     "objectives": [],
+     "type": 2,
+     "winner_faction": 0
+    },
+    "battleground_id": 29438573,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 27,
+    "score_damage_done": 660485,
+    "score_deaths": 6,
+    "score_healing_done": 123260,
+    "score_honorable_kills": 75,
+    "score_killing_blows": 9,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29438573,
+   "datetime": "2026-09-20T20:58:19.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-20T20:39:46.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 391315,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 391315,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 33459,
+     "score_deaths": 1,
+     "score_heal_done": 3908,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 48,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158456,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:37:31.000000Z",
+   "guid": 411958,
+   "id": 229407696,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158346,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_01.png",
+    "name": "Наголенники триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:36:39.000000Z",
+   "guid": 411958,
+   "id": 229407488,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40882,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_01.png",
+    "name": "Наголенники триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:35:02.000000Z",
+   "guid": 411958,
+   "id": 229407003,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158523,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Направленное могущество гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:34:06.000000Z",
+   "guid": 411958,
+   "id": 229406808,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 42124,
+    "icon": "https://cdn3.scourge.tech/icons/ability_pvp_gladiatormedallion.png",
+    "name": "Знак различия",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:32:46.000000Z",
+   "guid": 411958,
+   "id": 229406465,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 137018,
+    "icon": "https://cdn3.scourge.tech/icons/ability_warrior_endlessrage.png",
+    "name": "Направленное могущество гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:32:19.000000Z",
+   "guid": 411958,
+   "id": 229406383,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158332,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate_25.png",
+    "name": "Латный нагрудник гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:31:29.000000Z",
+   "guid": 411958,
+   "id": 229406260,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 158347,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_17.png",
+    "name": "Наручи триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:30:40.000000Z",
+   "guid": 411958,
+   "id": 229406106,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50387,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_81.png",
+    "name": "Пепельное кольцо великого отмщения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T20:22:08.000000Z",
+   "guid": 411958,
+   "id": 229404516,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 50376,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_81.png",
+    "name": "Пепельное кольцо отмщения",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-20T19:18:52.000000Z",
+   "guid": 411958,
+   "id": 229391715,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 1,
+   "datetime": "2026-09-20T18:04:14.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 390600,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 390600,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1090,
+     "rating_change": 34,
+     "score_damage_done": 267830,
+     "score_deaths": 0,
+     "score_heal_done": 15144,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 1090,
+   "rating_change": 34,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 2,
+   "count": 9,
+   "datetime": "2026-09-20T17:59:58.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 390578,
+   "loses": 5,
+   "matches": [
+    {
+     "arena_id": 390578,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1093,
+     "rating_change": -3,
+     "score_damage_done": 194602,
+     "score_deaths": 1,
+     "score_heal_done": 5906,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 390556,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1053,
+     "rating_change": 40,
+     "score_damage_done": 63454,
+     "score_deaths": 0,
+     "score_heal_done": 3695,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 390533,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1056,
+     "rating_change": -3,
+     "score_damage_done": 3854,
+     "score_deaths": 1,
+     "score_heal_done": 1120,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 390523,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1058,
+     "rating_change": -2,
+     "score_damage_done": 1636,
+     "score_deaths": 1,
+     "score_heal_done": 834,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 390513,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1060,
+     "rating_change": -2,
+     "score_damage_done": 64418,
+     "score_deaths": 1,
+     "score_heal_done": 7516,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 390503,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 1017,
+     "rating_change": 43,
+     "score_damage_done": 252033,
+     "score_deaths": 0,
+     "score_heal_done": 11941,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 390463,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 975,
+     "rating_change": 42,
+     "score_damage_done": 167095,
+     "score_deaths": 0,
+     "score_heal_done": 47302,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 390453,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 934,
+     "rating_change": 41,
+     "score_damage_done": 62469,
+     "score_deaths": 0,
+     "score_heal_done": 12128,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 390443,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 935,
+     "rating_change": -1,
+     "score_damage_done": 6677,
+     "score_deaths": 1,
+     "score_heal_done": 2503,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 1093,
+   "rating_change": 155,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "action": {
+    "entry": 166,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_winwsg.png",
+    "name": "Победа в Ущелье Песни Войны",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789937899,
+   "datetime": "2026-09-20T17:58:19.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 6048,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_topdps.png",
+    "name": "Контроль над повреждениями",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789937693,
+   "datetime": "2026-09-20T17:54:53.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-20T17:46:59.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 390480,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 390480,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 17076,
+     "score_deaths": 1,
+     "score_heal_done": 4998,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 48,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 5,
+   "datetime": "2026-09-20T17:39:34.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 390434,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 390434,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 892,
+     "rating_change": 43,
+     "score_damage_done": 97893,
+     "score_deaths": 0,
+     "score_heal_done": 3381,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 390419,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 848,
+     "rating_change": 44,
+     "score_damage_done": 46779,
+     "score_deaths": 0,
+     "score_heal_done": 2648,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 390410,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 849,
+     "rating_change": -1,
+     "score_damage_done": 9995,
+     "score_deaths": 1,
+     "score_heal_done": 588,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 390400,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 803,
+     "rating_change": 46,
+     "score_damage_done": 128841,
+     "score_deaths": 0,
+     "score_heal_done": 21475,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 390388,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 759,
+     "rating_change": 44,
+     "score_damage_done": 44292,
+     "score_deaths": 1,
+     "score_heal_done": 3254,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 892,
+   "rating_change": 176,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-20 20:29:01",
+     "duration": 743,
+     "id": 29437484,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 1
+    },
+    "battleground_id": 29437484,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 47,
+    "score_damage_done": 417723,
+    "score_deaths": 10,
+    "score_healing_done": 92238,
+    "score_honorable_kills": 51,
+    "score_killing_blows": 10,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29437484,
+   "datetime": "2026-09-20T17:29:01.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-20 20:11:55",
+     "duration": 431,
+     "id": 29437394,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 1
+    },
+    "battleground_id": 29437394,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 16,
+    "score_damage_done": 50578,
+    "score_deaths": 2,
+    "score_healing_done": 11874,
+    "score_honorable_kills": 6,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29437394,
+   "datetime": "2026-09-20T17:11:55.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-20 20:08:52",
+     "duration": 105,
+     "id": 29437413,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29437413,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 0,
+    "score_damage_done": 0,
+    "score_deaths": 0,
+    "score_healing_done": 8046,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29437413,
+   "datetime": "2026-09-20T17:08:52.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-20 20:08:52",
+     "duration": 105,
+     "id": 29437413,
+     "name": "Альтеракский Блиц",
+     "objectives": [],
+     "type": 58,
+     "winner_faction": 0
+    },
+    "battleground_id": 29437413,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 0,
+    "score_damage_done": 0,
+    "score_deaths": 0,
+    "score_healing_done": 8046,
+    "score_honorable_kills": 0,
+    "score_killing_blows": 0,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29437413,
+   "datetime": "2026-09-20T17:08:52.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-20T17:02:31.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 390208,
+   "loses": 0,
+   "matches": [
+    {
+     "arena_id": 390208,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 83637,
+     "score_deaths": 0,
+     "score_heal_done": 11083,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 0,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-18T22:53:46.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 379847,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 379847,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 73164,
+     "score_deaths": 1,
+     "score_heal_done": 417,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 0,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 6,
+   "count": 3,
+   "datetime": "2026-09-18T22:50:38.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 379833,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 379833,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 31031,
+     "score_deaths": 1,
+     "score_heal_done": 8348,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 379826,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 48,
+     "rating_change": 0,
+     "score_damage_done": 42198,
+     "score_deaths": 1,
+     "score_heal_done": 8625,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 379813,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 0,
+     "rating_change": 48,
+     "score_damage_done": 12874,
+     "score_deaths": 0,
+     "score_heal_done": 0,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 48,
+   "rating_change": 48,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 1
+  },
+  {
+   "bracket_id": 1,
+   "count": 1,
+   "datetime": "2026-09-18T22:44:44.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 379809,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 379809,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 0,
+     "rating_change": 0,
+     "score_damage_done": 85381,
+     "score_deaths": 1,
+     "score_heal_done": 10250,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 0,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 248,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-19 01:41:54",
+     "duration": 2202,
+     "id": 29390080,
+     "name": "Альтеракская долина",
+     "objectives": [],
+     "type": 1,
+     "winner_faction": 0
+    },
+    "battleground_id": 29390080,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 22,
+    "score_damage_done": 450940,
+    "score_deaths": 13,
+    "score_healing_done": 75745,
+    "score_honorable_kills": 117,
+    "score_killing_blows": 7,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29390080,
+   "datetime": "2026-09-18T22:41:54.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "entry": 223,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_bg_kill_on_mount.png",
+    "name": "Больная газель",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789771036,
+   "datetime": "2026-09-18T19:37:16.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-18 01:06:49",
+     "duration": 701,
+     "id": 29352141,
+     "name": "Низина Арати",
+     "objectives": [],
+     "type": 3,
+     "winner_faction": 0
+    },
+    "battleground_id": 29352141,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 37,
+    "score_damage_done": 414366,
+    "score_deaths": 5,
+    "score_healing_done": 82103,
+    "score_honorable_kills": 29,
+    "score_killing_blows": 7,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29352141,
+   "datetime": "2026-09-17T22:06:49.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-18 00:46:05",
+     "duration": 298,
+     "id": 29352078,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29352078,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 10,
+    "score_damage_done": 142920,
+    "score_deaths": 5,
+    "score_healing_done": 34810,
+    "score_honorable_kills": 14,
+    "score_killing_blows": 2,
+    "team": null,
+    "winner": 1
+   },
+   "battleground_id": 29352078,
+   "datetime": "2026-09-17T21:46:05.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40889,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_17.png",
+    "name": "Наручи триумфа гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T21:30:33.000000Z",
+   "guid": 411958,
+   "id": 228869136,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "bracket_id": 2,
+   "count": 4,
+   "datetime": "2026-09-17T21:27:43.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 374217,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 374217,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 760,
+     "rating_change": -1,
+     "score_damage_done": 158738,
+     "score_deaths": 1,
+     "score_heal_done": 37661,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374203,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 714,
+     "rating_change": 46,
+     "score_damage_done": 76339,
+     "score_deaths": 0,
+     "score_heal_done": 3808,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374200,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 714,
+     "rating_change": 0,
+     "score_damage_done": 11019,
+     "score_deaths": 1,
+     "score_heal_done": 1178,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374195,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 667,
+     "rating_change": 47,
+     "score_damage_done": 154159,
+     "score_deaths": 0,
+     "score_heal_done": 16411,
+     "score_killing_blows": 2
+    }
+   ],
+   "rating": 760,
+   "rating_change": 92,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "bracket_id": 2,
+   "count": 8,
+   "datetime": "2026-09-17T21:18:07.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 374188,
+   "loses": 2,
+   "matches": [
+    {
+     "arena_id": 374188,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 620,
+     "rating_change": 47,
+     "score_damage_done": 259786,
+     "score_deaths": 0,
+     "score_heal_done": 17251,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 374179,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 574,
+     "rating_change": 46,
+     "score_damage_done": 71070,
+     "score_deaths": 0,
+     "score_heal_done": 15613,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 374174,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 574,
+     "rating_change": 0,
+     "score_damage_done": 80338,
+     "score_deaths": 1,
+     "score_heal_done": 20472,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374169,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 527,
+     "rating_change": 47,
+     "score_damage_done": 150829,
+     "score_deaths": 0,
+     "score_heal_done": 18492,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374159,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 527,
+     "rating_change": 0,
+     "score_damage_done": 5943,
+     "score_deaths": 1,
+     "score_heal_done": 1113,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374155,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 480,
+     "rating_change": 47,
+     "score_damage_done": 57267,
+     "score_deaths": 0,
+     "score_heal_done": 6273,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374147,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 432,
+     "rating_change": 48,
+     "score_damage_done": 117294,
+     "score_deaths": 0,
+     "score_heal_done": 19625,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 374142,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 384,
+     "rating_change": 48,
+     "score_damage_done": 58767,
+     "score_deaths": 0,
+     "score_heal_done": 6617,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 620,
+   "rating_change": 283,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 6
+  },
+  {
+   "bracket_id": 2,
+   "count": 9,
+   "datetime": "2026-09-17T20:59:39.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 374132,
+   "loses": 5,
+   "matches": [
+    {
+     "arena_id": 374132,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 336,
+     "rating_change": 48,
+     "score_damage_done": 47091,
+     "score_deaths": 0,
+     "score_heal_done": 4720,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374124,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 288,
+     "rating_change": 48,
+     "score_damage_done": 58463,
+     "score_deaths": 0,
+     "score_heal_done": 10854,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374111,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 240,
+     "rating_change": 48,
+     "score_damage_done": 44172,
+     "score_deaths": 0,
+     "score_heal_done": 327,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374105,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 48,
+     "score_damage_done": 60810,
+     "score_deaths": 0,
+     "score_heal_done": 1959,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 374099,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 11026,
+     "score_deaths": 1,
+     "score_heal_done": 11474,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374091,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 5890,
+     "score_deaths": 1,
+     "score_heal_done": 3617,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374084,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 13421,
+     "score_deaths": 1,
+     "score_heal_done": 5171,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374081,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 44769,
+     "score_deaths": 1,
+     "score_heal_done": 6789,
+     "score_killing_blows": 1
+    },
+    {
+     "arena_id": 374076,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 27972,
+     "score_deaths": 1,
+     "score_heal_done": 10205,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 336,
+   "rating_change": 192,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 4
+  },
+  {
+   "bracket_id": 2,
+   "count": 3,
+   "datetime": "2026-09-17T20:43:50.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 374066,
+   "loses": 3,
+   "matches": [
+    {
+     "arena_id": 374066,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 33847,
+     "score_deaths": 1,
+     "score_heal_done": 7227,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374054,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 10165,
+     "score_deaths": 1,
+     "score_heal_done": 3296,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374049,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 21844,
+     "score_deaths": 1,
+     "score_heal_done": 7080,
+     "score_killing_blows": 0
+    }
+   ],
+   "rating": 192,
+   "rating_change": 0,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 0
+  },
+  {
+   "bracket_id": 2,
+   "count": 3,
+   "datetime": "2026-09-17T20:38:18.000000Z",
+   "draws": 0,
+   "guid": 411958,
+   "last_arena_id": 374040,
+   "loses": 1,
+   "matches": [
+    {
+     "arena_id": 374040,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 192,
+     "rating_change": 0,
+     "score_damage_done": 37931,
+     "score_deaths": 1,
+     "score_heal_done": 8203,
+     "score_killing_blows": 0
+    },
+    {
+     "arena_id": 374032,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 144,
+     "rating_change": 48,
+     "score_damage_done": 45621,
+     "score_deaths": 0,
+     "score_heal_done": 10714,
+     "score_killing_blows": 2
+    },
+    {
+     "arena_id": 374026,
+     "character": {
+      "class_icon": "/images/icons/classwarrior.webp",
+      "class_id": 1,
+      "class_name": "Воин",
+      "faction": 2,
+      "gender": 0,
+      "guid": 411958,
+      "level": 80,
+      "name": "Arkeli",
+      "race_icon": "/images/icons/race/orcmale.webp",
+      "race_id": 2,
+      "race_name": "Орк",
+      "zodiac": {
+       "additional": [],
+       "resource": {
+        "exists": true,
+        "incrementing": true,
+        "preventsLazyLoading": false,
+        "timestamps": false,
+        "usesUniqueIds": false,
+        "wasRecentlyCreated": false
+       },
+       "with": []
+      }
+     },
+     "character_guid": 411958,
+     "rating": 96,
+     "rating_change": 48,
+     "score_damage_done": 69184,
+     "score_deaths": 0,
+     "score_heal_done": 6195,
+     "score_killing_blows": 1
+    }
+   ],
+   "rating": 192,
+   "rating_change": 96,
+   "realm_id": 22,
+   "type": "arenamatch",
+   "wins": 2
+  },
+  {
+   "action": {
+    "attr_1": 0,
+    "attr_2": 0,
+    "attr_3": 0,
+    "attr_4": 0,
+    "attr_5": 0,
+    "avgItemLevel": 200,
+    "battleground": {
+     "bracket_id": 7,
+     "date": "2026-09-17 23:32:39",
+     "duration": 294,
+     "id": 29351787,
+     "name": "Великолепная пятерка",
+     "objectives": [],
+     "type": 61,
+     "winner_faction": 0
+    },
+    "battleground_id": 29351787,
+    "deaths": null,
+    "guid": 411958,
+    "score_bonus_honor": 8,
+    "score_damage_done": 142369,
+    "score_deaths": 4,
+    "score_healing_done": 31397,
+    "score_honorable_kills": 3,
+    "score_killing_blows": 1,
+    "team": null,
+    "winner": 0
+   },
+   "battleground_id": 29351787,
+   "datetime": "2026-09-17T20:32:39.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "bgmatch"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9512091
+   },
+   "datetime": "2026-09-17T20:05:06.000000Z",
+   "guid": 411958,
+   "id": 9512091,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47473,
+    "icon": "https://cdn3.scourge.tech/icons/inv_boots_plate_08.png",
+    "name": "Наголенники саронитовой цитадели",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-17T19:54:23.000000Z",
+   "guid": 411958,
+   "id": 228852858,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9510876
+   },
+   "datetime": "2026-09-17T19:51:34.000000Z",
+   "guid": 411958,
+   "id": 9510876,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9510730
+   },
+   "datetime": "2026-09-17T19:26:58.000000Z",
+   "guid": 411958,
+   "id": 9510730,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9510679
+   },
+   "datetime": "2026-09-17T19:19:32.000000Z",
+   "guid": 411958,
+   "id": 9510679,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9510600
+   },
+   "datetime": "2026-09-17T19:08:22.000000Z",
+   "guid": 411958,
+   "id": 9510600,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9510532
+   },
+   "datetime": "2026-09-17T19:01:05.000000Z",
+   "guid": 411958,
+   "id": 9510532,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9510357
+   },
+   "datetime": "2026-09-17T18:44:48.000000Z",
+   "guid": 411958,
+   "id": 9510357,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 9,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9510187
+   },
+   "datetime": "2026-09-17T18:18:30.000000Z",
+   "guid": 411958,
+   "id": 9510187,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9509810
+   },
+   "datetime": "2026-09-17T17:27:43.000000Z",
+   "guid": 411958,
+   "id": 9509810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 154461,
+    "icon": "https://cdn3.scourge.tech/icons/inv_ragnaros_heart.png",
+    "name": "Сердце хранителя",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:27:00.000000Z",
+   "guid": 411958,
+   "id": 228697244,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40866,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_89.png",
+    "name": "Латные наплечники гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:26:23.000000Z",
+   "guid": 411958,
+   "id": 228697208,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40847,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_27.png",
+    "name": "Латные набедренники гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:26:22.000000Z",
+   "guid": 411958,
+   "id": 228697207,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40826,
+    "icon": "https://cdn3.scourge.tech/icons/inv_helmet_98.png",
+    "name": "Латный шлем гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:26:20.000000Z",
+   "guid": 411958,
+   "id": 228697205,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40807,
+    "icon": "https://cdn3.scourge.tech/icons/inv_gauntlets_72.png",
+    "name": "Латные рукавицы гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:26:18.000000Z",
+   "guid": 411958,
+   "id": 228697203,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 40789,
+    "icon": "https://cdn3.scourge.tech/icons/inv_chest_plate_25.png",
+    "name": "Латный нагрудник гневного гладиатора",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-16T21:26:17.000000Z",
+   "guid": 411958,
+   "id": 228697201,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Кел'Тузад",
+    "bossfight_id": 9502085
+   },
+   "datetime": "2026-09-16T19:36:07.000000Z",
+   "guid": 411958,
+   "id": 9502085,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Сапфирон",
+    "bossfight_id": 9502082
+   },
+   "datetime": "2026-09-16T19:30:06.000000Z",
+   "guid": 411958,
+   "id": 9502082,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Четыре всадника",
+    "bossfight_id": 9502078
+   },
+   "datetime": "2026-09-16T19:27:53.000000Z",
+   "guid": 411958,
+   "id": 9502078,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Готик Жнец",
+    "bossfight_id": 9502065
+   },
+   "datetime": "2026-09-16T19:22:41.000000Z",
+   "guid": 411958,
+   "id": 9502065,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Инструктор Разувий",
+    "bossfight_id": 9502062
+   },
+   "datetime": "2026-09-16T19:15:53.000000Z",
+   "guid": 411958,
+   "id": 9502062,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Таддиус",
+    "bossfight_id": 9502054
+   },
+   "datetime": "2026-09-16T19:13:13.000000Z",
+   "guid": 411958,
+   "id": 9502054,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Глут",
+    "bossfight_id": 9502051
+   },
+   "datetime": "2026-09-16T19:09:31.000000Z",
+   "guid": 411958,
+   "id": 9502051,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гроббулус",
+    "bossfight_id": 9502047
+   },
+   "datetime": "2026-09-16T19:07:22.000000Z",
+   "guid": 411958,
+   "id": 9502047,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лоскутик",
+    "bossfight_id": 9502040
+   },
+   "datetime": "2026-09-16T19:05:00.000000Z",
+   "guid": 411958,
+   "id": 9502040,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мексна",
+    "bossfight_id": 9502036
+   },
+   "datetime": "2026-09-16T19:01:27.000000Z",
+   "guid": 411958,
+   "id": 9502036,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Великая вдова Фарлина",
+    "bossfight_id": 9502028
+   },
+   "datetime": "2026-09-16T18:58:40.000000Z",
+   "guid": 411958,
+   "id": 9502028,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'Рекан",
+    "bossfight_id": 9502022
+   },
+   "datetime": "2026-09-16T18:56:32.000000Z",
+   "guid": 411958,
+   "id": 9502022,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лотхиб",
+    "bossfight_id": 9502016
+   },
+   "datetime": "2026-09-16T18:54:50.000000Z",
+   "guid": 411958,
+   "id": 9502016,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Хейган Нечестивый",
+    "bossfight_id": 9502011
+   },
+   "datetime": "2026-09-16T18:52:17.000000Z",
+   "guid": 411958,
+   "id": 9502011,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Нот Чумной",
+    "bossfight_id": 9502005
+   },
+   "datetime": "2026-09-16T18:49:59.000000Z",
+   "guid": 411958,
+   "id": 9502005,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9504472
+   },
+   "datetime": "2026-09-16T17:55:41.000000Z",
+   "guid": 411958,
+   "id": 9504472,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 524,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_reputation_02.png",
+    "name": "Превознесение среди 10 фракций",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789587919,
+   "datetime": "2026-09-16T16:45:19.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "entry": 777,
+    "icon": "https://cdn3.scourge.tech/icons/achievement_zone_deadwindpass.png",
+    "name": "Перевал Мертвого Ветра",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789580371,
+   "datetime": "2026-09-16T14:39:31.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9500667
+   },
+   "datetime": "2026-09-15T19:55:29.000000Z",
+   "guid": 411958,
+   "id": 9500667,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9500596
+   },
+   "datetime": "2026-09-15T19:40:45.000000Z",
+   "guid": 411958,
+   "id": 9500596,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9500528
+   },
+   "datetime": "2026-09-15T19:26:04.000000Z",
+   "guid": 411958,
+   "id": 9500528,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9500453
+   },
+   "datetime": "2026-09-15T19:15:10.000000Z",
+   "guid": 411958,
+   "id": 9500453,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9500261
+   },
+   "datetime": "2026-09-15T18:40:57.000000Z",
+   "guid": 411958,
+   "id": 9500261,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9500216
+   },
+   "datetime": "2026-09-15T18:29:40.000000Z",
+   "guid": 411958,
+   "id": 9500216,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9500180
+   },
+   "datetime": "2026-09-15T18:22:01.000000Z",
+   "guid": 411958,
+   "id": 9500180,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9500106
+   },
+   "datetime": "2026-09-15T18:12:24.000000Z",
+   "guid": 411958,
+   "id": 9500106,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9500033
+   },
+   "datetime": "2026-09-15T17:59:50.000000Z",
+   "guid": 411958,
+   "id": 9500033,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "entry": 6304,
+    "icon": "https://cdn3.scourge.tech/icons/ability_rogue_feigndeath.png",
+    "name": "Незримое присутствие",
+    "points": 10,
+    "quality": ""
+   },
+   "date": 1789495190,
+   "datetime": "2026-09-15T14:59:50.000000Z",
+   "guid": 411958,
+   "realm_id": 22,
+   "type": "achievement"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9465087
+   },
+   "datetime": "2026-09-10T20:23:10.000000Z",
+   "guid": 411958,
+   "id": 9465087,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9464909
+   },
+   "datetime": "2026-09-10T19:36:52.000000Z",
+   "guid": 411958,
+   "id": 9464909,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9461731
+   },
+   "datetime": "2026-09-10T19:25:31.000000Z",
+   "guid": 411958,
+   "id": 9461731,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9461647
+   },
+   "datetime": "2026-09-10T19:11:55.000000Z",
+   "guid": 411958,
+   "id": 9461647,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9461605
+   },
+   "datetime": "2026-09-10T19:02:18.000000Z",
+   "guid": 411958,
+   "id": 9461605,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100414,
+    "icon": "https://cdn3.scourge.tech/icons/inv_shoulder_29.png",
+    "name": "Латные наплечники вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-10T18:45:35.000000Z",
+   "guid": 411958,
+   "id": 227687439,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9461420
+   },
+   "datetime": "2026-09-10T18:37:00.000000Z",
+   "guid": 411958,
+   "id": 9461420,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9461199
+   },
+   "datetime": "2026-09-10T17:54:56.000000Z",
+   "guid": 411958,
+   "id": 9461199,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9461071
+   },
+   "datetime": "2026-09-10T17:35:51.000000Z",
+   "guid": 411958,
+   "id": 9461071,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9448437
+   },
+   "datetime": "2026-09-09T19:51:09.000000Z",
+   "guid": 411958,
+   "id": 9448437,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9448407
+   },
+   "datetime": "2026-09-09T19:37:14.000000Z",
+   "guid": 411958,
+   "id": 9448407,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9448358
+   },
+   "datetime": "2026-09-09T19:10:32.000000Z",
+   "guid": 411958,
+   "id": 9448358,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9448320
+   },
+   "datetime": "2026-09-09T18:59:08.000000Z",
+   "guid": 411958,
+   "id": 9448320,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 100413,
+    "icon": "https://cdn3.scourge.tech/icons/inv_pants_plate_05.png",
+    "name": "Наголенники вестника войны",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-09T18:36:41.000000Z",
+   "guid": 411958,
+   "id": 227507800,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9448279
+   },
+   "datetime": "2026-09-09T18:34:46.000000Z",
+   "guid": 411958,
+   "id": 9448279,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9447196
+   },
+   "datetime": "2026-09-07T18:11:52.000000Z",
+   "guid": 411958,
+   "id": 9447196,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9447130
+   },
+   "datetime": "2026-09-07T17:49:32.000000Z",
+   "guid": 411958,
+   "id": 9447130,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9447084
+   },
+   "datetime": "2026-09-07T17:38:39.000000Z",
+   "guid": 411958,
+   "id": 9447084,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "challenge": 6,
+    "dungeon_name": "Кривой Клык: Узилище",
+    "has_run_log": false,
+    "level": 2,
+    "reward_level": 3,
+    "run_id": 1007708,
+    "score": 67.5,
+    "timer": 702
+   },
+   "datetime": "2026-09-07T16:15:40.000000Z",
+   "guid": 411958,
+   "id": 1007708,
+   "realm_id": 22,
+   "type": "challenge"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9428331
+   },
+   "datetime": "2026-09-04T19:31:20.000000Z",
+   "guid": 411958,
+   "id": 9428331,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 140391,
+    "icon": "https://cdn3.scourge.tech/icons/inv_plate_draenorcrafted_d_01bracer.png",
+    "name": "Усиленные магией наручи",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-04T19:25:48.000000Z",
+   "guid": 411958,
+   "id": 226718885,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9428261
+   },
+   "datetime": "2026-09-04T19:25:24.000000Z",
+   "guid": 411958,
+   "id": 9428261,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 139983,
+    "icon": "https://cdn3.scourge.tech/icons/inv_plate_draenorcrafted_d_01buckle.png",
+    "name": "Усиленный кровью боевой ремень",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-04T19:13:10.000000Z",
+   "guid": 411958,
+   "id": 226716272,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9428145
+   },
+   "datetime": "2026-09-04T19:12:38.000000Z",
+   "guid": 411958,
+   "id": 9428145,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9427957
+   },
+   "datetime": "2026-09-04T18:51:23.000000Z",
+   "guid": 411958,
+   "id": 9427957,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9427810
+   },
+   "datetime": "2026-09-04T18:35:11.000000Z",
+   "guid": 411958,
+   "id": 9427810,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9427690
+   },
+   "datetime": "2026-09-04T18:24:25.000000Z",
+   "guid": 411958,
+   "id": 9427690,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9427531
+   },
+   "datetime": "2026-09-04T18:07:22.000000Z",
+   "guid": 411958,
+   "id": 9427531,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9421740
+   },
+   "datetime": "2026-09-03T20:13:34.000000Z",
+   "guid": 411958,
+   "id": 9421740,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9421629
+   },
+   "datetime": "2026-09-03T19:55:32.000000Z",
+   "guid": 411958,
+   "id": 9421629,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9421470
+   },
+   "datetime": "2026-09-03T19:29:39.000000Z",
+   "guid": 411958,
+   "id": 9421470,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9421390
+   },
+   "datetime": "2026-09-03T19:20:13.000000Z",
+   "guid": 411958,
+   "id": 9421390,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9421290
+   },
+   "datetime": "2026-09-03T19:06:45.000000Z",
+   "guid": 411958,
+   "id": 9421290,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9421214
+   },
+   "datetime": "2026-09-03T18:56:49.000000Z",
+   "guid": 411958,
+   "id": 9421214,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 3,
+    "boss_name": "Магтеридон",
+    "bossfight_id": 9419941
+   },
+   "datetime": "2026-09-03T18:30:45.000000Z",
+   "guid": 411958,
+   "id": 9419941,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 63779,
+    "icon": "https://cdn3.scourge.tech/icons/inv_belt_leather_cataclysm_b_02.png",
+    "name": "Гранатовый пояс",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-03T18:05:36.000000Z",
+   "guid": 411958,
+   "id": 226546918,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Груул Драконобой",
+    "bossfight_id": 9419775
+   },
+   "datetime": "2026-09-03T18:04:41.000000Z",
+   "guid": 411958,
+   "id": 9419775,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Король Молгар",
+    "bossfight_id": 9419576
+   },
+   "datetime": "2026-09-03T17:46:30.000000Z",
+   "guid": 411958,
+   "id": 9419576,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ониксия",
+    "bossfight_id": 9412736
+   },
+   "datetime": "2026-09-01T19:17:30.000000Z",
+   "guid": 411958,
+   "id": 9412736,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 47474,
+    "icon": "https://cdn3.scourge.tech/icons/inv_bracer_36a.png",
+    "name": "Поручи мрачной решимости",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-09-01T19:10:53.000000Z",
+   "guid": 411958,
+   "id": 226282619,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ануб'арак",
+    "bossfight_id": 9411495
+   },
+   "datetime": "2026-09-01T18:55:09.000000Z",
+   "guid": 411958,
+   "id": 9411495,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Валь'киры-близнецы",
+    "bossfight_id": 9411379
+   },
+   "datetime": "2026-09-01T18:41:50.000000Z",
+   "guid": 411958,
+   "id": 9411379,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чемпионы фракций",
+    "bossfight_id": 9410983
+   },
+   "datetime": "2026-09-01T17:51:04.000000Z",
+   "guid": 411958,
+   "id": 9410983,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Лорд Джараксус",
+    "bossfight_id": 9410922
+   },
+   "datetime": "2026-09-01T17:37:20.000000Z",
+   "guid": 411958,
+   "id": 9410922,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Чудовища Нордскола",
+    "bossfight_id": 9410859
+   },
+   "datetime": "2026-09-01T17:27:41.000000Z",
+   "guid": 411958,
+   "id": 9410859,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гогонаш",
+    "bossfight_id": 9405611
+   },
+   "datetime": "2026-08-31T20:50:30.000000Z",
+   "guid": 411958,
+   "id": 9405611,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Поглотитель разума Ктракс",
+    "bossfight_id": 9405601
+   },
+   "datetime": "2026-08-31T20:41:34.000000Z",
+   "guid": 411958,
+   "id": 9405601,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Пожиратель магии",
+    "bossfight_id": 9405579
+   },
+   "datetime": "2026-08-31T20:30:52.000000Z",
+   "guid": 411958,
+   "id": 9405579,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9405546
+   },
+   "datetime": "2026-08-31T20:18:52.000000Z",
+   "guid": 411958,
+   "id": 9405546,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9405486
+   },
+   "datetime": "2026-08-31T19:52:26.000000Z",
+   "guid": 411958,
+   "id": 9405486,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 4,
+    "boss_name": "Терестиан Больное Копыто",
+    "bossfight_id": 9405408
+   },
+   "datetime": "2026-08-31T19:22:05.000000Z",
+   "guid": 411958,
+   "id": 9405408,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 6,
+    "boss_name": "Тень Арана",
+    "bossfight_id": 9405336
+   },
+   "datetime": "2026-08-31T18:54:00.000000Z",
+   "guid": 411958,
+   "id": 9405336,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 80769,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_120.png",
+    "name": "Перстень змеиного хребта",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-31T18:40:02.000000Z",
+   "guid": 411958,
+   "id": 226127891,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Смотритель",
+    "bossfight_id": 9405280
+   },
+   "datetime": "2026-08-31T18:38:53.000000Z",
+   "guid": 411958,
+   "id": 9405280,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Ночная Погибель",
+    "bossfight_id": 9405246
+   },
+   "datetime": "2026-08-31T18:24:10.000000Z",
+   "guid": 411958,
+   "id": 9405246,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Опера",
+    "bossfight_id": 9405225
+   },
+   "datetime": "2026-08-31T18:15:09.000000Z",
+   "guid": 411958,
+   "id": 9405225,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Благочестивая дева",
+    "bossfight_id": 9405201
+   },
+   "datetime": "2026-08-31T18:07:20.000000Z",
+   "guid": 411958,
+   "id": 9405201,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Мороуз",
+    "bossfight_id": 9405175
+   },
+   "datetime": "2026-08-31T17:59:35.000000Z",
+   "guid": 411958,
+   "id": 9405175,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 2,
+    "boss_name": "Ловчий Аттумен",
+    "bossfight_id": 9405142
+   },
+   "datetime": "2026-08-31T17:46:55.000000Z",
+   "guid": 411958,
+   "id": 9405142,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "attempts": 5,
+    "boss_name": "Принц Малчезар",
+    "bossfight_id": 9365406
+   },
+   "datetime": "2026-08-25T20:26:42.000000Z",
+   "guid": 411958,
+   "id": 9365406,
+   "realm_id": 22,
+   "type": "bosskill"
+  },
+  {
+   "action": {
+    "color": "a335ee",
+    "entry": 104220,
+    "icon": "https://cdn3.scourge.tech/icons/inv_jewelry_ring_68.png",
+    "name": "Перстень владыки пустоты",
+    "quality": 4,
+    "realm_id": 22
+   },
+   "datetime": "2026-08-25T19:33:29.000000Z",
+   "guid": 411958,
+   "id": 225120356,
+   "realm_id": 22,
+   "type": "obtaineditem"
+  },
+  {
+   "action": {
+    "attempts": 1,
+    "boss_name": "Гнев Пустоты",
+    "bossfight_id": 9365178
+   },
+   "datetime": "2026-08-25T19:32:10.000000Z",
+   "guid": 411958,
+   "id": 9365178,
+   "realm_id": 22,
+   "type": "bosskill"
+  }
+ ],
+ "guid": 411958,
+ "name": "Arkeli",
+ "ts": "2026-09-25T17-47Z"
+}
