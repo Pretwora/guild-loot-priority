@@ -580,3 +580,9 @@ adjustments:
     value: 0.01
     expires: "2026-10-24"
     reason: "Отметился заранее в raid-helper (может быть/не приду) на РТ 24.09 — РЛ мог планировать"
+  - player: edaliel
+    date: "2026-09-24"
+    type: boost
+    value: 0.01
+    expires: "2026-10-24"
+    reason: "Отметился заранее в raid-helper (не приду) на РТ 24.09 — РЛ мог планировать"
