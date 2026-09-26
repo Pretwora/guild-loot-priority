@@ -1,155 +1,151 @@
 # Ручные корректировки совета (раздел 6.4 SPEC). Поле reason ОБЯЗАТЕЛЬНО —
 # дашборд публичный, немотивированная правка рейтинга хуже её отсутствия.
 #
-# player   — id из roster.yml
-# date     — когда применена (YYYY-MM-DD)
-# type     — boost | penalty | freeze
-# value    — величина поправки (для boost/penalty)
-# expires  — дата окончания действия (после неё не применяется). Нет поля = бессрочно.
-# reason   — человекочитаемое обоснование (обязательно)
+# ШКАЛА (решение РЛ): каждый положительный мув = +1 балл рейтинга (value 0.01),
+# каждый косяк = −1 балл (0.01); двойной косяк = −2 балла (0.02). 1 балл = 0.01 в base (S=100·base).
+#
+# player / date / type(boost|penalty|freeze) / value / expires(нет = бессрочно) / reason
 
 adjustments:
-  # ── РТ 18.09: + записался и пришёл ──
+  # ── 2026-09-18 ──
   - player: alenaballast
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: ashqdexe
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: bloodycat
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: carti
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: deefa
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: fexler
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: garoshik
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: hasbullaa
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: horikuz
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: kriptid
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: lonelerey
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: murkadin
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: palotence
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: probol
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: sayashiro
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: serezhka
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: sonechko
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: turmion
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: urshifu
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: whitenoiseqx
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: zadengida
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
   - player: zhestkanehilyu
     date: "2026-09-18"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper и пришёл на РТ 18.09"
-  # ── РТ 18.09: − записался, но не пришёл (кроме Мозола) ──
   - player: sejuani
     date: "2026-09-18"
     type: penalty
-    value: 0.03
+    value: 0.01
     expires: "2026-10-18"
     reason: "Записался в raid-helper, но не пришёл на РТ 18.09"
-  # ── РТ 18.09: символические штрафы РЛ за поведение ──
   - player: serezhka
     date: "2026-09-18"
     type: penalty
@@ -210,186 +206,184 @@ adjustments:
     value: 0.01
     expires: "2026-10-18"
     reason: "Штраф РЛ за поведение на РТ 18.09"
-  # ── РТ 21.09: + записался и пришёл (штрафов нет — все записавшиеся пришли) ──
+  # ── 2026-09-21 ──
   - player: arkeli
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: ashqdexe
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: carti
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: fexler
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: horikuz
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: killhord
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: kriptid
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: lonelerey
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: murkadin
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: palotence
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: pertduchchi
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: probol
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: sayashiro
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: sejuani
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: serezhka
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: sonechko
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: trusynapravo
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: turmion
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: urshifu
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: whitenoiseqx
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: zadengida
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: bloodkiss
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
   - player: anastereya
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
-  # ── РТ 21.09: Эдалиэль (добавлена на сайт) — записалась и пришла ──
   - player: edaliel
     date: "2026-09-21"
     type: boost
-    value: 0.02
+    value: 0.01
     expires: "2026-10-21"
     reason: "Записался в raid-helper и пришёл на РТ 21.09"
-  # ── РТ 21.09: отметились заранее (может быть/не приду) — РЛ мог планировать (+0.5 балла) ──
   - player: deefa
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
   - player: bloodycat
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
   - player: hasbullaa
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
   - player: zhestkanehilyu
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
   - player: umenyazhelapki
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
   - player: moornight
     date: "2026-09-21"
     type: boost
-    value: 0.005
+    value: 0.01
     expires: "2026-10-21"
     reason: "Отметился заранее в raid-helper (может быть/не приду) — РЛ мог планировать состав"
